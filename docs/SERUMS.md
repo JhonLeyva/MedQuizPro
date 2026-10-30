@@ -11,6 +11,9 @@ Estación de simulación de medicina rural y comunitaria dentro del centro «Sob
 | Evidencia | `serums/evidencia.json`, `serums/manifiesto.json`, `serums/indice.json` | Registro de fuentes con vigencia; índice de fragmentos con página generado con `tools/ingestar_guias.py --manifest serums/manifiesto.json --pdfs <carpeta> --salida serums/indice.json`. El índice es independiente del de la IA tutora existente. |
 | Pruebas | `tests/serums_test.js`, `tests/serums_e2e.js` | Unitarias del motor y de los datos; Playwright con axe (claro y oscuro), móvil y teclado. |
 
+## Introducción (tormenta en la sierra)
+`serums.js` dibuja sobre la foto (`guardia/portadas/serums-intro.webp`, ilustración generada con IA) un lienzo en las mismas coordenadas de la imagen: lluvia en dos capas, salpicaduras en los impermeables y en el camino, focos de la posta que suben y bajan de intensidad y relámpagos ramificados. El audio `serums/audio/tormenta.mp3` (30 s, lluvia y cuatro truenos) se sintetiza con `python3 tools/serums_audio.py`; es periódico, así que se repite sin cortes, y los relámpagos siguen los instantes de sus truenos (`RELAMPAGOS` en `serums.js` y `TRUENOS` en el script). Si el navegador bloquea el audio sin gesto aparece «Activar sonido»; hay botón para silenciar. Con «reducir movimiento» solo se dibuja un fotograma. El audio es una recreación sintetizada, no una grabación real.
+
 ## Reglas del motor
 - Cada decisión tiene una calidad (óptima, aceptable, incorrecta, peligrosa) y, si no es óptima, un tipo de error (omisión, comisión, demora, seguridad del paciente, recursos, comunicación, normativo).
 - Puntaje de 100: decisión clínica 35, seguridad 25, recursos 15, referencia y comunicación 15, enfoque comunitario y cierre 10. Si un eje no aparece en el caso, su peso se reparte entre los demás. Un error crítico (opción peligrosa) limita el total a 74.

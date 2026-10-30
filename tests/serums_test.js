@@ -96,4 +96,13 @@ ok(["clinico", "seguridad", "recursos", "referencia", "comunitario"].every(k => 
 { const c = casos[0]; let camp = N.campanaNueva(null, 30), e = elegir(c, "optima"); camp = N.campanaCerrarDia(camp, N.evaluar(c, e), e);
   ok(camp.dia === 2 && camp.inventario.oxigeno === e.inventario.oxigeno && camp.reputacion > 50 && camp.resultados.length === 1, "campaña: el inventario y la reputación pasan al día siguiente"); }
 
+
+/* introducción: audio de tormenta de 30 s y relámpagos sincronizados con sus truenos */
+{ const mp3 = path.join(R, "serums/audio/tormenta.mp3"); ok(fs.existsSync(mp3) && fs.statSync(mp3).size > 100000 && fs.statSync(mp3).size < 900000, "existe el audio de la tormenta (tamaño razonable)");
+  const pr = spawnSync("ffprobe", ["-v", "error", "-show_entries", "format=duration", "-of", "csv=p=0", mp3]); if (pr.status === 0) { const d = parseFloat(String(pr.stdout)); ok(d >= 30 && d < 30.2, "el audio dura 30 s (" + d + ")"); } else console.log("(ffprobe no disponible: se omite la duración)");
+  const js = fs.readFileSync(path.join(R, "serums.js"), "utf8"), py = fs.readFileSync(path.join(R, "tools/serums_audio.py"), "utf8");
+  const rel = [...js.matchAll(/\{ t: ([\d.]+), x: \d+ \}/g)].map(m => +m[1]), tru = [...py.matchAll(/\(([\d.]+), [\d.]+\)/g)].map(m => +m[1]).slice(0, 4);
+  ok(rel.length === 4 && tru.length === 4 && rel.every((t, i) => t <= tru[i] && tru[i] - t <= 1.0), "cada relámpago precede a su trueno en menos de 1 s: " + rel + " / " + tru);
+  ok(fs.existsSync(path.join(R, "guardia/portadas/serums-intro.webp")) && fs.statSync(path.join(R, "guardia/portadas/serums-intro.webp")).size < 200000, "la imagen de la introducción está optimizada"); }
+
 console.log(`serums_test: ${total - fallos}/${total} comprobaciones correctas`); process.exit(fallos ? 1 : 0);

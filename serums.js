@@ -35,18 +35,158 @@
   function guardarProgreso(p) { if (M.progreso) M.progreso.preferencia("serums", p); }
   function sesion(caso) { var s = leerJson(K_SES + ":" + caso); return s && s.v === 1 && s.caso === caso ? s : null; }
 
-  /* ---------- introducción cinematográfica ---------- */
+  /* ---------- introducción cinematográfica: tormenta en la sierra ----------
+     Escena = foto + lienzo en las mismas coordenadas de la imagen (1672×941, «cover»). El lienzo anima: lluvia en dos capas, salpicaduras en los impermeables y en el camino,
+     focos de la posta que suben y bajan de intensidad, y relámpagos. El audio (lluvia y truenos, 30 s) se repite sin cortes y los relámpagos siguen sus truenos.
+     Con «reducir movimiento» solo se dibuja un fotograma estático. */
+  var IW = 1672, IH = 941, FOCO_X = 0.62, CICLO = 30;
+  var IMG_INTRO = BASE + "guardia/portadas/serums-intro.webp", AUDIO = BASE + "serums/audio/tormenta.mp3";
+  var LUCES = [[1148, 437, 40, 1.0], [1232, 436, 40, 1.0], [1298, 452, 60, 1.2], [1373, 434, 40, 1.0], [1295, 374, 120, 0.7], [1612, 404, 46, 0.9], [1585, 412, 30, 0.7], [254, 571, 16, 0.8], [300, 567, 16, 0.8], [345, 563, 16, 0.8], [388, 559, 16, 0.8], [560, 205, 230, 0.55]];
+  var RELAMPAGOS = [{ t: 5.95, x: 760 }, { t: 12.7, x: 1010 }, { t: 19.95, x: 330 }, { t: 23.7, x: 1180 }];   // instantes en el ciclo de 30 s (un poco antes de cada trueno de tormenta.mp3)
+  var PERSONAS = [[500, 465, 270, 400], [790, 520, 140, 250]];                                                   // x, y, ancho, alto en la imagen
+  var CAMINO = [[560, 905], [1010, 905], [1390, 530], [1250, 505], [900, 745]];
+  function dentro(p, poli) { var c = false; for (var i = 0, j = poli.length - 1; i < poli.length; j = i++) { var a = poli[i], b = poli[j]; if ((a[1] > p[1]) !== (b[1] > p[1]) && p[0] < (b[0] - a[0]) * (p[1] - a[1]) / (b[1] - a[1]) + a[0]) c = !c; } return c; }
+  function azar(sem) { var s = sem >>> 0; return function () { s = (s * 1664525 + 1013904223) >>> 0; return s / 4294967296; }; }
+
+  function sonidoTormenta() {
+    var AC = raiz.AudioContext || raiz.webkitAudioContext, ctx = null, ganancia = null, fuente = null, buf = null, inicio = 0, mudo = false, vivo = true, cargando = null;
+    function asegurar() {
+      if (!AC) return Promise.reject(new Error("sin audio"));
+      if (!ctx) { ctx = new AC(); ganancia = ctx.createGain(); ganancia.gain.value = 0; ganancia.connect(ctx.destination); }
+      if (buf) return Promise.resolve();
+      if (!cargando) cargando = fetch(AUDIO + (VER ? "?" + VER : "")).then(function (r) { if (!r.ok) throw new Error("audio"); return r.arrayBuffer(); }).then(function (b) { return new Promise(function (ok, mal) { ctx.decodeAudioData(b, ok, mal); }); }).then(function (b) { buf = b; }).catch(function (e) { cargando = null; throw e; });
+      return cargando;
+    }
+    var api = {
+      /* true si está sonando; false si el navegador exige un gesto del usuario */
+      iniciar: function () {
+        return asegurar().then(function () {
+          if (!vivo) return false;
+          return (ctx.state === "running" ? Promise.resolve() : ctx.resume()).then(function () {
+            if (ctx.state !== "running" || !vivo) return false;
+            if (!fuente) {
+              fuente = ctx.createBufferSource(); fuente.buffer = buf; fuente.loop = true; fuente.loopStart = 0; fuente.loopEnd = Math.min(CICLO, buf.duration);   // el audio es periódico: cualquier ventana de 30 s enlaza sin salto
+              fuente.connect(ganancia); inicio = ctx.currentTime; fuente.start(0);
+            }
+            ganancia.gain.cancelScheduledValues(ctx.currentTime); ganancia.gain.setValueAtTime(ganancia.gain.value, ctx.currentTime); ganancia.gain.linearRampToValueAtTime(mudo ? 0 : 0.75, ctx.currentTime + 1.8);
+            return true;
+          });
+        }).catch(function () { return false; });
+      },
+      fase: function () { return ctx && fuente && ctx.state === "running" ? (ctx.currentTime - inicio) % CICLO : null; },
+      silenciar: function (m) { mudo = m; if (ctx && ganancia) { ganancia.gain.cancelScheduledValues(ctx.currentTime); ganancia.gain.setValueAtTime(ganancia.gain.value, ctx.currentTime); ganancia.gain.linearRampToValueAtTime(m ? 0 : 0.75, ctx.currentTime + 0.4); } },
+      detener: function () { vivo = false; if (!ctx) return; try { ganancia.gain.cancelScheduledValues(ctx.currentTime); ganancia.gain.setValueAtTime(ganancia.gain.value, ctx.currentTime); ganancia.gain.linearRampToValueAtTime(0, ctx.currentTime + 0.5); } catch (e) {} var c = ctx; setTimeout(function () { try { if (fuente) fuente.stop(); c.close(); } catch (e) {} }, 650); }
+    };
+    return api;
+  }
+
+  function tormenta(escena, lienzo, sonido) {
+    var g = lienzo.getContext("2d"), W = 0, H = 0, s = 1, ox = 0, oy = 0, DPR = Math.min(1.5, raiz.devicePixelRatio || 1), movimiento = true, t0 = performance.now(), activo = true, raf = 0;
+    try { movimiento = !raiz.matchMedia("(prefers-reduced-motion: reduce)").matches; } catch (e) {}
+    var R = azar(7), lejos = [], cerca = [], salp = [], ondas = [], destellos = [];
+    function ajustar() {
+      W = escena.clientWidth; H = escena.clientHeight; lienzo.width = Math.round(W * DPR); lienzo.height = Math.round(H * DPR);
+      s = Math.max(W / IW, H / IH); ox = (W - IW * s) * FOCO_X; oy = (H - IH * s) * 0.5;
+      var k = Math.min(1.6, W * H / (1280 * 720)); lejos = []; cerca = [];
+      for (var i = 0; i < Math.round(280 * k); i++) lejos.push({ x: R() * W, y: R() * H, v: 0.55 + R() * 0.4, l: 0.5 + R() * 0.5 });
+      for (var j = 0; j < Math.round(130 * k); j++) cerca.push({ x: R() * W, y: R() * H, v: 0.9 + R() * 0.6, l: 0.8 + R() * 0.6 });
+    }
+    function p(x, y) { return [ox + x * s, oy + y * s]; }
+    function brillo(t) { return 0.5 + 0.5 * Math.sin(t * 2 * Math.PI / 7.5); }
+    function intensidadLuz(i, t) {   // sube y baja despacio (≈ 7 s) con un parpadeo corto y desfasado por foco
+      var fase = i * 1.7, lenta = 0.5 + 0.5 * Math.sin(t * 2 * Math.PI / 7.5 + fase), parp = 0.06 * Math.sin(t * 23 + i * 5) + 0.05 * Math.sin(t * 37.3 + i * 2.1) + (Math.sin(t * 3.1 + i) > 0.985 ? -0.2 : 0);
+      return Math.max(0.15, 0.42 + 0.55 * lenta + parp);
+    }
+    function rayo(x, y, fuerza, sem) {   // relámpago ramificado, con brillo
+      var r = azar(sem), puntos = [[x, y]], px = x, py = y;
+      while (py < 330) { py += 14 + r() * 22; px += (r() - 0.5) * 46; puntos.push([px, py]); }
+      function trazo(pts, ancho, alfa) { g.beginPath(); pts.forEach(function (q, i) { var c = p(q[0], q[1]); i ? g.lineTo(c[0], c[1]) : g.moveTo(c[0], c[1]); }); g.lineWidth = ancho * s; g.strokeStyle = "rgba(215,228,255," + alfa + ")"; g.stroke(); }
+      g.lineJoin = "round"; g.shadowColor = "rgba(170,200,255,1)"; g.shadowBlur = 24 * DPR;
+      trazo(puntos, 7, 0.22 * fuerza); trazo(puntos, 3, 0.7 * fuerza); trazo(puntos, 1.2, fuerza);
+      for (var b = 4; b < puntos.length - 2; b += 4) { var rama = [puntos[b]], qx = puntos[b][0], qy = puntos[b][1], dir = r() < 0.5 ? -1 : 1; for (var m = 0; m < 4; m++) { qx += dir * (10 + r() * 20); qy += 10 + r() * 16; rama.push([qx, qy]); } trazo(rama, 1.6, 0.6 * fuerza); }
+      g.shadowBlur = 0;
+    }
+    function destelloRelampago(fase) {   // devuelve {luz, rayo, x}: dos pulsos rápidos que decaen
+      for (var i = 0; i < RELAMPAGOS.length; i++) {
+        var d = fase - RELAMPAGOS[i].t; if (d < -0.01 || d > 0.9) continue;
+        var luz = d < 0.06 ? d / 0.06 : d < 0.14 ? 1 - (d - 0.06) * 5 : d < 0.22 ? 0.6 + (d - 0.14) * 4 : Math.max(0, 0.92 - (d - 0.22) * 1.4);
+        return { luz: Math.max(0, luz), rayo: d < 0.3 ? Math.max(0, d < 0.14 ? 1 : 0.7) : 0, x: RELAMPAGOS[i].x, i: i };
+      }
+      return { luz: 0, rayo: 0, x: 0, i: 0 };
+    }
+    function dibujar(ahora, dt) {
+      var t = (ahora - t0) / 1000, fa = sonido.fase(), fase = fa == null ? t % CICLO : fa, rl = destelloRelampago(fase);
+      g.setTransform(DPR, 0, 0, DPR, 0, 0); g.clearRect(0, 0, W, H);
+      /* focos y reflejo del sol entre las nubes (se suman a la foto) */
+      g.globalCompositeOperation = "screen";
+      LUCES.forEach(function (L, i) {
+        var c = p(L[0], L[1]), r = L[2] * s * (1 + 0.06 * Math.sin(t * 2 + i)), a = Math.min(1, intensidadLuz(i, t) * L[3] * (i === LUCES.length - 1 ? 0.5 : 1) + rl.luz * 0.1), gr = g.createRadialGradient(c[0], c[1], 0, c[0], c[1], r * 2.6);
+        gr.addColorStop(0, "rgba(255,196,110," + (0.78 * a) + ")"); gr.addColorStop(0.28, "rgba(255,170,80," + (0.34 * a) + ")"); gr.addColorStop(1, "rgba(255,150,60,0)");
+        g.fillStyle = gr; g.fillRect(c[0] - r * 2.6, c[1] - r * 2.6, r * 5.2, r * 5.2);
+      });
+      /* reflejos de los focos en el barro mojado del camino */
+      var rf = p(1300, 520); var gR = g.createRadialGradient(rf[0], rf[1] + 60 * s, 0, rf[0], rf[1] + 60 * s, 160 * s); var ar = 0.16 * intensidadLuz(2, t);
+      gR.addColorStop(0, "rgba(255,185,90," + ar + ")"); gR.addColorStop(1, "rgba(255,170,80,0)"); g.fillStyle = gR; g.fillRect(rf[0] - 200 * s, rf[1] - 100 * s, 400 * s, 360 * s);
+      /* relámpago: velo azulado sobre todo el paisaje y los focos del sol se avivan */
+      if (rl.luz > 0) { g.fillStyle = "rgba(170,195,255," + (0.36 * rl.luz) + ")"; g.fillRect(0, 0, W, H); }
+      g.globalCompositeOperation = "source-over";
+      if (rl.rayo > 0) rayo(rl.x, 0, rl.rayo * (0.8 + 0.2 * rl.luz), 31 + rl.i * 17);
+      /* lluvia: capa lejana (fina, más lenta) y cercana (larga, brillante); durante el relámpago se ve más */
+      var viento = 0.2, alfaL = 0.16 + rl.luz * 0.22, alfaC = 0.3 + rl.luz * 0.3; g.lineCap = "round";
+      function lluvia(lista, ancho, alfa, largo, vel) {
+        g.lineWidth = ancho; g.strokeStyle = "rgba(205,225,255," + alfa + ")"; g.beginPath();
+        for (var i = 0; i < lista.length; i++) { var q = lista[i], l = largo * q.l * s * 1.1; g.moveTo(q.x, q.y); g.lineTo(q.x + l * viento, q.y + l); q.y += vel * q.v * dt * s * 0.9; q.x += vel * q.v * dt * s * 0.9 * viento; if (q.y > H + 40) { q.y = -40 - R() * 60; q.x = R() * (W + 120) - 60; } if (q.x > W + 60) q.x -= W + 120; }
+        g.stroke();
+      }
+      if (movimiento) { lluvia(lejos, 1, alfaL, 24, 1300); lluvia(cerca, 1.8, alfaC, 52, 2000); } else { lluvia(lejos, 1, alfaL, 24, 0); lluvia(cerca, 1.8, alfaC, 52, 0); }
+      if (!movimiento) return;
+      /* gotas que rebotan en los impermeables y las mochilas de las personas */
+      PERSONAS.forEach(function (P, k) { var n = Math.round(dt * 70 * (k ? 0.7 : 1)); for (var i = 0; i < n; i++) { var u = R(), v = Math.pow(R(), 1.7) * 0.7; salp.push({ x: P[0] + u * P[2], y: P[1] + v * P[3], vx: (R() - 0.5) * 50, vy: -(40 + R() * 80), vida: 0, dur: 0.25 + R() * 0.3 }); } });
+      g.fillStyle = "rgba(225,238,255,1)";
+      for (var i = salp.length - 1; i >= 0; i--) {
+        var d = salp[i]; d.vida += dt; if (d.vida > d.dur) { salp.splice(i, 1); continue; }
+        d.x += d.vx * dt; d.y += d.vy * dt; d.vy += 420 * dt; var c = p(d.x, d.y), a = (1 - d.vida / d.dur) * (0.65 + rl.luz * 0.3);
+        g.globalAlpha = a; g.beginPath(); g.arc(c[0], c[1], Math.max(0.8, 1.6 * s), 0, 6.2832); g.fill();
+      }
+      /* destellos de agua sobre los ponchos */
+      if (R() < dt * 14) { var P2 = PERSONAS[R() < 0.65 ? 0 : 1]; destellos.push({ x: P2[0] + R() * P2[2], y: P2[1] + R() * P2[3] * 0.8, vida: 0 }); }
+      for (var j = destellos.length - 1; j >= 0; j--) { var e = destellos[j]; e.vida += dt; if (e.vida > 0.35) { destellos.splice(j, 1); continue; } var c2 = p(e.x, e.y), a2 = Math.sin(e.vida / 0.35 * Math.PI) * 0.7; g.globalAlpha = a2; var gg = g.createRadialGradient(c2[0], c2[1], 0, c2[0], c2[1], 7 * s); gg.addColorStop(0, "rgba(255,255,255,1)"); gg.addColorStop(1, "rgba(255,230,190,0)"); g.fillStyle = gg; g.fillRect(c2[0] - 8 * s, c2[1] - 8 * s, 16 * s, 16 * s); }
+      g.globalAlpha = 1;
+      /* ondas de las gotas al caer en el camino mojado */
+      var nuevas = Math.round(dt * 60); for (var m = 0; m < nuevas; m++) { var pt = [560 + R() * 830, 505 + R() * 400]; if (dentro(pt, CAMINO)) ondas.push({ x: pt[0], y: pt[1], vida: 0, dur: 0.5 + R() * 0.4, r: 5 + R() * 7 }); }
+      g.lineWidth = 1; for (var o = ondas.length - 1; o >= 0; o--) { var w = ondas[o]; w.vida += dt; if (w.vida > w.dur) { ondas.splice(o, 1); continue; } var q = w.vida / w.dur, cc = p(w.x, w.y); g.strokeStyle = "rgba(255,225,185," + (0.55 * (1 - q) + rl.luz * 0.2) + ")"; g.beginPath(); g.ellipse(cc[0], cc[1], w.r * q * s, w.r * q * s * 0.38, 0, 0, 6.2832); g.stroke(); }
+    }
+    var ult = performance.now();
+    function bucle(ahora) {
+      if (!activo) return; raf = requestAnimationFrame(bucle);
+      if (document.hidden) { ult = ahora; return; }
+      var dt = Math.min(0.05, (ahora - ult) / 1000); ult = ahora; dibujar(ahora, dt);
+    }
+    ajustar(); var aj = function () { ajustar(); if (!movimiento) dibujar(performance.now(), 0.016); }; raiz.addEventListener("resize", aj);
+    if (movimiento) raf = requestAnimationFrame(bucle); else dibujar(performance.now(), 0.016);
+    return function () { activo = false; cancelAnimationFrame(raf); raiz.removeEventListener("resize", aj); };
+  }
+
   function intro(alAsumir) {
     Array.prototype.forEach.call(document.querySelectorAll("dialog.sr-intro"), function (x) { x.remove(); });
     var d = document.createElement("dialog"); d.className = "sr-intro"; d.setAttribute("aria-labelledby", "srIntroT");
-    d.innerHTML = '<img class="sr-intro__img" src="' + IMG + '" alt="" width="1280" height="720"><div class="sr-intro__vel"></div><div class="sr-intro__c"><p class="sr-intro__k">Medicina rural y comunitaria</p><h2 id="srIntroT">Tu primer día como serumista</h2>' +
-      '<p>Una posta de altura, pocos insumos, un hospital lejos y una comunidad que confía en ti. Cada decisión cuenta.</p><button type="button" class="sr-btn sr-btn--lg" data-asumir>Asumir mi posta</button><button type="button" class="sr-intro__o" data-omitir>Omitir</button></div>';
+    d.innerHTML = '<div class="sr-intro__escena"><img class="sr-intro__img" src="' + IMG_INTRO + '" alt="" width="1672" height="941" fetchpriority="high"><canvas class="sr-intro__lienzo" aria-hidden="true"></canvas></div><div class="sr-intro__vel"></div>' +
+      '<button type="button" class="sr-intro__snd" data-sonido aria-pressed="true">Sonido activado</button>' +
+      '<div class="sr-intro__c"><p class="sr-intro__k">Medicina rural y comunitaria</p><h2 id="srIntroT">Tu primer día como serumista</h2>' +
+      '<p>Una posta de altura, pocos insumos, un hospital lejos y una comunidad que confía en ti. Cada decisión cuenta.</p><button type="button" class="sr-btn sr-btn--lg" data-asumir>Asumir mi posta</button><button type="button" class="sr-intro__o" data-omitir>Omitir</button>' +
+      '<p class="sr-intro__nota">Ilustración generada con IA; el paisaje, el establecimiento y el audio de tormenta son una recreación sintetizada, no registros reales.</p></div>';
     document.body.appendChild(d);
-    function cerrar(ir) { try { d.close(); } catch (e) {} d.remove(); try { sessionStorage.setItem("mqp_serums_intro", "1"); } catch (e) {} if (ir && alAsumir) alAsumir(); }
+    var sonido = sonidoTormenta(), parar = null, mudo = false, btn = d.querySelector("[data-sonido]");
+    function etiqueta(estado) { btn.textContent = estado; btn.setAttribute("aria-pressed", String(!mudo && estado === "Sonido activado")); }
+    function arrancar() { sonido.iniciar().then(function (suena) { if (suena) etiqueta(mudo ? "Sonido silenciado" : "Sonido activado"); else { etiqueta("Activar sonido"); btn.setAttribute("aria-pressed", "false"); d.addEventListener("pointerdown", reintento, { once: true }); d.addEventListener("keydown", reintento, { once: true }); } }); }
+    function reintento() { if (!mudo) arrancar(); }
+    function cerrar(ir) { if (parar) parar(); sonido.detener(); try { d.close(); } catch (e) {} d.remove(); try { sessionStorage.setItem("mqp_serums_intro", "1"); } catch (e) {} if (ir && alAsumir) alAsumir(); }
+    btn.addEventListener("click", function () { if (btn.textContent === "Activar sonido") { mudo = false; arrancar(); return; } mudo = !mudo; sonido.silenciar(mudo); etiqueta(mudo ? "Sonido silenciado" : "Sonido activado"); });
     d.querySelector("[data-asumir]").addEventListener("click", function () { cerrar(true); });
     d.querySelector("[data-omitir]").addEventListener("click", function () { cerrar(false); });
     d.addEventListener("cancel", function (ev) { ev.preventDefault(); cerrar(false); });
     if (d.showModal) d.showModal(); else d.setAttribute("open", ""); d.querySelector("[data-asumir]").focus();
+    parar = tormenta(d.querySelector(".sr-intro__escena"), d.querySelector(".sr-intro__lienzo"), sonido); arrancar();
   }
   function introVista() { try { return sessionStorage.getItem("mqp_serums_intro") === "1"; } catch (e) { return false; } }
 
