@@ -31,6 +31,7 @@
  *   MP_ACCESS_TOKEN     token de acceso de tu aplicación de Mercado Pago
  *   MP_WEBHOOK_SECRET   clave secreta del webhook (recomendada: valida la firma del aviso)
  *   MQP_LIMITES         "1" para activar los límites del plan gratuito (por defecto: apagados)
+ *   MQP_CERRADO         "1" para cerrar el acceso: solo el dueño y quien pague un plan entra a la plataforma y a los contenidos (por defecto: abierto)
  *   MQP_SITE_URL        URL pública del sitio, ej. https://midominio.com (por defecto se deduce)
  *   MQP_ADMIN_TOKEN     clave larga (16+ caracteres) para descargar tu lista de cuentas; sin ella esa acción no existe
  *   MP_API_BASE         solo para pruebas: otra URL para la API de Mercado Pago
@@ -105,6 +106,8 @@ function url_sitio(): string {
     return (es_https() ? 'https' : 'http') . '://' . ($_SERVER['HTTP_HOST'] ?? 'localhost');
 }
 function limites_activos(): bool { return ajuste('MQP_LIMITES', 'limites') === '1'; }
+/** Acceso cerrado: solo el dueño y quien tenga un plan activo pueden usar la plataforma y ver los contenidos (los demás deben registrarse y pagar). */
+function acceso_cerrado(): bool { return ajuste('MQP_CERRADO', 'cerrado') === '1'; }
 function payu_ok(): bool {
     return ajuste('PAYU_MERCHANT_ID', 'payu_merchant_id') !== '' && ajuste('PAYU_ACCOUNT_ID', 'payu_account_id') !== '' && ajuste('PAYU_API_KEY', 'payu_api_key') !== '';
 }
@@ -333,7 +336,7 @@ try {
     }
 
     if ($a === 'estado') {
-        responder(['ok' => true, 'cuentas' => true, 'pagos' => pagos_activos(), 'pasarela' => pasarela(), 'limites' => limites_activos(),
+        responder(['ok' => true, 'cuentas' => true, 'pagos' => pagos_activos(), 'pasarela' => pasarela(), 'limites' => limites_activos(), 'cerrado' => acceso_cerrado(),
             'limite_diario' => LIMITE_GRATIS_DIARIO, 'periodos' => PERIODOS, 'examenes' => EXAMENES]);
     }
 

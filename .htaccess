@@ -61,3 +61,13 @@ RedirectMatch 403 ^/cuenta_datos/
 <IfModule mod_mime.c>
   AddType application/octet-stream .dat
 </IfModule>
+
+# Contenidos protegidos (bancos, flujogramas, casos, guías y PDF): pasan por acceso.php, que los entrega libremente o, con MQP_CERRADO=1,
+# solo al dueño y a quien tenga un plan activo. Para comprobar que funciona: con el acceso cerrado, abre /bancos/cardiologia.json en una ventana de incógnito;
+# debe mostrar {"ok":false,"acceso":"sin_sesion",...} y no las preguntas.
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule ^(bancos|flujogramas|herramientas|residentado|guardia|consulta|serums|atlas3d)/(.+)$ acceso.php?f=$1/$2 [L,B]
+  RewriteRule ^((guardia_casos|guardia_lab|guardia_biblioteca|consulta_casos|serums_casos|algoritmos)\.js)$ acceso.php?f=$1 [L,B]
+  RewriteRule ^([^/]+\.pdf)$ acceso.php?f=$1 [L,B]
+</IfModule>

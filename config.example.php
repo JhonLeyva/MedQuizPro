@@ -76,6 +76,9 @@ return [
     // '1' activa los límites del plan gratuito (20 preguntas al día y simulacro completo solo Premium).
     // Déjalo en '0' hasta que el cobro esté probado.
     'limites' => '0',
+    // '1' cierra el acceso: solo el dueño (cuenta marcada como dueño) y quien tenga un plan activo usa la plataforma y ve los bancos, flujogramas y casos.
+    // Los demás ven solo el ingreso, el registro y los planes. Antes de activarlo: ten tu cuenta de dueño lista y comprueba el cobro. Déjalo en '0' para volver al acceso abierto.
+    'cerrado' => '0',
 
     // Clave larga (16+ caracteres) para descargar tu lista de cuentas y pagos:
     //   https://TU-DOMINIO/cuenta.php?a=admin&token=TU-CLAVE   (CSV; añade &formato=json para JSON)
