@@ -1213,7 +1213,7 @@
     var r = ruta();
     var links = document.querySelectorAll("[data-ruta]");
     for (var k = 0; k < links.length; k++) {
-      if (links[k].getAttribute("data-ruta") === (r.nombre === "consulta" ? "guardia" : r.nombre)) links[k].setAttribute("aria-current", "page");
+      if (links[k].getAttribute("data-ruta") === (r.nombre === "consulta" || r.nombre === "serums" ? "guardia" : r.nombre)) links[k].setAttribute("aria-current", "page");
       else links[k].removeAttribute("aria-current");
     }
     document.getElementById("tbTitle").textContent = RUTAS[r.nombre].titulo;

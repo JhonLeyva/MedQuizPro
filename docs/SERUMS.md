@@ -1,6 +1,6 @@
 # Misión SERUMS: sobrevive a la posta
 
-Estación de simulación de medicina rural y comunitaria dentro del centro «Sobrevive a la Guardia». Ruta `#/serums` y `#/serums/<caso>`, tarjeta en el centro de simulación y acceso «Misión SERUMS» en el menú lateral. No modifica los demás simuladores (solo se añadió la cuarta tarjeta del centro y su estilo).
+Estación de simulación de medicina rural y comunitaria dentro del centro «Sobrevive a la Guardia». Ruta `#/serums` y `#/serums/<caso>`, tarjeta en el centro de simulación. No modifica los demás simuladores (solo se añadió la cuarta tarjeta del centro y su estilo).
 
 ## Arquitectura
 | Pieza | Archivo | Papel |
