@@ -1,4 +1,4 @@
-// node tests/serums_e2e.js — Misión SERUMS en un navegador real (Playwright/Chromium): tarjeta y menú, introducción, portada, panel de la posta,
+// node tests/serums_e2e.js — Misión SERUMS en un navegador real (Playwright/Chromium): tarjeta (sin botón propio en el menú), introducción, portada, panel de la posta,
 // recorridos completos, inventario persistente, evento de vía bloqueada, pruebas, supervisor documental, sesión recuperable, informe A–H, móvil, teclado y axe.
 "use strict";
 const { chromium } = require("playwright");
@@ -43,18 +43,18 @@ const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"
     const ctx = await navegador.newContext({ viewport: { width: 1280, height: 900 } }); await ctx.addInitScript(INIT);
     const p = await nueva(ctx);
 
-    /* tarjeta y menú */
+    /* tarjeta (sin botón propio en el menú) */
     await p.goto(base + "app/#/guardia"); await p.waitForSelector(".gh-card"); if (await p.locator(".gi").count()) { await p.keyboard.press("Escape"); await dormir(300); }
     ok(await p.locator(".gh-card").count() === 4 && await p.locator(".gh-card--teal").count() === 1, "el centro de simulación tiene la cuarta tarjeta");
     const tx = await p.innerText(".gh-card--teal"); ok(/Misión SERUMS/.test(tx) && /MEDICINA RURAL Y COMUNITARIA/i.test(tx) && /NUEVO/i.test(await p.evaluate(() => getComputedStyle(document.querySelector(".gh-card--teal .gh-card__foto"), "::after").content)), "la tarjeta lleva el título y las etiquetas");
     ok(await p.getAttribute(".gh-card--teal a.gh-btn", "href") === "#/serums", "el botón de la tarjeta lleva a #/serums");
-    ok(await p.locator('.side__nav a[data-ruta="serums"]').count() === 1 && /Misión SERUMS/.test(await p.innerText('.side__nav a[data-ruta="serums"]')), "el menú lateral tiene «Misión SERUMS»");
+    ok(await p.locator('.side__nav a[data-ruta="serums"]').count() === 0, "el menú lateral no tiene un botón aparte de «Misión SERUMS»");
 
     /* introducción y portada */
     await p.goto(base + "app/#/serums"); await p.waitForSelector(".sr-intro"); const it = await p.innerText(".sr-intro");
     ok(/Tu primer día como serumista/i.test(it) && /Asumir mi posta/i.test(it), "introducción con el título y el botón «Asumir mi posta»");
     ok(await p.evaluate(() => document.activeElement && document.activeElement.hasAttribute("data-asumir")), "el foco inicial está en «Asumir mi posta»");
-    await p.click("[data-asumir]"); await p.waitForSelector(".sr-casos"); ok(await p.locator(".sr-intro").count() === 0, "la introducción se cierra");
+    await p.click("[data-asumir]"); await p.waitForSelector(".sr-casos"); ok(await p.locator(".sr-intro").count() === 0, "la introducción se cierra"); ok(await p.getAttribute('.side__nav a[data-ruta="guardia"]', "aria-current") === "page", "en la Misión SERUMS el menú marca «Sobrevive a la Guardia»");
     await p.goto(base + "app/#/guardia"); await p.goto(base + "app/#/serums"); await dormir(300); ok(await p.locator(".sr-intro").count() === 0, "la introducción no se repite en la misma sesión");
     await p.click("#srVerIntro"); await p.waitForSelector(".sr-intro"); await p.keyboard.press("Escape"); await dormir(100); ok(await p.locator(".sr-intro").count() === 0, "Escape cierra la introducción");
     ok(await p.locator(".sr-caso").count() === 10, "diez casos en la portada");
