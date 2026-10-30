@@ -54,17 +54,34 @@ const letra = (q, cal) => q.decisiones.find(d => d.calidad === cal) || q.decisio
         await pg.click("#cqRevisar"); await pg.waitForSelector("#cqEnviar"); await pg.click("#cqEnviar"); }
       await pg.waitForSelector('[data-mcq="interpretacion"]');
       const txt = await pg.textContent(".cq-cuerpo");
-      for (const t of c.pruebas.filter(t => !quiere.includes(t) && t.resultado.tipo === "texto")) ok(!txt.includes(t.resultado.texto.slice(0, 40)), c.id + ": no revela el resultado de «" + t.nombre + "» sin solicitarlo");
-      for (const t of quiere.filter(t => t.resultado.tipo === "texto")) ok(txt.includes(t.resultado.texto.slice(0, 40)), c.id + ": muestra «" + t.nombre + "» solicitada");
-      if (quiere.some(t => t.resultado.tipo === "lab")) ok(await pg.locator(".gd-tabla-lab").count() > 0 && (await pg.textContent(".gd-tabla-lab")).includes("interpreta tú"), c.id + ": marcas de laboratorio ocultas mientras se evalúa la interpretación");
+      for (const t of c.pruebas.filter(t => !quiere.includes(t) && t.resultado.tipo === "texto")) ok(!txt.toLowerCase().includes(t.resultado.texto.slice(0, 40).toLowerCase()), c.id + ": no revela el resultado de «" + t.nombre + "» sin solicitarlo");
+      for (const t of quiere.filter(t => t.resultado.tipo === "texto")) ok(txt.toLowerCase().includes(t.resultado.texto.slice(0, 40).toLowerCase()), c.id + ": muestra «" + t.nombre + "» solicitada");
+      const nLab = quiere.filter(t => t.resultado.tipo === "lab").length; if (nLab) ok(await pg.locator(".cq-cuerpo .gd-tabla-lab").count() === nLab, c.id + ": un bloque de resultados por cada prueba de laboratorio solicitada (" + nLab + ")");
+      if (quiere.some(t => t.resultado.tipo === "lab")) ok(await pg.locator(".gd-tabla-lab").count() > 0 && (await pg.textContent(".gd-tabla-lab")).includes("Interpreta tú"), c.id + ": marcas de laboratorio ocultas mientras se evalúa la interpretación");
+      if (perfil === "ideal") {
+        const filas = await pg.locator(".cq-cuerpo .gd-tabla-lab tbody tr").evaluateAll(rs => rs.map(r => [].slice.call(r.querySelectorAll("th,td")).slice(0, 3).map(x => x.textContent.trim())));
+        const mal1 = [].concat(...filas).filter(x => x && x[0] !== x[0].toUpperCase() && !/^(pH|pCO|pO)/.test(x)); ok(mal1.length === 0, c.id + ": todo lo que muestran las tablas de resultados empieza con mayúscula (" + mal1.slice(0, 3).join(" | ") + ")");
+        const textos = await pg.locator(".cq-cuerpo .gd-labn p, .cq-cuerpo .gd-labn h3").allInnerTexts(); const mal2 = textos.filter(x => x.trim() && x.trim()[0] !== x.trim()[0].toUpperCase() && !/^(pH|pCO|pO)/.test(x.trim())); ok(mal2.length === 0, c.id + ": los resultados en texto empiezan con mayúscula (" + mal2.slice(0, 3).join(" | ") + ")");
+        if (c.id === "c02") {
+          const tit = await pg.locator(".cq-cuerpo h3.gd-h3").allInnerTexts(); ok(tit.includes("Examen completo de orina") && tit.includes("Urocultivo"), "c02: el examen completo de orina y el urocultivo se muestran en bloques separados");
+          const orina = await pg.evaluate(() => { const h = [].find.call(document.querySelectorAll(".cq-cuerpo h3.gd-h3"), x => x.textContent.trim() === "Examen completo de orina"); return h ? [].map.call(h.nextElementSibling.querySelectorAll("tbody tr"), r => r.innerText) : []; });
+          const claves = ["Color", "Aspecto", "Densidad", "pH", "Proteínas", "Glucosa", "Cetonas", "Bilirrubina", "Urobilinógeno", "Sangre", "Nitritos", "Esterasa", "Leucocitos", "Hematíes", "Células epiteliales", "Cilindros", "Cristales", "Bacterias", "Levaduras", "mucus"], faltan = claves.filter(k => !orina.some(r => r.includes(k)));
+          ok(orina.length >= 18 && !faltan.length, "c02: el examen completo de orina trae todos los parámetros físicos, químicos y del sedimento (" + orina.length + "; faltan: " + faltan.join(", ") + ")");
+          ok(!orina.some(r => /Urocultivo|Escherichia/.test(r)), "c02: el urocultivo no está mezclado dentro del examen de orina");
+          ok(/Positivo: Escherichia coli ≥ 100 000 UFC\/mL/.test(await pg.textContent(".cq-cuerpo")), "c02: el urocultivo muestra «Positivo: Escherichia coli…» con mayúscula inicial");
+        }
+      }
       const cal = perfil === "ideal" ? "optima" : "peligrosa";
       await responder(pg, "interpretacion", c, perfil === "ideal" ? "optima" : "incorrecta");
-      if (quiere.some(t => t.resultado.tipo === "lab")) ok(!(await pg.textContent(".gd-tabla-lab")).includes("interpreta tú"), c.id + ": tras responder se muestran las marcas");
-      // sin cambiar la respuesta
-      const antes = await pg.textContent('[data-mcq="interpretacion"] .gd-fb__t'); const otra = c.preguntas.interpretacion.decisiones.find(d => !antes.includes("(tu elección: " + d.id + ")")); await pg.click('[data-mcq="interpretacion"] [data-op="' + otra.id + '"]', { force: true });
+      if (quiere.some(t => t.resultado.tipo === "lab")) ok(!(await pg.textContent(".gd-tabla-lab")).includes("Interpreta tú"), c.id + ": tras responder se muestran las marcas");
+      // sin corrección durante la consulta y sin cambiar la respuesta
+      const antes = await pg.textContent('[data-mcq="interpretacion"] .gd-fb__t'); ok(/Respuesta registrada \([A-E]\)/.test(antes), c.id + ": la respuesta se registra sin corregir");
+      const cuerpo1 = await pg.textContent('[data-mcq="interpretacion"]'); ok(!/Incorrecta|Peligrosa|Decisión óptima|Conducta preferible|Aceptable, mejorable/.test(cuerpo1) && await pg.locator('[data-mcq="interpretacion"] .gd-op.is-optima, [data-mcq="interpretacion"] .gd-op.is-incorrecta, [data-mcq="interpretacion"] .gd-op.is-peligrosa').count() === 0, c.id + ": durante la consulta no se muestra la corrección ni se colorean las alternativas");
+      const otra = c.preguntas.interpretacion.decisiones.find(d => !antes.includes("(" + d.id + ")")); await pg.click('[data-mcq="interpretacion"] [data-op="' + otra.id + '"]', { force: true });
       ok((await pg.textContent('[data-mcq="interpretacion"] .gd-fb__t')) === antes, c.id + ": no permite cambiar la respuesta ni enviarla dos veces");
       await sig(pg, "diagnostico"); await responder(pg, "diagnostico", c, perfil === "ideal" ? "optima" : "incorrecta");
       await sig(pg, "tratamiento"); await responder(pg, "tratamiento", c, cal); await sig(pg, "seguimiento"); await responder(pg, "seguimiento", c, perfil === "ideal" ? "optima" : "incorrecta");
+      ok(!/Incorrecta \(tu elección|Peligrosa \(tu elección|Conducta preferible/.test(await pg.textContent(".cq-cuerpo")), c.id + ": tampoco se corrige el seguimiento antes del final");
       await pg.click('[data-sig="informe"]'); await pg.waitForSelector(".gd-informe");
       return { quiere, informe: await pg.textContent(".gd-informe") };
     }

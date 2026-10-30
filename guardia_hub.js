@@ -8,6 +8,7 @@
   var G = function () { return M.guardiaNucleo; }, GD = function () { return M.guardia; };
   var esc = function (s) { return GD().esc(s); };
   var IMG = "../guardia/portadas/";
+  var SRC_HUB = (document.currentScript && document.currentScript.src) || "", BASE_HUB = SRC_HUB.replace(/guardia_hub\.js(\?.*)?$/, ""), VER_HUB = (SRC_HUB.split("?")[1] || "");
   var I = {
     pulse: '<path d="M3 12h4l2-6 4 12 2-6h6"/>', doc: '<path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4M10 12h5M10 16h5"/>', brain: '<path d="M9 4a3 3 0 0 0-3 3 3 3 0 0 0-2 4 3 3 0 0 0 2 4 3 3 0 0 0 3 4V4zM15 4a3 3 0 0 1 3 3 3 3 0 0 1 2 4 3 3 0 0 1-2 4 3 3 0 0 1-3 4V4z"/>',
     img: '<rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="1.6"/><path d="M21 16l-5-5-8 8"/>', chart: '<path d="M5 20V10M12 20V4M19 20v-7"/>', clock: '<circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 3h6"/>',
@@ -15,6 +16,11 @@
     heart: '<path d="M12 21s-7-4.5-9-9a5 5 0 0 1 9-3 5 5 0 0 1 9 3c-2 4.500-9 9-9 9z"/><path d="M7 12h3l1.500-3 2 6 1.500-3h2"/>', flask: '<path d="M9 3h6M10 3v6l-5 9a2 2 0 0 0 2 3h10a2 2 0 0 0 2-3l-5-9V3"/><path d="M8 15h8"/>',
     book: '<path d="M5 4h11a3 3 0 0 1 3 3v13H8a3 3 0 0 1-3-3z"/><path d="M5 17a3 3 0 0 1 3-3h11"/>', chat: '<path d="M4 5h16v11H9l-5 4z"/><path d="M8 9h8M8 12h5"/>',
     warn: '<path d="M12 3l10 18H2z"/><path d="M12 10v5M12 18v.01"/>', arrow: '<path d="M5 12h14M13 6l6 6-6 6"/>', target: '<circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="4.500"/><path d="M12 12l6-6"/>',
+    drop: '<path d="M12 3s6 6.500 6 11a6 6 0 0 1-12 0c0-4.500 6-11 6-11z"/>', clot: '<circle cx="9" cy="10" r="4"/><circle cx="16" cy="14" r="3"/><circle cx="10" cy="17.500" r="2"/>', kidney: '<path d="M15 4c3 1 5 4 5 8s-2 8-5 8c-2 0-3-2-3-4 0-3 2-3 2-6S12 6 15 4z"/><path d="M12 12H9"/>',
+    liver: '<path d="M3 10c0-3 4-5 9-5s9 2 9 6-4 8-9 8c-3 0-5-2-9-9z"/>', pill: '<rect x="3" y="9" width="18" height="6" rx="3" transform="rotate(-35 12 12)"/><path d="M9.500 7.500l5 9"/>', wind: '<path d="M3 8h11a3 3 0 1 0-3-3M3 12h15a3 3 0 1 1-3 3M3 16h8"/>',
+    cup: '<path d="M7 3h10l-1 18H8z"/><path d="M7.500 9h9"/>', bowl: '<path d="M3 11h18a9 9 0 0 1-18 0z"/><path d="M8 7h8"/>', gland: '<path d="M12 8c-3-3-8-1-8 3s4 6 8 3c4 3 8 1 8-3s-5-6-8-3z"/>', hormone: '<circle cx="8" cy="12" r="4"/><path d="M12 12h8M17 9l3 3-3 3"/>',
+    shield: '<path d="M12 3l8 3v6c0 5-4 8-8 9-4-1-8-4-8-9V6z"/>', virus: '<circle cx="12" cy="12" r="5"/><path d="M12 3v3M12 18v3M3 12h3M18 12h3M5.600 5.600l2.100 2.100M16.300 16.300l2.100 2.100M18.400 5.600l-2.100 2.100M7.700 16.300l-2.100 2.100"/>',
+    tube: '<path d="M9 3h6M10 3v14a2 2 0 0 0 4 0V3M10 12h4"/>', sperm: '<circle cx="8" cy="8" r="3"/><path d="M10 10c4 3 6 5 10 9"/>', capsule: '<rect x="3" y="9" width="18" height="6" rx="3" transform="rotate(-35 12 12)"/><path d="M9.500 7.500l5 9"/>', search: '<circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/>', chev: '<path d="M6 9l6 6 6-6"/>',
     file: '<path d="M7 3h7l4 4v14H7z"/><path d="M14 3v4h4"/>', bar: '<path d="M5 20V12M12 20V5M19 20v-5"/>', lock: '<rect x="5" y="11" width="14" height="9" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/>'
   };
   function ic(n, c) { return '<svg class="gh-ic' + (c ? " " + c : "") + '" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">' + I[n] + '</svg>'; }
@@ -33,10 +39,9 @@
     var pct = r.n ? Math.round(r.hechos / r.n * 100) : 0;
     return '<div class="gh-prog"><p><b>' + r.hechos + ' de ' + r.n + '</b> ' + etq + (r.mejor != null ? ' · mejor puntaje medio <b>' + r.mejor + ' %</b>' : ' · aún sin intentos') + '</p><div class="gh-barra" role="img" aria-label="Progreso: ' + r.hechos + ' de ' + r.n + ' casos completados"><i style="width:' + pct + '%"></i></div></div>';
   }
-  function chips(temas) { var v = temas.slice(0, 4); return '<ul class="gh-chips" aria-label="Temas clínicos">' + v.map(function (t) { return '<li>' + esc(t) + '</li>'; }).join("") + (temas.length > 4 ? '<li>y más…</li>' : "") + '</ul>'; }
   function tarjeta(o) {
     return '<article class="gh-card gh-card--' + o.tono + '" aria-labelledby="ghT' + o.id + '"><div class="gh-card__foto"><img src="' + IMG + o.img + '" alt="" width="800" height="600" loading="lazy" decoding="async"><span class="gh-pill">' + ic(o.icono) + esc(o.pill) + '</span>' + (o.pronto ? '<span class="gh-soon">Próximamente</span>' : "") +
-      '<div class="gh-card__sobre"><h2 id="ghT' + o.id + '">' + esc(o.titulo) + '</h2><p>' + esc(o.texto) + '</p>' + (o.chips || "") + '</div></div>' + (o.datos || "") + (o.prog || "") + o.boton + '</article>';
+      '<div class="gh-card__sobre"><h2 id="ghT' + o.id + '">' + esc(o.titulo) + '</h2><p>' + esc(o.texto) + '</p></div></div>' + (o.datos || "") + (o.prog || "") + o.boton + '</article>';
   }
   function boton(tono, href, txt) { return '<a class="gh-btn gh-btn--' + tono + '" href="' + href + '"><span>' + esc(txt) + '</span>' + ic("arrow") + '</a>'; }
 
@@ -93,23 +98,59 @@
       '<ul class="gh-caps">' + cap.map(function (c) { return '<li>' + ic(c[0]) + '<span>' + esc(c[1]) + '</span></li>'; }).join("") + '</ul>' + (M.guardiaIntro ? '<button type="button" class="gh-link gh-link--claro" id="ghIntro">▶ Ver la introducción</button>' : "") + '</div><p class="gh-hero__lema" aria-hidden="true">Decide.<br>Actúa.<br><em>Aprende.</em></p></header>' +
       '<p class="gd-aviso" role="note">' + esc(GD().AVISO) + '</p>' +
       '<section class="gh-mods" aria-label="Modalidades"><div class="gh-mods__g">' +
-      tarjeta({ id: "E", tono: "rojo", img: "emergencias.webp", icono: "bolt", pill: "EMERGENCIAS", titulo: "Guardia de Emergencias", texto: "Enfrenta emergencias médicas, toma decisiones bajo presión y aprende a estabilizar pacientes en situaciones críticas.", chips: chips(rG.temas), datos: datos(rG), prog: progreso(rG, "casos completados"), boton: boton("rojo", "#/guardia/emergencias", "Comenzar casos de emergencia") }) +
-      (rC ? tarjeta({ id: "C", tono: "azul", img: "consulta.webp", icono: "users", pill: "CONSULTA AMBULATORIA", titulo: "Consulta Clínica Experta", texto: "Evalúa pacientes desde la anamnesis hasta el tratamiento. Solicita exámenes, interpreta resultados y construye diagnósticos clínicos.", chips: chips(rC.temas), datos: datos(rC), prog: progreso(rC, "consultas completadas"), boton: boton("azul", "#/consulta", "Comenzar consulta clínica") })
+      tarjeta({ id: "E", tono: "rojo", img: "emergencias.webp", icono: "bolt", pill: "EMERGENCIAS", titulo: "Guardia de Emergencias", texto: "Enfrenta emergencias médicas, toma decisiones bajo presión y aprende a estabilizar pacientes en situaciones críticas.", datos: datos(rG), prog: progreso(rG, "casos completados"), boton: boton("rojo", "#/guardia/emergencias", "Comenzar casos de emergencia") }) +
+      (rC ? tarjeta({ id: "C", tono: "azul", img: "consulta.webp", icono: "users", pill: "CONSULTA AMBULATORIA", titulo: "Consulta Clínica Experta", texto: "Evalúa pacientes desde la anamnesis hasta el tratamiento. Solicita exámenes, interpreta resultados y construye diagnósticos clínicos.", datos: datos(rC), prog: progreso(rC, "consultas completadas"), boton: boton("azul", "#/consulta", "Comenzar consulta clínica") })
         : tarjeta({ id: "C", tono: "azul", img: "consulta.webp", icono: "users", pill: "CONSULTA AMBULATORIA", titulo: "Consulta Clínica Experta", texto: "Evalúa pacientes desde la anamnesis hasta el tratamiento. Solicita exámenes, interpreta resultados y construye diagnósticos clínicos.", boton: boton("azul", "#/consulta", "Comenzar consulta clínica") })) +
       tarjeta({ id: "U", tono: "gris", img: "uci.webp", icono: "heart", pill: "CUIDADOS CRÍTICOS", pronto: true, titulo: "UCI y Paciente Crítico", texto: "Manejo de pacientes en estado crítico. Esta modalidad todavía no está disponible: aún no hay casos publicados.", prog: '<div class="gh-prog gh-prog--uci"><p>Aún no hay casos de UCI publicados. Mientras tanto puedes practicar la toma de decisiones críticas en la Guardia de Emergencias.</p></div>', boton: '<p class="gh-btn gh-btn--off">' + ic("lock") + '<span>Próximamente</span></p>' }) +
       '</div></section>' +
       '<div class="gh-fila">' + recomendados(rec) + estadisticas(rG, rC, g, est) + '</div>' +
       '<section class="gh-accesos" aria-label="Accesos rápidos"><ul>' +
-      '<li><button type="button" class="gh-acc gh-acc--verde" id="ghLab"><img src="' + IMG + 'laboratorio.webp" alt="" width="560" height="420" loading="lazy" decoding="async">' + '<span class="gh-acc__i">' + ic("flask") + '</span><span class="gh-acc__t"><b>Biblioteca de valores de laboratorio</b><small>Consulta intervalos de referencia por sexo, edad y gestación (intervalos educativos).</small></span>' + ic("arrow") + '</button></li>' +
+      '<li><button type="button" class="gh-acc gh-acc--verde" id="ghLab"><img src="' + IMG + 'laboratorio.webp" alt="" width="560" height="420" loading="lazy" decoding="async">' + '<span class="gh-acc__i">' + ic("flask") + '</span><span class="gh-acc__t"><b>Biblioteca de valores de laboratorio</b><small>Análisis por áreas con sus valores de referencia, por edad y sexo, y buscador.</small></span>' + ic("arrow") + '</button></li>' +
       '<li><button type="button" class="gh-acc gh-acc--ambar" id="ghFu"><img src="' + IMG + 'guias.webp" alt="" width="560" height="420" loading="lazy" decoding="async"><span class="gh-acc__i">' + ic("book") + '</span><span class="gh-acc__t"><b>Guías y fuentes de los casos</b><small>' + F.todas.length + ' referencias: ' + F.peruanas.length + ' peruanas (MINSA/EsSalud) y ' + F.otras.length + ' internacionales.</small></span>' + ic("arrow") + '</button></li>' +
       '<li><div class="gh-acc gh-acc--celeste gh-acc--info"><span class="gh-acc__i">' + ic("img") + '</span><span class="gh-acc__t"><b>Imágenes médicas reales</b><small>' + conImg + ' casos incluyen imágenes publicadas con licencia abierta y su ficha de fuente; las verás dentro de cada caso.</small></span></div></li>' +
       '<li><a class="gh-acc gh-acc--lila" href="#/feynman"><img src="' + IMG + 'tutor.webp" alt="" width="560" height="420" loading="lazy" decoding="async"><span class="gh-acc__i">' + ic("chat") + '</span><span class="gh-acc__t"><b>Tutor Feynman IA</b><small>Explica un tema con tus palabras y recibe correcciones del tutor.</small></span>' + ic("arrow") + '</a></li></ul></section>' +
       '<p class="gh-credito">Las fotografías de esta pantalla son ilustraciones generadas con IA para el diseño y el monitor del encabezado es una animación decorativa con valores de ejemplo; no son imágenes ni datos clínicos reales ni sirven para interpretación diagnóstica. Las imágenes médicas de los casos son otras: figuras publicadas con licencia abierta y su fuente.</p></div>';
     cont.innerHTML = h;
-    cont.querySelector("#ghLab").addEventListener("click", function (e) { GD().abrirCatalogo(e.currentTarget); });
+    cont.querySelector("#ghLab").addEventListener("click", function (e) { abrirBiblioteca(e.currentTarget); });
     cont.querySelector("#ghFu").addEventListener("click", function (e) { abrirFuentes(F, e.currentTarget); });
     var bi = cont.querySelector("#ghIntro"); if (bi) bi.addEventListener("click", function () { M.guardiaIntro.mostrar({}); });
   }
+
+  /* ---------- biblioteca de valores de laboratorio (todas las áreas, buscador, secciones desplegables) ---------- */
+  var cargaBib = null;
+  function cargarBiblioteca() {
+    if (raiz.MQP_GUARDIA_BIB) return Promise.resolve(raiz.MQP_GUARDIA_BIB);
+    if (!cargaBib) cargaBib = new Promise(function (ok, mal) { var sc = document.createElement("script"); sc.src = BASE_HUB + "guardia_biblioteca.js" + (VER_HUB ? "?" + VER_HUB : ""); sc.onload = function () { ok(raiz.MQP_GUARDIA_BIB); }; sc.onerror = function () { cargaBib = null; mal(new Error("biblioteca")); }; document.head.appendChild(sc); });
+    return cargaBib;
+  }
+  function norm(t) { return String(t || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase(); }
+  function filaBib(t) {
+    var vals = t.r.map(function (x) { return '<li>' + (x[0] ? '<span class="gb-g">' + esc(x[0]) + '</span>' : "") + '<b>' + esc(x[1]) + '</b></li>'; }).join("");
+    return '<tr class="gb-fila" data-q="' + esc(norm(t.n + " " + t.a + " " + t.s)) + '"><th scope="row"><span class="gb-nom">' + esc(t.n) + '</span>' + (t.a ? ' <span class="gb-abr">' + esc(t.a) + '</span>' : "") + '</th><td class="gb-u">' + (t.u ? esc(t.u) : '<span aria-hidden="true">—</span><span class="sr-only">Sin unidad</span>') + '</td><td class="gb-v"><ul>' + vals + '</ul></td></tr>';
+  }
+  function abrirBiblioteca(disparador) {
+    var d = GD().dialogo("Biblioteca de valores de laboratorio", '<p class="muted" role="status">Cargando la biblioteca…</p>', "gd-dlg--lab gb-dlg", disparador);
+    cargarBiblioteca().then(function (B) {
+      if (!d.isConnected) return;
+      var total = B.areas.reduce(function (s, a) { return s + a.pruebas.length; }, 0);
+      d.querySelector(".gd-dlg__b").innerHTML = '<div class="gb"><div class="gb-top"><label class="gb-busca" for="gbQ">' + ic("search") + '<span class="sr-only">Buscar un análisis</span><input id="gbQ" type="search" autocomplete="off" placeholder="Buscar un análisis: hemoglobina, TSH, creatinina…"></label><p class="gb-n" id="gbN" role="status" aria-live="polite">' + total + ' análisis en ' + B.areas.length + ' áreas</p></div><div class="gb-areas">' +
+        B.areas.map(function (a) {
+          return '<details class="gb-area" style="--c:' + esc(a.color) + '" data-n="' + a.pruebas.length + '"><summary><span class="gb-ico">' + ic(I[a.icono] ? a.icono : "flask") + '</span><span class="gb-t">' + esc(a.nombre) + '</span><span class="gb-cnt">' + a.pruebas.length + '</span>' + ic("chev", "gb-chev") + '</summary><div class="gb-scroll" tabindex="0" role="region" aria-label="Análisis de ' + esc(a.nombre) + '"><table class="gb-tabla"><thead><tr><th scope="col">Análisis</th><th scope="col">Unidad</th><th scope="col">Valores de referencia</th></tr></thead><tbody>' + a.pruebas.map(filaBib).join("") + '</tbody></table></div></details>';
+        }).join("") + '</div><p class="gb-vacio" id="gbV" hidden>Ningún análisis coincide con la búsqueda.</p><p class="gb-pie">' + esc(B.nota) + '</p></div>';
+      var q = d.querySelector("#gbQ"), N = d.querySelector("#gbN"), V = d.querySelector("#gbV"), areas = [].slice.call(d.querySelectorAll(".gb-area"));
+      function filtrar() {
+        var t = norm(q.value).trim().split(/\s+/).filter(Boolean), n = 0, hay = 0;
+        areas.forEach(function (a) {
+          var c = 0; [].forEach.call(a.querySelectorAll(".gb-fila"), function (f) { var ok = !t.length || t.every(function (w) { return f.getAttribute("data-q").indexOf(w) >= 0; }); f.hidden = !ok; if (ok) c++; });
+          a.hidden = !!t.length && c === 0; if (t.length) a.open = c > 0; if (c) hay++; n += c; a.querySelector(".gb-cnt").textContent = t.length ? c : a.getAttribute("data-n");
+        });
+        N.textContent = t.length ? n + " resultado" + (n === 1 ? "" : "s") + " en " + hay + " área" + (hay === 1 ? "" : "s") : total + " análisis en " + B.areas.length + " áreas"; V.hidden = !t.length || n > 0;
+        if (!t.length) areas.forEach(function (a) { a.open = false; });
+      }
+      q.addEventListener("input", filtrar); q.focus();
+    }, function () { d.querySelector(".gd-dlg__b").innerHTML = '<p class="gd-alerta" role="alert">No se pudo cargar la biblioteca. Revisa tu conexión e inténtalo de nuevo.</p>'; });
+  }
+
   /* ---------- monitor vivo del hero ----------
      Anima el monitor de la ilustración (trazados de ECG, presión invasiva y pletismografía + cifras que varían poco). Es decorativo: los valores son de ejemplo.
      El lienzo se coloca sobre la región del monitor de hero.webp calculando cómo «cubre» la imagen el contenedor; sin movimiento reducido se anima, y se
