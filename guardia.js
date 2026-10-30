@@ -47,22 +47,24 @@
 
   /* ---------- laboratorio: resultados del paciente + catálogo de referencia ---------- */
   var MARCA = { bajo: "↓ Bajo", normal: "✓ Normal", alto: "↑ Alto", alterado: "⚠ Alterado" };
+  /* mayúscula inicial en todo lo que se muestra de un resultado (valores, intervalos, títulos); respeta siglas y nombres de especie («Escherichia coli») */
+  function mayus1(t) { t = t == null ? "" : String(t); return /^(pH|pCO|pO|mEq|mmol|mmHg|µ)/.test(t) ? t : t.charAt(0).toUpperCase() + t.slice(1); }
   function perfilTxt(p) { if (!p) return "perfil no definido"; return (p.sexo === "F" ? "mujer" : "varón") + ", " + p.edad_texto + (p.embarazo ? ", gestante (" + p.trimestre + ".º trimestre)" : ""); }
   function perfilNum(p) { return p ? { edad: p.edad, sexo: p.sexo, embarazo: !!p.embarazo, trimestre: p.trimestre } : {}; }
   function filaResultado(r, paciente, ocultar) {
     var t = prueba(r.prueba), N = G(); if (!t) return "";
-    var iv = r.ref ? { bajo: r.ref.bajo, alto: r.ref.alto, texto: r.ref.texto || "" } : N.intervaloAplicable(t, perfilNum(paciente)), txt = iv ? (iv.texto || "") : "sin intervalo cargado para este perfil";
+    var iv = r.ref ? { bajo: r.ref.bajo, alto: r.ref.alto, texto: r.ref.texto || "" } : N.intervaloAplicable(t, perfilNum(paciente)), txt = iv ? (iv.texto || "") : "Sin intervalo cargado para este perfil";
     var m = null;
     if (t.cualitativa) m = typeof r.valor === "string" ? (r.valor.toLowerCase() === t.normal ? "normal" : "alterado") : null; else m = typeof r.valor === "number" && iv ? N.marca(r.valor, iv) : null;
-    if (t.cualitativa) txt = "Normal: " + t.normal;
+    if (t.cualitativa) txt = t.normal === "normal" ? "Normal" : "Normal: " + mayus1(t.normal);
     var conv = ""; var c = N.CONVERSIONES[r.prueba]; if (c && typeof r.valor === "number" && t.unidad === c.de) conv = ' <span class="muted small">(≈ ' + (Math.round(N.convertir(r.prueba, r.valor, c.de, c.a) * 100) / 100) + " " + esc(c.a) + ")</span>";
-    return '<tr><th scope="row">' + esc(r.etiqueta || t.nombre) + '</th><td><b>' + esc(r.valor) + '</b> ' + esc(t.unidad) + conv + '</td><td>' + esc(txt) + (r.ref ? ' <span class="muted small">(ensayo del caso)</span>' : "") + '</td><td>' + (ocultar || !m ? '<span class="muted small">' + (ocultar ? "interpreta tú" : "—") + '</span>' : '<span class="gd-marca gd-marca--' + m + '">' + MARCA[m] + '</span>') + '</td></tr>';
+    return '<tr><th scope="row">' + esc(mayus1(r.etiqueta || t.nombre)) + '</th><td><b>' + esc(mayus1(r.valor)) + '</b> ' + esc(t.unidad) + conv + '</td><td>' + esc(mayus1(txt)) + (r.ref ? ' <span class="muted small">(ensayo del caso)</span>' : "") + '</td><td>' + (ocultar || !m ? '<span class="muted small">' + (ocultar ? "Interpreta tú" : "—") + '</span>' : '<span class="gd-marca gd-marca--' + m + '">' + MARCA[m] + '</span>') + '</td></tr>';
   }
   function tablaResultados(res, paciente, nodoActivoSinResponder) {
     if (!res.length) return '<p class="muted">Todavía no hay resultados de laboratorio. Aparecen aquí cuando el caso los entrega; no se adelantan.</p>';
     return res.map(function (g) {
       var ocultar = g.ocultar && g.nodoId === nodoActivoSinResponder;
-      return '<h3 class="gd-h3">' + esc(g.titulo) + '</h3><div class="gd-scroll"><table class="gd-tabla-lab"><thead><tr><th scope="col">Prueba</th><th scope="col">Resultado</th><th scope="col">Intervalo de referencia</th><th scope="col">Lectura</th></tr></thead><tbody>' +
+      return '<h3 class="gd-h3">' + esc(mayus1(g.titulo)) + '</h3><div class="gd-scroll"><table class="gd-tabla-lab"><thead><tr><th scope="col">Prueba</th><th scope="col">Resultado</th><th scope="col">Intervalo de referencia</th><th scope="col">Lectura</th></tr></thead><tbody>' +
         g.items.map(function (r) { return filaResultado(r, paciente, ocultar); }).join("") + '</tbody></table></div>' + (ocultar ? '<p class="muted small">Las marcas de alto/bajo se muestran cuando respondas esta decisión: la interpretación forma parte de lo que se evalúa.</p>' : "");
     }).join("");
   }
@@ -404,5 +406,5 @@
     var kp = cont.querySelector(".gd-aviso");
     if (kp && I) { kp.after(rep); rep.querySelector("button").addEventListener("click", function () { I.mostrar({}); }); }
   }
-  M.guardia = { montar: montar, asegurarDatos: asegurarDatos, abrirLaboratorio: abrirLaboratorio, tablaResultados: tablaResultados, filaResultado: filaResultado, tarjetaCatalogo: tarjetaCatalogo, dialogo: dialogo, cerrarDialogo: cerrarDialogo, figura: figura, ligarImagenes: ligarImagenes, refHtml: refHtml, esc: esc, enlace: enlace, ls: ls, AVISO: AVISO, perfilTxt: perfilTxt, efectosActivos: efectosActivos, cargar: cargar, estadisticasAlumno: estadisticasAlumno, abrirCatalogo: abrirCatalogo, contarDecisiones: contarDecisiones };
+  M.guardia = { montar: montar, asegurarDatos: asegurarDatos, abrirLaboratorio: abrirLaboratorio, tablaResultados: tablaResultados, filaResultado: filaResultado, tarjetaCatalogo: tarjetaCatalogo, dialogo: dialogo, cerrarDialogo: cerrarDialogo, figura: figura, ligarImagenes: ligarImagenes, refHtml: refHtml, esc: esc, enlace: enlace, ls: ls, AVISO: AVISO, perfilTxt: perfilTxt, efectosActivos: efectosActivos, mayus1: mayus1, cargar: cargar, estadisticasAlumno: estadisticasAlumno, abrirCatalogo: abrirCatalogo, contarDecisiones: contarDecisiones };
 })(typeof window !== "undefined" ? window : this);

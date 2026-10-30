@@ -1,0 +1,277 @@
+{
+ "id": "s07",
+ "numero": 7,
+ "titulo": "Se acabó el stock",
+ "tema": "Gestión · Desabastecimiento y priorización",
+ "resumen": "El almacén de la posta casi no tiene insumos y llegan tres pacientes: debes priorizar y gestionar el pedido.",
+ "dificultad": "intermedio",
+ "duracion_min": 10,
+ "paciente": {
+  "titulo": "Tres pacientes en espera",
+  "motivo": "Un niño con diarrea, una gestante con control y un adulto con herida."
+ },
+ "vitales": {
+  "fc": 100
+ },
+ "gravedad": 1,
+ "inventario_ajuste": {
+  "sro": 2,
+  "suero_salino": 1,
+  "venoclisis": 1,
+  "vendas": 3,
+  "oxigeno": 0
+ },
+ "historia": [
+  {
+   "id": "h1",
+   "rotulo": "Almacén",
+   "texto": "El último pedido llegó hace tres meses; hay faltantes importantes."
+  }
+ ],
+ "examen": [
+  {
+   "id": "e1",
+   "rotulo": "Niño",
+   "texto": "Diarrea con signos de deshidratación leve."
+  },
+  {
+   "id": "e2",
+   "rotulo": "Adulto",
+   "texto": "Herida con sangrado moderado."
+  }
+ ],
+ "pruebas": [],
+ "eventos": [
+  {
+   "cuando": {
+    "t": 30
+   },
+   "texto": "Se acaba una de las unidades que usabas.",
+   "inv": {
+    "sro": -1
+   }
+  }
+ ],
+ "momentos": [
+  {
+   "id": "m1",
+   "eje": "recursos",
+   "titulo": "Revisión",
+   "texto": "¿Qué haces antes de atender?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Revisar el inventario y priorizar según gravedad",
+     "calidad": "optima",
+     "retro": "Conocer lo disponible permite decidir con criterio.",
+     "min": 5
+    },
+    {
+     "id": "b",
+     "texto": "Usar los insumos sin revisar",
+     "calidad": "incorrecta",
+     "retro": "Se agota lo necesario para el caso más grave.",
+     "min": 5,
+     "error": "recursos",
+     "g": 1
+    },
+    {
+     "id": "c",
+     "texto": "Cerrar la posta",
+     "calidad": "incorrecta",
+     "retro": "Deja sin atención a quienes la necesitan.",
+     "min": 5,
+     "error": "normativo",
+     "g": 1
+    },
+    {
+     "id": "d",
+     "texto": "Pedir a los pacientes que traigan sus insumos",
+     "calidad": "incorrecta",
+     "retro": "Traslada la carga a la familia.",
+     "min": 5,
+     "error": "comunicacion"
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "eje": "clinico",
+   "titulo": "Prioridad",
+   "texto": "¿A quién atiendes primero?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Al paciente con mayor riesgo según su valoración",
+     "calidad": "optima",
+     "retro": "La prioridad es clínica, no por orden de llegada.",
+     "min": 5
+    },
+    {
+     "id": "b",
+     "texto": "Al primero que llegó, sin valorar",
+     "calidad": "incorrecta",
+     "retro": "Puede retrasar al más grave.",
+     "min": 5,
+     "error": "omision",
+     "g": 1
+    },
+    {
+     "id": "c",
+     "texto": "Al conocido del personal",
+     "calidad": "peligrosa",
+     "retro": "Es un criterio injusto e inseguro.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 2
+    },
+    {
+     "id": "d",
+     "texto": "A todos al mismo tiempo sin organización",
+     "calidad": "incorrecta",
+     "retro": "Se pierde calidad de atención.",
+     "min": 5,
+     "error": "omision"
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "eje": "recursos",
+   "titulo": "Uso racional",
+   "texto": "Hay solo dos sobres de SRO. ¿Cómo los usas?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Usarlos en el niño, enseñar a preparar suero casero seguro y registrar el faltante",
+     "calidad": "optima",
+     "retro": "Se usa lo necesario y se documenta el faltante.",
+     "min": 15,
+     "cons": {
+      "sro": 2
+     },
+     "req": {
+      "items": {
+       "sro": 2
+      }
+     },
+     "pendiente": true
+    },
+    {
+     "id": "b",
+     "texto": "Guardarlos y no usarlos",
+     "calidad": "incorrecta",
+     "retro": "El recurso existe para ser usado.",
+     "min": 5,
+     "error": "recursos",
+     "g": 1
+    },
+    {
+     "id": "c",
+     "texto": "Dárselos a otro paciente sin necesidad",
+     "calidad": "incorrecta",
+     "retro": "Uso inadecuado.",
+     "min": 5,
+     "error": "recursos"
+    },
+    {
+     "id": "d",
+     "texto": "Vender los sobres",
+     "calidad": "peligrosa",
+     "retro": "Falta ética grave.",
+     "min": 5,
+     "error": "normativo",
+     "g": 2
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "eje": "referencia",
+   "titulo": "Pedido y coordinación",
+   "texto": "¿Cómo gestionas el desabastecimiento?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Solicitar reposición por escrito, informar a la microred y registrar el faltante",
+     "calidad": "optima",
+     "retro": "La gestión formal deja evidencia y activa la respuesta.",
+     "min": 15
+    },
+    {
+     "id": "b",
+     "texto": "No informar",
+     "calidad": "incorrecta",
+     "retro": "El problema persiste.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "c",
+     "texto": "Informar verbalmente a un vecino",
+     "calidad": "incorrecta",
+     "retro": "No es un canal oficial.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "d",
+     "texto": "Esperar al siguiente pedido",
+     "calidad": "aceptable",
+     "retro": "No es un cierre activo.",
+     "min": 5,
+     "error": "demora"
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "eje": "comunitario",
+   "titulo": "Transparencia",
+   "texto": "¿Qué le explicas a la comunidad?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Explicar la situación con honestidad y decir cómo acceder a la atención",
+     "calidad": "optima",
+     "retro": "La transparencia mantiene la confianza.",
+     "min": 10
+    },
+    {
+     "id": "b",
+     "texto": "Ocultar el problema",
+     "calidad": "incorrecta",
+     "retro": "Daña la confianza.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "c",
+     "texto": "Culpar al sistema delante de todos",
+     "calidad": "incorrecta",
+     "retro": "No resuelve nada.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "d",
+     "texto": "No decir nada",
+     "calidad": "aceptable",
+     "retro": "Pierde la oportunidad de informar.",
+     "min": 5,
+     "error": "comunicacion"
+    }
+   ]
+  }
+ ],
+ "desenlaces": {
+  "favorable": "Se atendió con criterio y se activó la reposición.",
+  "reservado": "Se atendió, pero sin gestión del faltante.",
+  "desfavorable": "Se agotaron insumos críticos y se perjudicó a un paciente."
+ },
+ "evidencia": [],
+ "pendientes": [
+  "No se verificó un documento peruano de gestión de medicamentos e insumos en el primer nivel para citarlo; el caso queda pendiente de validación científica. La NTS 249-MINSA/DGAIN-2026 (RM 625-2026) define la cartera de servicios, no el manejo de stock."
+ ],
+ "estado_publicacion": "Pendiente de revisión clínica"
+}

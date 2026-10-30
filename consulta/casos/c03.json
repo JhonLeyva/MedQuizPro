@@ -421,20 +421,92 @@
   {
    "id": "p8",
    "categoria": "Orina",
-   "nombre": "Examen de orina",
+   "nombre": "Examen completo de orina",
    "clasificacion": "razonable",
    "justificacion": "Descarta una infección urinaria como causa del ardor y del dolor.",
    "resultado": {
     "tipo": "lab",
-    "titulo": "Examen de orina",
+    "titulo": "Examen completo de orina",
     "lab": [
      {
-      "prueba": "orina_esterasa",
+      "prueba": "orina_color",
+      "valor": "amarillo"
+     },
+     {
+      "prueba": "orina_aspecto",
+      "valor": "claro"
+     },
+     {
+      "prueba": "orina_densidad",
+      "valor": 1.02
+     },
+     {
+      "prueba": "orina_ph",
+      "valor": 6.0
+     },
+     {
+      "prueba": "orina_proteinas",
+      "valor": "negativo"
+     },
+     {
+      "prueba": "orina_glucosa",
+      "valor": "negativo"
+     },
+     {
+      "prueba": "orina_cetonas",
+      "valor": "negativo"
+     },
+     {
+      "prueba": "orina_bilirrubina",
+      "valor": "negativo"
+     },
+     {
+      "prueba": "orina_urobilinogeno",
+      "valor": "normal"
+     },
+     {
+      "prueba": "orina_sangre",
       "valor": "negativo"
      },
      {
       "prueba": "orina_nitritos",
       "valor": "negativo"
+     },
+     {
+      "prueba": "orina_esterasa",
+      "valor": "negativo"
+     },
+     {
+      "prueba": "orina_leucocitos",
+      "valor": 2
+     },
+     {
+      "prueba": "orina_hematies",
+      "valor": 1
+     },
+     {
+      "prueba": "orina_celulas_epiteliales",
+      "valor": "escasas"
+     },
+     {
+      "prueba": "orina_cilindros",
+      "valor": "ausentes"
+     },
+     {
+      "prueba": "orina_cristales",
+      "valor": "ausentes"
+     },
+     {
+      "prueba": "orina_bacterias",
+      "valor": "ausentes"
+     },
+     {
+      "prueba": "orina_levaduras",
+      "valor": "ausentes"
+     },
+     {
+      "prueba": "orina_mucus",
+      "valor": "escasos"
      }
     ]
    }

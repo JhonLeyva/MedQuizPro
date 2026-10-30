@@ -1,0 +1,290 @@
+{
+ "id": "s04",
+ "numero": 4,
+ "titulo": "Diarrea que no cede",
+ "tema": "Pediatría · Enfermedad diarreica",
+ "resumen": "Niño de dos años con diarrea de varios días, deshidratado, en una comunidad sin agua segura y con pocos sobres de sales de rehidratación.",
+ "dificultad": "basico",
+ "duracion_min": 10,
+ "paciente": {
+  "titulo": "Niño de 2 años",
+  "motivo": "Diarrea hace cinco días y está muy sediento."
+ },
+ "vitales": {
+  "fc": 140,
+  "fr": 32,
+  "temp": 37.8
+ },
+ "gravedad": 1,
+ "historia": [
+  {
+   "id": "h1",
+   "rotulo": "Evolución",
+   "texto": "Deposiciones líquidas varias veces al día; orina poco."
+  },
+  {
+   "id": "h2",
+   "rotulo": "Entorno",
+   "texto": "La familia toma agua de un río sin hervirla."
+  }
+ ],
+ "examen": [
+  {
+   "id": "e1",
+   "rotulo": "Hidratación",
+   "texto": "Ojos hundidos, mucosa seca y bebe con avidez."
+  }
+ ],
+ "pruebas": [],
+ "eventos": [
+  {
+   "cuando": {
+    "t": 40
+   },
+   "texto": "Pasa el tiempo sin rehidratar y el niño se muestra más decaído.",
+   "g": 1
+  }
+ ],
+ "momentos": [
+  {
+   "id": "m1",
+   "eje": "clinico",
+   "titulo": "Valoración",
+   "texto": "¿Qué evalúas primero?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "El estado de hidratación y los signos de gravedad",
+     "calidad": "optima",
+     "retro": "La deshidratación determina el plan de manejo.",
+     "min": 4,
+     "pendiente": true
+    },
+    {
+     "id": "b",
+     "texto": "Pedir un examen de heces antes de actuar",
+     "calidad": "incorrecta",
+     "retro": "No cambia el manejo inicial y retrasa la rehidratación.",
+     "min": 60,
+     "error": "demora",
+     "g": 1
+    },
+    {
+     "id": "c",
+     "texto": "Dar un antidiarreico",
+     "calidad": "peligrosa",
+     "retro": "No se recomienda en niños.",
+     "min": 5,
+     "error": "comision",
+     "g": 2,
+     "pendiente": true
+    },
+    {
+     "id": "d",
+     "texto": "Indicar ayuno",
+     "calidad": "incorrecta",
+     "retro": "El ayuno no es lo indicado en la diarrea infantil.",
+     "min": 5,
+     "error": "comision",
+     "g": 1,
+     "pendiente": true
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "eje": "recursos",
+   "titulo": "Rehidratación",
+   "texto": "Quedan pocos sobres de sales de rehidratación oral (SRO). ¿Qué haces?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Rehidratar por vía oral con SRO y enseñar a la madre a preparar la mezcla",
+     "calidad": "optima",
+     "retro": "Es el tratamiento de primera línea cuando se tolera la vía oral.",
+     "min": 30,
+     "g": -1,
+     "cons": {
+      "sro": 4
+     },
+     "req": {
+      "items": {
+       "sro": 4
+      }
+     },
+     "pendiente": true
+    },
+    {
+     "id": "b",
+     "texto": "Indicar solo líquidos caseros sin SRO",
+     "calidad": "aceptable",
+     "retro": "Ayuda, pero no repone electrolitos adecuadamente.",
+     "min": 10,
+     "error": "recursos",
+     "pendiente": true
+    },
+    {
+     "id": "c",
+     "texto": "Usar todo el stock de SRO en este niño",
+     "calidad": "incorrecta",
+     "retro": "Deja sin recursos a otros niños.",
+     "min": 5,
+     "error": "recursos",
+     "cons": {
+      "sro": 20
+     },
+     "req": {
+      "items": {
+       "sro": 20
+      }
+     }
+    },
+    {
+     "id": "d",
+     "texto": "No rehidratar y derivar sin tratamiento",
+     "calidad": "incorrecta",
+     "retro": "Se pierde la oportunidad de corregir la deshidratación.",
+     "min": 5,
+     "error": "omision",
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "eje": "seguridad",
+   "titulo": "Reevaluación",
+   "texto": "Tras la rehidratación, ¿qué haces?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Reevaluar la hidratación y decidir si necesita referencia",
+     "calidad": "optima",
+     "retro": "La reevaluación guía la conducta.",
+     "min": 10,
+     "g": -1
+    },
+    {
+     "id": "b",
+     "texto": "Dar de alta sin reevaluar",
+     "calidad": "incorrecta",
+     "retro": "Podría persistir la deshidratación.",
+     "min": 5,
+     "error": "omision",
+     "g": 1
+    },
+    {
+     "id": "c",
+     "texto": "Referir sin haber rehidratado",
+     "calidad": "aceptable",
+     "retro": "Referir puede ser razonable, pero la rehidratación inicial no debería esperar.",
+     "min": 5,
+     "error": "demora"
+    },
+    {
+     "id": "d",
+     "texto": "Dar antibiótico de rutina",
+     "calidad": "incorrecta",
+     "retro": "No toda diarrea requiere antibiótico.",
+     "min": 5,
+     "error": "comision",
+     "g": 1,
+     "pendiente": true
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "eje": "referencia",
+   "titulo": "Criterio de referencia",
+   "texto": "Si el niño no mejora, ¿qué haces?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Referir con hoja de referencia y avisar",
+     "calidad": "optima",
+     "retro": "Cuando falla el manejo en el primer nivel se refiere.",
+     "min": 15,
+     "referencia": "emergencia"
+    },
+    {
+     "id": "b",
+     "texto": "Esperar un día más",
+     "calidad": "incorrecta",
+     "retro": "Aumenta el riesgo de deshidratación grave.",
+     "min": 5,
+     "error": "demora",
+     "g": 1
+    },
+    {
+     "id": "c",
+     "texto": "No referir: la madre decide",
+     "calidad": "incorrecta",
+     "retro": "La decisión clínica corresponde al personal.",
+     "min": 5,
+     "error": "normativo",
+     "g": 1
+    },
+    {
+     "id": "d",
+     "texto": "Referir sin aviso",
+     "calidad": "aceptable",
+     "retro": "Se refiere, pero sin coordinación.",
+     "min": 5,
+     "error": "comunicacion",
+     "referencia": "emergencia"
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "eje": "comunitario",
+   "titulo": "Agua y saneamiento",
+   "texto": "¿Qué haces para evitar nuevos casos?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Educar sobre el agua segura, el lavado de manos y coordinar con la comunidad",
+     "calidad": "optima",
+     "retro": "La prevención está en el agua y la higiene.",
+     "min": 10,
+     "pendiente": true
+    },
+    {
+     "id": "b",
+     "texto": "No hacer nada",
+     "calidad": "incorrecta",
+     "retro": "Se pierde la oportunidad de prevenir.",
+     "min": 5,
+     "error": "omision"
+    },
+    {
+     "id": "c",
+     "texto": "Dar solo un volante",
+     "calidad": "aceptable",
+     "retro": "Informa, pero sin acompañamiento.",
+     "min": 5,
+     "error": "omision"
+    },
+    {
+     "id": "d",
+     "texto": "Culpar a la familia",
+     "calidad": "incorrecta",
+     "retro": "No ayuda.",
+     "min": 5,
+     "error": "comunicacion"
+    }
+   ]
+  }
+ ],
+ "desenlaces": {
+  "favorable": "El niño se rehidrató y mejoró.",
+  "reservado": "El niño necesitó más atención.",
+  "desfavorable": "El niño tuvo una deshidratación grave."
+ },
+ "evidencia": [],
+ "pendientes": [
+  "No se verificó una norma clínica peruana vigente sobre manejo de la enfermedad diarreica en el niño; el caso entero está pendiente de validación científica. La NTS 190-MINSA/CDC-2022 (RM 730-2022) trata solo de vigilancia epidemiológica."
+ ],
+ "estado_publicacion": "Pendiente de revisión clínica"
+}

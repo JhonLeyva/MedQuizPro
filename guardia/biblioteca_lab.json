@@ -1,0 +1,4602 @@
+{
+ "v": 1,
+ "nota": "Valores orientativos de uso general. Cada laboratorio informa su propio intervalo según el método y el equipo.",
+ "areas": [
+  {
+   "id": "hematologia",
+   "nombre": "Hematología",
+   "icono": "drop",
+   "color": "#c8203c",
+   "pruebas": [
+    {
+     "n": "Hemoglobina",
+     "a": "Hb",
+     "u": "g/dL",
+     "r": [
+      [
+       "Recién nacido (< 2 meses)",
+       "13.5 – 18.5"
+      ],
+      [
+       "2 – 6 meses",
+       "9.5 – 13.5"
+      ],
+      [
+       "6 meses – 5 años",
+       "11.0 – 14.0"
+      ],
+      [
+       "5 – 11 años",
+       "11.5 – 15.5"
+      ],
+      [
+       "12 – 14 años",
+       "12.0 – 15.5"
+      ],
+      [
+       "Varón",
+       "13.5 – 17.5"
+      ],
+      [
+       "Mujer",
+       "12.0 – 15.5"
+      ],
+      [
+       "Gestante, 1.er y 3.er trimestre",
+       "≥ 11.0"
+      ],
+      [
+       "Gestante, 2.º trimestre",
+       "≥ 10.5"
+      ],
+      [
+       "Observación",
+       "Sobre 1 000 msnm se ajusta según la altitud"
+      ]
+     ],
+     "s": "hemoglobina anemia hemograma"
+    },
+    {
+     "n": "Hematocrito",
+     "a": "Hto",
+     "u": "%",
+     "r": [
+      [
+       "Recién nacido",
+       "44 – 64"
+      ],
+      [
+       "2 meses",
+       "28 – 42"
+      ],
+      [
+       "6 meses – 2 años",
+       "33 – 39"
+      ],
+      [
+       "2 – 6 años",
+       "34 – 40"
+      ],
+      [
+       "6 – 12 años",
+       "35 – 45"
+      ],
+      [
+       "Varón",
+       "41 – 53"
+      ],
+      [
+       "Mujer",
+       "36 – 46"
+      ],
+      [
+       "Gestante, 1.er y 3.er trimestre",
+       "≥ 33"
+      ],
+      [
+       "Gestante, 2.º trimestre",
+       "≥ 32"
+      ]
+     ],
+     "s": "hematocrito hemograma"
+    },
+    {
+     "n": "Eritrocitos (recuento de glóbulos rojos)",
+     "a": "GR",
+     "u": "millones/mm³",
+     "r": [
+      [
+       "Recién nacido",
+       "4.0 – 6.6"
+      ],
+      [
+       "Lactante (1 – 11 meses)",
+       "3.1 – 4.5"
+      ],
+      [
+       "Niño (1 – 12 años)",
+       "3.9 – 5.3"
+      ],
+      [
+       "Varón",
+       "4.5 – 5.9"
+      ],
+      [
+       "Mujer",
+       "4.1 – 5.1"
+      ]
+     ],
+     "s": "hematíes glóbulos rojos"
+    },
+    {
+     "n": "Volumen corpuscular medio",
+     "a": "VCM",
+     "u": "fL",
+     "r": [
+      [
+       "Recién nacido",
+       "98 – 118"
+      ],
+      [
+       "1 – 12 meses",
+       "72 – 90"
+      ],
+      [
+       "Niño (1 – 12 años)",
+       "75 – 87"
+      ],
+      [
+       "Adulto",
+       "80 – 100"
+      ]
+     ],
+     "s": "microcitosis macrocitosis"
+    },
+    {
+     "n": "Hemoglobina corpuscular media",
+     "a": "HCM",
+     "u": "pg",
+     "r": [
+      [
+       "",
+       "27 – 33"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Concentración de hemoglobina corpuscular media",
+     "a": "CHCM",
+     "u": "g/dL",
+     "r": [
+      [
+       "",
+       "32 – 36"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Ancho de distribución eritrocitaria",
+     "a": "ADE",
+     "u": "%",
+     "r": [
+      [
+       "",
+       "11.5 – 14.5"
+      ]
+     ],
+     "s": "RDW anisocitosis"
+    },
+    {
+     "n": "Reticulocitos",
+     "a": "Retic",
+     "u": "%",
+     "r": [
+      [
+       "Recién nacido",
+       "2.0 – 6.0"
+      ],
+      [
+       "Lactante (1 – 11 meses)",
+       "0.5 – 3.0"
+      ],
+      [
+       "Adulto",
+       "0.5 – 2.0"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Leucocitos (recuento total)",
+     "a": "GB",
+     "u": "/mm³",
+     "r": [
+      [
+       "Recién nacido",
+       "9 000 – 30 000"
+      ],
+      [
+       "1 – 12 meses",
+       "6 000 – 17 500"
+      ],
+      [
+       "1 – 3 años",
+       "6 000 – 17 000"
+      ],
+      [
+       "4 – 7 años",
+       "5 500 – 15 500"
+      ],
+      [
+       "8 – 12 años",
+       "4 500 – 13 500"
+      ],
+      [
+       "Adulto",
+       "4 500 – 11 000"
+      ]
+     ],
+     "s": "glóbulos blancos leucocitosis leucopenia"
+    },
+    {
+     "n": "Neutrófilos segmentados",
+     "a": "",
+     "u": "%",
+     "r": [
+      [
+       "Adulto",
+       "40 – 70"
+      ],
+      [
+       "Niño (2 – 10 años)",
+       "35 – 65"
+      ]
+     ],
+     "s": "neutrófilos neutropenia"
+    },
+    {
+     "n": "Neutrófilos segmentados (recuento absoluto)",
+     "a": "RAN",
+     "u": "/mm³",
+     "r": [
+      [
+       "",
+       "1 800 – 7 700"
+      ]
+     ],
+     "s": "neutropenia"
+    },
+    {
+     "n": "Neutrófilos abastonados",
+     "a": "",
+     "u": "%",
+     "r": [
+      [
+       "",
+       "0 – 5"
+      ]
+     ],
+     "s": "cayados bandas"
+    },
+    {
+     "n": "Eosinófilos",
+     "a": "",
+     "u": "%",
+     "r": [
+      [
+       "",
+       "1 – 4"
+      ]
+     ],
+     "s": "eosinofilia"
+    },
+    {
+     "n": "Eosinófilos (recuento absoluto)",
+     "a": "",
+     "u": "/mm³",
+     "r": [
+      [
+       "",
+       "50 – 500"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Basófilos",
+     "a": "",
+     "u": "%",
+     "r": [
+      [
+       "",
+       "0 – 1"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Linfocitos",
+     "a": "",
+     "u": "%",
+     "r": [
+      [
+       "Lactante y niño menor de 4 años",
+       "45 – 65"
+      ],
+      [
+       "Niño mayor y adulto",
+       "20 – 40"
+      ]
+     ],
+     "s": "linfocitosis linfopenia"
+    },
+    {
+     "n": "Linfocitos (recuento absoluto)",
+     "a": "",
+     "u": "/mm³",
+     "r": [
+      [
+       "Niño menor de 4 años",
+       "3 000 – 9 500"
+      ],
+      [
+       "Adulto",
+       "1 000 – 4 800"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Monocitos",
+     "a": "",
+     "u": "%",
+     "r": [
+      [
+       "",
+       "2 – 8"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Plaquetas",
+     "a": "Plaq",
+     "u": "/mm³",
+     "r": [
+      [
+       "",
+       "150 000 – 450 000"
+      ]
+     ],
+     "s": "trombocitopenia trombocitosis"
+    },
+    {
+     "n": "Volumen plaquetario medio",
+     "a": "VPM",
+     "u": "fL",
+     "r": [
+      [
+       "",
+       "7.5 – 11.5"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Velocidad de sedimentación globular (Westergren)",
+     "a": "VSG",
+     "u": "mm/h",
+     "r": [
+      [
+       "Recién nacido",
+       "0 – 2"
+      ],
+      [
+       "Niño",
+       "0 – 10"
+      ],
+      [
+       "Varón menor de 50 años",
+       "0 – 15"
+      ],
+      [
+       "Varón de 50 años o más",
+       "0 – 20"
+      ],
+      [
+       "Mujer menor de 50 años",
+       "0 – 20"
+      ],
+      [
+       "Mujer de 50 años o más",
+       "0 – 30"
+      ]
+     ],
+     "s": "eritrosedimentación"
+    },
+    {
+     "n": "Electroforesis de hemoglobina: Hb A",
+     "a": "Hb A",
+     "u": "%",
+     "r": [
+      [
+       "",
+       "95 – 98"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Electroforesis de hemoglobina: Hb A₂",
+     "a": "Hb A2",
+     "u": "%",
+     "r": [
+      [
+       "",
+       "2.0 – 3.5"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Electroforesis de hemoglobina: Hb F",
+     "a": "Hb F",
+     "u": "%",
+     "r": [
+      [
+       "Recién nacido",
+       "50 – 80"
+      ],
+      [
+       "6 meses",
+       "< 8"
+      ],
+      [
+       "Adulto",
+       "< 2"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Glucosa-6-fosfato deshidrogenasa",
+     "a": "G6PD",
+     "u": "U/g Hb",
+     "r": [
+      [
+       "",
+       "4.6 – 13.5"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Prueba de Coombs directa",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": "antiglobulina"
+    },
+    {
+     "n": "Prueba de Coombs indirecta",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": "antiglobulina"
+    },
+    {
+     "n": "Grupo sanguíneo y factor Rh",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "A, B, AB u O; Rh positivo o negativo"
+      ]
+     ],
+     "s": "tipificación"
+    }
+   ]
+  },
+  {
+   "id": "coagulacion",
+   "nombre": "Coagulación y hemostasia",
+   "icono": "clot",
+   "color": "#9b1c3a",
+   "pruebas": [
+    {
+     "n": "Tiempo de protrombina",
+     "a": "TP",
+     "u": "s",
+     "r": [
+      [
+       "",
+       "11 – 13.5"
+      ]
+     ],
+     "s": "protrombina"
+    },
+    {
+     "n": "Razón normalizada internacional",
+     "a": "INR",
+     "u": "",
+     "r": [
+      [
+       "Sin anticoagulación",
+       "0.8 – 1.2"
+      ],
+      [
+       "Meta con warfarina (la mayoría de indicaciones)",
+       "2.0 – 3.0"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Tiempo de tromboplastina parcial activada",
+     "a": "TTPa",
+     "u": "s",
+     "r": [
+      [
+       "",
+       "25 – 35"
+      ]
+     ],
+     "s": "TTP"
+    },
+    {
+     "n": "Tiempo de trombina",
+     "a": "TT",
+     "u": "s",
+     "r": [
+      [
+       "",
+       "14 – 19"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Fibrinógeno",
+     "a": "",
+     "u": "mg/dL",
+     "r": [
+      [
+       "",
+       "200 – 400"
+      ]
+     ],
+     "s": "factor I"
+    },
+    {
+     "n": "Dímero D",
+     "a": "",
+     "u": "ng/mL FEU",
+     "r": [
+      [
+       "Adulto",
+       "< 500"
+      ],
+      [
+       "Adulto mayor de 50 años (ajustado a la edad)",
+       "< edad × 10"
+      ]
+     ],
+     "s": "dimero d D-dímero"
+    },
+    {
+     "n": "Tiempo de sangría (Ivy)",
+     "a": "",
+     "u": "min",
+     "r": [
+      [
+       "",
+       "2 – 7"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Tiempo de coagulación (Lee-White)",
+     "a": "",
+     "u": "min",
+     "r": [
+      [
+       "",
+       "5 – 15"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Antitrombina III",
+     "a": "AT III",
+     "u": "%",
+     "r": [
+      [
+       "",
+       "80 – 120"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Proteína C (actividad)",
+     "a": "",
+     "u": "%",
+     "r": [
+      [
+       "",
+       "70 – 140"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Proteína S libre (actividad)",
+     "a": "",
+     "u": "%",
+     "r": [
+      [
+       "Varón",
+       "65 – 140"
+      ],
+      [
+       "Mujer",
+       "55 – 125"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Factor VIII (actividad)",
+     "a": "",
+     "u": "%",
+     "r": [
+      [
+       "",
+       "50 – 150"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Factor IX (actividad)",
+     "a": "",
+     "u": "%",
+     "r": [
+      [
+       "",
+       "50 – 150"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Anticoagulante lúpico",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": ""
+    }
+   ]
+  },
+  {
+   "id": "glucosa",
+   "nombre": "Glucosa y metabolismo",
+   "icono": "flask",
+   "color": "#b45309",
+   "pruebas": [
+    {
+     "n": "Glucosa en ayunas (plasma venoso)",
+     "a": "",
+     "u": "mg/dL",
+     "r": [
+      [
+       "Niño",
+       "60 – 100"
+      ],
+      [
+       "Adulto, normal",
+       "70 – 99"
+      ],
+      [
+       "Adulto, prediabetes",
+       "100 – 125"
+      ],
+      [
+       "Adulto, diabetes",
+       "≥ 126 (en dos ocasiones)"
+      ]
+     ],
+     "s": "glicemia glucemia azúcar"
+    },
+    {
+     "n": "Glucosa 2 horas posprandial",
+     "a": "",
+     "u": "mg/dL",
+     "r": [
+      [
+       "Normal",
+       "< 140"
+      ],
+      [
+       "Diabetes",
+       "≥ 200"
+      ]
+     ],
+     "s": "glicemia postprandial"
+    },
+    {
+     "n": "Prueba de tolerancia oral a la glucosa (75 g), glucosa a las 2 horas",
+     "a": "TTOG",
+     "u": "mg/dL",
+     "r": [
+      [
+       "Normal",
+       "< 140"
+      ],
+      [
+       "Intolerancia a la glucosa",
+       "140 – 199"
+      ],
+      [
+       "Diabetes",
+       "≥ 200"
+      ]
+     ],
+     "s": "curva de tolerancia"
+    },
+    {
+     "n": "Glucosa al azar",
+     "a": "",
+     "u": "mg/dL",
+     "r": [
+      [
+       "",
+       "≥ 200 con síntomas sugiere diabetes"
+      ]
+     ],
+     "s": "glicemia casual"
+    },
+    {
+     "n": "Hemoglobina glicosilada",
+     "a": "HbA1c",
+     "u": "%",
+     "r": [
+      [
+       "Normal",
+       "< 5.7"
+      ],
+      [
+       "Prediabetes",
+       "5.7 – 6.4"
+      ],
+      [
+       "Diabetes",
+       "≥ 6.5"
+      ],
+      [
+       "Meta habitual en diabetes del adulto",
+       "< 7.0"
+      ]
+     ],
+     "s": "glicosilada A1c"
+    },
+    {
+     "n": "Insulina basal",
+     "a": "",
+     "u": "µUI/mL",
+     "r": [
+      [
+       "",
+       "2 – 25"
+      ]
+     ],
+     "s": "insulinemia"
+    },
+    {
+     "n": "Péptido C (ayunas)",
+     "a": "",
+     "u": "ng/mL",
+     "r": [
+      [
+       "",
+       "0.8 – 3.5"
+      ]
+     ],
+     "s": "peptido c"
+    },
+    {
+     "n": "Índice HOMA-IR",
+     "a": "HOMA-IR",
+     "u": "",
+     "r": [
+      [
+       "",
+       "< 2.5"
+      ]
+     ],
+     "s": "resistencia a la insulina"
+    },
+    {
+     "n": "Fructosamina",
+     "a": "",
+     "u": "µmol/L",
+     "r": [
+      [
+       "",
+       "205 – 285"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "β-hidroxibutirato (cetonemia)",
+     "a": "BHB",
+     "u": "mmol/L",
+     "r": [
+      [
+       "",
+       "< 0.6"
+      ]
+     ],
+     "s": "cuerpos cetónicos cetonas"
+    },
+    {
+     "n": "Lactato (sangre arterial o venosa)",
+     "a": "",
+     "u": "mmol/L",
+     "r": [
+      [
+       "",
+       "0.5 – 2.0"
+      ]
+     ],
+     "s": "ácido láctico"
+    },
+    {
+     "n": "Osmolaridad sérica",
+     "a": "",
+     "u": "mOsm/kg",
+     "r": [
+      [
+       "",
+       "275 – 295"
+      ]
+     ],
+     "s": "osmolalidad"
+    },
+    {
+     "n": "Homocisteína",
+     "a": "",
+     "u": "µmol/L",
+     "r": [
+      [
+       "",
+       "5 – 15"
+      ]
+     ],
+     "s": ""
+    }
+   ]
+  },
+  {
+   "id": "lipidos",
+   "nombre": "Perfil lipídico",
+   "icono": "heart",
+   "color": "#d97706",
+   "pruebas": [
+    {
+     "n": "Colesterol total",
+     "a": "CT",
+     "u": "mg/dL",
+     "r": [
+      [
+       "Niño y adolescente",
+       "< 170"
+      ],
+      [
+       "Adulto, deseable",
+       "< 200"
+      ],
+      [
+       "Adulto, límite alto",
+       "200 – 239"
+      ],
+      [
+       "Adulto, alto",
+       "≥ 240"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Colesterol LDL",
+     "a": "LDL-c",
+     "u": "mg/dL",
+     "r": [
+      [
+       "Niño y adolescente",
+       "< 110"
+      ],
+      [
+       "Adulto, óptimo",
+       "< 100"
+      ],
+      [
+       "Cercano al óptimo",
+       "100 – 129"
+      ],
+      [
+       "Límite alto",
+       "130 – 159"
+      ],
+      [
+       "Alto",
+       "160 – 189"
+      ],
+      [
+       "Muy alto",
+       "≥ 190"
+      ]
+     ],
+     "s": "colesterol malo"
+    },
+    {
+     "n": "Colesterol HDL",
+     "a": "HDL-c",
+     "u": "mg/dL",
+     "r": [
+      [
+       "Niño y adolescente",
+       "> 45"
+      ],
+      [
+       "Varón",
+       "> 40"
+      ],
+      [
+       "Mujer",
+       "> 50"
+      ]
+     ],
+     "s": "colesterol bueno"
+    },
+    {
+     "n": "Triglicéridos",
+     "a": "TG",
+     "u": "mg/dL",
+     "r": [
+      [
+       "Niño de 0 – 9 años",
+       "< 75"
+      ],
+      [
+       "Adolescente de 10 – 19 años",
+       "< 90"
+      ],
+      [
+       "Adulto, normal",
+       "< 150"
+      ],
+      [
+       "Adulto, límite alto",
+       "150 – 199"
+      ],
+      [
+       "Adulto, alto",
+       "200 – 499"
+      ],
+      [
+       "Adulto, muy alto",
+       "≥ 500"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Colesterol no HDL",
+     "a": "",
+     "u": "mg/dL",
+     "r": [
+      [
+       "",
+       "< 130"
+      ]
+     ],
+     "s": "no-HDL"
+    },
+    {
+     "n": "Colesterol VLDL",
+     "a": "VLDL",
+     "u": "mg/dL",
+     "r": [
+      [
+       "",
+       "5 – 40"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Apolipoproteína A1",
+     "a": "Apo A1",
+     "u": "mg/dL",
+     "r": [
+      [
+       "Varón",
+       "110 – 180"
+      ],
+      [
+       "Mujer",
+       "120 – 190"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Apolipoproteína B",
+     "a": "Apo B",
+     "u": "mg/dL",
+     "r": [
+      [
+       "",
+       "60 – 130"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Lipoproteína (a)",
+     "a": "Lp(a)",
+     "u": "mg/dL",
+     "r": [
+      [
+       "",
+       "< 30"
+      ]
+     ],
+     "s": ""
+    }
+   ]
+  },
+  {
+   "id": "renal",
+   "nombre": "Función renal",
+   "icono": "kidney",
+   "color": "#0f766e",
+   "pruebas": [
+    {
+     "n": "Urea",
+     "a": "",
+     "u": "mg/dL",
+     "r": [
+      [
+       "Recién nacido",
+       "6 – 26"
+      ],
+      [
+       "Lactante y niño",
+       "10 – 40"
+      ],
+      [
+       "Adulto",
+       "15 – 45"
+      ]
+     ],
+     "s": "uremia"
+    },
+    {
+     "n": "Nitrógeno ureico en sangre",
+     "a": "BUN",
+     "u": "mg/dL",
+     "r": [
+      [
+       "Recién nacido",
+       "3 – 12"
+      ],
+      [
+       "Lactante y niño",
+       "5 – 18"
+      ],
+      [
+       "Adulto",
+       "7 – 20"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Creatinina sérica",
+     "a": "Crea",
+     "u": "mg/dL",
+     "r": [
+      [
+       "Recién nacido",
+       "0.3 – 1.0"
+      ],
+      [
+       "Lactante (1 – 11 meses)",
+       "0.2 – 0.4"
+      ],
+      [
+       "Niño de 1 – 5 años",
+       "0.3 – 0.6"
+      ],
+      [
+       "Niño de 6 – 12 años",
+       "0.4 – 0.7"
+      ],
+      [
+       "Adolescente (13 – 17 años)",
+       "0.5 – 1.0"
+      ],
+      [
+       "Varón adulto",
+       "0.7 – 1.3"
+      ],
+      [
+       "Mujer adulta",
+       "0.6 – 1.1"
+      ]
+     ],
+     "s": "creatinemia"
+    },
+    {
+     "n": "Ácido úrico",
+     "a": "",
+     "u": "mg/dL",
+     "r": [
+      [
+       "Niño (1 – 12 años)",
+       "2.0 – 5.5"
+      ],
+      [
+       "Varón",
+       "3.5 – 7.2"
+      ],
+      [
+       "Mujer",
+       "2.6 – 6.0"
+      ]
+     ],
+     "s": "uricemia"
+    },
+    {
+     "n": "Tasa de filtración glomerular estimada",
+     "a": "TFG",
+     "u": "mL/min/1.73 m²",
+     "r": [
+      [
+       "Normal",
+       "≥ 90"
+      ],
+      [
+       "Descenso leve",
+       "60 – 89"
+      ],
+      [
+       "Descenso leve a moderado",
+       "45 – 59"
+      ],
+      [
+       "Descenso moderado a grave",
+       "30 – 44"
+      ],
+      [
+       "Descenso grave",
+       "15 – 29"
+      ],
+      [
+       "Falla renal",
+       "< 15"
+      ]
+     ],
+     "s": "filtrado glomerular CKD-EPI MDRD"
+    },
+    {
+     "n": "Depuración de creatinina en orina de 24 horas",
+     "a": "",
+     "u": "mL/min",
+     "r": [
+      [
+       "Varón",
+       "97 – 137"
+      ],
+      [
+       "Mujer",
+       "88 – 128"
+      ]
+     ],
+     "s": "clearance de creatinina aclaramiento"
+    },
+    {
+     "n": "Cistatina C",
+     "a": "",
+     "u": "mg/L",
+     "r": [
+      [
+       "",
+       "0.6 – 1.0"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Relación BUN/creatinina",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "10 – 20 : 1"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Relación albúmina/creatinina en orina",
+     "a": "RAC",
+     "u": "mg/g",
+     "r": [
+      [
+       "Normal",
+       "< 30"
+      ],
+      [
+       "Microalbuminuria",
+       "30 – 300"
+      ],
+      [
+       "Macroalbuminuria",
+       "> 300"
+      ]
+     ],
+     "s": "albuminuria"
+    },
+    {
+     "n": "Relación proteína/creatinina en orina",
+     "a": "RPC",
+     "u": "mg/mg",
+     "r": [
+      [
+       "Niño de 6 meses – 2 años",
+       "< 0.5"
+      ],
+      [
+       "Niño mayor y adulto",
+       "< 0.2"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Proteinuria de 24 horas",
+     "a": "",
+     "u": "mg/24 h",
+     "r": [
+      [
+       "",
+       "< 150"
+      ]
+     ],
+     "s": "proteínas en orina de 24 horas"
+    },
+    {
+     "n": "Excreción fraccional de sodio",
+     "a": "EFNa",
+     "u": "%",
+     "r": [
+      [
+       "Prerrenal",
+       "< 1"
+      ],
+      [
+       "Necrosis tubular aguda",
+       "> 2"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Osmolalidad urinaria",
+     "a": "",
+     "u": "mOsm/kg",
+     "r": [
+      [
+       "",
+       "50 – 1 200"
+      ]
+     ],
+     "s": "osmolaridad urinaria"
+    }
+   ]
+  },
+  {
+   "id": "higado",
+   "nombre": "Hígado, vías biliares y páncreas",
+   "icono": "liver",
+   "color": "#a16207",
+   "pruebas": [
+    {
+     "n": "Aspartato aminotransferasa",
+     "a": "TGO / AST",
+     "u": "U/L",
+     "r": [
+      [
+       "Adulto",
+       "10 – 40"
+      ]
+     ],
+     "s": "transaminasa oxalacética GOT"
+    },
+    {
+     "n": "Alanina aminotransferasa",
+     "a": "TGP / ALT",
+     "u": "U/L",
+     "r": [
+      [
+       "Adulto",
+       "7 – 55"
+      ]
+     ],
+     "s": "transaminasa pirúvica GPT"
+    },
+    {
+     "n": "Fosfatasa alcalina",
+     "a": "FA",
+     "u": "U/L",
+     "r": [
+      [
+       "Lactante (1 – 11 meses)",
+       "150 – 600"
+      ],
+      [
+       "Niño de 1 – 12 años",
+       "150 – 420"
+      ],
+      [
+       "Adolescente (13 – 17 años)",
+       "130 – 525"
+      ],
+      [
+       "Adulto",
+       "44 – 147"
+      ]
+     ],
+     "s": "alcalina"
+    },
+    {
+     "n": "Gamma glutamil transferasa",
+     "a": "GGT",
+     "u": "U/L",
+     "r": [
+      [
+       "Varón",
+       "8 – 61"
+      ],
+      [
+       "Mujer",
+       "5 – 36"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Bilirrubina total",
+     "a": "BT",
+     "u": "mg/dL",
+     "r": [
+      [
+       "Recién nacido a término, 0 – 1 día",
+       "2.0 – 6.0"
+      ],
+      [
+       "Recién nacido a término, 1 – 2 días",
+       "6.0 – 10.0"
+      ],
+      [
+       "Recién nacido a término, 3 – 5 días",
+       "4.0 – 12.0"
+      ],
+      [
+       "Niño y adulto",
+       "0.1 – 1.2"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Bilirrubina directa",
+     "a": "BD",
+     "u": "mg/dL",
+     "r": [
+      [
+       "",
+       "0.0 – 0.3"
+      ]
+     ],
+     "s": "conjugada"
+    },
+    {
+     "n": "Bilirrubina indirecta",
+     "a": "BI",
+     "u": "mg/dL",
+     "r": [
+      [
+       "",
+       "0.1 – 0.9"
+      ]
+     ],
+     "s": "no conjugada"
+    },
+    {
+     "n": "Proteínas totales",
+     "a": "PT",
+     "u": "g/dL",
+     "r": [
+      [
+       "Niño (1 – 12 años)",
+       "6.0 – 8.0"
+      ],
+      [
+       "Adulto",
+       "6.0 – 8.3"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Albúmina",
+     "a": "",
+     "u": "g/dL",
+     "r": [
+      [
+       "Niño (1 – 12 años)",
+       "3.8 – 5.4"
+      ],
+      [
+       "Adulto",
+       "3.5 – 5.0"
+      ]
+     ],
+     "s": "albuminemia"
+    },
+    {
+     "n": "Globulinas",
+     "a": "",
+     "u": "g/dL",
+     "r": [
+      [
+       "",
+       "2.0 – 3.5"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Relación albúmina/globulina",
+     "a": "A/G",
+     "u": "",
+     "r": [
+      [
+       "",
+       "1.1 – 2.2"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Lactato deshidrogenasa",
+     "a": "LDH",
+     "u": "U/L",
+     "r": [
+      [
+       "",
+       "140 – 280"
+      ]
+     ],
+     "s": "deshidrogenasa láctica DHL"
+    },
+    {
+     "n": "Amilasa sérica",
+     "a": "",
+     "u": "U/L",
+     "r": [
+      [
+       "",
+       "28 – 100"
+      ]
+     ],
+     "s": "amilasemia"
+    },
+    {
+     "n": "Lipasa sérica",
+     "a": "",
+     "u": "U/L",
+     "r": [
+      [
+       "",
+       "0 – 160"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Amonio (sangre arterial)",
+     "a": "NH₃",
+     "u": "µg/dL",
+     "r": [
+      [
+       "",
+       "15 – 45"
+      ]
+     ],
+     "s": "amoniemia"
+    }
+   ]
+  },
+  {
+   "id": "electrolitos",
+   "nombre": "Electrolitos y minerales",
+   "icono": "bolt",
+   "color": "#1d6fb8",
+   "pruebas": [
+    {
+     "n": "Sodio",
+     "a": "Na",
+     "u": "mEq/L",
+     "r": [
+      [
+       "Recién nacido",
+       "133 – 146"
+      ],
+      [
+       "Lactante (1 – 11 meses)",
+       "139 – 146"
+      ],
+      [
+       "Niño (1 – 12 años)",
+       "138 – 145"
+      ],
+      [
+       "Adulto",
+       "135 – 145"
+      ]
+     ],
+     "s": "natremia"
+    },
+    {
+     "n": "Potasio",
+     "a": "K",
+     "u": "mEq/L",
+     "r": [
+      [
+       "Recién nacido",
+       "3.7 – 5.9"
+      ],
+      [
+       "Lactante (1 – 11 meses)",
+       "4.1 – 5.3"
+      ],
+      [
+       "Niño (1 – 12 años)",
+       "3.4 – 4.7"
+      ],
+      [
+       "Adulto",
+       "3.5 – 5.0"
+      ]
+     ],
+     "s": "kalemia"
+    },
+    {
+     "n": "Cloro",
+     "a": "Cl",
+     "u": "mEq/L",
+     "r": [
+      [
+       "Recién nacido",
+       "96 – 106"
+      ],
+      [
+       "Adulto",
+       "98 – 107"
+      ]
+     ],
+     "s": "cloremia"
+    },
+    {
+     "n": "Bicarbonato",
+     "a": "HCO₃",
+     "u": "mEq/L",
+     "r": [
+      [
+       "",
+       "22 – 29"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Brecha aniónica (sin potasio)",
+     "a": "Anion gap",
+     "u": "mEq/L",
+     "r": [
+      [
+       "",
+       "8 – 12"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Calcio total",
+     "a": "Ca",
+     "u": "mg/dL",
+     "r": [
+      [
+       "Recién nacido",
+       "7.6 – 10.4"
+      ],
+      [
+       "Niño (1 – 12 años)",
+       "8.8 – 10.8"
+      ],
+      [
+       "Adulto",
+       "8.5 – 10.5"
+      ]
+     ],
+     "s": "calcemia"
+    },
+    {
+     "n": "Calcio iónico",
+     "a": "Ca++",
+     "u": "mmol/L",
+     "r": [
+      [
+       "",
+       "1.12 – 1.32"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Fósforo",
+     "a": "P",
+     "u": "mg/dL",
+     "r": [
+      [
+       "Recién nacido",
+       "4.5 – 9.0"
+      ],
+      [
+       "Lactante (1 – 11 meses)",
+       "4.5 – 6.7"
+      ],
+      [
+       "Niño (1 – 12 años)",
+       "3.7 – 6.5"
+      ],
+      [
+       "Adolescente (13 – 17 años)",
+       "2.9 – 5.4"
+      ],
+      [
+       "Adulto",
+       "2.5 – 4.5"
+      ]
+     ],
+     "s": "fosfatemia fosfato"
+    },
+    {
+     "n": "Magnesio",
+     "a": "Mg",
+     "u": "mg/dL",
+     "r": [
+      [
+       "",
+       "1.7 – 2.2"
+      ]
+     ],
+     "s": "magnesemia"
+    },
+    {
+     "n": "Cobre",
+     "a": "Cu",
+     "u": "µg/dL",
+     "r": [
+      [
+       "Varón",
+       "70 – 140"
+      ],
+      [
+       "Mujer",
+       "80 – 155"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Zinc",
+     "a": "Zn",
+     "u": "µg/dL",
+     "r": [
+      [
+       "",
+       "70 – 120"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Plomo en sangre",
+     "a": "Pb",
+     "u": "µg/dL",
+     "r": [
+      [
+       "Niño",
+       "< 5"
+      ],
+      [
+       "Adulto",
+       "< 10"
+      ]
+     ],
+     "s": "plumbemia"
+    },
+    {
+     "n": "Calcio en orina de 24 horas",
+     "a": "",
+     "u": "mg/24 h",
+     "r": [
+      [
+       "Varón",
+       "< 300"
+      ],
+      [
+       "Mujer",
+       "< 250"
+      ]
+     ],
+     "s": "calciuria"
+    },
+    {
+     "n": "Sodio en orina de 24 horas",
+     "a": "",
+     "u": "mEq/24 h",
+     "r": [
+      [
+       "",
+       "40 – 220"
+      ]
+     ],
+     "s": "natriuria"
+    },
+    {
+     "n": "Potasio en orina de 24 horas",
+     "a": "",
+     "u": "mEq/24 h",
+     "r": [
+      [
+       "",
+       "25 – 125"
+      ]
+     ],
+     "s": "kaliuria"
+    }
+   ]
+  },
+  {
+   "id": "hierro",
+   "nombre": "Hierro, vitaminas y nutrición",
+   "icono": "pill",
+   "color": "#7c3aed",
+   "pruebas": [
+    {
+     "n": "Hierro sérico",
+     "a": "Fe",
+     "u": "µg/dL",
+     "r": [
+      [
+       "Varón",
+       "65 – 175"
+      ],
+      [
+       "Mujer",
+       "50 – 170"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Capacidad total de fijación de hierro",
+     "a": "TIBC",
+     "u": "µg/dL",
+     "r": [
+      [
+       "",
+       "250 – 450"
+      ]
+     ],
+     "s": "CTFH"
+    },
+    {
+     "n": "Saturación de transferrina",
+     "a": "",
+     "u": "%",
+     "r": [
+      [
+       "",
+       "20 – 50"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Transferrina",
+     "a": "",
+     "u": "mg/dL",
+     "r": [
+      [
+       "",
+       "200 – 360"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Ferritina sérica",
+     "a": "",
+     "u": "ng/mL",
+     "r": [
+      [
+       "Niño menor de 5 años, deficiencia de hierro",
+       "< 12"
+      ],
+      [
+       "Niño de 5 años o más, deficiencia de hierro",
+       "< 15"
+      ],
+      [
+       "Varón",
+       "24 – 336"
+      ],
+      [
+       "Mujer",
+       "11 – 307"
+      ]
+     ],
+     "s": "reservas de hierro"
+    },
+    {
+     "n": "Vitamina B12 (cobalamina)",
+     "a": "B12",
+     "u": "pg/mL",
+     "r": [
+      [
+       "Normal",
+       "200 – 900"
+      ],
+      [
+       "Deficiencia",
+       "< 200"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Ácido fólico (folato sérico)",
+     "a": "",
+     "u": "ng/mL",
+     "r": [
+      [
+       "",
+       "3 – 17"
+      ]
+     ],
+     "s": "vitamina B9"
+    },
+    {
+     "n": "Vitamina D (25-hidroxivitamina D)",
+     "a": "25-OH vit. D",
+     "u": "ng/mL",
+     "r": [
+      [
+       "Deficiencia",
+       "< 20"
+      ],
+      [
+       "Insuficiencia",
+       "20 – 29"
+      ],
+      [
+       "Suficiente",
+       "30 – 100"
+      ]
+     ],
+     "s": "calcidiol"
+    },
+    {
+     "n": "Vitamina A (retinol)",
+     "a": "",
+     "u": "µg/dL",
+     "r": [
+      [
+       "",
+       "20 – 60"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Vitamina E (α-tocoferol)",
+     "a": "",
+     "u": "mg/L",
+     "r": [
+      [
+       "",
+       "5.5 – 17"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Vitamina C (ácido ascórbico)",
+     "a": "",
+     "u": "mg/dL",
+     "r": [
+      [
+       "",
+       "0.4 – 2.0"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Prealbúmina",
+     "a": "",
+     "u": "mg/dL",
+     "r": [
+      [
+       "",
+       "20 – 40"
+      ]
+     ],
+     "s": ""
+    }
+   ]
+  },
+  {
+   "id": "cardiaco",
+   "nombre": "Marcadores cardíacos y enzimas",
+   "icono": "pulse",
+   "color": "#be123c",
+   "pruebas": [
+    {
+     "n": "Creatina fosfoquinasa total",
+     "a": "CPK",
+     "u": "U/L",
+     "r": [
+      [
+       "Varón",
+       "39 – 308"
+      ],
+      [
+       "Mujer",
+       "26 – 192"
+      ]
+     ],
+     "s": "CK total"
+    },
+    {
+     "n": "CK-MB (masa)",
+     "a": "CK-MB",
+     "u": "ng/mL",
+     "r": [
+      [
+       "",
+       "< 5"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "CK-MB (actividad)",
+     "a": "",
+     "u": "U/L",
+     "r": [
+      [
+       "",
+       "< 25"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Troponina I convencional",
+     "a": "TnI",
+     "u": "ng/mL",
+     "r": [
+      [
+       "",
+       "< 0.04 (varía con el ensayo)"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Troponina T de alta sensibilidad",
+     "a": "TnT hs",
+     "u": "ng/L",
+     "r": [
+      [
+       "",
+       "< 14"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Troponina I de alta sensibilidad",
+     "a": "TnI hs",
+     "u": "ng/L",
+     "r": [
+      [
+       "Varón",
+       "< 34"
+      ],
+      [
+       "Mujer",
+       "< 16"
+      ],
+      [
+       "Nota",
+       "Depende del ensayo de cada laboratorio"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Mioglobina",
+     "a": "",
+     "u": "ng/mL",
+     "r": [
+      [
+       "",
+       "28 – 72"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Péptido natriurético cerebral",
+     "a": "BNP",
+     "u": "pg/mL",
+     "r": [
+      [
+       "Insuficiencia cardíaca poco probable",
+       "< 100"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Fracción N-terminal del propéptido natriurético cerebral",
+     "a": "NT-proBNP",
+     "u": "pg/mL",
+     "r": [
+      [
+       "Descarta insuficiencia cardíaca aguda",
+       "< 300"
+      ],
+      [
+       "Menor de 75 años, descarta insuficiencia cardíaca crónica",
+       "< 125"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Aldolasa",
+     "a": "",
+     "u": "U/L",
+     "r": [
+      [
+       "",
+       "1.0 – 7.5"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Proteína C reactiva de alta sensibilidad (riesgo cardiovascular)",
+     "a": "PCR-us",
+     "u": "mg/L",
+     "r": [
+      [
+       "Riesgo bajo",
+       "< 1"
+      ],
+      [
+       "Riesgo intermedio",
+       "1 – 3"
+      ],
+      [
+       "Riesgo alto",
+       "> 3"
+      ]
+     ],
+     "s": ""
+    }
+   ]
+  },
+  {
+   "id": "gases",
+   "nombre": "Gasometría y equilibrio ácido-base",
+   "icono": "wind",
+   "color": "#0369a1",
+   "pruebas": [
+    {
+     "n": "pH arterial",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "7.35 – 7.45"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Presión parcial de CO₂ arterial",
+     "a": "PaCO₂",
+     "u": "mmHg",
+     "r": [
+      [
+       "",
+       "35 – 45"
+      ]
+     ],
+     "s": "pCO2"
+    },
+    {
+     "n": "Presión parcial de O₂ arterial",
+     "a": "PaO₂",
+     "u": "mmHg",
+     "r": [
+      [
+       "Nivel del mar",
+       "80 – 100"
+      ],
+      [
+       "En altura",
+       "Menor: depende de los msnm"
+      ]
+     ],
+     "s": "pO2"
+    },
+    {
+     "n": "Bicarbonato arterial",
+     "a": "HCO₃",
+     "u": "mEq/L",
+     "r": [
+      [
+       "",
+       "22 – 26"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Exceso de base",
+     "a": "EB",
+     "u": "mEq/L",
+     "r": [
+      [
+       "",
+       "−2 a +2"
+      ]
+     ],
+     "s": "BE"
+    },
+    {
+     "n": "Saturación arterial de oxígeno",
+     "a": "SaO₂",
+     "u": "%",
+     "r": [
+      [
+       "Nivel del mar",
+       "95 – 100"
+      ],
+      [
+       "En altura",
+       "Menor: depende de los msnm"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Gradiente alvéolo-arterial de oxígeno",
+     "a": "A-a",
+     "u": "mmHg",
+     "r": [
+      [
+       "Adulto joven",
+       "< 15"
+      ],
+      [
+       "Adulto",
+       "< edad/4 + 4"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "pH venoso",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "7.31 – 7.41"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Presión parcial de CO₂ venosa",
+     "a": "PvCO₂",
+     "u": "mmHg",
+     "r": [
+      [
+       "",
+       "41 – 51"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Carboxihemoglobina",
+     "a": "COHb",
+     "u": "%",
+     "r": [
+      [
+       "No fumador",
+       "< 3"
+      ],
+      [
+       "Fumador",
+       "< 10"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Metahemoglobina",
+     "a": "MetHb",
+     "u": "%",
+     "r": [
+      [
+       "",
+       "< 1.5"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Lactato arterial",
+     "a": "",
+     "u": "mmol/L",
+     "r": [
+      [
+       "",
+       "0.5 – 2.0"
+      ]
+     ],
+     "s": ""
+    }
+   ]
+  },
+  {
+   "id": "orina",
+   "nombre": "Orina",
+   "icono": "cup",
+   "color": "#ca8a04",
+   "pruebas": [
+    {
+     "n": "Color",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Amarillo claro a ámbar"
+      ]
+     ],
+     "s": "examen completo de orina físico"
+    },
+    {
+     "n": "Aspecto",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Claro o transparente"
+      ]
+     ],
+     "s": "turbidez"
+    },
+    {
+     "n": "Densidad urinaria",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "Adulto y niño",
+       "1.005 – 1.030"
+      ],
+      [
+       "Recién nacido",
+       "1.001 – 1.020"
+      ]
+     ],
+     "s": "gravedad específica"
+    },
+    {
+     "n": "pH urinario",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "4.5 – 8.0"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Proteínas (tira reactiva)",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": "proteinuria"
+    },
+    {
+     "n": "Glucosa (tira reactiva)",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": "glucosuria"
+    },
+    {
+     "n": "Cetonas (tira reactiva)",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": "cetonuria"
+    },
+    {
+     "n": "Bilirrubina (tira reactiva)",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Urobilinógeno (tira reactiva)",
+     "a": "",
+     "u": "mg/dL",
+     "r": [
+      [
+       "",
+       "0.2 – 1.0 (normal)"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Sangre (tira reactiva)",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": "hemoglobinuria hematuria"
+    },
+    {
+     "n": "Nitritos (tira reactiva)",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Esterasa leucocitaria (tira reactiva)",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Leucocitos en sedimento",
+     "a": "",
+     "u": "/campo 400×",
+     "r": [
+      [
+       "",
+       "0 – 5"
+      ]
+     ],
+     "s": "piuria"
+    },
+    {
+     "n": "Hematíes en sedimento",
+     "a": "",
+     "u": "/campo 400×",
+     "r": [
+      [
+       "",
+       "0 – 2"
+      ]
+     ],
+     "s": "hematuria"
+    },
+    {
+     "n": "Células epiteliales en sedimento",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Escasas"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Cilindros en sedimento",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Ausentes (hialinos ocasionales)"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Cristales en sedimento",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Ausentes o escasos"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Bacterias en sedimento",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Ausentes"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Levaduras en sedimento",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Ausentes"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Filamentos de mucus",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Escasos"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Volumen urinario de 24 horas",
+     "a": "",
+     "u": "mL/24 h",
+     "r": [
+      [
+       "Adulto",
+       "800 – 2 000"
+      ]
+     ],
+     "s": "diuresis"
+    },
+    {
+     "n": "Creatinina en orina de 24 horas",
+     "a": "",
+     "u": "mg/kg/24 h",
+     "r": [
+      [
+       "Varón",
+       "14 – 26"
+      ],
+      [
+       "Mujer",
+       "11 – 20"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Ácido úrico en orina de 24 horas",
+     "a": "",
+     "u": "mg/24 h",
+     "r": [
+      [
+       "",
+       "250 – 750"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Urea en orina de 24 horas",
+     "a": "",
+     "u": "g/24 h",
+     "r": [
+      [
+       "",
+       "12 – 20"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Oxalato en orina de 24 horas",
+     "a": "",
+     "u": "mg/24 h",
+     "r": [
+      [
+       "",
+       "< 40"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Citrato en orina de 24 horas",
+     "a": "",
+     "u": "mg/24 h",
+     "r": [
+      [
+       "Varón",
+       "> 320"
+      ],
+      [
+       "Mujer",
+       "> 400"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Cortisol libre urinario de 24 horas",
+     "a": "CLU",
+     "u": "µg/24 h",
+     "r": [
+      [
+       "",
+       "10 – 100"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Prueba de embarazo en orina",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "No gestante",
+       "Negativo"
+      ]
+     ],
+     "s": "β-hCG cualitativa"
+    }
+   ]
+  },
+  {
+   "id": "heces",
+   "nombre": "Heces",
+   "icono": "bowl",
+   "color": "#92400e",
+   "pruebas": [
+    {
+     "n": "Examen parasitológico seriado",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Sin parásitos"
+      ]
+     ],
+     "s": "coprológico coproparasitológico"
+    },
+    {
+     "n": "Examen macroscópico de heces",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Heces formes de color pardo, sin sangre ni moco"
+      ]
+     ],
+     "s": "coprológico funcional"
+    },
+    {
+     "n": "Sangre oculta en heces (inmunoquímica)",
+     "a": "SOH",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": "FIT"
+    },
+    {
+     "n": "Leucocitos fecales",
+     "a": "",
+     "u": "/campo",
+     "r": [
+      [
+       "",
+       "Ausentes"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Test de Graham (cinta adhesiva)",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": "oxiuros"
+    },
+    {
+     "n": "Grasa fecal en 24 horas",
+     "a": "",
+     "u": "g/24 h",
+     "r": [
+      [
+       "",
+       "< 7"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Elastasa pancreática fecal",
+     "a": "",
+     "u": "µg/g",
+     "r": [
+      [
+       "",
+       "> 200"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Calprotectina fecal",
+     "a": "",
+     "u": "µg/g",
+     "r": [
+      [
+       "",
+       "< 50"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Azúcares reductores en heces",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Antígeno de Helicobacter pylori en heces",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Antígeno de rotavirus en heces",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Coprocultivo",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Sin desarrollo de patógenos"
+      ]
+     ],
+     "s": ""
+    }
+   ]
+  },
+  {
+   "id": "tiroides",
+   "nombre": "Tiroides y paratiroides",
+   "icono": "gland",
+   "color": "#0e7490",
+   "pruebas": [
+    {
+     "n": "Hormona estimulante de tiroides",
+     "a": "TSH",
+     "u": "µUI/mL",
+     "r": [
+      [
+       "Adulto",
+       "0.4 – 4.0"
+      ],
+      [
+       "Gestante, 1.er trimestre",
+       "0.1 – 4.0"
+      ],
+      [
+       "Gestante, 2.º trimestre",
+       "0.2 – 4.0"
+      ],
+      [
+       "Gestante, 3.er trimestre",
+       "0.3 – 4.0"
+      ]
+     ],
+     "s": "tirotropina"
+    },
+    {
+     "n": "Tiroxina libre",
+     "a": "T4L",
+     "u": "ng/dL",
+     "r": [
+      [
+       "",
+       "0.8 – 1.8"
+      ]
+     ],
+     "s": "T4 libre"
+    },
+    {
+     "n": "Tiroxina total",
+     "a": "T4T",
+     "u": "µg/dL",
+     "r": [
+      [
+       "",
+       "4.5 – 12.0"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Triyodotironina total",
+     "a": "T3T",
+     "u": "ng/dL",
+     "r": [
+      [
+       "",
+       "80 – 200"
+      ]
+     ],
+     "s": "T3 total"
+    },
+    {
+     "n": "Triyodotironina libre",
+     "a": "T3L",
+     "u": "pg/mL",
+     "r": [
+      [
+       "",
+       "2.3 – 4.2"
+      ]
+     ],
+     "s": "T3 libre"
+    },
+    {
+     "n": "Anticuerpos antiperoxidasa tiroidea",
+     "a": "Anti-TPO",
+     "u": "UI/mL",
+     "r": [
+      [
+       "",
+       "< 35"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Anticuerpos antitiroglobulina",
+     "a": "Anti-Tg",
+     "u": "UI/mL",
+     "r": [
+      [
+       "",
+       "< 40"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Anticuerpos contra el receptor de TSH",
+     "a": "TRAb",
+     "u": "UI/L",
+     "r": [
+      [
+       "",
+       "< 1.75"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Tiroglobulina",
+     "a": "Tg",
+     "u": "ng/mL",
+     "r": [
+      [
+       "",
+       "< 55"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Calcitonina",
+     "a": "",
+     "u": "pg/mL",
+     "r": [
+      [
+       "Varón",
+       "< 8.4"
+      ],
+      [
+       "Mujer",
+       "< 5.0"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Hormona paratiroidea intacta",
+     "a": "PTH",
+     "u": "pg/mL",
+     "r": [
+      [
+       "",
+       "15 – 65"
+      ]
+     ],
+     "s": "paratohormona"
+    }
+   ]
+  },
+  {
+   "id": "hormonas",
+   "nombre": "Hipófisis, suprarrenal y hormonas sexuales",
+   "icono": "hormone",
+   "color": "#b91c1c",
+   "pruebas": [
+    {
+     "n": "Cortisol sérico (8 a. m.)",
+     "a": "",
+     "u": "µg/dL",
+     "r": [
+      [
+       "",
+       "6 – 23"
+      ]
+     ],
+     "s": "cortisol matutino"
+    },
+    {
+     "n": "Cortisol sérico (4 p. m.)",
+     "a": "",
+     "u": "µg/dL",
+     "r": [
+      [
+       "",
+       "3 – 16"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Cortisol tras supresión con dexametasona 1 mg",
+     "a": "",
+     "u": "µg/dL",
+     "r": [
+      [
+       "",
+       "< 1.8"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Hormona adrenocorticotropa",
+     "a": "ACTH",
+     "u": "pg/mL",
+     "r": [
+      [
+       "",
+       "7 – 63"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Prolactina",
+     "a": "PRL",
+     "u": "ng/mL",
+     "r": [
+      [
+       "Varón",
+       "4 – 15"
+      ],
+      [
+       "Mujer no gestante",
+       "4 – 23"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Hormona de crecimiento basal",
+     "a": "GH",
+     "u": "ng/mL",
+     "r": [
+      [
+       "Varón",
+       "< 3"
+      ],
+      [
+       "Mujer",
+       "< 8"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Aldosterona (en decúbito)",
+     "a": "",
+     "u": "ng/dL",
+     "r": [
+      [
+       "",
+       "3 – 16"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Actividad de renina plasmática",
+     "a": "ARP",
+     "u": "ng/mL/h",
+     "r": [
+      [
+       "",
+       "0.5 – 4.0"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "17-hidroxiprogesterona (fase folicular)",
+     "a": "17-OHP",
+     "u": "ng/mL",
+     "r": [
+      [
+       "",
+       "0.2 – 1.3"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Hormona folículo estimulante",
+     "a": "FSH",
+     "u": "mUI/mL",
+     "r": [
+      [
+       "Varón",
+       "1.5 – 12.4"
+      ],
+      [
+       "Mujer, fase folicular",
+       "3.5 – 12.5"
+      ],
+      [
+       "Mujer, ovulación",
+       "4.7 – 21.5"
+      ],
+      [
+       "Mujer, fase lútea",
+       "1.7 – 7.7"
+      ],
+      [
+       "Mujer, posmenopausia",
+       "25.8 – 134.8"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Hormona luteinizante",
+     "a": "LH",
+     "u": "mUI/mL",
+     "r": [
+      [
+       "Varón",
+       "1.7 – 8.6"
+      ],
+      [
+       "Mujer, fase folicular",
+       "2.4 – 12.6"
+      ],
+      [
+       "Mujer, ovulación",
+       "14.0 – 95.6"
+      ],
+      [
+       "Mujer, fase lútea",
+       "1.0 – 11.4"
+      ],
+      [
+       "Mujer, posmenopausia",
+       "7.7 – 58.5"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Estradiol",
+     "a": "E2",
+     "u": "pg/mL",
+     "r": [
+      [
+       "Varón",
+       "7.6 – 42.6"
+      ],
+      [
+       "Mujer, fase folicular",
+       "12.5 – 166"
+      ],
+      [
+       "Mujer, ovulación",
+       "85.8 – 498"
+      ],
+      [
+       "Mujer, fase lútea",
+       "43.8 – 211"
+      ],
+      [
+       "Mujer, posmenopausia",
+       "< 5 – 54.7"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Progesterona",
+     "a": "",
+     "u": "ng/mL",
+     "r": [
+      [
+       "Mujer, fase folicular",
+       "0.2 – 1.5"
+      ],
+      [
+       "Mujer, fase lútea",
+       "1.7 – 27"
+      ],
+      [
+       "Varón",
+       "< 1.4"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Testosterona total",
+     "a": "",
+     "u": "ng/dL",
+     "r": [
+      [
+       "Varón",
+       "270 – 1 070"
+      ],
+      [
+       "Mujer",
+       "8 – 60"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Hormona antimülleriana",
+     "a": "AMH",
+     "u": "ng/mL",
+     "r": [
+      [
+       "",
+       "1.0 – 3.5"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Gonadotropina coriónica humana subunidad β (sangre)",
+     "a": "β-hCG",
+     "u": "mUI/mL",
+     "r": [
+      [
+       "No gestante",
+       "< 5"
+      ],
+      [
+       "Semana 3 de gestación",
+       "5 – 50"
+      ],
+      [
+       "Semana 4",
+       "5 – 426"
+      ],
+      [
+       "Semana 5",
+       "18 – 7 340"
+      ],
+      [
+       "Semana 6",
+       "1 080 – 56 500"
+      ],
+      [
+       "Semanas 7 – 8",
+       "7 650 – 229 000"
+      ],
+      [
+       "Semanas 9 – 12",
+       "25 700 – 288 000"
+      ],
+      [
+       "2.º trimestre",
+       "13 300 – 254 000"
+      ],
+      [
+       "3.er trimestre",
+       "4 060 – 165 400"
+      ]
+     ],
+     "s": "bhcg embarazo gonadotropina"
+    }
+   ]
+  },
+  {
+   "id": "inmunologia",
+   "nombre": "Inflamación, inmunología y reumatología",
+   "icono": "shield",
+   "color": "#6d28d9",
+   "pruebas": [
+    {
+     "n": "Proteína C reactiva",
+     "a": "PCR",
+     "u": "mg/L",
+     "r": [
+      [
+       "",
+       "< 10 (equivale a < 1.0 mg/dL)"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Procalcitonina",
+     "a": "PCT",
+     "u": "ng/mL",
+     "r": [
+      [
+       "Sin infección bacteriana sistémica probable",
+       "< 0.1"
+      ],
+      [
+       "Baja probabilidad de sepsis",
+       "< 0.5"
+      ],
+      [
+       "Alta probabilidad de sepsis",
+       "> 2"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Anticuerpos antiestreptolisina O",
+     "a": "ASLO",
+     "u": "UI/mL",
+     "r": [
+      [
+       "Niño de 2 – 5 años",
+       "< 100"
+      ],
+      [
+       "Niño de 6 – 14 años",
+       "< 240"
+      ],
+      [
+       "Adulto",
+       "< 200"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Factor reumatoide",
+     "a": "FR",
+     "u": "UI/mL",
+     "r": [
+      [
+       "",
+       "< 14"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Anticuerpos antipéptido citrulinado cíclico",
+     "a": "Anti-CCP",
+     "u": "U/mL",
+     "r": [
+      [
+       "",
+       "< 17"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Anticuerpos antinucleares",
+     "a": "ANA",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo (título < 1:80)"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Anticuerpos anti-ADN de doble cadena",
+     "a": "Anti-dsDNA",
+     "u": "UI/mL",
+     "r": [
+      [
+       "",
+       "< 30"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Anticuerpos anticitoplasma de neutrófilos",
+     "a": "ANCA",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Anticardiolipina IgG",
+     "a": "",
+     "u": "GPL",
+     "r": [
+      [
+       "",
+       "< 20"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Complemento C3",
+     "a": "",
+     "u": "mg/dL",
+     "r": [
+      [
+       "",
+       "90 – 180"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Complemento C4",
+     "a": "",
+     "u": "mg/dL",
+     "r": [
+      [
+       "",
+       "10 – 40"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Inmunoglobulina G",
+     "a": "IgG",
+     "u": "mg/dL",
+     "r": [
+      [
+       "",
+       "700 – 1 600"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Inmunoglobulina A",
+     "a": "IgA",
+     "u": "mg/dL",
+     "r": [
+      [
+       "",
+       "70 – 400"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Inmunoglobulina M",
+     "a": "IgM",
+     "u": "mg/dL",
+     "r": [
+      [
+       "",
+       "40 – 230"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Inmunoglobulina E total",
+     "a": "IgE",
+     "u": "UI/mL",
+     "r": [
+      [
+       "",
+       "< 100"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Electroforesis de proteínas: albúmina",
+     "a": "",
+     "u": "g/dL",
+     "r": [
+      [
+       "",
+       "3.5 – 5.0"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Electroforesis de proteínas: globulinas α₁",
+     "a": "",
+     "u": "g/dL",
+     "r": [
+      [
+       "",
+       "0.1 – 0.4"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Electroforesis de proteínas: globulinas α₂",
+     "a": "",
+     "u": "g/dL",
+     "r": [
+      [
+       "",
+       "0.4 – 0.9"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Electroforesis de proteínas: globulinas β",
+     "a": "",
+     "u": "g/dL",
+     "r": [
+      [
+       "",
+       "0.6 – 1.1"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Electroforesis de proteínas: globulinas γ",
+     "a": "",
+     "u": "g/dL",
+     "r": [
+      [
+       "",
+       "0.7 – 1.6"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Cadenas ligeras libres kappa",
+     "a": "",
+     "u": "mg/L",
+     "r": [
+      [
+       "",
+       "3.3 – 19.4"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Cadenas ligeras libres lambda",
+     "a": "",
+     "u": "mg/L",
+     "r": [
+      [
+       "",
+       "5.7 – 26.3"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Linfocitos T CD4",
+     "a": "CD4",
+     "u": "células/mm³",
+     "r": [
+      [
+       "Adulto",
+       "500 – 1 500"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "HLA-B27",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": ""
+    }
+   ]
+  },
+  {
+   "id": "infecciosas",
+   "nombre": "Serología e infecciones",
+   "icono": "virus",
+   "color": "#15803d",
+   "pruebas": [
+    {
+     "n": "Prueba de VIH (anticuerpos y antígeno p24, 4.ª generación)",
+     "a": "VIH",
+     "u": "",
+     "r": [
+      [
+       "",
+       "No reactivo"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Carga viral del VIH",
+     "a": "",
+     "u": "copias/mL",
+     "r": [
+      [
+       "",
+       "Indetectable bajo tratamiento eficaz"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Reagina plasmática rápida / VDRL",
+     "a": "RPR / VDRL",
+     "u": "",
+     "r": [
+      [
+       "Resultado",
+       "No reactivo"
+      ],
+      [
+       "Reactivo",
+       "Se informa el título (por ejemplo, 1:8)"
+      ]
+     ],
+     "s": "sífilis"
+    },
+    {
+     "n": "Prueba treponémica (FTA-ABS, TPHA o prueba rápida)",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "No reactivo"
+      ]
+     ],
+     "s": "sífilis"
+    },
+    {
+     "n": "Antígeno de superficie de hepatitis B",
+     "a": "HBsAg",
+     "u": "",
+     "r": [
+      [
+       "",
+       "No reactivo"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Anticuerpos contra el antígeno de superficie de hepatitis B",
+     "a": "Anti-HBs",
+     "u": "mUI/mL",
+     "r": [
+      [
+       "Protección",
+       "≥ 10"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Anticuerpos totales contra el core de hepatitis B",
+     "a": "Anti-HBc",
+     "u": "",
+     "r": [
+      [
+       "",
+       "No reactivo"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Anticuerpos contra hepatitis C",
+     "a": "Anti-VHC",
+     "u": "",
+     "r": [
+      [
+       "",
+       "No reactivo"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Anticuerpos IgM contra hepatitis A",
+     "a": "IgM VHA",
+     "u": "",
+     "r": [
+      [
+       "",
+       "No reactivo"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Antígeno NS1 de dengue",
+     "a": "NS1",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Anticuerpos IgM contra dengue",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Anticuerpos IgM contra chikungunya",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Gota gruesa para malaria",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": "plasmodium paludismo"
+    },
+    {
+     "n": "Anticuerpos contra Trypanosoma cruzi (ELISA)",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "No reactivo"
+      ]
+     ],
+     "s": "chagas"
+    },
+    {
+     "n": "Rosa de Bengala para Brucella",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": "brucelosis"
+    },
+    {
+     "n": "Reacción de Widal: aglutininas O y H",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "< 1:80"
+      ]
+     ],
+     "s": "fiebre tifoidea salmonella"
+    },
+    {
+     "n": "Anticuerpos IgM contra Leptospira",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "No reactivo"
+      ]
+     ],
+     "s": "leptospirosis"
+    },
+    {
+     "n": "Anticuerpos contra Fasciola hepatica",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "No reactivo"
+      ]
+     ],
+     "s": "fasciolosis"
+    },
+    {
+     "n": "Inmunoblot (EITB) para cisticercosis",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": "neurocisticercosis taenia solium"
+    },
+    {
+     "n": "Anticuerpos IgG contra Toxoplasma",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Anticuerpos IgG contra rubéola",
+     "a": "",
+     "u": "UI/mL",
+     "r": [
+      [
+       "Inmunidad",
+       "≥ 10"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Prueba cutánea de tuberculina (PPD)",
+     "a": "PPD",
+     "u": "mm de induración",
+     "r": [
+      [
+       "Negativa",
+       "< 5"
+      ],
+      [
+       "Positiva en persona con VIH o inmunosuprimida",
+       "≥ 5"
+      ],
+      [
+       "Positiva en contacto o riesgo habitual",
+       "≥ 10"
+      ],
+      [
+       "Positiva sin factores de riesgo",
+       "≥ 15"
+      ]
+     ],
+     "s": "mantoux"
+    },
+    {
+     "n": "Baciloscopia de esputo (BAAR)",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": "tuberculosis ziehl neelsen"
+    },
+    {
+     "n": "Prueba molecular rápida para Mycobacterium tuberculosis (Xpert MTB/RIF)",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "No detectado"
+      ]
+     ],
+     "s": "tuberculosis"
+    },
+    {
+     "n": "Hemocultivo",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Sin desarrollo"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Urocultivo",
+     "a": "",
+     "u": "UFC/mL",
+     "r": [
+      [
+       "Sin infección",
+       "< 10 000 o sin desarrollo"
+      ],
+      [
+       "Bacteriuria significativa",
+       "≥ 100 000"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Cultivo de exudado faríngeo",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Flora normal; sin Streptococcus pyogenes"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Antígeno rápido de Streptococcus pyogenes",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Negativo"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Cultivo de secreción vaginal",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Flora vaginal normal"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Prueba molecular para Chlamydia trachomatis y Neisseria gonorrhoeae",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "No detectado"
+      ]
+     ],
+     "s": ""
+    }
+   ]
+  },
+  {
+   "id": "tumorales",
+   "nombre": "Marcadores tumorales",
+   "icono": "target",
+   "color": "#9d174d",
+   "pruebas": [
+    {
+     "n": "Antígeno prostático específico total",
+     "a": "PSA total",
+     "u": "ng/mL",
+     "r": [
+      [
+       "Menor de 40 años",
+       "< 2.0"
+      ],
+      [
+       "40 – 49 años",
+       "< 2.5"
+      ],
+      [
+       "50 – 59 años",
+       "< 3.5"
+      ],
+      [
+       "60 – 69 años",
+       "< 4.5"
+      ],
+      [
+       "70 – 79 años",
+       "< 6.5"
+      ]
+     ],
+     "s": "próstata"
+    },
+    {
+     "n": "Relación PSA libre/total",
+     "a": "",
+     "u": "%",
+     "r": [
+      [
+       "Cáncer menos probable",
+       "> 25"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Antígeno carcinoembrionario",
+     "a": "CEA",
+     "u": "ng/mL",
+     "r": [
+      [
+       "No fumador",
+       "< 3.0"
+      ],
+      [
+       "Fumador",
+       "< 5.0"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Alfafetoproteína",
+     "a": "AFP",
+     "u": "ng/mL",
+     "r": [
+      [
+       "",
+       "< 10"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Antígeno carbohidrato 125",
+     "a": "CA 125",
+     "u": "U/mL",
+     "r": [
+      [
+       "",
+       "< 35"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Antígeno carbohidrato 19-9",
+     "a": "CA 19-9",
+     "u": "U/mL",
+     "r": [
+      [
+       "",
+       "< 37"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Antígeno carbohidrato 15-3",
+     "a": "CA 15-3",
+     "u": "U/mL",
+     "r": [
+      [
+       "",
+       "< 30"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Cromogranina A",
+     "a": "",
+     "u": "ng/mL",
+     "r": [
+      [
+       "",
+       "< 100"
+      ]
+     ],
+     "s": ""
+    }
+   ]
+  },
+  {
+   "id": "liquidos",
+   "nombre": "Líquidos corporales",
+   "icono": "tube",
+   "color": "#0f766e",
+   "pruebas": [
+    {
+     "n": "Líquido cefalorraquídeo: presión de apertura",
+     "a": "LCR",
+     "u": "cm H₂O",
+     "r": [
+      [
+       "Niño (1 – 12 años)",
+       "3 – 7.5"
+      ],
+      [
+       "Adulto",
+       "6 – 20"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Líquido cefalorraquídeo: aspecto",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "Cristalino (agua de roca)"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Líquido cefalorraquídeo: leucocitos",
+     "a": "",
+     "u": "/mm³",
+     "r": [
+      [
+       "Recién nacido",
+       "0 – 30"
+      ],
+      [
+       "Niño (1 – 12 años)",
+       "0 – 10"
+      ],
+      [
+       "Adulto",
+       "0 – 5"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Líquido cefalorraquídeo: glucosa",
+     "a": "",
+     "u": "mg/dL",
+     "r": [
+      [
+       "",
+       "40 – 70 (60 % de la glucemia)"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Líquido cefalorraquídeo: proteínas",
+     "a": "",
+     "u": "mg/dL",
+     "r": [
+      [
+       "Recién nacido",
+       "20 – 170"
+      ],
+      [
+       "Adulto",
+       "15 – 45"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Líquido cefalorraquídeo: cloruros",
+     "a": "",
+     "u": "mEq/L",
+     "r": [
+      [
+       "",
+       "118 – 132"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Líquido cefalorraquídeo: adenosina desaminasa",
+     "a": "ADA LCR",
+     "u": "U/L",
+     "r": [
+      [
+       "",
+       "< 9"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Líquido pleural: criterios de Light (exudado si cumple alguno)",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "Proteínas pleura/suero",
+       "> 0.5"
+      ],
+      [
+       "LDH pleura/suero",
+       "> 0.6"
+      ],
+      [
+       "LDH pleural",
+       "> 2/3 del límite superior sérico"
+      ]
+     ],
+     "s": "derrame pleural exudado trasudado"
+    },
+    {
+     "n": "Líquido pleural: pH",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "7.60 – 7.64"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Líquido pleural: adenosina desaminasa",
+     "a": "ADA pleural",
+     "u": "U/L",
+     "r": [
+      [
+       "",
+       "< 40"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Líquido ascítico: gradiente de albúmina suero-ascitis",
+     "a": "GASA",
+     "u": "g/dL",
+     "r": [
+      [
+       "Hipertensión portal",
+       "≥ 1.1"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Líquido ascítico: neutrófilos",
+     "a": "PMN",
+     "u": "/mm³",
+     "r": [
+      [
+       "Peritonitis bacteriana espontánea",
+       "≥ 250"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Líquido sinovial: leucocitos",
+     "a": "",
+     "u": "/mm³",
+     "r": [
+      [
+       "Normal",
+       "< 200"
+      ],
+      [
+       "No inflamatorio",
+       "< 2 000"
+      ],
+      [
+       "Inflamatorio",
+       "2 000 – 50 000"
+      ],
+      [
+       "Séptico",
+       "> 50 000"
+      ]
+     ],
+     "s": ""
+    }
+   ]
+  },
+  {
+   "id": "espermatograma",
+   "nombre": "Espermatograma (OMS 2021)",
+   "icono": "sperm",
+   "color": "#1d4ed8",
+   "pruebas": [
+    {
+     "n": "Volumen del eyaculado",
+     "a": "",
+     "u": "mL",
+     "r": [
+      [
+       "",
+       "≥ 1.4"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Concentración espermática",
+     "a": "",
+     "u": "millones/mL",
+     "r": [
+      [
+       "",
+       "≥ 16"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Recuento espermático total",
+     "a": "",
+     "u": "millones/eyaculado",
+     "r": [
+      [
+       "",
+       "≥ 39"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Motilidad total",
+     "a": "",
+     "u": "%",
+     "r": [
+      [
+       "",
+       "≥ 42"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Motilidad progresiva",
+     "a": "",
+     "u": "%",
+     "r": [
+      [
+       "",
+       "≥ 30"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Vitalidad",
+     "a": "",
+     "u": "%",
+     "r": [
+      [
+       "",
+       "≥ 54"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Morfología normal",
+     "a": "",
+     "u": "%",
+     "r": [
+      [
+       "",
+       "≥ 4"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "pH seminal",
+     "a": "",
+     "u": "",
+     "r": [
+      [
+       "",
+       "≥ 7.2"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Leucocitos en semen",
+     "a": "",
+     "u": "millones/mL",
+     "r": [
+      [
+       "",
+       "< 1"
+      ]
+     ],
+     "s": ""
+    }
+   ]
+  },
+  {
+   "id": "farmacos",
+   "nombre": "Niveles de fármacos",
+   "icono": "capsule",
+   "color": "#4338ca",
+   "pruebas": [
+    {
+     "n": "Digoxina",
+     "a": "",
+     "u": "ng/mL",
+     "r": [
+      [
+       "Insuficiencia cardíaca",
+       "0.5 – 0.9"
+      ],
+      [
+       "Arritmias",
+       "0.8 – 2.0"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Litio",
+     "a": "",
+     "u": "mEq/L",
+     "r": [
+      [
+       "",
+       "0.6 – 1.2"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Fenitoína total",
+     "a": "",
+     "u": "µg/mL",
+     "r": [
+      [
+       "",
+       "10 – 20"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Carbamazepina",
+     "a": "",
+     "u": "µg/mL",
+     "r": [
+      [
+       "",
+       "4 – 12"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Ácido valproico",
+     "a": "",
+     "u": "µg/mL",
+     "r": [
+      [
+       "",
+       "50 – 100"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Fenobarbital",
+     "a": "",
+     "u": "µg/mL",
+     "r": [
+      [
+       "",
+       "15 – 40"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Teofilina",
+     "a": "",
+     "u": "µg/mL",
+     "r": [
+      [
+       "",
+       "10 – 20"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Vancomicina (valle)",
+     "a": "",
+     "u": "µg/mL",
+     "r": [
+      [
+       "",
+       "10 – 20"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Gentamicina",
+     "a": "",
+     "u": "µg/mL",
+     "r": [
+      [
+       "Pico",
+       "5 – 10"
+      ],
+      [
+       "Valle",
+       "< 2"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Amikacina",
+     "a": "",
+     "u": "µg/mL",
+     "r": [
+      [
+       "Pico",
+       "20 – 35"
+      ],
+      [
+       "Valle",
+       "< 5"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Tacrolimus (valle)",
+     "a": "",
+     "u": "ng/mL",
+     "r": [
+      [
+       "",
+       "5 – 15"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Salicilatos",
+     "a": "",
+     "u": "mg/dL",
+     "r": [
+      [
+       "",
+       "15 – 30 (terapéutico)"
+      ]
+     ],
+     "s": ""
+    },
+    {
+     "n": "Paracetamol",
+     "a": "",
+     "u": "µg/mL",
+     "r": [
+      [
+       "Tóxico a las 4 horas de la ingesta",
+       "> 150"
+      ]
+     ],
+     "s": "acetaminofén"
+    }
+   ]
+  }
+ ]
+}

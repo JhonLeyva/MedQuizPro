@@ -54,7 +54,7 @@ const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"
     /* ---- sin progreso: estado vacío honesto ---- */
     await hub(p);
     ok(await p.locator("h1").first().innerText().then(t => /Sobrevive a la\s+Guardia/.test(t)), "hero con el título «Sobrevive a la Guardia»");
-    ok(await p.locator(".gh-card").count() === 3, "tres tarjetas de modalidad");
+    ok(await p.locator(".gh-card").count() === 4, "cuatro tarjetas de modalidad");
     const hrefE = await p.getAttribute(".gh-card--rojo a.gh-btn", "href"), hrefC = await p.getAttribute(".gh-card--azul a.gh-btn", "href");
     ok(hrefE === "#/guardia/emergencias" && hrefC === "#/consulta", "botones conducen al simulador de emergencias y a la consulta clínica existentes");
     ok(/Comenzar casos de emergencia/.test(await p.innerText(".gh-card--rojo a.gh-btn")) && /Comenzar consulta clínica/.test(await p.innerText(".gh-card--azul a.gh-btn")), "textos de los botones principales");
@@ -66,6 +66,7 @@ const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"
     ok(/0 de 10 casos completados/.test(rojo) && /0 de 4 consultas completadas/.test(azul), "progreso en cero al empezar");
     ok(gris.includes("Próximamente") && await p.locator(".gh-card--gris a").count() === 0 && await p.locator(".gh-card--gris button").count() === 0, "UCI: «Próximamente», sin enlaces ni botones y sin datos inventados");
     ok(!/\d+\s+Casos disponibles/.test(gris.replace(/\n/g, " ")), "UCI sin cifras de casos");
+    ok(await p.locator(".gh-chips").count() === 0 && await p.locator(".gh-card__sobre li").count() === 0, "las tarjetas de modalidad llevan solo la descripción, sin iconos ni etiquetas de especialidades");
     ok(await p.locator(".gh-rec__i").count() === 3 && /Por dónde empezar/.test(await p.innerText(".gh-rec")), "sin respuestas en el banco: «Por dónde empezar», sin personalizar");
     const rec = await p.locator(".gh-rec__a").evaluateAll(a => a.map(x => x.getAttribute("href"))); ok(rec.every(h => /^#\/guardia\/g\d\d$/.test(h)), "recomendados enlazan a casos reales");
     ok(/—/.test(await p.innerText(".gh-anillo")) && /0 \/ 10/.test(await p.innerText(".gh-est")), "estadísticas vacías sin inventar valores");
@@ -97,9 +98,19 @@ const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"
     await p.click(".gd-top .link-arrow"); await p.waitForSelector("#cqLista"); await p.click('.gh-migas a[href="#/guardia"]'); await p.waitForSelector(".gh-hero"); ok(true, "consulta → listado → centro");
     ok(await p.locator('.side__nav a[href="#/guardia"][aria-current="page"]').count() === 1, "el menú lateral mantiene «Sobrevive a la Guardia» activo en el centro");
     /* ---- accesos ---- */
-    await p.click("#ghLab"); await p.waitForSelector("dialog[open] .gd-lab-t"); const nLab = await p.locator("dialog[open] .gd-lab-t:visible").count(); ok(nLab > 10, "biblioteca de laboratorio abre el catálogo real (" + nLab + " pruebas)");
-    await p.fill("dialog[open] #gdLabQ", "hemoglobina"); const hbM = await p.selectOption("dialog[open] #gdLabP", "m").then(() => p.innerText("dialog[open] .gd-lab-t:visible")); const hbF = await p.selectOption("dialog[open] #gdLabP", "f").then(() => p.innerText("dialog[open] .gd-lab-t:visible"));
-    ok(hbM !== hbF, "el intervalo cambia con el perfil (varón / mujer)");
+    await p.click("#ghLab"); await p.waitForSelector("dialog[open] .gb-area"); ok(/Biblioteca de valores de laboratorio/.test(await p.innerText("dialog[open] h2")), "el acceso abre la biblioteca de valores de laboratorio");
+    const nAreas = await p.locator("dialog[open] .gb-area").count(), nFilas = await p.locator("dialog[open] .gb-fila").count(); ok(nAreas >= 18 && nFilas >= 300, "la biblioteca trae todas las áreas (" + nAreas + ") y más de 300 análisis (" + nFilas + ")");
+    ok(await p.locator("dialog[open] .gb-area[open]").count() === 0 && /análisis en \d+ áreas/.test(await p.innerText("#gbN")), "las áreas empiezan plegadas y se anuncia el total");
+    await p.click("dialog[open] .gb-area >> nth=0 >> summary"); ok(await p.locator("dialog[open] .gb-area >> nth=0").getAttribute("open") !== null && await p.locator("dialog[open] .gb-area >> nth=0 >> tbody tr:visible").count() > 20, "cada área se despliega y muestra sus análisis con unidad y valores");
+    ok(/Hemoglobina/.test(await p.innerText("dialog[open] .gb-area >> nth=0")) && /13\.5 – 17\.5/.test(await p.innerText("dialog[open] .gb-area >> nth=0")), "hematología muestra la hemoglobina por edad y sexo"); await p.click("dialog[open] .gb-area >> nth=0 >> summary"); ok(await p.locator("dialog[open] .gb-area >> nth=0").getAttribute("open") === null, "se pliega de nuevo");
+    await p.fill("#gbQ", "creatinina"); ok(/resultados? en \d+ áreas?/.test(await p.innerText("#gbN")) && await p.locator("dialog[open] .gb-fila:visible").count() >= 3 && await p.locator("dialog[open] .gb-area[open]:visible").count() >= 1, "el buscador filtra y abre las áreas con coincidencias");
+    ok((await p.locator("dialog[open] .gb-fila:visible").allInnerTexts()).every(t => /creatinina/i.test(t)), "solo quedan análisis que coinciden con la búsqueda");
+    await p.fill("#gbQ", "tsh"); ok(await p.locator("dialog[open] .gb-fila:visible").count() >= 1 && /Hormona estimulante/.test(await p.innerText("dialog[open] .gb-fila:visible")), "busca por sigla (TSH)");
+    await p.fill("#gbQ", "hemoglobina glicosilada"); ok(await p.locator("dialog[open] .gb-fila:visible").count() >= 1, "busca varias palabras a la vez");
+    await p.fill("#gbQ", "creatinina serica"); ok(await p.locator("dialog[open] .gb-fila:visible").count() >= 1, "la búsqueda ignora los acentos");
+    await p.fill("#gbQ", "zzzxxx"); ok(await p.locator("#gbV").isVisible() && await p.locator("dialog[open] .gb-area:visible").count() === 0, "sin coincidencias se avisa y se ocultan las áreas");
+    await p.fill("#gbQ", ""); ok(await p.locator("dialog[open] .gb-area:visible").count() === nAreas && await p.locator("dialog[open] .gb-area[open]").count() === 0, "al limpiar la búsqueda vuelven todas las áreas plegadas");
+    ok(!/PMID|doi|http|bibliograf/i.test(await p.innerText("dialog[open] .gb")), "la biblioteca no muestra bibliografía ni enlaces");
     await p.focus("dialog[open] [data-cerrar]"); await p.keyboard.press("Escape"); ok(await p.locator("dialog[open]").count() === 0 && await p.evaluate(() => document.activeElement && document.activeElement.id === "ghLab"), "Esc cierra y devuelve el foco al acceso");
     await p.click("#ghFu"); await p.waitForSelector("dialog[open] .gh-fu"); const nFu = await p.locator("dialog[open] .gh-fu").count();
     const unicas = new Set(); GC.concat(CC).forEach(c => c.referencias.forEach(r => unicas.add(r.pmid ? "p" + r.pmid : r.doi ? "d" + r.doi : r.url ? "u" + r.url : "t" + r.titulo)));
@@ -119,14 +130,14 @@ const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"
     ok(new RegExp(media + " %").test(est) && /4 \/ 10/.test(est) && /1 \/ 4/.test(est) && /3 \/ 4/.test(est), "estadísticas: puntaje medio " + media + " %, 4/10, 1/4 y 3/4 sin errores críticos");
     await ctx2.close();
     /* ---- responsive ---- */
-    for (const [nom, w, h] of [["tableta", 820, 1100], ["móvil", 390, 844], ["móvil pequeño", 320, 700], ["pantalla grande", 1920, 1080]]) {
+    for (const [nom, w, h] of [["tableta", 820, 1100], ["móvil", 390, 844], ["móvil pequeño", 320, 700], ["laptop pequeña", 1180, 800], ["laptop", 1366, 768], ["pantalla grande", 1920, 1080]]) {
       const c = await navegador.newContext({ viewport: { width: w, height: h }, isMobile: w < 800 }); await c.addInitScript(INIT); const q = await nueva(c);
       await hub(q); await scrollTodo(q);
       ok(await q.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1), nom + " (" + w + " px): sin desplazamiento horizontal");
       const cajas = await q.locator(".gh-card").evaluateAll(l => l.map(e => { const r = e.getBoundingClientRect(); return [Math.round(r.left), Math.round(r.top), Math.round(r.width)]; }));
-      if (w >= 1100) ok(cajas.every(c2 => c2[1] === cajas[0][1]), nom + ": tres tarjetas en una fila");
+      if (w >= 820) ok(cajas[0][1] === cajas[1][1] && cajas[2][1] === cajas[3][1] && cajas[2][1] > cajas[0][1], nom + ": cuatro tarjetas en cuadrícula 2×2");
       if (w < 640) ok(cajas.every(c2 => c2[0] === cajas[0][0]) && cajas.every((c2, i) => i === 0 || c2[1] > cajas[i - 1][1]), nom + ": tarjetas apiladas");
-      const cortado = await q.evaluate(() => [].some.call(document.querySelectorAll(".gh h2, .gh h1, .gh-btn, .gh-acc__t b"), e => e.scrollWidth > e.clientWidth + 1)); ok(!cortado, nom + ": sin textos cortados en títulos y botones");
+      const cortado = await q.evaluate(() => [].some.call(document.querySelectorAll(".gh h2, .gh h1, .gh-btn, .gh-acc__t b, .gh-card__sobre p, .gh-datos dd, .gh-prog p, .gh-rec__c b"), e => e.scrollWidth > e.clientWidth + 1) || [].some.call(document.querySelectorAll(".gh-card"), c => { const r = c.getBoundingClientRect(); return [].some.call(c.querySelectorAll("*"), e => { const b = e.getBoundingClientRect(); return b.width > 0 && b.right > r.right + 1 && !e.closest(".gh-card__foto img"); }); })); ok(!cortado, nom + ": sin textos cortados en títulos y botones");
       const peq = await q.evaluate(() => [].filter.call(document.querySelectorAll(".gh a.gh-btn, .gh button, .gh a.gh-acc, .gh a.gh-rec__a, .gh .gh-link"), e => { const r = e.getBoundingClientRect(); return r.width > 0 && (r.height < 40 || r.width < 40); }).length); ok(peq === 0, nom + ": objetivos táctiles de al menos 40 px");
       if (shots) await q.screenshot({ path: path.join(shots, "hub-" + nom.replace(/\s/g, "-") + ".png"), fullPage: true });
       await c.close();
@@ -143,6 +154,11 @@ const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"
           await q.goto(base + "app/" + ruta); await q.waitForSelector(".gh-hero, .gh-modal"); if (ruta === "#/guardia") await cerrarIntro(q); await scrollTodo(q); await dormir(700);
           await q.evaluate(axe); const v = await q.evaluate(async () => (await axe.run(document.querySelector("#vista") || document.body, { runOnly: ["wcag2a", "wcag2aa", "wcag21aa", "wcag22aa"] })).violations.map(x => x.id + ":" + x.nodes.length + " " + x.nodes.slice(0, 2).map(n => (n.target || []).join(" ")).join(" | ")));
           ok(v.length === 0, "axe " + esq + " " + nom + " " + ruta + ": " + v.join(" ; "));
+          if (ruta === "#/guardia") {
+            await q.click("#ghLab"); await q.waitForSelector("dialog[open] .gb-area"); await q.click("dialog[open] .gb-area >> nth=0 >> summary"); await q.click("dialog[open] .gb-area >> nth=3 >> summary"); await dormir(400);
+            const vb = await q.evaluate(async () => (await axe.run(document.querySelector("dialog[open]"), { runOnly: ["wcag2a", "wcag2aa", "wcag21aa", "wcag22aa"] })).violations.map(x => x.id + ":" + x.nodes.length + " " + x.nodes.slice(0, 2).map(n => (n.target || []).join(" ")).join(" | ")));
+            ok(vb.length === 0, "axe " + esq + " " + nom + " biblioteca de laboratorio: " + vb.join(" ; ")); await q.keyboard.press("Escape"); await q.evaluate(() => { const d = document.querySelector("dialog[open]"); if (d) d.querySelector("[data-cerrar]").click(); });
+          }
         }
         await c.close();
       }

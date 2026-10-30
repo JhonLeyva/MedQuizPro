@@ -1,0 +1,286 @@
+{
+ "id": "s08",
+ "numero": 8,
+ "titulo": "Campaña de vacunación y cadena de frío",
+ "tema": "Inmunizaciones · Cadena de frío",
+ "resumen": "Jornada de vacunación en una comunidad lejana: se corta la energía y debes proteger las vacunas.",
+ "dificultad": "intermedio",
+ "duracion_min": 10,
+ "paciente": {
+  "titulo": "Jornada comunitaria",
+  "motivo": "Se vacuna a niños en la escuela de la comunidad."
+ },
+ "vitales": {},
+ "gravedad": 0,
+ "historia": [
+  {
+   "id": "h1",
+   "rotulo": "Contexto",
+   "texto": "La refrigeradora de la posta se apaga durante la jornada."
+  }
+ ],
+ "examen": [],
+ "pruebas": [],
+ "eventos": [
+  {
+   "cuando": {
+    "momento": "m2"
+   },
+   "texto": "Se corta la energía y la temperatura del refrigerador empieza a subir.",
+   "flags": [
+    "sin_energia"
+   ]
+  }
+ ],
+ "momentos": [
+  {
+   "id": "m1",
+   "eje": "recursos",
+   "titulo": "Preparación",
+   "texto": "¿Cómo preparas la jornada?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Llevar vacunas en termo con paquetes fríos y registrar la temperatura",
+     "calidad": "optima",
+     "retro": "El transporte debe mantener la cadena de frío.",
+     "min": 15,
+     "cons": {
+      "paquetes_frios": 4
+     },
+     "ref": [
+      {
+       "doc": "rm074-2026-cadena-frio",
+       "pag": 2
+      }
+     ],
+     "req": {
+      "items": {
+       "paquetes_frios": 4
+      }
+     }
+    },
+    {
+     "id": "b",
+     "texto": "Llevar las vacunas sueltas",
+     "calidad": "peligrosa",
+     "retro": "Pueden perder potencia.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 2
+    },
+    {
+     "id": "c",
+     "texto": "Llevar todas las vacunas del almacén",
+     "calidad": "incorrecta",
+     "retro": "Aumenta el riesgo de pérdida.",
+     "min": 5,
+     "error": "recursos",
+     "g": 1
+    },
+    {
+     "id": "d",
+     "texto": "Suspender la jornada sin avisar",
+     "calidad": "incorrecta",
+     "retro": "Deja a los niños sin vacunar.",
+     "min": 5,
+     "error": "comunicacion",
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "eje": "seguridad",
+   "titulo": "Corte de energía",
+   "texto": "Se corta la energía en la posta. ¿Qué haces?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Trasladar las vacunas a un termo con paquetes fríos y registrar hora y temperatura",
+     "calidad": "optima",
+     "retro": "Las vacunas se protegen y se documenta el incidente.",
+     "min": 10,
+     "cons": {
+      "paquetes_frios": 4
+     },
+     "ref": [
+      {
+       "doc": "rm074-2026-cadena-frio",
+       "pag": 2
+      }
+     ],
+     "req": {
+      "items": {
+       "paquetes_frios": 4
+      }
+     }
+    },
+    {
+     "id": "b",
+     "texto": "Esperar a que vuelva la luz sin hacer nada",
+     "calidad": "peligrosa",
+     "retro": "Se arriesga la potencia de las vacunas.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 2
+    },
+    {
+     "id": "c",
+     "texto": "Seguir vacunando con las vacunas sin protección",
+     "calidad": "peligrosa",
+     "retro": "Se podrían aplicar vacunas dañadas.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 2
+    },
+    {
+     "id": "d",
+     "texto": "Desechar todas las vacunas",
+     "calidad": "incorrecta",
+     "retro": "Se desperdician recursos sin evaluar.",
+     "min": 5,
+     "error": "recursos",
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "eje": "clinico",
+   "titulo": "Decisión sobre las vacunas",
+   "texto": "Con la temperatura registrada, ¿qué decides?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Seguir la norma vigente de cadena de frío y consultar a la microred antes de usar vacunas expuestas",
+     "calidad": "optima",
+     "retro": "Las vacunas expuestas se evalúan según la norma, no por intuición.",
+     "min": 15,
+     "ref": [
+      {
+       "doc": "rm074-2026-cadena-frio",
+       "pag": 2
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Usarlas igual: «parecen estar bien»",
+     "calidad": "peligrosa",
+     "retro": "No se decide por apariencia.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 2
+    },
+    {
+     "id": "c",
+     "texto": "Descartarlas sin registro",
+     "calidad": "incorrecta",
+     "retro": "Falta trazabilidad.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "d",
+     "texto": "Guardarlas para otra jornada sin evaluar",
+     "calidad": "incorrecta",
+     "retro": "Podrían estar inutilizadas.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "eje": "referencia",
+   "titulo": "Registro e información",
+   "texto": "¿Cómo registras el incidente?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Registrar el incidente, informar a la microred y a los padres afectados",
+     "calidad": "optima",
+     "retro": "Es una responsabilidad de seguridad.",
+     "min": 10
+    },
+    {
+     "id": "b",
+     "texto": "No registrar",
+     "calidad": "incorrecta",
+     "retro": "Se oculta un riesgo.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "c",
+     "texto": "Registrar solo la hora",
+     "calidad": "aceptable",
+     "retro": "Falta información clave.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "d",
+     "texto": "Informar solo verbalmente",
+     "calidad": "aceptable",
+     "retro": "No deja evidencia.",
+     "min": 5,
+     "error": "comunicacion"
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "eje": "comunitario",
+   "titulo": "Reprogramación",
+   "texto": "¿Cómo reprogramas la vacunación?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Reprogramar la jornada con la comunidad y comunicar fecha y lugar",
+     "calidad": "optima",
+     "retro": "Protege la cobertura.",
+     "min": 10
+    },
+    {
+     "id": "b",
+     "texto": "No reprogramar",
+     "calidad": "incorrecta",
+     "retro": "Hay niños sin vacunar.",
+     "min": 5,
+     "error": "omision"
+    },
+    {
+     "id": "c",
+     "texto": "Reprogramar sin avisar",
+     "calidad": "incorrecta",
+     "retro": "Pierde participación.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "d",
+     "texto": "Esperar la próxima campaña",
+     "calidad": "aceptable",
+     "retro": "Demora la protección.",
+     "min": 5,
+     "error": "demora"
+    }
+   ]
+  }
+ ],
+ "desenlaces": {
+  "favorable": "Se protegieron las vacunas y se completó la jornada.",
+  "reservado": "Se perdió una parte de las vacunas.",
+  "desfavorable": "Se aplicaron vacunas comprometidas."
+ },
+ "evidencia": [
+  "rm074-2026-cadena-frio"
+ ],
+ "pendientes": [
+  "Solo se indexó la resolución RM 074-2026 (3 páginas); el anexo de la NTS 242 no se descargó. El caso no cita rangos de temperatura ni tiempos. Pendiente de validación con el anexo."
+ ],
+ "estado_publicacion": "Pendiente de revisión clínica"
+}

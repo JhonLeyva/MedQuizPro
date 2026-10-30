@@ -1,0 +1,316 @@
+{
+ "id": "s01",
+ "numero": 1,
+ "titulo": "Un niño que respira con dificultad",
+ "tema": "Pediatría · Infecciones respiratorias",
+ "resumen": "Lactante con tos, fiebre y tiraje en una posta de altura, con pocos balones de oxígeno y un hospital a horas de distancia.",
+ "dificultad": "intermedio",
+ "duracion_min": 12,
+ "paciente": {
+  "titulo": "Niño de 14 meses",
+  "motivo": "La madre lo trae porque «respira rápido y se hunde el pecho»."
+ },
+ "vitales": {
+  "fc": 168,
+  "fr": 58,
+  "sat": 88,
+  "temp": 38.6
+ },
+ "gravedad": 2,
+ "historia": [
+  {
+   "id": "h1",
+   "rotulo": "Evolución",
+   "texto": "Tos y fiebre desde hace tres días; hoy rechaza el pecho y está decaído."
+  },
+  {
+   "id": "h2",
+   "rotulo": "Contexto",
+   "texto": "Vive en una comunidad a 3 400 m s. n. m.; cocina con leña dentro de la vivienda."
+  }
+ ],
+ "examen": [
+  {
+   "id": "e1",
+   "rotulo": "Respiración",
+   "texto": "Tiraje subcostal marcado y aleteo nasal."
+  },
+  {
+   "id": "e2",
+   "rotulo": "Estado general",
+   "texto": "Somnoliento, se deja explorar con poca reacción."
+  }
+ ],
+ "pruebas": [
+  {
+   "id": "p1",
+   "nombre": "Pulsioximetría",
+   "insumo": null,
+   "min": 2,
+   "resultado": "Saturación 88 % respirando aire ambiente."
+  }
+ ],
+ "eventos": [
+  {
+   "cuando": {
+    "t": 25
+   },
+   "texto": "Pasan 25 minutos y el niño se agota más: la frecuencia respiratoria sube.",
+   "g": 1
+  }
+ ],
+ "momentos": [
+  {
+   "id": "m1",
+   "eje": "clinico",
+   "titulo": "Valoración inicial",
+   "texto": "El niño tiene tiraje y está decaído. ¿Qué haces primero?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Buscar signos de peligro, medir frecuencia respiratoria y saturación",
+     "calidad": "optima",
+     "retro": "Reconocer gravedad y medir saturación orienta el nivel de soporte y la referencia.",
+     "min": 3
+    },
+    {
+     "id": "b",
+     "texto": "Indicar una radiografía de tórax antes de cualquier otra medida",
+     "calidad": "incorrecta",
+     "retro": "La posta no tiene radiografía y retrasaría la estabilización.",
+     "min": 20,
+     "error": "demora",
+     "g": 1
+    },
+    {
+     "id": "c",
+     "texto": "Recetar tratamiento oral y citar en una semana",
+     "calidad": "peligrosa",
+     "retro": "Un niño con signos de dificultad respiratoria no debe irse sin soporte ni referencia.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 2
+    },
+    {
+     "id": "d",
+     "texto": "Tranquilizar a la madre y observar en casa",
+     "calidad": "incorrecta",
+     "retro": "Subestima la gravedad y pierde tiempo crítico.",
+     "min": 10,
+     "error": "omision",
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "eje": "recursos",
+   "titulo": "Oxígeno",
+   "texto": "La saturación es 88 %. Quedan pocos balones de oxígeno. ¿Cómo lo usas?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Dar oxígeno guiado por saturación y vigilar cuánto queda para el traslado",
+     "calidad": "optima",
+     "retro": "Se oxigena con objetivo y se cuida el recurso para el traslado.",
+     "min": 5,
+     "g": -1,
+     "cons": {
+      "oxigeno": 1
+     },
+     "req": {
+      "items": {
+       "oxigeno": 1
+      }
+     }
+    },
+    {
+     "id": "b",
+     "texto": "Esperar unos minutos a ver si mejora sin oxígeno",
+     "calidad": "peligrosa",
+     "retro": "La hipoxemia persistente no se espera.",
+     "min": 15,
+     "error": "seguridad_paciente",
+     "g": 2
+    },
+    {
+     "id": "c",
+     "texto": "Dejar oxígeno al máximo continuo sin vigilar el stock",
+     "calidad": "aceptable",
+     "retro": "Oxigena, pero agota el recurso que necesitarás durante el traslado.",
+     "min": 5,
+     "error": "recursos",
+     "g": -1,
+     "cons": {
+      "oxigeno": 2
+     },
+     "req": {
+      "items": {
+       "oxigeno": 2
+      }
+     }
+    },
+    {
+     "id": "d",
+     "texto": "Nebulizar sin oxígeno suplementario",
+     "calidad": "incorrecta",
+     "retro": "No corrige la hipoxemia.",
+     "min": 15,
+     "error": "comision",
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "eje": "referencia",
+   "titulo": "Referencia",
+   "texto": "El niño necesita mayor capacidad resolutiva. ¿Cómo organizas el traslado?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Referencia de emergencia acompañada, con oxígeno y hoja de referencia",
+     "calidad": "optima",
+     "retro": "Traslado acompañado, con soporte y documento, es lo que exige una referencia segura.",
+     "min": 15,
+     "g": -1,
+     "cons": {
+      "oxigeno": 1
+     },
+     "ref": [
+      {
+       "doc": "nts211-dengue",
+       "pag": 9
+      }
+     ],
+     "req": {
+      "items": {
+       "oxigeno": 1
+      }
+     },
+     "referencia": "emergencia"
+    },
+    {
+     "id": "b",
+     "texto": "Pedir a la familia que lo lleve por su cuenta al día siguiente",
+     "calidad": "peligrosa",
+     "retro": "Se pierde la oportunidad y no hay soporte durante el viaje.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 2,
+     "referencia": "rechazada"
+    },
+    {
+     "id": "c",
+     "texto": "Solicitar ambulancia pero enviarlo sin acompañante ni oxígeno",
+     "calidad": "incorrecta",
+     "retro": "Sin soporte, la hipoxemia puede empeorar en el camino.",
+     "min": 15,
+     "error": "seguridad_paciente",
+     "g": 1,
+     "referencia": "emergencia"
+    },
+    {
+     "id": "d",
+     "texto": "Hospitalizarlo en la posta",
+     "calidad": "incorrecta",
+     "retro": "Una posta I-2 no tiene la capacidad para internar a un niño con hipoxemia.",
+     "min": 30,
+     "error": "normativo",
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "eje": "referencia",
+   "titulo": "Comunicación con el hospital",
+   "texto": "Antes de que salga la ambulancia, ¿qué haces?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Avisar al hospital receptor y entregar un resumen clínico",
+     "calidad": "optima",
+     "retro": "La comunicación previa prepara la recepción y evita demoras.",
+     "min": 5
+    },
+    {
+     "id": "b",
+     "texto": "No avisar: ya lo evaluarán al llegar",
+     "calidad": "incorrecta",
+     "retro": "Sin aviso el niño puede esperar en la puerta de emergencia.",
+     "min": 5,
+     "error": "comunicacion",
+     "g": 1
+    },
+    {
+     "id": "c",
+     "texto": "Avisar solo a la familia",
+     "calidad": "incorrecta",
+     "retro": "La coordinación entre establecimientos es parte de la referencia.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "d",
+     "texto": "Llamar al hospital después de media hora",
+     "calidad": "aceptable",
+     "retro": "Avisar tarde es mejor que no hacerlo, pero reduce la preparación.",
+     "min": 30,
+     "error": "demora"
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "eje": "comunitario",
+   "titulo": "Después del traslado",
+   "texto": "El niño ya fue referido. ¿Qué haces con la familia y la comunidad?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Educar sobre signos de alarma, coordinar seguimiento con el agente comunitario y registrar",
+     "calidad": "optima",
+     "retro": "El cierre comunitario previene recaídas y asegura la contrarreferencia.",
+     "min": 10
+    },
+    {
+     "id": "b",
+     "texto": "No hacer nada más: el caso ya salió de la posta",
+     "calidad": "incorrecta",
+     "retro": "Se pierde el seguimiento y la prevención del entorno.",
+     "min": 5,
+     "error": "omision"
+    },
+    {
+     "id": "c",
+     "texto": "Solo anotar el nombre en el cuaderno",
+     "calidad": "aceptable",
+     "retro": "Registra, pero no educa ni organiza el seguimiento.",
+     "min": 3,
+     "error": "omision"
+    },
+    {
+     "id": "d",
+     "texto": "Culpar a la madre por llegar tarde",
+     "calidad": "incorrecta",
+     "retro": "No ayuda y debilita la confianza de la comunidad.",
+     "min": 5,
+     "error": "comunicacion"
+    }
+   ]
+  }
+ ],
+ "desenlaces": {
+  "favorable": "El niño llegó con soporte y se recuperó en el hospital.",
+  "reservado": "El niño llegó tarde y quedó en observación prolongada.",
+  "desfavorable": "El niño empeoró durante la demora y el traslado."
+ },
+ "evidencia": [
+  "nts211-dengue"
+ ],
+ "pendientes": [
+  "Norma/guía peruana de infecciones respiratorias agudas e IRA/neumonía infantil: no verificada ni indexada; las decisiones clínicas del caso quedan pendientes de validación científica."
+ ],
+ "estado_publicacion": "Pendiente de revisión clínica"
+}
