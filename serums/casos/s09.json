@@ -1,0 +1,252 @@
+{
+ "id": "s09",
+ "numero": 9,
+ "titulo": "La adolescente que dejó de venir",
+ "tema": "Atención integral · Salud del adolescente",
+ "resumen": "Una adolescente abandonó sus controles; debes retomar el contacto, escuchar y proteger su confidencialidad.",
+ "dificultad": "basico",
+ "duracion_min": 10,
+ "paciente": {
+  "titulo": "Adolescente de 16 años",
+  "motivo": "Vuelve tras dos meses sin asistir a sus controles."
+ },
+ "vitales": {},
+ "gravedad": 0,
+ "historia": [
+  {
+   "id": "h1",
+   "rotulo": "Antecedente",
+   "texto": "Faltó a sus controles y dejó de ir al colegio."
+  },
+  {
+   "id": "h2",
+   "rotulo": "Hoy",
+   "texto": "Viene sola, está callada y evita la mirada."
+  }
+ ],
+ "examen": [
+  {
+   "id": "e1",
+   "rotulo": "Observación",
+   "texto": "Aspecto cansado, tristeza visible."
+  }
+ ],
+ "pruebas": [],
+ "eventos": [],
+ "momentos": [
+  {
+   "id": "m1",
+   "eje": "clinico",
+   "titulo": "Acogida",
+   "texto": "¿Cómo la recibes?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Recibirla con respeto, a solas y garantizando confidencialidad",
+     "calidad": "optima",
+     "retro": "La confianza abre la conversación.",
+     "min": 5
+    },
+    {
+     "id": "b",
+     "texto": "Regañarla por faltar",
+     "calidad": "incorrecta",
+     "retro": "Aleja a la adolescente.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "c",
+     "texto": "Hablar con su madre antes que con ella",
+     "calidad": "incorrecta",
+     "retro": "Rompe la confidencialidad.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "d",
+     "texto": "Ignorar su silencio",
+     "calidad": "incorrecta",
+     "retro": "Pierde información clave.",
+     "min": 5,
+     "error": "omision"
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "eje": "clinico",
+   "titulo": "Valoración",
+   "texto": "¿Qué exploras?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Su salud física, emocional y social (escuela, familia, riesgos) con preguntas abiertas",
+     "calidad": "optima",
+     "retro": "La valoración integral detecta riesgos.",
+     "min": 15,
+     "pendiente": true
+    },
+    {
+     "id": "b",
+     "texto": "Solo el peso y la talla",
+     "calidad": "aceptable",
+     "retro": "Es parcial.",
+     "min": 5,
+     "error": "omision"
+    },
+    {
+     "id": "c",
+     "texto": "Solo preguntar si menstrúa",
+     "calidad": "incorrecta",
+     "retro": "Visión muy limitada.",
+     "min": 5,
+     "error": "omision"
+    },
+    {
+     "id": "d",
+     "texto": "No explorar nada",
+     "calidad": "incorrecta",
+     "retro": "Se pierde la oportunidad.",
+     "min": 5,
+     "error": "omision"
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "eje": "seguridad",
+   "titulo": "Señales de riesgo",
+   "texto": "Refiere tristeza intensa y ganas de no estar. ¿Qué haces?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Explorar el riesgo de forma directa y respetuosa, acompañarla y activar la ruta de salud mental",
+     "calidad": "optima",
+     "retro": "Ante señales de riesgo se actúa de inmediato.",
+     "min": 15,
+     "referencia": "programada",
+     "pendiente": true
+    },
+    {
+     "id": "b",
+     "texto": "Restar importancia",
+     "calidad": "peligrosa",
+     "retro": "Puede dejarla sin protección.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 2
+    },
+    {
+     "id": "c",
+     "texto": "Dejarla ir sola sin plan",
+     "calidad": "peligrosa",
+     "retro": "No asegura su protección.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 2
+    },
+    {
+     "id": "d",
+     "texto": "Decirle que «ya pasará»",
+     "calidad": "incorrecta",
+     "retro": "Minimiza su malestar.",
+     "min": 5,
+     "error": "comunicacion",
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "eje": "referencia",
+   "titulo": "Coordinación",
+   "texto": "¿Cómo coordinas su atención?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Coordinar con salud mental y con la familia con su consentimiento, y programar seguimiento",
+     "calidad": "optima",
+     "retro": "La coordinación respeta sus derechos.",
+     "min": 15,
+     "pendiente": true
+    },
+    {
+     "id": "b",
+     "texto": "No coordinar",
+     "calidad": "incorrecta",
+     "retro": "Sin red de apoyo.",
+     "min": 5,
+     "error": "omision"
+    },
+    {
+     "id": "c",
+     "texto": "Informar a toda la comunidad",
+     "calidad": "peligrosa",
+     "retro": "Rompe la confidencialidad.",
+     "min": 5,
+     "error": "comunicacion",
+     "g": 2
+    },
+    {
+     "id": "d",
+     "texto": "Coordinar sin su conocimiento",
+     "calidad": "incorrecta",
+     "retro": "No respeta su participación.",
+     "min": 5,
+     "error": "comunicacion"
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "eje": "comunitario",
+   "titulo": "Reintegración",
+   "texto": "¿Cómo ayudas a que retome sus controles?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Acordar con ella un plan de seguimiento y coordinar con la escuela solo lo que ella autorice",
+     "calidad": "optima",
+     "retro": "Favorece la continuidad.",
+     "min": 10,
+     "pendiente": true
+    },
+    {
+     "id": "b",
+     "texto": "Citar sin explicar",
+     "calidad": "aceptable",
+     "retro": "No genera compromiso.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "c",
+     "texto": "No hacer seguimiento",
+     "calidad": "incorrecta",
+     "retro": "Puede volver a abandonar.",
+     "min": 5,
+     "error": "omision"
+    },
+    {
+     "id": "d",
+     "texto": "Informar a la escuela todo",
+     "calidad": "incorrecta",
+     "retro": "Rompe la confidencialidad.",
+     "min": 5,
+     "error": "comunicacion"
+    }
+   ]
+  }
+ ],
+ "desenlaces": {
+  "favorable": "La adolescente retomó sus controles con apoyo.",
+  "reservado": "La adolescente volvió, pero sin plan claro.",
+  "desfavorable": "Se perdió el contacto y se agravó su situación."
+ },
+ "evidencia": [],
+ "pendientes": [
+  "No se verificó la norma peruana de atención integral del adolescente ni la ruta de salud mental vigente; el caso queda pendiente de validación científica."
+ ],
+ "estado_publicacion": "Pendiente de revisión clínica"
+}

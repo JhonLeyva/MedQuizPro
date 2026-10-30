@@ -1,0 +1,343 @@
+{
+ "id": "s03",
+ "numero": 3,
+ "titulo": "Fiebre en la selva",
+ "tema": "Enfermedades tropicales · Dengue",
+ "resumen": "Adulto joven con fiebre de cuatro días en zona con dengue; aparecen signos de alarma y hay que decidir la observación o la referencia.",
+ "dificultad": "intermedio",
+ "duracion_min": 12,
+ "paciente": {
+  "titulo": "Varón de 22 años",
+  "motivo": "Fiebre y malestar desde hace cuatro días."
+ },
+ "vitales": {
+  "fc": 104,
+  "pas": 100,
+  "pad": 70,
+  "temp": 38.9
+ },
+ "gravedad": 1,
+ "historia": [
+  {
+   "id": "h1",
+   "rotulo": "Contexto",
+   "texto": "Vive en zona con casos de dengue; hay zancudos en la vivienda."
+  },
+  {
+   "id": "h2",
+   "rotulo": "Síntomas",
+   "texto": "Dolor abdominal que aumenta y vómitos repetidos desde hoy."
+  }
+ ],
+ "examen": [
+  {
+   "id": "e1",
+   "rotulo": "Abdomen",
+   "texto": "Dolor a la palpación del hipocondrio derecho."
+  },
+  {
+   "id": "e2",
+   "rotulo": "Piel",
+   "texto": "Petequias aisladas; sangrado leve de encías."
+  }
+ ],
+ "pruebas": [
+  {
+   "id": "p1",
+   "nombre": "Prueba rápida de dengue",
+   "insumo": "prueba_dengue",
+   "min": 20,
+   "resultado": "Positiva."
+  }
+ ],
+ "eventos": [
+  {
+   "cuando": {
+    "momento": "m3"
+   },
+   "texto": "El paciente se muestra más decaído y con mareo al incorporarse.",
+   "g": 1
+  }
+ ],
+ "momentos": [
+  {
+   "id": "m1",
+   "eje": "clinico",
+   "titulo": "Clasificación",
+   "texto": "El paciente tiene fiebre, dolor abdominal, vómitos y sangrado de encías. ¿Qué haces?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Considerar dengue con signos de alarma y buscar otros signos de gravedad",
+     "calidad": "optima",
+     "retro": "Dolor abdominal, vómitos persistentes y sangrado son signos de alarma.",
+     "min": 5,
+     "ref": [
+      {
+       "doc": "nts211-dengue",
+       "pag": 12
+      },
+      {
+       "doc": "nts211-dengue",
+       "pag": 11
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Tratarlo como un resfrío común",
+     "calidad": "incorrecta",
+     "retro": "Pasa por alto la fase crítica.",
+     "min": 5,
+     "error": "omision",
+     "g": 1
+    },
+    {
+     "id": "c",
+     "texto": "Enviarlo a casa con control a la semana",
+     "calidad": "peligrosa",
+     "retro": "Con signos de alarma no se envía a casa sin vigilancia.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 2,
+     "ref": [
+      {
+       "doc": "nts211-dengue",
+       "pag": 12
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "texto": "Esperar el resultado de laboratorio para decidir",
+     "calidad": "incorrecta",
+     "retro": "La clínica, no la prueba, determina la conducta urgente.",
+     "min": 40,
+     "error": "demora",
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "eje": "recursos",
+   "titulo": "Prueba diagnóstica",
+   "texto": "¿Cómo usas las pruebas disponibles?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Usar la prueba rápida de dengue y registrar el caso para la notificación",
+     "calidad": "optima",
+     "retro": "Apoya la vigilancia sin retrasar el manejo.",
+     "min": 20,
+     "cons": {
+      "prueba_dengue": 1
+     },
+     "req": {
+      "items": {
+       "prueba_dengue": 1
+      }
+     }
+    },
+    {
+     "id": "b",
+     "texto": "No usar ninguna prueba",
+     "calidad": "aceptable",
+     "retro": "Se puede actuar por clínica, pero se pierde información para la vigilancia.",
+     "min": 5,
+     "error": "omision"
+    },
+    {
+     "id": "c",
+     "texto": "Usar todas las pruebas rápidas del stock",
+     "calidad": "incorrecta",
+     "retro": "Consume el recurso que necesitan otros pacientes.",
+     "min": 5,
+     "error": "recursos",
+     "cons": {
+      "prueba_dengue": 10
+     },
+     "req": {
+      "items": {
+       "prueba_dengue": 10
+      }
+     }
+    },
+    {
+     "id": "d",
+     "texto": "Enviar al paciente a otra ciudad por la prueba",
+     "calidad": "incorrecta",
+     "retro": "Retrasa la atención por una prueba que no cambia la urgencia.",
+     "min": 120,
+     "error": "demora",
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "eje": "seguridad",
+   "titulo": "Manejo inicial",
+   "texto": "El paciente se marea al ponerse de pie. ¿Cómo lo manejas?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Mantenerlo en observación, vigilar signos vitales, hidratar y preparar la referencia",
+     "calidad": "optima",
+     "retro": "La observación y la referencia oportuna son lo indicado ante signos de alarma.",
+     "min": 15,
+     "g": -1,
+     "cons": {
+      "suero_salino": 1,
+      "venoclisis": 1
+     },
+     "ref": [
+      {
+       "doc": "nts211-dengue",
+       "pag": 10
+      },
+      {
+       "doc": "nts211-dengue",
+       "pag": 9
+      }
+     ],
+     "req": {
+      "items": {
+       "suero_salino": 1,
+       "venoclisis": 1
+      }
+     }
+    },
+    {
+     "id": "b",
+     "texto": "Dar un medicamento para la fiebre y dejarlo ir",
+     "calidad": "peligrosa",
+     "retro": "Pierde la ventana de seguimiento.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 2
+    },
+    {
+     "id": "c",
+     "texto": "Indicar un medicamento antiinflamatorio habitual",
+     "calidad": "peligrosa",
+     "retro": "Algunos antiinflamatorios pueden aumentar el riesgo de sangrado.",
+     "min": 5,
+     "error": "comision",
+     "g": 2,
+     "pendiente": true
+    },
+    {
+     "id": "d",
+     "texto": "Solo observar sin medir signos vitales",
+     "calidad": "incorrecta",
+     "retro": "Sin mediciones no se detecta el deterioro.",
+     "min": 5,
+     "error": "omision",
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "eje": "referencia",
+   "titulo": "Referencia",
+   "texto": "¿Cómo decides la referencia?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Referir a un establecimiento con mayor capacidad, con hoja de referencia y aviso previo",
+     "calidad": "optima",
+     "retro": "La referencia es la transferencia de responsabilidad al nivel resolutivo.",
+     "min": 15,
+     "g": -1,
+     "ref": [
+      {
+       "doc": "nts211-dengue",
+       "pag": 9
+      }
+     ],
+     "referencia": "emergencia"
+    },
+    {
+     "id": "b",
+     "texto": "No referir: se quedará en la posta",
+     "calidad": "incorrecta",
+     "retro": "La posta no puede manejar un deterioro rápido.",
+     "min": 5,
+     "error": "normativo",
+     "g": 1
+    },
+    {
+     "id": "c",
+     "texto": "Referir sin documento",
+     "calidad": "incorrecta",
+     "retro": "Pierde información clínica importante.",
+     "min": 5,
+     "error": "comunicacion",
+     "referencia": "emergencia"
+    },
+    {
+     "id": "d",
+     "texto": "Referir sin aviso",
+     "calidad": "aceptable",
+     "retro": "Se envía, pero el hospital no se prepara.",
+     "min": 15,
+     "error": "comunicacion",
+     "referencia": "emergencia"
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "eje": "comunitario",
+   "titulo": "Comunidad",
+   "texto": "¿Qué haces con el entorno del paciente?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Notificar el caso y coordinar el control del vector con la comunidad",
+     "calidad": "optima",
+     "retro": "El control del vector corta la transmisión.",
+     "min": 10
+    },
+    {
+     "id": "b",
+     "texto": "No hacer nada con el entorno",
+     "calidad": "incorrecta",
+     "retro": "Se pierde la oportunidad de prevención.",
+     "min": 5,
+     "error": "omision"
+    },
+    {
+     "id": "c",
+     "texto": "Solo notificar sin acciones comunitarias",
+     "calidad": "aceptable",
+     "retro": "Notificar es necesario, pero insuficiente.",
+     "min": 5,
+     "error": "omision"
+    },
+    {
+     "id": "d",
+     "texto": "Prohibir que los vecinos acudan a la posta",
+     "calidad": "incorrecta",
+     "retro": "Daña la relación con la comunidad.",
+     "min": 5,
+     "error": "comunicacion"
+    }
+   ]
+  }
+ ],
+ "desenlaces": {
+  "favorable": "El paciente llegó a tiempo y se recuperó.",
+  "reservado": "El paciente llegó con deterioro y necesitó más cuidados.",
+  "desfavorable": "El paciente empeoró por la demora."
+ },
+ "evidencia": [
+  "nts211-dengue"
+ ],
+ "pendientes": [
+  "Los líquidos y el manejo de volumen se ajustan a la norma; la ficha no incluye cantidades. Falta revisión por infectólogo o internista."
+ ],
+ "estado_publicacion": "Pendiente de revisión clínica"
+}

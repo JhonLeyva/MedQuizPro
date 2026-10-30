@@ -54,7 +54,7 @@ const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"
     /* ---- sin progreso: estado vacío honesto ---- */
     await hub(p);
     ok(await p.locator("h1").first().innerText().then(t => /Sobrevive a la\s+Guardia/.test(t)), "hero con el título «Sobrevive a la Guardia»");
-    ok(await p.locator(".gh-card").count() === 3, "tres tarjetas de modalidad");
+    ok(await p.locator(".gh-card").count() === 4, "cuatro tarjetas de modalidad");
     const hrefE = await p.getAttribute(".gh-card--rojo a.gh-btn", "href"), hrefC = await p.getAttribute(".gh-card--azul a.gh-btn", "href");
     ok(hrefE === "#/guardia/emergencias" && hrefC === "#/consulta", "botones conducen al simulador de emergencias y a la consulta clínica existentes");
     ok(/Comenzar casos de emergencia/.test(await p.innerText(".gh-card--rojo a.gh-btn")) && /Comenzar consulta clínica/.test(await p.innerText(".gh-card--azul a.gh-btn")), "textos de los botones principales");
@@ -135,7 +135,7 @@ const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"
       await hub(q); await scrollTodo(q);
       ok(await q.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1), nom + " (" + w + " px): sin desplazamiento horizontal");
       const cajas = await q.locator(".gh-card").evaluateAll(l => l.map(e => { const r = e.getBoundingClientRect(); return [Math.round(r.left), Math.round(r.top), Math.round(r.width)]; }));
-      if (w >= 1360) ok(cajas.every(c2 => c2[1] === cajas[0][1]), nom + ": tres tarjetas en una fila");
+      if (w >= 820) ok(cajas[0][1] === cajas[1][1] && cajas[2][1] === cajas[3][1] && cajas[2][1] > cajas[0][1], nom + ": cuatro tarjetas en cuadrícula 2×2");
       if (w < 640) ok(cajas.every(c2 => c2[0] === cajas[0][0]) && cajas.every((c2, i) => i === 0 || c2[1] > cajas[i - 1][1]), nom + ": tarjetas apiladas");
       const cortado = await q.evaluate(() => [].some.call(document.querySelectorAll(".gh h2, .gh h1, .gh-btn, .gh-acc__t b, .gh-card__sobre p, .gh-datos dd, .gh-prog p, .gh-rec__c b"), e => e.scrollWidth > e.clientWidth + 1) || [].some.call(document.querySelectorAll(".gh-card"), c => { const r = c.getBoundingClientRect(); return [].some.call(c.querySelectorAll("*"), e => { const b = e.getBoundingClientRect(); return b.width > 0 && b.right > r.right + 1 && !e.closest(".gh-card__foto img"); }); })); ok(!cortado, nom + ": sin textos cortados en títulos y botones");
       const peq = await q.evaluate(() => [].filter.call(document.querySelectorAll(".gh a.gh-btn, .gh button, .gh a.gh-acc, .gh a.gh-rec__a, .gh .gh-link"), e => { const r = e.getBoundingClientRect(); return r.width > 0 && (r.height < 40 || r.width < 40); }).length); ok(peq === 0, nom + ": objetivos táctiles de al menos 40 px");

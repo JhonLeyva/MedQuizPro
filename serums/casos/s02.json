@@ -1,0 +1,346 @@
+{
+ "id": "s02",
+ "numero": 2,
+ "titulo": "Gestante con presión muy alta",
+ "tema": "Salud materna · Trastorno hipertensivo del embarazo",
+ "resumen": "Gestante de 34 semanas con cefalea y presión muy elevada en una posta sin médico especialista; hay que estabilizar y referir.",
+ "dificultad": "avanzado",
+ "duracion_min": 12,
+ "paciente": {
+  "titulo": "Gestante de 28 años",
+  "motivo": "Acude con dolor de cabeza intenso y visión borrosa."
+ },
+ "vitales": {
+  "fc": 98,
+  "pas": 168,
+  "pad": 114,
+  "temp": 36.8
+ },
+ "gravedad": 2,
+ "historia": [
+  {
+   "id": "h1",
+   "rotulo": "Gestación",
+   "texto": "34 semanas. Sus controles prenatales fueron irregulares."
+  },
+  {
+   "id": "h2",
+   "rotulo": "Síntomas",
+   "texto": "Cefalea intensa desde la mañana y manchas en la visión."
+  }
+ ],
+ "examen": [
+  {
+   "id": "e1",
+   "rotulo": "Presión arterial",
+   "texto": "168/114 mm Hg en dos tomas separadas."
+  },
+  {
+   "id": "e2",
+   "rotulo": "Obstétrico",
+   "texto": "Feto vivo; sin sangrado."
+  }
+ ],
+ "pruebas": [
+  {
+   "id": "p1",
+   "nombre": "Proteinuria en tira reactiva",
+   "insumo": null,
+   "min": 5,
+   "resultado": "Proteinuria positiva."
+  }
+ ],
+ "eventos": [
+  {
+   "cuando": {
+    "t": 30
+   },
+   "texto": "La paciente presenta un aumento de la cefalea y náuseas.",
+   "g": 1
+  }
+ ],
+ "momentos": [
+  {
+   "id": "m1",
+   "eje": "clinico",
+   "titulo": "Clasificación",
+   "texto": "Con estos datos, ¿qué conclusión tomas?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Sospechar preeclampsia con criterios de severidad y activar clave azul",
+     "calidad": "optima",
+     "retro": "Presión muy elevada con síntomas obliga a activar la clave azul y referir.",
+     "min": 3,
+     "ref": [
+      {
+       "doc": "ins-gpc03-2025",
+       "pag": 11
+      },
+      {
+       "doc": "ins-gpc03-2025",
+       "pag": 14
+      }
+     ]
+    },
+    {
+     "id": "b",
+     "texto": "Tomar la presión de nuevo la próxima semana",
+     "calidad": "peligrosa",
+     "retro": "Hay riesgo de convulsión y daño materno-fetal inmediato.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 2,
+     "ref": [
+      {
+       "doc": "ins-gpc03-2025",
+       "pag": 11
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "texto": "Tratar solo el dolor de cabeza",
+     "calidad": "incorrecta",
+     "retro": "La cefalea es un signo de severidad, no un problema aislado.",
+     "min": 5,
+     "error": "omision",
+     "g": 1
+    },
+    {
+     "id": "d",
+     "texto": "Pedir primero una ecografía en el centro de salud más cercano",
+     "calidad": "incorrecta",
+     "retro": "Retrasa la estabilización y la referencia.",
+     "min": 40,
+     "error": "demora",
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "m2",
+   "eje": "seguridad",
+   "titulo": "Estabilización",
+   "texto": "Mientras organizas el traslado, ¿qué haces?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Vía aérea permeable, vía endovenosa, sonda y sulfato de magnesio según la clave azul del documento vigente",
+     "calidad": "optima",
+     "retro": "Es el manejo inicial que describe la guía para el primer nivel.",
+     "min": 15,
+     "g": -1,
+     "cons": {
+      "sulfato_mg": 5,
+      "suero_salino": 1,
+      "venoclisis": 1,
+      "foley": 1
+     },
+     "ref": [
+      {
+       "doc": "ins-gpc03-2025",
+       "pag": 11
+      },
+      {
+       "doc": "ins-gpc03-2025",
+       "pag": 14
+      }
+     ],
+     "req": {
+      "items": {
+       "sulfato_mg": 5,
+       "suero_salino": 1,
+       "venoclisis": 1,
+       "foley": 1
+      }
+     }
+    },
+    {
+     "id": "b",
+     "texto": "Esperar a que llegue la ambulancia sin iniciar nada",
+     "calidad": "peligrosa",
+     "retro": "El manejo inicial no se retrasa hasta el hospital.",
+     "min": 30,
+     "error": "omision",
+     "g": 2,
+     "ref": [
+      {
+       "doc": "ins-gpc03-2025",
+       "pag": 76
+      }
+     ]
+    },
+    {
+     "id": "c",
+     "texto": "Iniciar solo el antihipertensivo sin prevenir convulsiones",
+     "calidad": "incorrecta",
+     "retro": "Falta el componente de prevención de convulsiones descrito en la clave azul.",
+     "min": 5,
+     "error": "omision",
+     "g": 1,
+     "cons": {
+      "antihipertensivo": 1
+     },
+     "ref": [
+      {
+       "doc": "ins-gpc03-2025",
+       "pag": 11
+      }
+     ]
+    },
+    {
+     "id": "d",
+     "texto": "Dar el sulfato de magnesio sin vía venosa asegurada ni vigilancia",
+     "calidad": "incorrecta",
+     "retro": "Requiere acceso y vigilancia durante el traslado.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "m3",
+   "eje": "referencia",
+   "titulo": "Referencia de emergencia",
+   "texto": "¿Cómo derivas a la paciente?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Referencia de emergencia acompañada por personal y con hoja de referencia",
+     "calidad": "optima",
+     "retro": "La guía pide referir a un nivel de mayor complejidad con acompañamiento.",
+     "min": 15,
+     "g": -1,
+     "ref": [
+      {
+       "doc": "ins-gpc03-2025",
+       "pag": 11
+      }
+     ],
+     "referencia": "emergencia"
+    },
+    {
+     "id": "b",
+     "texto": "Indicarle que acuda al hospital cuando pueda",
+     "calidad": "peligrosa",
+     "retro": "No cumple una referencia de emergencia.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 2,
+     "referencia": "rechazada"
+    },
+    {
+     "id": "c",
+     "texto": "Referir sin acompañante",
+     "calidad": "incorrecta",
+     "retro": "Aumenta el riesgo durante el traslado.",
+     "min": 5,
+     "error": "seguridad_paciente",
+     "g": 1,
+     "referencia": "emergencia"
+    },
+    {
+     "id": "d",
+     "texto": "Esperar al día siguiente para completar exámenes",
+     "calidad": "incorrecta",
+     "retro": "Los exámenes no deben retrasar la referencia.",
+     "min": 60,
+     "error": "demora",
+     "g": 1
+    }
+   ]
+  },
+  {
+   "id": "m4",
+   "eje": "referencia",
+   "titulo": "Comunicación",
+   "texto": "Antes de salir, ¿qué coordinas con el hospital?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Avisar el diagnóstico de sospecha, el manejo ya dado y la hora estimada de llegada",
+     "calidad": "optima",
+     "retro": "Una referencia útil comunica lo realizado.",
+     "min": 5
+    },
+    {
+     "id": "b",
+     "texto": "No coordinar para no perder tiempo",
+     "calidad": "incorrecta",
+     "retro": "Sin aviso, el hospital no se prepara.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "c",
+     "texto": "Coordinar solo con la familia",
+     "calidad": "incorrecta",
+     "retro": "No sustituye la coordinación entre establecimientos.",
+     "min": 5,
+     "error": "comunicacion"
+    },
+    {
+     "id": "d",
+     "texto": "Registrar la referencia solo después de varias horas",
+     "calidad": "aceptable",
+     "retro": "El registro tardío es mejor que ninguno, pero pierde utilidad.",
+     "min": 60,
+     "error": "comunicacion"
+    }
+   ]
+  },
+  {
+   "id": "m5",
+   "eje": "comunitario",
+   "titulo": "Seguimiento",
+   "texto": "¿Cómo continúas con la paciente tras el traslado?",
+   "opciones": [
+    {
+     "id": "a",
+     "texto": "Coordinar la contrarreferencia y el seguimiento del puerperio",
+     "calidad": "optima",
+     "retro": "El seguimiento posterior cierra el ciclo de atención.",
+     "min": 10
+    },
+    {
+     "id": "b",
+     "texto": "No hacer seguimiento",
+     "calidad": "incorrecta",
+     "retro": "Se pierde la continuidad.",
+     "min": 5,
+     "error": "omision"
+    },
+    {
+     "id": "c",
+     "texto": "Esperar a que la familia vuelva por su cuenta",
+     "calidad": "aceptable",
+     "retro": "Depende de la iniciativa de la familia.",
+     "min": 5,
+     "error": "omision"
+    },
+    {
+     "id": "d",
+     "texto": "Cerrar el caso sin registro",
+     "calidad": "incorrecta",
+     "retro": "Sin registro no hay trazabilidad.",
+     "min": 5,
+     "error": "comunicacion"
+    }
+   ]
+  }
+ ],
+ "desenlaces": {
+  "favorable": "La paciente llegó estabilizada y recibió manejo especializado.",
+  "reservado": "La paciente llegó con demora y requirió cuidados intensivos.",
+  "desfavorable": "Hubo una complicación grave por el retraso."
+ },
+ "evidencia": [
+  "ins-gpc03-2025"
+ ],
+ "pendientes": [
+  "Las cantidades de la clave azul se encuentran en la guía citada (p. 11 y 14); no se reproducen dosis en esta ficha. Falta revisión por un obstetra."
+ ],
+ "estado_publicacion": "Pendiente de revisión clínica"
+}
