@@ -14,7 +14,7 @@
   function abrir(o, disparador) {
     var imgs = (o.imagenes || []).slice(); if (!imgs.length) return;
     previo = disparador || document.activeElement; var guardado = previo; cerrar(); previo = guardado;
-    var a = o.atribucion || {}, serie = imgs.length > 1;
+    var a = o.atribucion || {}, serie = imgs.length > 1; function tieneAtr(x) { return !!(x.nota || x.autor || x.licencia || x.fuente); }
     var S = { z: 1, x: 0, y: 0, br: 100, ct: 100, inv: false, i: 0 };
     dlg = document.createElement("dialog"); dlg.className = "vi-dlg"; dlg.setAttribute("aria-labelledby", "viT");
     dlg.innerHTML = '<div class="vi"><header class="vi-cab"><h2 id="viT">' + esc(o.titulo || "Imagen") + '</h2><button type="button" class="vi-x" data-a="cerrar" aria-label="Cerrar el visor">✕</button></header>' +
@@ -26,8 +26,8 @@
       (serie ? '<div class="vi-serie"><label for="viCorte">Corte <output id="viCorteN" aria-live="polite">1 / ' + imgs.length + '</output></label><input id="viCorte" type="range" min="1" max="' + imgs.length + '" value="1" aria-label="Corte de la serie (flechas arriba y abajo)"></div>' : "") +
       '<div class="vi-marco" id="viMarco" tabindex="0" aria-label="Imagen: ' + esc(o.alt || o.titulo || "") + '. Arrastra para mover, rueda para acercar."><img id="viImg" src="' + esc(imgs[0]) + '" alt="' + esc(o.alt || o.titulo || "Imagen médica") + '" draggable="false"></div>' +
       '<p class="vi-info" id="viInfo" aria-live="polite"></p>' +
-      '<footer class="vi-atr"><p>' + (a.nota ? "<strong>" + esc(a.nota) + "</strong><br>" : "") + [a.autor ? "Autor: " + esc(a.autor) : "", a.licencia ? "Licencia: " + enlace(a.licenciaUrl, a.licencia) : "", a.fuente ? "Fuente: " + enlace(a.fuenteUrl, a.fuente) : ""].filter(Boolean).join(" · ") +
-      '</p><p class="vi-aviso">Material educativo. No sustituye el informe radiológico ni el juicio clínico.</p></footer></div>';
+      (tieneAtr(a) ? '<footer class="vi-atr"><p>' + (a.nota ? "<strong>" + esc(a.nota) + "</strong><br>" : "") + [a.autor ? "Autor: " + esc(a.autor) : "", a.licencia ? "Licencia: " + enlace(a.licenciaUrl, a.licencia) : "", a.fuente ? "Fuente: " + enlace(a.fuenteUrl, a.fuente) : ""].filter(Boolean).join(" · ") +
+      '</p><p class="vi-aviso">Material educativo. No sustituye el informe radiológico ni el juicio clínico.</p></footer>' : "") + '</div>';
     document.body.appendChild(dlg); document.documentElement.classList.add("vi-abierto");
     var marco = dlg.querySelector("#viMarco"), img = dlg.querySelector("#viImg"), info = dlg.querySelector("#viInfo");
 

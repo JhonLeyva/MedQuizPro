@@ -24,6 +24,13 @@
   function tiempo(s) { s = Math.round(s); return Math.floor(s / 60) + " min " + (s % 60) + " s"; }
   var detener = null;
 
+  /* Descripción del paciente: siempre con mayúscula inicial («Niña de 20 meses», «Mujer de 38 años», «Gestante de 24 años, 2.º trimestre») */
+  function tituloPaciente(p) {
+    if (!p) return "Paciente"; var e = typeof p.edad === "number" ? p.edad : 99, f = p.sexo === "F", txt = p.edad_texto || (p.edad + " años");
+    var quien = p.embarazo ? "Gestante" : e < 12 ? (f ? "Niña" : "Niño") : e < 18 ? "Adolescente " + (f ? "mujer" : "varón") : f ? "Mujer" : "Varón";
+    return quien + " de " + txt + (p.embarazo && p.trimestre ? ", " + p.trimestre + ".º trimestre" : "");
+  }
+  function frase(t) { t = String(t || "").trim(); return t.charAt(0).toUpperCase() + t.slice(1); }
   /* ---------- lista ---------- */
   function lista(cont) {
     var g = cargar(), casos = raiz.MQP_CONSULTA || [], NIVEL = M.guardiaNucleo.NIVEL;
@@ -59,7 +66,7 @@
       }).join("");
       return '<header class="gd-top"><a class="link-arrow" href="#/consulta">← Consulta clínica experta</a><h1>' + esc(caso.titulo) + '</h1></header><p class="gd-aviso" role="note">' + esc(GDm.AVISO) + '</p>' +
         '<nav aria-label="Etapas de la consulta"><ol class="cq-pasos">' + pasos + '</ol></nav>' +
-        '<section class="gd-paciente cq-pac" aria-label="Paciente"><p class="gd-estado"><b>' + esc(GDm.perfilTxt(caso.paciente)) + '.</b> ' + esc(caso.motivo) + '</p></section>';
+        '<section class="cq-pac" aria-label="Paciente"><p class="cq-pac__t">' + esc(tituloPaciente(caso.paciente)) + '</p><p class="cq-pac__m">' + esc(frase(caso.motivo)) + '</p></section>';
     }
     function pintar() {
       var cuerpo = ({ motivo: sMotivo, anamnesis: sAnamnesis, antecedentes: sAntecedentes, examen: sExamen, hipotesis: sHipotesis, pruebas: sPruebas, resultados: sResultados, diagnostico: function () { return sMCQ("diagnostico", "Diagnóstico más probable"); }, tratamiento: function () { return sMCQ("tratamiento", "Tratamiento"); }, seguimiento: function () { return sMCQ("seguimiento", "Seguimiento, alarma y derivación"); } })[vista]();

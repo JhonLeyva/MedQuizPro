@@ -218,4 +218,20 @@ ok(LAB.pruebas.some(p => p.categoria === 'Hematología') && ['Bioquímica', 'Ele
   const sd = rec.items.find(i => i.caso.id === 'g03'); ok(!sd || (sd.provisional && !sd.motivos.some(m => /Aciertas/.test(m))), 'una especialidad sin datos no se presenta como «débil»');
   const todos = N.recomendar(CASOS, { casos: {} }, est, AH), dom = N.recomendar(CASOS, { casos: { g07: { mejor: 95 } } }, est, AH), sc = (r, i) => r.items.find(x => x.caso.id === i); ok(!sc(dom, 'g07') || sc(dom, 'g07').score < sc(todos, 'g07').score - 0.2, 'un caso dominado baja su prioridad');
 }
+/* ---- reglas de presentación de los casos (valen también para los que se creen en adelante) ---- */
+{
+  const mayus = t => /^[A-ZÁÉÍÓÚÑ«¿¡\d]/.test(String(t).trim());
+  const PROHIBIDO = /describ|literatura|imagen real|obsérv|observ[aá]l|ampl[ií]|pulsa|brillo|desplaza/i;
+  for (const c of CASOS) {
+    ok(mayus(c.titulo) && mayus(c.resumen) && mayus(c.contexto), c.id + ': título, resumen y contexto empiezan con mayúscula');
+    for (const [id, nd] of Object.entries(c.nodos)) {
+      if (nd.final) continue;
+      ok(mayus(nd.estado), c.id + '/' + id + ': el estado del paciente empieza con mayúscula');
+      if (nd.imagen) {
+        ok(mayus(nd.imagen.consigna) && nd.imagen.consigna.length <= 110 && !PROHIBIDO.test(nd.imagen.consigna), c.id + '/' + id + ': la descripción de la imagen es breve (modalidad y proyección), con mayúscula y sin indicaciones: «' + nd.imagen.consigna + '»');
+        ok(!PROHIBIDO.test(nd.estado), c.id + '/' + id + ': el texto del caso no explica la imagen ni da instrucciones de uso («imagen real de la literatura», «amplía», etc.)');
+      }
+    }
+  }
+}
 console.log(n + ' comprobaciones, ' + f + ' fallas'); process.exit(f ? 1 : 0);

@@ -472,7 +472,7 @@
    "clave": "B"
   },
   "n3": {
-   "estado": "Glucemia 112 mg/dL. Se realiza una TC de cráneo sin contraste y una angiotomografía. Esta es una imagen real de la literatura publicada, de otra paciente. A la izquierda, TC sin contraste; a la derecha, angiotomografía. Las flechas son las originales de los autores de la publicación.",
+   "estado": "Glucemia 112 mg/dL. Se realiza una TC de cráneo sin contraste y una angiotomografía. A la izquierda, TC sin contraste; a la derecha, angiotomografía.",
    "vitales": {
     "PA": "166/92 mmHg",
     "NIHSS": "14",
@@ -494,7 +494,7 @@
    },
    "imagen": {
     "id": "im-c3d8",
-    "consigna": "Panel A: TC de cráneo sin contraste. Panel B: angiotomografía de vasos intracraneales. Las flechas son de los autores originales."
+    "consigna": "Panel A: TC de cráneo sin contraste. Panel B: angiotomografía de vasos intracraneales."
    },
    "decisiones": [
     {

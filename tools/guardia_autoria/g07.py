@@ -33,14 +33,14 @@ c = {
     D("Dar el alta con nitratos sublinguales y control cardiológico ambulatorio en una semana, ya que no hay signos de infarto en el ECG", "p", "d1", "Dar el alta con sospecha de disección y signos nuevos es un error crítico."),
    ], pregunta="¿Qué corrige el rumbo?", tema=T1, comp="seg", refs=["r1"],
    ayuda={"especialista": "cardio", "pertinentes": ["cardio", "cirucv"], "n1": "Apareció un soplo nuevo y el dolor persiste. ¿Qué estudio y qué aviso son ahora urgentes?", "n2": "Estudio de la aorta con angiotomografía y aviso a cirugía cardiovascular, sin antitrombóticos."}),
-  "n2": N("Se toma una radiografía de tórax portátil. Esta es una imagen real de la literatura publicada, de otro paciente. Obsérvala con atención.",
+  "n2": N("Se toma una radiografía de tórax portátil.",
     {"PA": "180/100 mmHg", "FC": "108 /min", "SatO₂": "95 %"}, 2, "interpretacion", 2, [
     D("Silueta mediastínica ensanchada y silueta cardíaca aumentada: orienta a patología aórtica o pericárdica, pero no confirma ni descarta", "o", "n3", "Una radiografía con mediastino ensanchado orienta a patología aórtica pero tiene sensibilidad limitada: no permite diagnóstico ni exclusión."),
     D("Radiografía normal, por lo que se descarta cualquier problema aórtico y se puede dar de alta con analgesia al paciente estable", "i", "n3", "La imagen no es normal y, además, una radiografía normal no excluye una disección."),
     D("Neumotórax derecho a tensión que exige descompresión con aguja inmediata en el segundo espacio intercostal antes de otros estudios", "i", "n3", "No se identifica línea pleural visceral ni ausencia de trama vascular: el hallazgo es el aumento de la silueta mediastínica y cardíaca."),
     D("Edema agudo de pulmón por insuficiencia cardíaca, que justifica diuréticos endovenosos y el ingreso a una unidad de cuidados coronarios", "i", "n3", "No hay el patrón alveolar bilateral típico; el hallazgo principal es el tamaño de la silueta mediastínica y cardíaca."),
     D("Imagen no interpretable por la calidad portátil: repetir la radiografía en dos horas antes de plantear estudios adicionales de imagen", "i", "n3", "La imagen tiene hallazgos útiles y repetirla dos horas después retrasa el estudio definitivo.", omision=True),
-   ], pregunta="¿Cuál es la interpretación de la radiografía?", tema=T2, comp="dx", refs=["r1"], img=("im-71ea", "Radiografía de tórax portátil. Describe la silueta cardiomediastínica y los campos pulmonares."),
+   ], pregunta="¿Cuál es la interpretación de la radiografía?", tema=T2, comp="dx", refs=["r1"], img=("im-71ea", "Radiografía de tórax portátil."),
    ayuda={"especialista": "rad", "pertinentes": ["rad", "cardio"], "n1": "Describe el mediastino, la silueta cardíaca y los pulmones antes de dar un nombre.", "n2": "Mediastino y silueta cardíaca amplios orientan a la aorta o al pericardio, pero la radiografía no basta."}),
   "n3": N("La radiografía es anormal pero no diagnóstica. El paciente sigue con dolor, taquicardia y presión elevada, hemodinámicamente estable por ahora. Hay que escoger el estudio definitivo.",
     {"PA": "176/98 mmHg", "FC": "104 /min", "Dolor": "persistente", "Estado": "estable"}, 2, "diagnostica", 3, [
@@ -60,14 +60,14 @@ c = {
     D("Indicar trombolisis por sospecha de infarto con elevación del ST pese a la ausencia de cambios electrocardiográficos característicos", "p", "d1", "Un trombolítico ante una disección es potencialmente mortal."),
    ], pregunta="¿Cuál es la conducta ahora?", tema=T3, comp="dx", refs=["r1"],
    ayuda={"especialista": "cirucv", "pertinentes": ["cirucv", "cardio"], "n1": "Todavía falta el estudio definitivo de la aorta y la sospecha sube.", "n2": "Angiotomografía de aorta ya y aviso a cirugía cardiovascular."}),
-  "n4": N("Se hace una angiotomografía de tórax urgente. Esta es una imagen real de la literatura publicada, de otro paciente. Corte coronal; recuerda que puedes volver a la radiografía y comparar.",
+  "n4": N("Se hace una angiotomografía de tórax urgente.",
     {"PA": "176/98 mmHg", "FC": "104 /min", "Dolor": "persistente", "Estado": "angustiado"}, 2, "interpretacion", 3, [
     D("Disección de aorta ascendente (tipo A) con rotura focal de la falsa luz, derrame pericárdico y hematoma en el mediastino", "o", "n5", "La disección que compromete la aorta ascendente es tipo A y es una emergencia quirúrgica; el hematoma y el derrame indican una complicación inminente."),
     D("Disección tipo B no complicada de la aorta descendente, con indicación de tratamiento médico y observación en cuidados intermedios", "i", "r3", "El compromiso de la aorta ascendente la hace tipo A, que se opera de urgencia; el tratamiento médico es el de la tipo B no complicada."),
     D("Aneurisma de la aorta ascendente estable sin signos de complicación, con control ambulatorio con imagen dentro de un mes", "i", "r3", "Hay un colgajo de disección con compromiso agudo, no un aneurisma estable: es una emergencia."),
     D("Tromboembolia pulmonar central con defecto de llenado en el tronco de la arteria pulmonar, tratable con anticoagulación inmediata", "p", "d1", "La imagen muestra una lesión de la aorta, no un defecto de llenado pulmonar; anticoagular una disección puede ser fatal."),
     D("Estudio no concluyente por el movimiento respiratorio: repetir la angiotomografía a las doce horas antes de decidir la conducta", "i", "r3", "La imagen es diagnóstica; esperar doce horas expone al paciente a rotura o taponamiento.", omision=True),
-   ], pregunta="¿Cuál es la interpretación de la angiotomografía?", tema=T4, comp="dx", refs=["r1"], img=("im-e052", "Angiotomografía de tórax, corte coronal. Describe la aorta y las estructuras vecinas."),
+   ], pregunta="¿Cuál es la interpretación de la angiotomografía?", tema=T4, comp="dx", refs=["r1"], img=("im-e052", "Angiotomografía de tórax, corte coronal."),
    lab=None, ayuda={"especialista": "rad", "pertinentes": ["rad", "cirucv", "cardio"], "n1": "Describe qué segmento de la aorta está afectado, si hay flap y qué pasa alrededor (pericardio y mediastino).", "n2": "Compromiso de la aorta ascendente con derrame pericárdico y hematoma: ¿qué tipo es y qué urgencia implica?"}),
   "r3": N("Con una lectura imprecisa, el paciente sigue con dolor y se vuelve más hipotenso con ingurgitación yugular. El radiólogo y cirugía cardiovascular revisan la imagen y confirman el hallazgo.",
     {"PA": "130/80 mmHg", "FC": "112 /min", "Yugulares": "ingurgitadas", "Estado": "más pálido"}, 2, "critica", 2, [
