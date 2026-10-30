@@ -46,7 +46,8 @@ const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"
     /* tarjeta (sin botón propio en el menú) */
     await p.goto(base + "app/#/guardia"); await p.waitForSelector(".gh-card"); if (await p.locator(".gi").count()) { await p.keyboard.press("Escape"); await dormir(300); }
     ok(await p.locator(".gh-card").count() === 4 && await p.locator(".gh-card--teal").count() === 1, "el centro de simulación tiene la cuarta tarjeta");
-    const tx = await p.innerText(".gh-card--teal"); ok(/Misión SERUMS/.test(tx) && /MEDICINA RURAL Y COMUNITARIA/i.test(tx) && /NUEVO/i.test(await p.evaluate(() => getComputedStyle(document.querySelector(".gh-card--teal .gh-card__foto"), "::after").content)), "la tarjeta lleva el título y las etiquetas");
+    const tx = await p.innerText(".gh-card--teal"); ok(/Misión SERUMS/.test(tx) && /MEDICINA RURAL Y COMUNITARIA/i.test(tx) && /NUEVO/i.test(await p.evaluate(() => getComputedStyle(document.querySelector(".gh-card--teal .gh-card__foto"), "::before").content)), "la tarjeta lleva el título y las etiquetas");
+    const fb = await p.evaluate(() => { const i = document.querySelector(".gh-card--teal .gh-card__foto img"), c = getComputedStyle(document.querySelector(".gh-card--teal .gh-card__foto"), "::after"); return [i.naturalWidth > 0, c.backgroundColor, c.content]; }); ok(fb[0] && fb[1] === "rgba(0, 0, 0, 0)", "la foto de la tarjeta se ve (no queda cubierta por un velo blanco)");
     ok(await p.getAttribute(".gh-card--teal a.gh-btn", "href") === "#/serums", "el botón de la tarjeta lleva a #/serums");
     ok(await p.locator('.side__nav a[data-ruta="serums"]').count() === 0, "el menú lateral no tiene un botón aparte de «Misión SERUMS»");
 
