@@ -74,9 +74,9 @@
         '<button type="button" class="gi-ini" id="giIniciar">INICIAR GUARDIA <span aria-hidden="true">→</span></button></div>' +
       '</div>' +
       '<button type="button" class="gi-omitir" id="giOmitir">Omitir introducción</button>' +
-      '<p class="gi-aviso">Simulación educativa. No sirve para dirigir la atención de pacientes reales. Puedes omitirla (botón o Esc); volverá a aparecer cada vez que entres a «Sobrevive a la Guardia».</p>';
+      '<p class="gi-aviso">Simulación educativa. No sirve para dirigir la atención de pacientes reales. Puedes omitirla (botón o Esc); volverá a aparecer cuando recargues la página o vuelvas a entrar tras salir de ella. El sonido de fondo es sintético y decorativo.</p>';
     document.body.appendChild(el); document.body.classList.add("gi-abierta");
-    var prev = document.activeElement, timers = [], cerrado = false;
+    var prev = document.activeElement, timers = [], cerrado = false, sonidoIntro = M.introServicio && M.introServicio.anexarSonido ? M.introServicio.anexarSonido(el, "guardia/audio/hospital.mp3", "gi-snd") : null;   // ambiente de hospital
 
     /* fotografía opcional (se usa solo si el archivo existe) */
     var im = new Image(); im.onload = function () { var f = el.querySelector(".gi-img"); if (f) { f.src = FOTO; el.classList.add("gi--foto"); } }; im.src = FOTO;
@@ -84,7 +84,7 @@
     function T(ms, fn) { timers.push(setTimeout(fn, ms)); }
     function clase(c) { el.classList.add(c); }
     function cerrar(tipo) {
-      if (cerrado) return; cerrado = true; timers.forEach(clearTimeout);
+      if (cerrado) return; cerrado = true; timers.forEach(clearTimeout); if (sonidoIntro) sonidoIntro.detener();
       document.removeEventListener("keydown", tecla); window.removeEventListener("hashchange", alIrse);
       /* «Omitir» cierra solo esta vez: la introducción vuelve a aparecer cada vez que se entra a «Sobrevive a la Guardia» */
       el.classList.add("gi--salida");

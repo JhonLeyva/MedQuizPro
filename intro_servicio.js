@@ -117,21 +117,36 @@
       g.globalCompositeOperation = "source-over";
     }
 
-    /* ---- UCI ---- */
+    /* ---- UCI ----
+       La pantalla del monitor es un cuadrilátero en perspectiva (el borde superior sube hacia la derecha): se dibuja con una correspondencia bilineal (u, v) → imagen
+       y los textos con la base local en cada punto, para que todo quede dentro del cristal y siga su inclinación. */
+    var QM = [[1140, 142], [1376, 96], [1377, 317], [1144, 332]];   // TL, TR, BR, BL del cristal del monitor, en píxeles de la imagen
+    function bil(Q, u, v) { var a = Q[0], b2 = Q[1], c = Q[2], d = Q[3]; return [(1 - u) * (1 - v) * a[0] + u * (1 - v) * b2[0] + u * v * c[0] + (1 - u) * v * d[0], (1 - u) * (1 - v) * a[1] + u * (1 - v) * b2[1] + u * v * c[1] + (1 - u) * v * d[1]]; }
+    function pq(Q, u, v) { var q = bil(Q, u, v); return p(q[0], q[1]); }
+    function trazoQ(Q, fn, t, u0, u1, vc, amp, ventana, color, ancho, muestras, brillo, base) {
+      g.beginPath(); for (var i = 0; i <= muestras; i++) { var u = u0 + (u1 - u0) * i / muestras, y = fn(t - ventana + ventana * (u - u0) / (u1 - u0)), c = pq(Q, u, base ? vc - y * amp : vc - y * amp); i ? g.lineTo(c[0], c[1]) : g.moveTo(c[0], c[1]); }
+      g.lineJoin = "round"; g.lineWidth = Math.max(1, ancho * s); g.strokeStyle = color; if (brillo) { g.shadowColor = color; g.shadowBlur = brillo * s; } g.stroke(); g.shadowBlur = 0;
+    }
+    function textoQ(Q, txt, u, v, tam, color, alin, peso) {
+      var C = pq(Q, u, v), A = pq(Q, u + 0.01, v), B = pq(Q, u, v + 0.01), W0 = Math.hypot(Q[1][0] - Q[0][0], Q[1][1] - Q[0][1]), H0 = Math.hypot(Q[3][0] - Q[0][0], Q[3][1] - Q[0][1]);
+      g.save(); g.transform((A[0] - C[0]) * 100 / W0, (A[1] - C[1]) * 100 / W0, (B[0] - C[0]) * 100 / H0, (B[1] - C[1]) * 100 / H0, C[0], C[1]);
+      g.font = (peso || "700") + " " + tam + "px Arial, Helvetica, sans-serif"; g.fillStyle = color; g.textAlign = alin || "left"; g.textBaseline = "middle"; g.fillText(txt, 0, 0); g.restore();
+    }
     function dibujarUci(t) {
       var latido = Math.exp(-mod(t, LAT) * 5);
       g.globalCompositeOperation = "source-over";
-      caja2(1146, 120, 1378, 306, "#030813");
-      var XL = 1152, XR = 1312;
-      linea(ondaEcgUci, t, XL, XR, 168, 24, 4.2, "#3be26f", 1.7, 200, 5);
-      linea(ondaPleth, t, XL, XR, 212, 15, 4.2, "#ecd44a", 1.6, 200, 4);
-      linea(ondaResp, t, XL, XR, 252, 13, 7.0, "#4aa6ff", 1.6, 200, 4);
-      g.beginPath(); for (var i = 0; i <= 200; i++) { var u = i / 200, c = p(XL + (XR - XL) * u, 300 - ondaCapno(t - 7 + 7 * u) * 16); i ? g.lineTo(c[0], c[1]) : g.moveTo(c[0], c[1]); } g.lineWidth = 1.5 * s; g.strokeStyle = "#5fd0ff"; g.shadowColor = "#5fd0ff"; g.shadowBlur = 4 * s; g.stroke(); g.shadowBlur = 0;
-      texto("II", 1154, 132, 8, "#3be26f", "left"); texto("Pleth", 1154, 198, 8, "#ecd44a", "left"); texto("Resp", 1154, 240, 8, "#4aa6ff", "left"); texto("CO₂", 1154, 284, 8, "#5fd0ff", "left");
-      texto("78", 1346, 146, 40, "#3be26f", "center", "800"); texto("FC", 1318, 126, 8, "#3be26f", "left");
-      texto(mod(t, 20) < 14 ? "96" : "97", 1346, 198, 36, "#ff4d4d", "center", "800"); texto("SpO₂", 1318, 181, 8, "#ff4d4d", "left");
-      texto("18", 1346, 242, 32, "#ffd84a", "center", "800"); texto("FR", 1318, 227, 8, "#ffd84a", "left");
-      texto("105/62", 1346, 275, 17, "#ffffff", "center", "700"); texto("(76)", 1346, 295, 12, "#ffffff", "center", "600");
+      g.beginPath(); [[0.004, 0.012], [0.996, 0.012], [0.996, 0.988], [0.004, 0.988]].forEach(function (uv, i) { var c = pq(QM, uv[0], uv[1]); i ? g.lineTo(c[0], c[1]) : g.moveTo(c[0], c[1]); }); g.closePath(); g.fillStyle = "#030813"; g.fill();   // cristal
+      var U0 = 0.035, U1 = 0.655;
+      trazoQ(QM, ondaEcgUci, t, U0, U1, 0.20, 0.085, 4.2, "#3be26f", 1.7, 200, 5);
+      trazoQ(QM, ondaPleth, t, U0, U1, 0.45, 0.07, 4.2, "#ecd44a", 1.6, 200, 4);
+      trazoQ(QM, ondaResp, t, U0, U1, 0.66, 0.062, 7.0, "#4aa6ff", 1.6, 200, 4);
+      trazoQ(QM, function (x) { return ondaCapno(x); }, t, U0, U1, 0.935, 0.085, 7.0, "#5fd0ff", 1.5, 200, 4);
+      g.fillStyle = "rgba(160,190,230,.18)"; [0.37, 0.57, 0.77].forEach(function (v) { var a = pq(QM, U0, v), b2 = pq(QM, U1, v); g.beginPath(); g.moveTo(a[0], a[1]); g.lineTo(b2[0], b2[1]); g.lineWidth = Math.max(0.6, 0.7 * s); g.strokeStyle = "rgba(160,190,230,.18)"; g.stroke(); });
+      textoQ(QM, "II", 0.04, 0.065, 9, "#3be26f", "left"); textoQ(QM, "Pleth", 0.04, 0.325, 9, "#ecd44a", "left"); textoQ(QM, "Resp", 0.04, 0.545, 9, "#4aa6ff", "left"); textoQ(QM, "CO₂", 0.04, 0.775, 9, "#5fd0ff", "left");
+      textoQ(QM, "FC", 0.685, 0.065, 9, "#3be26f", "left"); textoQ(QM, "78", 0.84, 0.165, 44, "#3be26f", "center", "800");
+      textoQ(QM, "SpO₂", 0.685, 0.31, 9, "#ff4d4d", "left"); textoQ(QM, mod(t, 20) < 14 ? "96" : "97", 0.84, 0.41, 40, "#ff4d4d", "center", "800");
+      textoQ(QM, "FR", 0.685, 0.555, 9, "#ffd84a", "left"); textoQ(QM, "18", 0.84, 0.645, 36, "#ffd84a", "center", "800");
+      textoQ(QM, "105/62", 0.84, 0.825, 19, "#ffffff", "center", "700"); textoQ(QM, "(76)", 0.84, 0.925, 13, "#ffffff", "center", "600");
       /* pantalla del ventilador: afín al paralelogramo de la imagen */
       var A = p(1427.5, 427.5), B = p(1517.5, 425), C = p(1417.5, 532.5);
       g.save(); g.transform((B[0] - A[0]) / 300, (B[1] - A[1]) / 300, (C[0] - A[0]) / 200, (C[1] - A[1]) / 200, A[0], A[1]);
@@ -166,9 +181,19 @@
     return function () { activo = false; cancelAnimationFrame(raf); raiz.removeEventListener("resize", aj); };
   }
 
+  /* botón de sonido + reproducción en bucle para otra introducción (p. ej. la principal de «Sobrevive a la Guardia»); devuelve { detener } */
+  function anexarSonido(caja, url, clase) {
+    var snd = sonido(url), mudo = false, btn = document.createElement("button"); btn.type = "button"; btn.className = clase || "is-intro__snd"; btn.setAttribute("data-sonido", ""); btn.setAttribute("aria-pressed", "true"); btn.textContent = "Sonido activado"; caja.appendChild(btn);
+    function etiqueta(txt) { btn.textContent = txt; btn.setAttribute("aria-pressed", String(!mudo && txt === "Sonido activado")); }
+    function arrancar() { snd.iniciar().then(function (suena) { if (suena) etiqueta(mudo ? "Sonido silenciado" : "Sonido activado"); else { etiqueta("Activar sonido"); caja.addEventListener("pointerdown", reintento, { once: true }); caja.addEventListener("keydown", reintento, { once: true }); } }); }
+    function reintento() { if (!mudo) arrancar(); }
+    btn.addEventListener("click", function (ev) { ev.stopPropagation(); if (btn.textContent === "Activar sonido") { mudo = false; arrancar(); return; } mudo = !mudo; snd.silenciar(mudo); etiqueta(mudo ? "Sonido silenciado" : "Sonido activado"); });
+    arrancar(); return { detener: function () { snd.detener(); if (btn.parentNode) btn.parentNode.removeChild(btn); } };
+  }
   function esc(t) { return String(t).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
-  function vista(clave) { try { return sessionStorage.getItem("mqp_intro_" + clave) === "1"; } catch (e) { return false; } }
-  function marcar(clave) { try { sessionStorage.setItem("mqp_intro_" + clave, "1"); } catch (e) {} }
+  var VISTAS = {};   // en memoria: se borra al recargar o salir de la página y al cerrar la ventana; no sobrevive entre visitas
+  function vista(clave) { return !!VISTAS[clave]; }
+  function marcar(clave) { VISTAS[clave] = true; }
 
   function mostrar(clave, opc) {
     var S = SERVICIOS[clave]; if (!S) return;
@@ -190,11 +215,11 @@
     if (d.showModal) d.showModal(); else d.setAttribute("open", ""); d.querySelector("[data-entrar]").focus();
     parar = escena(clave, d.querySelector(".is-intro__escena"), d.querySelector(".is-intro__lienzo"), snd); arrancar();
   }
-  /* aparece una vez por sesión al entrar a cada servicio; «Omitir» no guarda ninguna preferencia. La clave de localStorage solo la usan las pruebas automáticas. */
+  /* aparece la primera vez que se entra a cada servicio en cada visita (se vuelve a abrir tras recargar o salir de la página); «Omitir» no guarda ninguna preferencia. La clave de localStorage solo la usan las pruebas automáticas. */
   function auto(clave) {
     var omitir = false; try { omitir = localStorage.getItem("mqp_guardia_intro_v1") === "omitir"; } catch (e) {}
     if (omitir || vista(clave) || document.querySelector("dialog.is-intro")) return;
     mostrar(clave);
   }
-  M.introServicio = { mostrar: mostrar, auto: auto, vista: vista, SERVICIOS: SERVICIOS, ondaEmerg: ondaEmerg, faseEmerg: faseEmerg };
+  M.introServicio = { mostrar: mostrar, auto: auto, vista: vista, marcar: marcar, anexarSonido: anexarSonido, SERVICIOS: SERVICIOS, ondaEmerg: ondaEmerg, faseEmerg: faseEmerg };
 })(typeof window !== "undefined" ? window : this);
