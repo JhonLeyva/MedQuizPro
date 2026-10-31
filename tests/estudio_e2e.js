@@ -113,7 +113,7 @@ const letras = q => Array.isArray(q.opciones) ? "ABCDE".slice(0, q.opciones.leng
     const axePath = process.env.AXE_PATH || "";
     if (axePath && fs.existsSync(axePath)) {
       const AXE = fs.readFileSync(axePath, "utf8");
-      const auditar = async (pg, nombre) => { await pg.evaluate(AXE); const r = await pg.evaluate(async () => await axe.run(document, { runOnly: { type: "tag", values: ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"] } }));
+      const auditar = async (pg, nombre) => { await dormir(700); await pg.evaluate(AXE); const r = await pg.evaluate(async () => await axe.run(document, { runOnly: { type: "tag", values: ["wcag2a", "wcag2aa", "wcag21a", "wcag21aa", "wcag22aa"] } }));
         r.violations = r.violations.filter(v => !v.nodes.every(n => n.target.join(" ") === "#chatLauncher"));      // botón flotante del chat del sitio: preexistente
         ok(r.violations.length === 0, "axe · " + nombre + ": " + r.violations.map(v => v.id + " ×" + v.nodes.length + " " + v.nodes[0].target.join(" ") + " " + ((v.nodes[0].any[0] || {}).message || "")).join(" | ")); };
       await p.goto(base + "app/#/repaso"); await p.waitForSelector(".est-wrap"); await auditar(p, "Repaso de hoy");

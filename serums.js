@@ -214,7 +214,7 @@
     function etiqueta(estado) { btn.textContent = estado; btn.setAttribute("aria-pressed", String(!mudo && estado === "Sonido activado")); }
     function arrancar() { sonido.iniciar().then(function (suena) { if (suena) etiqueta(mudo ? "Sonido silenciado" : "Sonido activado"); else { etiqueta("Activar sonido"); btn.setAttribute("aria-pressed", "false"); d.addEventListener("pointerdown", reintento, { once: true }); d.addEventListener("keydown", reintento, { once: true }); } }); }
     function reintento() { if (!mudo) arrancar(); }
-    function cerrar(ir) { if (parar) parar(); sonido.detener(); try { d.close(); } catch (e) {} d.remove(); introVistaMem = true; if (ir && alAsumir) alAsumir(); }
+    function cerrar(ir) { if (parar) parar(); sonido.detener(); try { d.close(); } catch (e) {} d.remove(); introVistaMem = true; try { sessionStorage.setItem("mqp_serums_intro", "1"); } catch (e) {} if (ir && alAsumir) alAsumir(); }
     btn.addEventListener("click", function () { if (btn.textContent === "Activar sonido") { mudo = false; arrancar(); return; } mudo = !mudo; sonido.silenciar(mudo); etiqueta(mudo ? "Sonido silenciado" : "Sonido activado"); });
     d.querySelector("[data-asumir]").addEventListener("click", function () { cerrar(true); });
     d.querySelector("[data-omitir]").addEventListener("click", function () { cerrar(false); });
@@ -222,8 +222,8 @@
     if (d.showModal) d.showModal(); else d.setAttribute("open", ""); d.querySelector("[data-asumir]").focus();
     parar = tormenta(d.querySelector(".sr-intro__escena"), d.querySelector(".sr-intro__lienzo"), sonido); arrancar();
   }
-  var introVistaMem = false;   // en memoria: se vuelve a mostrar tras recargar o salir de la página
-  function introVista() { return introVistaMem; }
+  function introVista() { try { return sessionStorage.getItem("mqp_serums_intro") === "1"; } catch (e) { return introVistaMem; } }   // una vez por sesión del navegador; se borra al cerrar sesión (app.js)
+  var introVistaMem = false;
 
   /* ---------- portada de la estación ---------- */
   function insumosHtml(inv, ini) {

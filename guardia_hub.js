@@ -211,14 +211,15 @@
     if (!reducido) raf = raiz.requestAnimationFrame(ciclo);
     return function () { vivo = false; if (raf) raiz.cancelAnimationFrame(raf); if (ro) ro.disconnect(); if (io) io.disconnect(); raiz.removeEventListener("resize", ubicar); };
   }
-  var detenerMonitor = null, enHub = false, sinIntroProxima = false, introHubVista = false;   // la introducción principal se muestra la primera vez de cada visita (memoria: se reinicia al recargar o salir)
+  var detenerMonitor = null, enHub = false, sinIntroProxima = false, introHubVista = false;   // la introducción principal se muestra la primera vez de la sesión del navegador (sessionStorage; se borra al cerrar la ventana o la sesión de la cuenta)
   window.addEventListener("hashchange", function () { if (!/^#\/guardia\/?$/.test(location.hash)) { enHub = false; if (detenerMonitor) { detenerMonitor(); detenerMonitor = null; } } });
   document.addEventListener("click", function (e) { var a = e.target.closest && e.target.closest('.gh-migas a[href="#/guardia"]'); if (a) sinIntroProxima = true; });   // volver desde un listado del propio módulo no repite la introducción
   function montar(cont, datosApp) {
     var ctx = { datos: datosApp };
     function listo() {
       if (!/^#\/guardia\/?$/.test(location.hash)) return;
-      var mostrarIntro = !introHubVista; enHub = true; sinIntroProxima = false; if (mostrarIntro) introHubVista = true;
+      var visto = introHubVista; try { visto = sessionStorage.getItem("mqp_intro_hub") === "1"; } catch (e) {}
+      var mostrarIntro = !visto; enHub = true; sinIntroProxima = false; if (mostrarIntro) { introHubVista = true; try { sessionStorage.setItem("mqp_intro_hub", "1"); } catch (e) {} }
       if (detenerMonitor) detenerMonitor(); pintar(cont, ctx); var hero = cont.querySelector(".gh-hero"); detenerMonitor = hero ? monitorVivo(hero) : null;
       var I2 = M.guardiaIntro; if (I2 && mostrarIntro && !document.querySelector(".gi")) I2.mostrar({ alTerminar: function () { var b = cont.querySelector(".gh-btn"); if (b) b.focus({ preventScroll: true }); } });
     }
