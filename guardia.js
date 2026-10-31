@@ -15,6 +15,16 @@
     if (!cargaDatos) cargaDatos = Promise.all([cargarScript("guardia_casos.js"), cargarScript("guardia_lab.js")]).then(function () {}, function (e) { cargaDatos = null; throw e; });
     return cargaDatos;
   }
+  /* UCI y paciente crítico: casos con la misma estructura y motor, en su propio archivo (se carga al abrir la modalidad o un caso de UCI). */
+  var cargaUci = null;
+  function asegurarUci() {
+    if (raiz.MQP_GUARDIA_UCI) return Promise.resolve();
+    if (!cargaUci) cargaUci = cargarScript("guardia_uci.js").catch(function (e) { cargaUci = null; throw e; });
+    return cargaUci;
+  }
+  function todos() { return (raiz.MQP_GUARDIA || []).concat(raiz.MQP_GUARDIA_UCI || []); }
+  function volverHref(caso) { return caso && caso.modalidad === "uci" ? "#/guardia/uci" : "#/guardia/emergencias"; }
+  function volverEnlace(caso) { return '<a class="link-arrow" href="' + volverHref(caso) + '">← ' + (caso && caso.modalidad === "uci" ? "UCI y paciente crítico" : "Guardia de emergencias") + '</a>'; }
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
   function url(u) { return /^https?:\/\//i.test(u || "") ? u : ""; }
   function enlace(href, txt) { return url(href) ? '<a href="' + esc(href) + '" target="_blank" rel="noopener noreferrer">' + esc(txt) + '</a>' : esc(txt); }
@@ -162,6 +172,20 @@
     var f = cont.querySelector("#gdFil");
     f.addEventListener("change", function () { [].forEach.call(cont.querySelectorAll(".gd-caso"), function (li) { li.hidden = !!f.value && li.getAttribute("data-esp").split(" · ").indexOf(f.value) < 0; }); });
   }
+  function listaUci(cont) {
+    var g = cargar(), casos = raiz.MQP_GUARDIA_UCI || [], NIVEL = G().NIVEL, hechos = casos.filter(function (c) { return g.casos[c.id]; }).length;
+    var media = hechos ? Math.round(casos.reduce(function (t, c) { return t + (g.casos[c.id] ? g.casos[c.id].mejor : 0); }, 0) / hechos) : null;
+    cont.innerHTML = '<nav class="gh-migas" aria-label="Ruta"><a href="#/guardia">Centro de simulación</a><span aria-hidden="true">›</span><span aria-current="page">UCI y paciente crítico</span></nav>' +
+      '<header class="gh-modal gh-modal--indigo"><img class="gh-modal__img" src="../guardia/portadas/uci.webp" alt="" width="800" height="600" loading="eager" decoding="async"><div class="gh-modal__txt"><p class="gh-kicker">Cuidados críticos</p><h1 class="gh-modal__t">UCI y paciente crítico</h1><p>Casos de cuidados intensivos para razonar y decidir: ventilación, hemodinamia, reanimación y reperfusión. Cada decisión tiene cinco alternativas, un desenlace que depende de lo que elijas y un informe final con el razonamiento y la bibliografía.</p></div></header>' +
+      '<p class="gd-aviso" role="note">' + esc(AVISO) + '</p>' +
+      '<dl class="gd-kpis"><div class="gd-kpi"><dt>Casos completados</dt><dd>' + hechos + ' / ' + casos.length + '</dd></div><div class="gd-kpi"><dt>Mejor puntaje medio</dt><dd>' + (media == null ? "—" : media + " %") + '</dd></div></dl>' +
+      '<ul class="gd-lista" id="gdLista">' + casos.map(function (c) {
+        var r = g.casos[c.id], nDec = contarDecisiones(c);
+        return '<li class="gd-caso"><p class="gd-niv">' + esc(NIVEL[c.dificultad]) + ' · ' + esc(c.especialidad) + '</p><h2>' + esc(c.titulo) + '</h2><p>' + esc(c.resumen) + '</p>' +
+          '<p class="muted small">≈ ' + c.duracion_min + ' min · ' + nDec + ' decisiones en la ruta óptima · ' + c.referencias.length + ' referencias</p>' + (r ? '<p class="gd-mejor">Mejor puntaje: <b>' + r.mejor + ' %</b> · Intentos: ' + r.intentos + '</p>' : "") +
+          '<a class="btn btn--primary btn--sm" href="#/guardia/' + esc(c.id) + '">' + (r ? "Reintentar el caso" : "Empezar el caso") + '</a></li>';
+      }).join("") + '</ul>';
+  }
   function contarDecisiones(caso) { var id = caso.inicio, n = 0; while (!caso.nodos[id].final && n < 60) { var o = caso.nodos[id].decisiones.filter(function (d) { return d.calidad === "optima"; })[0]; id = o.siguiente; n++; } return n; }
 
   /* ---------- imágenes ---------- */
@@ -196,7 +220,7 @@
     var N = G(), crudo = ls(CLAVE_SESION + ":" + caso.id), ses = crudo ? N.restaurarSesion(crudo, caso) : null, modo = ls(CLAVE_MODO) === "cronometrada" ? "cronometrada" : "entrenamiento";
     if (crudo && !ses) borrarSesion(caso.id);                         // sesión incompatible con la versión actual del caso: se descarta
     var tiempos = Object.keys(N.TIPOS).map(function (k) { return '<li>' + esc(N.TIPOS[k]) + ': ' + N.TIEMPOS[k] + ' s por defecto (' + (k === "critica" ? "30–60 s" : "1–3 min") + ' según la complejidad; cada decisión fija el suyo)</li>'; }).join("");
-    cont.innerHTML = '<div class="gd-juego"><header class="gd-top"><a class="link-arrow" href="#/guardia/emergencias">← Guardia de emergencias</a><h1>' + esc(caso.titulo) + '</h1></header><p class="gd-aviso" role="note">' + esc(AVISO) + '</p>' +
+    cont.innerHTML = '<div class="gd-juego"><header class="gd-top">' + volverEnlace(caso) + '<h1>' + esc(caso.titulo) + '</h1></header><p class="gd-aviso" role="note">' + esc(AVISO) + '</p>' +
       (ses ? '<section class="card card--spaced gd-reanudar" aria-labelledby="gdRe"><h2 class="card__h" id="gdRe">Tienes este caso en curso</h2><p>' + esc(N.MODOS[ses.modo].nombre) + ' · decisión ' + (ses.camino.length + 1) + '. ' + (ses.modo === "cronometrada" ? "El reloj de la decisión actual conserva el tiempo ya usado." : "") + '</p><button type="button" class="btn btn--primary" id="gdContinuar">Continuar donde lo dejé</button> <button type="button" class="btn btn--ghost" id="gdReiniciar">Empezar de nuevo</button></section>' : "") +
       '<section class="card card--spaced"><h2 class="card__h">Elige cómo jugar</h2><p>' + esc(caso.contexto) + '</p><fieldset class="gd-modos"><legend class="sr-only">Modo de juego</legend>' +
       Object.keys(N.MODOS).map(function (k) { var m = N.MODOS[k]; return '<label class="gd-modo"><input type="radio" name="gdModo" value="' + k + '"' + (k === modo ? " checked" : "") + '><span><b>' + esc(m.nombre) + '</b><br><span class="muted small">' + esc(m.texto) + '</span></span></label>'; }).join("") + '</fieldset>' +
@@ -252,7 +276,7 @@
       var vit = Object.keys(nodo.vitales).map(function (k) { return '<div><dt>' + esc(k) + '</dt><dd>' + esc(nodo.vitales[k]) + '</dd></div>'; }).join("");
       var previas = vistas.filter(function (i) { return !nodo.imagen || i !== nodo.imagen.id; }), fx = efectosActivos(), tipo = nodo.tipo || "diagnostica";
       var limite = N.tiempoNodo(nodo), usadoPrevio = usadoRestaurado; usadoRestaurado = 0;
-      cont.innerHTML = '<div class="gd-juego' + (fx ? " gd-fx" : "") + '"><header class="gd-top"><a class="link-arrow" href="#/guardia/emergencias">← Guardia de emergencias</a><h1>' + esc(caso.titulo) + '</h1>' +
+      cont.innerHTML = '<div class="gd-juego' + (fx ? " gd-fx" : "") + '"><header class="gd-top">' + volverEnlace(caso) + '<h1>' + esc(caso.titulo) + '</h1>' +
         '<p class="gd-prog">Decisión ' + (camino.length + 1) + ' · Puntaje ' + puntos + ' de ' + N.maximoRecorrido(camino) + ' posibles hasta ahora · ' + esc(MODO.nombre) + '</p></header><p class="gd-aviso" role="note">' + esc(AVISO) + '</p>' +
         '<div class="gd-barra-acc"><button type="button" class="btn btn--ghost btn--sm" id="gdLabBtn">🧪 Laboratorio y valores de referencia</button>' + (MODO.ayuda ? ' <button type="button" class="btn btn--ghost btn--sm" id="gdEspBtn">👩‍⚕️ Consultar al especialista</button>' : '') +
         (MODO.cronometro ? ' <button type="button" class="btn btn--ghost btn--sm" id="gdPausa" aria-pressed="false">⏸ Pausar</button>' : "") + '</div>' +
@@ -322,9 +346,9 @@
     function fin() {
       terminar(); var f = nodo.final, an = N.analizar(caso, camino, puntos, { modo: modo }), pct = an.pct, inf = caso.informe, IM = IMG(), fatal = f.tipo === "fatal";
       var g = N.registrar(cargar(), caso, { pct: pct, tipo: f.tipo, criticos: an.criticos.length, modo: modo }); guardar(g); borrarSesion(caso.id);
-      var rel = (inf.casos_relacionados || []).map(function (id) { return (raiz.MQP_GUARDIA || []).filter(function (c) { return c.id === id; })[0]; }).filter(Boolean);
+      var rel = (inf.casos_relacionados || []).map(function (id) { return todos().filter(function (c) { return c.id === id; })[0]; }).filter(Boolean);
       var usadas = {}; an.refsUsadas.forEach(function (r) { usadas[r] = 1; });
-      var h = '<div class="gd-juego gd-informe"><header class="gd-top"><a class="link-arrow" href="#/guardia/emergencias">← Guardia de emergencias</a><h1>' + esc(caso.titulo) + '</h1></header><p class="gd-aviso" role="note">' + esc(AVISO) + '</p>' +
+      var h = '<div class="gd-juego gd-informe"><header class="gd-top">' + volverEnlace(caso) + '<h1>' + esc(caso.titulo) + '</h1></header><p class="gd-aviso" role="note">' + esc(AVISO) + '</p>' +
         '<section class="gd-final gd-final--' + f.tipo + '"><p class="gd-niv">Desenlace</p><h2>' + esc(f.titulo) + '</h2><p>' + esc(f.mensaje) + '</p><p class="gd-pts"><b>' + pct + ' %</b><span>' + puntos + ' de ' + an.max + ' puntos ponderados posibles en las decisiones que tomaste · ' + esc(N.MODOS[modo].nombre) + '</span></p></section>' +
         (fatal ? '<section class="card card--spaced gd-fatal" aria-labelledby="gdFat"><h2 class="card__h" id="gdFat">Qué contribuyó a este desenlace</h2><p class="small">Un desenlace fatal solo ocurre en este caso tras una secuencia de errores críticos definida de antemano. Estas fueron las decisiones que más contribuyeron y la conducta preferible en cada una:</p><ul>' +
           (an.criticos.length ? an.criticos.map(function (x) { return '<li><b>Decisión ' + x.n + ' (' + esc(x.elegida.id) + '):</b> ' + esc(x.elegida.texto) + '<br><b>Lo preferible (' + esc(x.optima.id) + '):</b> ' + esc(x.optima.texto) + '<br><span class="small">' + esc(x.optima.explicacion) + '</span></li>'; }).join("") : '<li>' + esc(f.mensaje) + '</li>') + '</ul></section>' : "") +
@@ -375,7 +399,7 @@
         '<h3 class="gd-h3">Referencias del caso</h3><ul class="gd-refs">' + caso.referencias.map(function (r, i) { return refHtml(r, i + 1, usadas[r.id]); }).join("") + '</ul>' +
         '<h3 class="gd-h3">Diferencias entre fuentes y limitaciones</h3><ul>' + caso.discrepancias.map(function (x) { return '<li class="small">' + esc(x) + '</li>'; }).join("") + '</ul>' +
         '<p class="muted small">Caso redactado a partir de las fuentes citadas; no fue revisado por un especialista externo. Si ves una discrepancia con tu guía vigente, prevalece la guía.</p></section>' +
-        '<div class="gd-acc"><a class="btn btn--primary" href="#/guardia/' + esc(caso.id) + '" data-reintentar>Reintentar el caso</a><a class="btn btn--ghost" href="#/guardia/emergencias">Volver a los casos</a>' +
+        '<div class="gd-acc"><a class="btn btn--primary" href="#/guardia/' + esc(caso.id) + '" data-reintentar>Reintentar el caso</a><a class="btn btn--ghost" href="' + volverHref(caso) + '">Volver a los casos</a>' +
         rel.slice(0, 1).map(function (c) { return '<a class="btn btn--ghost" href="#/guardia/' + esc(c.id) + '">Siguiente: ' + esc(c.titulo) + '</a>'; }).join("") + '</div></div>';
       cont.innerHTML = h; ligarImagenes(cont);
       var re = cont.querySelector("[data-reintentar]"); re.addEventListener("click", function (ev) { ev.preventDefault(); preludio(cont, caso); window.scrollTo(0, 0); });
@@ -392,13 +416,19 @@
       asegurarDatos().then(function () { if (/^#\/guardia/.test(location.hash)) montar(cont, arg, datos); }, function () { cont.innerHTML = '<div class="empty-state"><p class="empty-state__title">No se pudieron cargar los casos</p><p class="empty-state__text">Revisa tu conexión e inténtalo de nuevo.</p><a class="btn btn--primary" href="#/guardia/emergencias">Reintentar</a></div>'; });
       return;
     }
+    if ((arg === "uci" || /^u\d+$/.test(arg || "")) && !raiz.MQP_GUARDIA_UCI) {
+      cont.innerHTML = '<p class="muted" role="status">Cargando los casos de UCI…</p>';
+      asegurarUci().then(function () { if (/^#\/guardia/.test(location.hash)) montar(cont, arg, datos); }, function () { cont.innerHTML = '<div class="empty-state"><p class="empty-state__title">No se pudieron cargar los casos de UCI</p><p class="empty-state__text">Revisa tu conexión e inténtalo de nuevo.</p></div>'; });
+      return;
+    }
     var casos = raiz.MQP_GUARDIA || [];
-    var caso = arg && arg !== "emergencias" ? casos.filter(function (c) { return c.id === arg; })[0] : null;
+    var caso = arg && arg !== "emergencias" && arg !== "uci" ? todos().filter(function (c) { return c.id === arg; })[0] : null;
     var primeraEntrada = !dentro; dentro = true;
     if (!arg && M.guardiaHub) { if (detener) detener(); M.guardiaHub.montar(cont, datos, primeraEntrada); return; }
-    if (arg && arg !== "emergencias" && !caso) { cont.innerHTML = '<div class="empty-state"><p class="empty-state__title">No encontramos ese caso</p><a class="btn btn--primary" href="#/guardia/emergencias">Ver los casos</a></div>'; return; }
+    if (arg && arg !== "emergencias" && arg !== "uci" && !caso) { cont.innerHTML = '<div class="empty-state"><p class="empty-state__title">No encontramos ese caso</p><a class="btn btn--primary" href="#/guardia/emergencias">Ver los casos</a></div>'; return; }
     if (detener) detener();
     if (caso) { preludio(cont, caso); return; }
+    if (arg === "uci") { listaUci(cont); return; }
     lista(cont, datos);
     var I = M.guardiaIntro;
     var rep = document.createElement("p"); rep.className = "gd-repetir";
@@ -406,5 +436,5 @@
     var kp = cont.querySelector(".gd-aviso");
     if (kp && I) { kp.after(rep); rep.querySelector("button").addEventListener("click", function () { I.mostrar({}); }); }
   }
-  M.guardia = { montar: montar, asegurarDatos: asegurarDatos, abrirLaboratorio: abrirLaboratorio, tablaResultados: tablaResultados, filaResultado: filaResultado, tarjetaCatalogo: tarjetaCatalogo, dialogo: dialogo, cerrarDialogo: cerrarDialogo, figura: figura, ligarImagenes: ligarImagenes, refHtml: refHtml, esc: esc, enlace: enlace, ls: ls, AVISO: AVISO, perfilTxt: perfilTxt, efectosActivos: efectosActivos, mayus1: mayus1, cargar: cargar, estadisticasAlumno: estadisticasAlumno, abrirCatalogo: abrirCatalogo, contarDecisiones: contarDecisiones };
+  M.guardia = { montar: montar, asegurarDatos: asegurarDatos, asegurarUci: asegurarUci, abrirLaboratorio: abrirLaboratorio, tablaResultados: tablaResultados, filaResultado: filaResultado, tarjetaCatalogo: tarjetaCatalogo, dialogo: dialogo, cerrarDialogo: cerrarDialogo, figura: figura, ligarImagenes: ligarImagenes, refHtml: refHtml, esc: esc, enlace: enlace, ls: ls, AVISO: AVISO, perfilTxt: perfilTxt, efectosActivos: efectosActivos, mayus1: mayus1, cargar: cargar, estadisticasAlumno: estadisticasAlumno, abrirCatalogo: abrirCatalogo, contarDecisiones: contarDecisiones };
 })(typeof window !== "undefined" ? window : this);

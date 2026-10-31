@@ -79,3 +79,14 @@ Flujo: motivo → anamnesis → antecedentes → examen físico → hipótesis (
 - Las respuestas viajan en el cliente (es un recurso de estudio, no un examen vigilado).
 - Imágenes reales de licencia abierta a 512 px; los casos de consulta no incluyen imágenes; no hay caso piloto de dermatología con imagen licenciada.
 - El «especialista» y la consulta son lógica predefinida, no una persona ni un modelo de IA.
+
+## UCI y paciente crítico (`#/guardia/uci`)
+Tres casos con el mismo motor y estructura que los de emergencias, en `guardia/uci/u01–u03.json` (se escriben con `tools/guardia_autoria/u0N.py`; `python3 tools/guardia_empaquetar.py` genera `guardia_uci.js`, que se carga al abrir la modalidad o un caso de UCI). Llevan `"modalidad": "uci"`; los de emergencias no, y el hub y los listados los separan.
+
+| Caso | Dificultad | Tema | Fuentes principales (verificadas en PubMed) |
+|---|---|---|---|
+| u01 · Insuficiencia respiratoria que no mejora con oxígeno | Intermedio | SDRA grave: vía aérea, ventilación protectora, prono, bloqueo neuromuscular, corticoide y ECMO | ATS 2024 (PMID 38032683), ESICM 2023 (PMID 37326646), PROSEVA (PMID 23688302) |
+| u02 · Paciente reanimado que no despierta | Intermedio | Cuidados posparo: oxígeno y presión, ECG, reperfusión, temperatura, crisis y pronóstico multimodal | ERC/ESICM 2025 (PMID 41123621), AHA 2025 parte 11 (PMID 41122894) |
+| u03 · Colapso brusco al cuarto día de una cirugía | Difícil | Shock obstructivo por embolia pulmonar de alto riesgo con trombólisis contraindicada | ESC 2019 (PMID 31504429); AHA/ACC 2026 solo como complementaria (resúmenes, PMID 42693678) |
+
+Reglas: no hay guía peruana (MINSA/EsSalud) vigente identificada para estos temas y cada caso lo declara; las guías de 2025–2026 solo se leyeron en resumen, así que los casos no fijan metas numéricas ni dosis y piden confirmar el texto. Las pruebas estructurales de `tests/guardia_test.js` (cinco alternativas, una óptima, omisión, referencias, grafo sin ciclos, ruta de 6–12 decisiones, informe) se aplican a los 13 casos; `tests/guardia_e2e.js` juega los tres de UCI en ambos modos.

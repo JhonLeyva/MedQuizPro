@@ -12,7 +12,7 @@ const dormir = ms => new Promise(r => setTimeout(r, ms));
 const libre = () => new Promise(r => { const s = net.createServer().listen(0, "127.0.0.1", () => { const p = s.address().port; s.close(() => r(p)); }); });
 global.window = {}; const CASOS = require("../guardia_casos.js"); const N = require("../guardia_nucleo.js");
 const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"); } catch (e) {} };
-const porId = id => CASOS.find(c => c.id === id);
+const UCI = require("../guardia_uci.js"); const porId = id => CASOS.concat(UCI).find(c => c.id === id);
 
 (async () => {
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "gd-e2e-"));
@@ -80,6 +80,21 @@ const porId = id => CASOS.find(c => c.id === id);
       if (modo === "cronometrada") ok(/de \d+:\d\d disponibles/.test(t) && /decisión\(es\) con tiempo agotado/.test(t), c.id + ": informe de tiempo usado vs disponible");
     }
     const prog = await p.evaluate(() => JSON.parse(localStorage.getItem("mqp_progreso_v1")).preferencias.guardia.casos); ok(CASOS.every(c => prog[c.id].mejor === 100 && prog[c.id].mejorCrono === 100), "progreso: 10 casos con 100 % y mejor cronometrado");
+
+    /* 2b) UCI y paciente crítico: listado propio, carga diferida y los tres casos por la ruta óptima en ambos modos */
+    await p.goto(base + "app/#/guardia/uci"); await p.waitForSelector(".gd-caso");
+    ok(await p.locator(".gd-caso").count() === 3 && pedidos.some(u => /guardia_uci\.js/.test(u)), "UCI: el listado muestra exactamente 3 casos y los carga al entrar");
+    ok(/UCI y paciente crítico/.test(await p.locator("h1").first().innerText()) && !/Guardia de emergencias/.test(await p.locator(".gh-migas").innerText()), "UCI: encabezado y ruta propios");
+    ok(UCI.filter(c => c.dificultad === 2).length === 2 && UCI.filter(c => c.dificultad === 3).length === 1 && /Intermedio/i.test(await p.locator(".gd-niv").nth(0).innerText()) && /Difícil|Dificil|Avanzado/i.test(await p.locator(".gd-lista").innerText()), "UCI: dos casos intermedios y uno difícil visibles");
+    await p.goto(base + "app/#/guardia/emergencias"); await p.waitForSelector(".gd-caso"); ok(await p.locator(".gd-caso").count() === 10, "la lista de emergencias sigue con 10 casos (sin los de UCI)");
+    for (const modo of ["entrenamiento", "cronometrada"]) for (const c of UCI) {
+      const el = await jugar(p, c, modo, optima); const t = await p.locator(".gd-informe").textContent();
+      ok(/100 %/.test(t) && /Buen desenlace/.test(t), c.id + " (" + modo + "): UCI ruta óptima → 100 % y buen desenlace"); ok(el.length >= 6 && el.length <= 12, c.id + ": " + el.length + " decisiones en la ruta óptima");
+      ok(await p.locator(".gd-cinco__i").count() === el.length * 5 && await p.locator(".gd-ref").count() === c.referencias.length, c.id + ": análisis de las cinco alternativas y referencias");
+      ok(await p.locator('.gd-informe a[href="#/guardia/uci"]').count() >= 1 && await p.locator('.gd-informe a[href="#/guardia/emergencias"]').count() === 0, c.id + ": los enlaces de regreso llevan a UCI");
+    }
+    { const prog2 = await p.evaluate(() => JSON.parse(localStorage.getItem("mqp_progreso_v1")).preferencias.guardia.casos); ok(UCI.every(c => prog2[c.id].mejor === 100), "UCI: progreso guardado por caso"); }
+    { const q = await p.context().newPage(); await q.goto(base + "app/#/guardia/u03"); await q.waitForSelector("#gdEmpezar"); ok(/Colapso brusco/.test(await q.locator("h1").innerText()), "UCI: un caso se abre por su enlace directo (carga diferida)"); await q.close(); }
 
     /* 3) errores: recuperables no matan; críticos llevan a deterioro; fatal solo tras 2 decisiones críticas */
     for (const c of CASOS) {

@@ -1,0 +1,1038 @@
+{
+ "id": "u02",
+ "modalidad": "uci",
+ "titulo": "Paciente reanimado que no despierta",
+ "especialidad": "Medicina intensiva · Cardiología · Neurología",
+ "dificultad": 2,
+ "duracion_min": 17,
+ "areas_banco": [
+  "cardiologia",
+  "neurologia"
+ ],
+ "resumen": "Varón recuperado de una parada cardiaca presenciada que llega en coma. Decide cómo estabilizarlo, qué hacer con su corazón y su temperatura, cómo vigilar su cerebro y cuándo hablar de pronóstico.",
+ "contexto": "Unidad de cuidados intensivos con ventilador, hemodinamia las 24 horas, electroencefalograma y control de temperatura dirigido.",
+ "paciente": {
+  "edad": 59,
+  "edad_texto": "59 años",
+  "sexo": "M",
+  "embarazo": false
+ },
+ "especialistas": [
+  {
+   "id": "uci",
+   "nombre": "Medicina intensiva"
+  },
+  {
+   "id": "cardio",
+   "nombre": "Cardiología / hemodinamia"
+  },
+  {
+   "id": "neuro",
+   "nombre": "Neurología"
+  },
+  {
+   "id": "emerg",
+   "nombre": "Medicina de emergencias"
+  }
+ ],
+ "imagenes": [],
+ "referencias": [
+  {
+   "id": "r1",
+   "tipo": "guia",
+   "titulo": "European Resuscitation Council and European Society of Intensive Care Medicine Guidelines 2025: post-resuscitation care",
+   "organismo": "European Resuscitation Council (ERC) y European Society of Intensive Care Medicine (ESICM)",
+   "autores": "Nolan JP, Sandroni C, Cariou A, Cronberg T et al.",
+   "anio": 2025,
+   "version": "",
+   "pmid": "41123621",
+   "doi": "10.1007/s00134-025-08117-3",
+   "url": "",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Guía de octubre de 2025, vigente según la última búsqueda; solo se leyó su resumen, no el texto completo, por lo que el caso no fija metas numéricas.",
+   "recomendacion": "Cubre el síndrome posparo, el diagnóstico de la causa, el control de la oxigenación y la ventilación, la reperfusión coronaria, la monitorización hemodinámica, el control de las crisis, el control de temperatura, el cuidado intensivo general y el pronóstico."
+  },
+  {
+   "id": "r2",
+   "tipo": "guia",
+   "titulo": "Part 11: Post-Cardiac Arrest Care: 2025 American Heart Association Guidelines for Cardiopulmonary Resuscitation and Emergency Cardiovascular Care",
+   "organismo": "American Heart Association (AHA)",
+   "autores": "Hirsch KG, Amorim E, Coppler PJ, Drennan IR et al.",
+   "anio": 2025,
+   "version": "",
+   "pmid": "41122894",
+   "doi": "10.1161/CIR.0000000000001375",
+   "url": "",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Guía de octubre de 2025, vigente según la última búsqueda; solo se leyó su resumen, no el texto completo, por lo que el caso no fija metas numéricas.",
+   "recomendacion": "Da metas de presión arterial, oxígeno, ventilación y glucosa; trata la intervención coronaria percutánea y el soporte circulatorio mecánico, el control de temperatura (metas y duración), las crisis y el pronóstico neurológico, que distingue entre un desenlace favorable y uno desfavorable."
+  }
+ ],
+ "discrepancias": [
+  "No se identificó en esta consulta una guía peruana vigente (MINSA/EsSalud) de cuidados posparo. El caso se apoya en las guías de 2025 de la ERC/ESICM y de la AHA, que coinciden en el enfoque general (evitar la hipoxemia, la hiperoxia, la hipotensión y la fiebre; coronariografía precoz si el ECG muestra elevación del ST; pronóstico tardío y multimodal). Solo se leyeron sus resúmenes: las metas numéricas, la duración del control de temperatura y los plazos exactos del pronóstico no se reproducen aquí y deben confirmarse en el texto.",
+  "Los intervalos de laboratorio son educativos, no de un laboratorio peruano. No se fijan dosis de fármacos. La disponibilidad de hemodinamia, electroencefalograma y control de temperatura varía entre hospitales."
+ ],
+ "inicio": "n1",
+ "nodos": {
+  "n1": {
+   "estado": "Varón de 59 años, hipertenso y fumador, que colapsó en la vía pública. Recibió reanimación y una descarga por fibrilación ventricular y recuperó la circulación a los 18 minutos. Llega intubado, sin obedecer órdenes. Está ventilado con FiO₂ 1,0, saturación de 100 % y una frecuencia ventilatoria alta; aún no se ha medido la PaCO₂.",
+   "vitales": {
+    "FC": "112 /min",
+    "PA": "86/50 mmHg",
+    "SatO₂": "100 % con FiO₂ 1,0",
+    "FR": "28 /min (ventilador)",
+    "T": "36,1 °C"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuáles son las prioridades iniciales en la UCI?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "emerg"
+    ],
+    "n1": "La circulación volvió, pero el cerebro y el corazón siguen en riesgo: piensa en qué valores de oxígeno, CO₂ y presión se deben evitar.",
+    "n2": "Las guías piden evitar los extremos de oxígeno y de CO₂ y la hipotensión; el control de temperatura viene después de estabilizar."
+   },
+   "decisiones": [
+    {
+     "texto": "Mantener la FiO₂ en 1,0 durante las primeras veinticuatro horas por seguridad y aumentar la ventilación minuto para bajar el CO₂ y proteger el cerebro del paciente",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "La hiperoxia sostenida es dañina y la hiperventilación provoca hipocapnia y vasoconstricción cerebral; ambas empeoran el daño neurológico.",
+     "id": "A",
+     "tema": "Prioridades tras la recuperación de la circulación",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Aceptar una presión sistólica cercana a 80 mmHg como permisiva para no sobrecargar el corazón, mientras el paciente siga sedado y en coma por el paro",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "La hipotensión después del paro reduce la perfusión cerebral y coronaria; se debe mantener una presión arterial media adecuada con vasopresores.",
+     "id": "B",
+     "tema": "Prioridades tras la recuperación de la circulación",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Titular la FiO₂ para evitar la hipoxemia y la hiperoxia, ajustar la ventilación a una PaCO₂ normal y sostener la presión arterial media con vasopresor si hace falta",
+     "calidad": "optima",
+     "siguiente": "n2",
+     "explicacion": "El cerebro posparo es vulnerable a la hipoxemia, la hiperoxia, la hipocapnia y la hipotensión: se corrigen desde el primer momento.",
+     "id": "C",
+     "tema": "Prioridades tras la recuperación de la circulación",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Esperar a que el paciente despierte para decidir estudios y cambios del soporte, observando el monitor durante las primeras seis horas sin modificar nada",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "El período posparo temprano es la ventana para prevenir la lesión secundaria; la observación pasiva la desperdicia.",
+     "omision": true,
+     "id": "D",
+     "tema": "Prioridades tras la recuperación de la circulación",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Iniciar un enfriamiento intenso con soluciones frías antes de medir la presión, la gasometría o el ritmo, y diferir por completo el resto de las evaluaciones y estudios del paciente",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "El control de temperatura es importante, pero no sustituye ni retrasa la estabilización de la oxigenación, la ventilación y la hemodinamia.",
+     "id": "E",
+     "tema": "Prioridades tras la recuperación de la circulación",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    }
+   ],
+   "clave": "C"
+  },
+  "r1": {
+   "estado": "Una hora después la presión es 70/40 mmHg con lactato elevado, la FiO₂ sigue alta y la gasometría muestra una PaCO₂ baja por la ventilación excesiva. El ritmo sigue sinusal pero rápido.",
+   "vitales": {
+    "FC": "122 /min",
+    "PA": "70/40 mmHg",
+    "SatO₂": "100 % con FiO₂ 1,0",
+    "PaCO₂": "26 mmHg",
+    "Diuresis": "escasa"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 2,
+   "pregunta": "¿Qué corrige el rumbo?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "cardio"
+    ],
+    "n1": "La gasometría muestra un CO₂ muy bajo y la presión es baja: ambos son daños evitables.",
+    "n2": "Normaliza oxígeno y CO₂, sostén la presión con vasopresor y busca la causa con un ECG."
+   },
+   "decisiones": [
+    {
+     "texto": "Reducir la sedación para evaluar de inmediato la respuesta neurológica y decidir un pronóstico antes de seguir con el soporte",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "El paciente inestable necesita estabilización; el pronóstico temprano con sedación y sin normotermia es poco fiable.",
+     "id": "A",
+     "tema": "Prioridades tras la recuperación de la circulación",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Enfriar al paciente hasta 30 °C con baños de hielo para maximizar la neuroprotección, mientras se normalizan los demás parámetros",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Una hipotermia profunda aumenta el riesgo de arritmias y coagulopatía; el control de temperatura usa un objetivo definido, no extremo.",
+     "id": "B",
+     "tema": "Prioridades tras la recuperación de la circulación",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Continuar la hiperventilación y la FiO₂ de 1,0, porque el cerebro necesita el máximo oxígeno durante las primeras horas tras el paro",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "La hiperoxia y la hipocapnia aumentan la lesión cerebral; la meta es la normoxia y la normocapnia.",
+     "id": "C",
+     "tema": "Prioridades tras la recuperación de la circulación",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Aumentar el aporte de líquidos hasta que el paciente suba la presión sin usar vasopresores y sin reevaluar la gasometría ni el ECG de nuevo y sin consultar a cardiología o a hemodinamia",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Los líquidos solos pueden ser insuficientes o dañinos si la causa es cardiogénica; hay que medir y reevaluar la gasometría y el ritmo.",
+     "omision": true,
+     "id": "D",
+     "tema": "Prioridades tras la recuperación de la circulación",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Ajustar el oxígeno y la ventilación a valores normales, iniciar noradrenalina para una presión arterial media adecuada y realizar un ECG de 12 derivaciones",
+     "calidad": "optima",
+     "siguiente": "n2",
+     "explicacion": "Se corrigen los extremos de oxígeno y CO₂ y la hipotensión, y se busca la causa del paro con un ECG.",
+     "id": "E",
+     "tema": "Prioridades tras la recuperación de la circulación",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    }
+   ],
+   "clave": "E"
+  },
+  "n2": {
+   "estado": "Con el paciente estabilizado se realiza un ECG de 12 derivaciones: ritmo sinusal a 108 por minuto con elevación del segmento ST de 3 mm en V1 a V4 y descenso recíproco en las derivaciones inferiores. Se toman exámenes.",
+   "vitales": {
+    "FC": "108 /min",
+    "PA": "98/58 mmHg",
+    "SatO₂": "96 %",
+    "Ritmo": "sinusal",
+    "Conciencia": "sin respuesta a órdenes"
+   },
+   "gravedad": 1,
+   "tipo": "interpretacion",
+   "peso": 3,
+   "pregunta": "¿Cuál es la interpretación del ECG y qué implica?",
+   "ayuda": {
+    "especialista": "cardio",
+    "pertinentes": [
+     "cardio",
+     "uci"
+    ],
+    "n1": "Localiza las derivaciones con elevación del ST y busca cambios recíprocos; piensa si el potasio y el ritmo los explican.",
+    "n2": "Un patrón regional con cambios recíprocos en un paro por fibrilación ventricular orienta a una causa coronaria."
+   },
+   "laboratorio": {
+    "titulo": "Primeros exámenes",
+    "resultados": [
+     {
+      "prueba": "troponina",
+      "valor": 1250
+     },
+     {
+      "prueba": "potasio",
+      "valor": 4.1
+     },
+     {
+      "prueba": "lactato",
+      "valor": 5.8
+     },
+     {
+      "prueba": "glucosa",
+      "valor": 214
+     },
+     {
+      "prueba": "ph",
+      "valor": 7.28
+     },
+     {
+      "prueba": "creatinina",
+      "valor": 1.3
+     }
+    ],
+    "ocultar_marcas": false
+   },
+   "decisiones": [
+    {
+     "texto": "Cambios inespecíficos de repolarización tras la desfibrilación que no justifican ningún estudio inmediato del corazón ni cambios del plan",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "Los cambios regionales con descenso recíproco no son un efecto inespecífico de la descarga; atribuirlos así retrasa la reperfusión.",
+     "omision": true,
+     "id": "A",
+     "tema": "Interpretación del ECG posparo",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Infarto agudo con elevación del ST de la pared anterior, causa coronaria probable del paro, que orienta a una coronariografía inmediata",
+     "calidad": "optima",
+     "siguiente": "n3",
+     "explicacion": "La elevación del ST en derivaciones contiguas con cambios recíprocos indica una oclusión coronaria aguda como causa del paro.",
+     "id": "B",
+     "tema": "Interpretación del ECG posparo",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Pericarditis aguda por las compresiones torácicas: tratar con antiinflamatorios y observar la evolución de los cambios durante varios días",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "La pericarditis cursa con elevación difusa y sin cambios recíprocos; este patrón regional con cambios recíprocos apunta a una oclusión coronaria.",
+     "id": "C",
+     "tema": "Interpretación del ECG posparo",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Daño cerebral irreversible por la duración del paro: limitar el soporte desde ahora y no completar el estudio de la causa del evento cardiaco",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Es un pronóstico precoz sin base: se cierra la puerta a tratar una causa reversible y la decisión es prematura.",
+     "id": "D",
+     "tema": "Interpretación del ECG posparo",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Hiperpotasemia como causa de los cambios y del paro: administrar calcio y bicarbonato y repetir el ECG después del tratamiento indicado",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "El potasio de 4,1 mmol/L no explica el patrón; tratar un trastorno que no existe retrasa lo importante.",
+     "id": "E",
+     "tema": "Interpretación del ECG posparo",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    }
+   ],
+   "clave": "B"
+  },
+  "r2": {
+   "estado": "Pasan tres horas sin tratamiento de la causa. El paciente tiene nuevas arritmias, más hipotensión y un lactato que sube. El nuevo ECG mantiene la elevación del ST anterior.",
+   "vitales": {
+    "FC": "128 /min",
+    "PA": "74/42 mmHg",
+    "Ritmo": "extrasístoles ventriculares",
+    "Lactato": "8,4 mmol/L",
+    "Diuresis": "escasa"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 2,
+   "pregunta": "¿Cuál es la conducta con la causa sin tratar?",
+   "ayuda": {
+    "especialista": "cardio",
+    "pertinentes": [
+     "cardio",
+     "uci"
+    ],
+    "n1": "La causa del paro sigue sin tratar y el paciente empeora: piensa en qué procedimiento reperfunde y cuándo.",
+    "n2": "Reperfunde lo antes posible, con el paciente monitorizado y con soporte durante el traslado."
+   },
+   "decisiones": [
+    {
+     "texto": "Pedir una tomografía de cuerpo completo y esperar sus informes antes de definir la reperfusión, aunque eso retrase varias horas el procedimiento y el soporte",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Retrasar la reperfusión por estudios no urgentes agrava el daño miocárdico; la causa más probable ya está identificada.",
+     "id": "A",
+     "tema": "Reperfusión coronaria tras el paro",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Administrar solo antiarrítmicos y heparina y diferir cualquier procedimiento hasta que el paciente recupere el estado de conciencia previo",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Los fármacos solos no reperfunden la arteria ocluida; la reperfusión no depende del estado de conciencia.",
+     "id": "B",
+     "tema": "Reperfusión coronaria tras el paro",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Continuar la observación y repetir los exámenes en seis horas para ver si la situación hemodinámica mejora por sí sola en la unidad",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Con elevación del ST persistente, choque y arritmias, esperar seis horas pone al paciente en riesgo de un nuevo paro.",
+     "omision": true,
+     "id": "C",
+     "tema": "Reperfusión coronaria tras el paro",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Activar hemodinamia para una coronariografía urgente con posible angioplastia, con soporte vasopresor y monitorización arterial durante el traslado",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "La causa coronaria sin tratar sostiene el choque; se reperfunde ya, sin esperar a que el paciente despierte.",
+     "id": "D",
+     "tema": "Reperfusión coronaria tras el paro",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Trasladar a hemodinamia sin vasopresor, sin monitorización arterial y con ventilación manual intermitente para ganar tiempo",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Trasladar a un paciente inestable sin soporte puede provocar un nuevo paro durante el camino.",
+     "id": "E",
+     "tema": "Reperfusión coronaria tras el paro",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    }
+   ],
+   "clave": "D"
+  },
+  "n3": {
+   "estado": "El diagnóstico apunta a una oclusión coronaria. El paciente sigue en coma, sin respuesta a órdenes, con ventilador y vasopresor a dosis bajas. El equipo de hemodinamia está disponible y pregunta cuándo se hará el procedimiento.",
+   "vitales": {
+    "FC": "104 /min",
+    "PA": "92/56 mmHg",
+    "SatO₂": "96 %",
+    "Noradrenalina": "dosis baja",
+    "Conciencia": "coma"
+   },
+   "gravedad": 1,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuándo y cómo se reperfunde?",
+   "ayuda": {
+    "especialista": "cardio",
+    "pertinentes": [
+     "cardio",
+     "neuro"
+    ],
+    "n1": "El ECG indica una oclusión; piensa si el estado de conciencia debe condicionar el momento de la reperfusión.",
+    "n2": "La reperfusión no espera a que el paciente despierte: se hace de inmediato con el soporte en marcha."
+   },
+   "decisiones": [
+    {
+     "texto": "Activar hemodinamia para una coronariografía inmediata con posible angioplastia, sin esperar a que despierte, mientras continúan el soporte y el control de temperatura",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "En un paro con elevación del ST se reperfunde de inmediato aunque el paciente siga en coma; el estado neurológico no retrasa la reperfusión.",
+     "id": "A",
+     "tema": "Reperfusión coronaria tras el paro",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Interrumpir el vasopresor, la sedación y la ventilación para observar si el paciente respira solo antes de decidir la reperfusión coronaria",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Retirar el soporte a un paciente en coma con una oclusión coronaria no tratada lleva a un nuevo paro.",
+     "id": "B",
+     "tema": "Reperfusión coronaria tras el paro",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Realizar primero una tomografía cerebral y una de cuerpo completo en todos los casos, y recién después considerar la coronariografía el día siguiente por la mañana",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "Las imágenes pueden ser útiles según el caso, pero no deben retrasar la reperfusión cuando el ECG muestra una elevación del ST.",
+     "id": "C",
+     "tema": "Reperfusión coronaria tras el paro",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Administrar solo heparina y un antiagregante y observar durante cuarenta y ocho horas antes de plantear cualquier procedimiento invasivo sobre la arteria",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "Con una oclusión coronaria aguda el tratamiento médico solo es insuficiente; la reperfusión mecánica es la medida que cambia el pronóstico.",
+     "id": "D",
+     "tema": "Reperfusión coronaria tras el paro",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Diferir la coronariografía hasta tener un pronóstico neurológico favorable y decidir entonces si vale la pena realizar el procedimiento invasivo al paciente y si la familia lo solicita",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "El pronóstico fiable llega días después; esperar para reperfundir pierde la ventana de beneficio del miocardio.",
+     "omision": true,
+     "id": "E",
+     "tema": "Reperfusión coronaria tras el paro",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    }
+   ],
+   "clave": "A"
+  },
+  "n4": {
+   "estado": "La arteria fue reperfundida con éxito. El paciente vuelve a la UCI, sigue en coma y con una temperatura de 37,8 °C. La presión se mantiene con dosis bajas de vasopresor. Hay que definir el control de la temperatura durante los próximos días.",
+   "vitales": {
+    "FC": "96 /min",
+    "PA": "100/60 mmHg",
+    "T": "37,8 °C",
+    "SatO₂": "97 %",
+    "Conciencia": "coma"
+   },
+   "gravedad": 1,
+   "tipo": "diagnostica",
+   "peso": 2,
+   "pregunta": "¿Cómo manejas la temperatura?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "neuro"
+    ],
+    "n1": "En el paciente en coma tras un paro, piensa en el efecto de la fiebre sobre el cerebro y en qué temperatura se busca.",
+    "n2": "Las guías piden un control activo con un objetivo definido y evitar la fiebre, no ni la hipotermia profunda ni dejar subir la temperatura."
+   },
+   "decisiones": [
+    {
+     "texto": "Dejar que la temperatura suba libremente y tratar solo si supera los 40 °C, porque la fiebre es una respuesta natural del cuerpo tras el paro, sin control sostenido",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "La fiebre empeora el daño cerebral después de un paro; se evita con un control activo de la temperatura.",
+     "id": "A",
+     "tema": "Control de temperatura en el paciente en coma",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Recalentar con rapidez hasta 38 °C para acelerar el despertar y suspender todo control de temperatura apenas haya alguna respuesta a la voz del equipo",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "El recalentamiento rápido y la fiebre se asocian a más daño; la temperatura debe controlarse de forma sostenida.",
+     "id": "B",
+     "tema": "Control de temperatura en el paciente en coma",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Iniciar un control de temperatura dirigido con un objetivo constante, evitar la fiebre y mantenerlo de forma sostenida, mientras el paciente siga en coma",
+     "calidad": "optima",
+     "siguiente": "n5",
+     "explicacion": "El control de la temperatura con objetivo definido y la prevención de la fiebre son parte del manejo del paciente en coma tras un paro.",
+     "id": "C",
+     "tema": "Control de temperatura en el paciente en coma",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Enfriar por debajo de 30 °C con baños de hielo para maximizar la protección del cerebro durante las siguientes setenta y dos horas",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Una hipotermia profunda causa arritmias, coagulopatía y mayor mortalidad; el objetivo es controlado, no extremo.",
+     "id": "D",
+     "tema": "Control de temperatura en el paciente en coma",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Observar la temperatura sin medidas activas durante las primeras doce horas para ver si aparece fiebre antes de decidir qué medidas aplicar",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "Esperar a que aparezca la fiebre desperdicia la ventana de neuroprotección; el control debe iniciarse sin demora.",
+     "omision": true,
+     "id": "E",
+     "tema": "Control de temperatura en el paciente en coma",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    }
+   ],
+   "clave": "C"
+  },
+  "n5": {
+   "estado": "A las 10 horas el paciente tiene movimientos rítmicos de cara y brazos, la frecuencia cardiaca sube y la saturación fluctúa. Sigue sin responder. No hay electroencefalograma aún y el control de la temperatura está en curso.",
+   "vitales": {
+    "FC": "132 /min",
+    "PA": "104/60 mmHg",
+    "SatO₂": "93 %",
+    "T": "36,5 °C",
+    "Movimientos": "rítmicos de cara y brazos"
+   },
+   "gravedad": 1,
+   "tipo": "critica",
+   "peso": 2,
+   "pregunta": "¿Qué haces ante los movimientos anormales?",
+   "ayuda": {
+    "especialista": "neuro",
+    "pertinentes": [
+     "neuro",
+     "uci"
+    ],
+    "n1": "No todo movimiento es una crisis: piensa en qué prueba confirma y en qué se hace si se confirma.",
+    "n2": "El electroencefalograma confirma las crisis; sin él, cualquier decisión es a ciegas."
+   },
+   "decisiones": [
+    {
+     "texto": "Realizar un electroencefalograma para confirmar las crisis, tratarlas con anticonvulsivante según el protocolo y buscar otras causas del cambio clínico",
+     "calidad": "optima",
+     "siguiente": "n6",
+     "explicacion": "Los movimientos pueden ser crisis, mioclonías u otras causas; el EEG permite diferenciar y tratar con criterio.",
+     "id": "A",
+     "tema": "Crisis y monitorización neurológica",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Suspender el control de temperatura y recalentar al paciente de inmediato, porque los movimientos indican que ya está recuperando la conciencia",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "Los movimientos en un paciente en coma no indican recuperación; el recalentamiento brusco expone a fiebre y a más daño.",
+     "id": "B",
+     "tema": "Crisis y monitorización neurológica",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Indicar un relajante muscular prolongado sin electroencefalograma para evitar los movimientos y facilitar el manejo en la unidad durante varios días",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Un relajante prolongado sin EEG enmascara las crisis, que pueden persistir sin signos externos y dañar el cerebro.",
+     "id": "C",
+     "tema": "Crisis y monitorización neurológica",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Atribuir los movimientos a reflejos benignos sin hacer un electroencefalograma y aumentar la sedación hasta que desaparezcan por completo, sin otros estudios",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "Sin EEG no se distingue una crisis tratable de otra causa, y la sedación solo puede ocultarla.",
+     "id": "D",
+     "tema": "Crisis y monitorización neurológica",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Esperar la evolución de las próximas doce horas sin estudios para ver si los movimientos desaparecen solos antes de decidir alguna medida",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "Las crisis no controladas dañan el cerebro; esperar sin estudiar el cuadro no es adecuado.",
+     "omision": true,
+     "id": "E",
+     "tema": "Crisis y monitorización neurológica",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    }
+   ],
+   "clave": "A"
+  },
+  "n6": {
+   "estado": "A las 30 horas, con temperatura normal, el paciente sigue con puntuación de 3 en la escala de Glasgow. La familia pregunta si hay esperanza. Un colega propone limitar el soporte porque el paro duró 18 minutos y el paciente está sin respuesta.",
+   "vitales": {
+    "FC": "88 /min",
+    "PA": "110/64 mmHg",
+    "T": "36,8 °C",
+    "Glasgow": "3",
+    "Sedación": "mínima, en retirada"
+   },
+   "gravedad": 0,
+   "tipo": "diagnostica",
+   "peso": 3,
+   "pregunta": "¿Cuándo y cómo se establece el pronóstico neurológico?",
+   "ayuda": {
+    "especialista": "neuro",
+    "pertinentes": [
+     "neuro",
+     "uci"
+    ],
+    "n1": "El pronóstico precoz y con un solo dato es poco fiable; piensa en cuánto hay que esperar y en qué se combina.",
+    "n2": "Las guías piden esperar tiempo suficiente, sin sedantes que confundan, y usar varios datos concordantes."
+   },
+   "decisiones": [
+    {
+     "texto": "Establecer el pronóstico solo por la duración del paro y por el estado actual, y limitar el soporte esta misma tarde de acuerdo con la familia",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Decidir con un solo dato y de forma precoz puede llevar a una retirada del soporte en pacientes que se habrían recuperado.",
+     "id": "A",
+     "tema": "Pronóstico neurológico multimodal",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Asegurar a la familia que despertará sin secuelas en pocos días para darles esperanza, mientras se esperan nuevos estudios neurológicos",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "Prometer una recuperación que no puede asegurarse genera falsas expectativas; hay que explicar la incertidumbre.",
+     "id": "B",
+     "tema": "Pronóstico neurológico multimodal",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Basar la decisión en un único hallazgo, como la falta de reflejo pupilar o una imagen de tomografía inicial, sin esperar a otros estudios o a la retirada de la sedación",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "Un solo dato temprano no es fiable; el pronóstico se basa en varios datos concordantes y a las 72 horas o más.",
+     "id": "C",
+     "tema": "Pronóstico neurológico multimodal",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Posponer cualquier conversación con la familia hasta que el paciente despierte y no dar ninguna información sobre la situación durante los días siguientes",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "La comunicación honesta y frecuente con la familia es parte del cuidado; callar no es adecuado.",
+     "omision": true,
+     "id": "D",
+     "tema": "Pronóstico neurológico multimodal",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Diferir el pronóstico hasta al menos 72 horas tras la normotermia y la retirada de sedantes, y combinar examen, EEG, neuroimagen y marcadores en un enfoque multimodal",
+     "calidad": "optima",
+     "siguiente": "f_bueno",
+     "explicacion": "El pronóstico neurológico fiable exige tiempo, ausencia de sedantes y varios datos concordantes; se informa a la familia con honestidad de la incertidumbre.",
+     "id": "E",
+     "tema": "Pronóstico neurológico multimodal",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    }
+   ],
+   "clave": "E"
+  },
+  "d1": {
+   "estado": "El paciente entra de pronto en taquicardia ventricular sin pulso. Se pierde la presión y no responde. El monitor muestra una arritmia ventricular y el equipo debe actuar de inmediato.",
+   "vitales": {
+    "FC": "220 /min",
+    "PA": "no medible",
+    "Ritmo": "taquicardia ventricular sin pulso",
+    "SatO₂": "no medible",
+    "Conciencia": "coma"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es la conducta de rescate?",
+   "ayuda": {
+    "especialista": "cardio",
+    "pertinentes": [
+     "cardio",
+     "uci"
+    ],
+    "n1": "Un ritmo ventricular sin pulso tiene un tratamiento inmediato; piensa en qué se hace primero y en qué se busca.",
+    "n2": "Compresiones y descarga ya, y tratar la causa: probablemente la arteria no reperfundida."
+   },
+   "deterioro": true,
+   "decisiones": [
+    {
+     "texto": "Realizar solo compresiones sin desfibrilar y esperar a que llegue el equipo de hemodinamia para decidir el siguiente paso del manejo",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "Con un ritmo desfibrilable, la descarga precoz es la medida que más cambia la supervivencia; no debe diferirse.",
+     "id": "A",
+     "tema": "Nuevo paro por arritmia ventricular",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Administrar un antiarrítmico en infusión lenta y observar la respuesta durante varios minutos antes de iniciar compresiones torácicas o desfibrilar",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "Sin presión ni circulación, cada minuto sin compresiones y desfibrilación reduce la supervivencia.",
+     "omision": true,
+     "id": "B",
+     "tema": "Nuevo paro por arritmia ventricular",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Iniciar compresiones de alta calidad y desfibrilar, buscar causas reversibles y activar de inmediato a hemodinamia y al soporte circulatorio mecánico",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "Es un paro por ritmo desfibrilable: se desfibrila y se trata la causa, que probablemente sea la arteria no reperfundida.",
+     "id": "C",
+     "tema": "Nuevo paro por arritmia ventricular",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Aumentar la sedación y la dosis del vasopresor, y revisar los parámetros del ventilador y el monitor antes de actuar sobre el ritmo",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "Es un paro con ritmo desfibrilable; ajustar el ventilador o la sedación no lo revierte.",
+     "id": "D",
+     "tema": "Nuevo paro por arritmia ventricular",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Desfibrilar una vez y suspender la reanimación si no recupera pulso, porque el paciente ya había tenido un paro previo y está en coma profundo desde hace horas",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "La reanimación continúa según el algoritmo; el antecedente de paro no es un motivo para interrumpirla antes de tiempo.",
+     "id": "E",
+     "tema": "Nuevo paro por arritmia ventricular",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "C"
+  },
+  "f_bueno": {
+   "final": {
+    "tipo": "bueno",
+    "titulo": "Buen desenlace",
+    "mensaje": "El paciente fue estabilizado, reperfundido y manejado con control de temperatura y monitorización neurológica. El pronóstico se estableció de forma multimodal y tardía, con información honesta a la familia."
+   }
+  },
+  "f_regular": {
+   "final": {
+    "tipo": "regular",
+    "titulo": "Evolución con incertidumbre",
+    "mensaje": "El paciente sobrevivió, pero el pronóstico se manejó de forma poco fiable y la comunicación con la familia fue deficiente."
+   }
+  },
+  "f_adverso": {
+   "final": {
+    "tipo": "adverso",
+    "titulo": "Desenlace desfavorable (educativo)",
+    "mensaje": "Una conducta sin respaldo causó un daño neurológico evitable o una decisión prematura sobre el soporte."
+   }
+  },
+  "f_fatal": {
+   "final": {
+    "tipo": "fatal",
+    "titulo": "El paciente falleció por un nuevo paro (educativo)",
+    "mensaje": "La demora en la reanimación y en tratar la causa del paro condujo a la muerte."
+   }
+  }
+ },
+ "informe": {
+  "resumen_clinico": "Varón de 59 años que recuperó la circulación tras una fibrilación ventricular. Llegó en coma; se corrigieron el oxígeno, el CO₂ y la presión, el ECG mostró un infarto anterior con elevación del ST y se reperfundió de inmediato. Se aplicó un control de temperatura, se evaluaron las crisis con EEG y el pronóstico se estableció de forma tardía y multimodal.",
+  "diagnostico_final": "Síndrome posparo tras fibrilación ventricular por infarto agudo anterior con elevación del ST.",
+  "diagnosticos_diferenciales": [
+   {
+    "dx": "Cambios inespecíficos de repolarización posdesfibrilación",
+    "por_que_no": "El patrón regional con descenso recíproco y una troponina elevada indican una oclusión coronaria aguda."
+   },
+   {
+    "dx": "Pericarditis por compresiones torácicas",
+    "por_que_no": "La pericarditis cursa con elevación difusa del ST y sin cambios recíprocos."
+   },
+   {
+    "dx": "Hiperpotasemia",
+    "por_que_no": "El potasio fue de 4,1 mmol/L y el ECG no mostró el patrón típico."
+   },
+   {
+    "dx": "Tromboembolia pulmonar masiva",
+    "por_que_no": "El ritmo inicial fue una fibrilación ventricular y el ECG mostró un patrón coronario anterior."
+   }
+  ],
+  "datos_clave": [
+   "Paro presenciado por fibrilación ventricular con recuperación de la circulación a los 18 minutos.",
+   "Elevación del ST en V1 a V4 con cambios recíprocos.",
+   "Coma tras el paro, con oxígeno, CO₂ y presión en rangos de riesgo."
+  ],
+  "razonamiento": [
+   "Tras la recuperación de la circulación, evitar la hipoxemia, la hiperoxia, la hipocapnia y la hipotensión.",
+   "Hacer un ECG de 12 derivaciones desde el principio: orienta a la causa.",
+   "Si hay elevación del ST, reperfundir de inmediato, aunque el paciente siga en coma.",
+   "Controlar la temperatura con un objetivo definido y evitar la fiebre de forma sostenida.",
+   "Ante movimientos anormales, confirmar con un electroencefalograma y tratar las crisis.",
+   "No pronosticar de forma precoz: esperar y combinar varios datos tras la normotermia y sin sedantes."
+  ],
+  "tratamiento": [
+   {
+    "item": "Estabilización",
+    "detalle": "Titular oxígeno y ventilación a valores normales y sostener la presión arterial media con vasopresor si hace falta.",
+    "dosis": "Las metas numéricas y las dosis siguen el protocolo institucional y la guía vigente."
+   },
+   {
+    "item": "Reperfusión",
+    "detalle": "Coronariografía inmediata con posible angioplastia ante una elevación del ST, sin esperar a que despierte.",
+    "dosis": "No aplica."
+   },
+   {
+    "item": "Control de temperatura",
+    "detalle": "Objetivo definido, evitar la fiebre y mantenerlo de forma sostenida mientras siga en coma.",
+    "dosis": "El objetivo y la duración se confirman en la guía vigente."
+   },
+   {
+    "item": "Crisis",
+    "detalle": "Electroencefalograma para confirmar y tratamiento anticonvulsivante si se confirman.",
+    "dosis": "El fármaco y la dosis siguen el protocolo de la unidad."
+   },
+   {
+    "item": "Pronóstico",
+    "detalle": "Evaluación multimodal tardía, tras la normotermia y sin sedantes, con comunicación honesta a la familia.",
+    "dosis": "No aplica."
+   }
+  ],
+  "interpretacion_laboratorio": [
+   "Troponina de 1250 ng/L: daño miocárdico agudo, coherente con el infarto.",
+   "Lactato de 5,8 mmol/L y pH de 7,28: hipoperfusión y acidosis tras el paro.",
+   "Potasio de 4,1 mmol/L: no explica los cambios del ECG.",
+   "Glucosa de 214 mg/dL: hiperglucemia de estrés posparo."
+  ],
+  "temas_relacionados": [
+   "Cuidados posparo",
+   "Reperfusión coronaria",
+   "Pronóstico neurológico"
+  ],
+  "casos_relacionados": [
+   "g07",
+   "u03"
+  ],
+  "mensaje_clave": "Tras un paro, evita los extremos de oxígeno, CO₂ y presión; reperfunde si hay elevación del ST; controla la temperatura y no pronostiques de forma precoz."
+ }
+}

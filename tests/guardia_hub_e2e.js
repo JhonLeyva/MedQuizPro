@@ -58,14 +58,15 @@ const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"
     const hrefE = await p.getAttribute(".gh-card--rojo a.gh-btn", "href"), hrefC = await p.getAttribute(".gh-card--azul a.gh-btn", "href");
     ok(hrefE === "#/guardia/emergencias" && hrefC === "#/consulta", "botones conducen al simulador de emergencias y a la consulta clínica existentes");
     ok(/Comenzar casos de emergencia/.test(await p.innerText(".gh-card--rojo a.gh-btn")) && /Comenzar consulta clínica/.test(await p.innerText(".gh-card--azul a.gh-btn")), "textos de los botones principales");
-    const rojo = await p.innerText(".gh-card--rojo"), azul = await p.innerText(".gh-card--azul"), gris = await p.innerText(".gh-card--gris");
+    const rojo = await p.innerText(".gh-card--rojo"), azul = await p.innerText(".gh-card--azul"), uci = await p.innerText(".gh-card--indigo");
     ok(new RegExp("\\b" + GC.length + "\\s+Casos disponibles").test(rojo.replace(/\n/g, " ")), "cifra real de casos de emergencia (" + GC.length + ")");
     ok(new RegExp("\\b" + CC.length + "\\s+Casos disponibles").test(azul.replace(/\n/g, " ")), "cifra real de casos de consulta (" + CC.length + ")");
     const dur = a => Math.min(...a.map(c => c.duracion_min)) + " – " + Math.max(...a.map(c => c.duracion_min)) + " min";
     ok(rojo.includes(dur(GC)) && azul.includes(dur(CC)), "duración estimada calculada de los casos");
     ok(/0 de 10 casos completados/.test(rojo) && /0 de 4 consultas completadas/.test(azul), "progreso en cero al empezar");
-    ok(gris.includes("Próximamente") && await p.locator(".gh-card--gris a").count() === 0 && await p.locator(".gh-card--gris button").count() === 0, "UCI: «Próximamente», sin enlaces ni botones y sin datos inventados");
-    ok(!/\d+\s+Casos disponibles/.test(gris.replace(/\n/g, " ")), "UCI sin cifras de casos");
+    const UC = require("../guardia_uci.js");
+    ok(await p.getAttribute(".gh-card--indigo a.gh-btn", "href") === "#/guardia/uci" && /Comenzar casos de UCI/.test(await p.innerText(".gh-card--indigo a.gh-btn")), "UCI: el botón lleva a la modalidad (ya no es «Próximamente»)");
+    ok(!/Próximamente/.test(uci) && new RegExp("\\b" + UC.length + "\\s+Casos disponibles").test(uci.replace(/\n/g, " ")) && /0 de 3 casos completados/.test(uci) && uci.includes(dur(UC)), "UCI: cifras reales (" + UC.length + " casos), duración y progreso en cero");
     ok(await p.locator(".gh-chips").count() === 0 && await p.locator(".gh-card__sobre li").count() === 0, "las tarjetas de modalidad llevan solo la descripción, sin iconos ni etiquetas de especialidades");
     ok(await p.locator(".gh-rec__i").count() === 3 && /Por dónde empezar/.test(await p.innerText(".gh-rec")), "sin respuestas en el banco: «Por dónde empezar», sin personalizar");
     const rec = await p.locator(".gh-rec__a").evaluateAll(a => a.map(x => x.getAttribute("href"))); ok(rec.every(h => /^#\/guardia\/g\d\d$/.test(h)), "recomendados enlazan a casos reales");

@@ -4,7 +4,7 @@
 const fs = require('fs'), path = require('path'), cp = require('child_process'), crypto = require('crypto');
 global.window = {};
 const RAIZ = path.join(__dirname, '..');
-const CASOS = require('../guardia_casos.js'), IMG = CASOS.IMAGENES, LAB = require('../guardia_lab.js'), N = require('../guardia_nucleo.js');
+const CASOS = require('../guardia_casos.js'), UCI = require('../guardia_uci.js'), IMG = CASOS.IMAGENES, LAB = require('../guardia_lab.js'), N = require('../guardia_nucleo.js');
 let f = 0, n = 0;
 const ok = (c, m) => { n++; if (!c) { f++; console.log('FALLA:', m); } };
 const near = (a, b, e) => Math.abs(a - b) <= e;
@@ -18,7 +18,9 @@ const media = a => a.reduce((s, x) => s + x, 0) / (a.length || 1);
 
 /* ===== 1. catálogo de casos activos y archivo ===== */
 ok(CASOS.length === 10, 'exactamente 10 casos activos de emergencia (hay ' + CASOS.length + ')');
-const ids = new Set(CASOS.map(c => c.id)); ok(ids.size === CASOS.length, 'ids únicos');
+const TODOS = CASOS.concat(UCI), ids = new Set(TODOS.map(c => c.id)); ok(ids.size === TODOS.length, 'ids únicos (emergencias y UCI)');
+ok(UCI.length === 3 && UCI.every(c => c.modalidad === 'uci' && /^u\d\d$/.test(c.id)) && CASOS.every(c => !c.modalidad), 'UCI: tres casos con modalidad «uci»; los de emergencias no la llevan');
+ok(UCI.filter(c => c.dificultad === 2).length === 2 && UCI.filter(c => c.dificultad === 3).length === 1, 'UCI: dos casos de dificultad intermedia y uno difícil');
 for (const viejo of ['asma', 'apendicitis', 'eda', 'preeclampsia', 'sepsis', 'iam', 'hpp', 'neumotorax']) ok(!ids.has(viejo), 'caso v1 «' + viejo + '» no está activo');
 ok(fs.existsSync(path.join(RAIZ, 'guardia/archivo/casos_prueba_v1.js')), 'los casos v1 siguen archivados (reversible)');
 ok(!/casos_prueba_v1/.test(fs.readFileSync(path.join(RAIZ, 'app/index.html'), 'utf8')), 'el archivo v1 no se carga en la app');
@@ -31,9 +33,9 @@ ok(r.status === 0, 'guardia_casos.js y guardia_lab.js están al día respecto a 
 const todasOpciones = [];       // para el análisis de calidad: { caso, nodo, claves, textos }
 const catalogo = Object.fromEntries(LAB.pruebas.map(p => [p.id, p]));
 let totalNodos = 0, letrasOrden = [];
-for (const c of CASOS) {
+for (const c of TODOS) {
   const t = c.id + ': ';
-  ok(/^g\d\d$/.test(c.id), t + 'id neutro'); ok(!PAL_DX.test(c.titulo), t + 'el título no revela el diagnóstico: «' + c.titulo + '»');
+  ok(/^[gu]\d\d$/.test(c.id), t + 'id neutro'); ok(!PAL_DX.test(c.titulo), t + 'el título no revela el diagnóstico: «' + c.titulo + '»');
   ['titulo', 'especialidad', 'resumen', 'contexto', 'inicio'].forEach(k => ok(typeof c[k] === 'string' && c[k].length >= 2, t + 'campo ' + k));
   ok([1, 2, 3].includes(c.dificultad), t + 'dificultad'); ok(!c.requiere, t + 'sin bloqueo por requisitos');
   ok(c.paciente && typeof c.paciente.edad === 'number' && /^[FM]$/.test(c.paciente.sexo) && c.paciente.edad_texto, t + 'perfil del paciente (edad, sexo) para los intervalos de laboratorio');

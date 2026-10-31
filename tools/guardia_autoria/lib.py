@@ -101,7 +101,7 @@ def construir(c):
 
 def guardar(c):
     construir(c)
-    ruta = os.path.join(RAIZ, "guardia", "casos", c["id"] + ".json")
+    ruta = os.path.join(RAIZ, "guardia", "uci" if c.get("modalidad") == "uci" else "casos", c["id"] + ".json")
     json.dump(c, open(ruta, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     cl = "".join(n["clave"] for n in c["nodos"].values() if "clave" in n)
     print(c["id"], len([n for n in c["nodos"].values() if "final" not in n]), "nodos de decisión · claves:", cl)
