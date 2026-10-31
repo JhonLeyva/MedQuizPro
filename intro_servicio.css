@@ -21,3 +21,5 @@
 @media (max-width: 719px) { .is-intro__vel { background: linear-gradient(0deg, rgba(3, 8, 16, .92), rgba(3, 8, 16, .35) 55%, rgba(3, 8, 16, .55)); } .is-intro__c { padding-top: 76px; } }
 /* la consulta no tiene monitores: el texto va abajo para dejar ver a la médica y el negatoscopio */
 .is-intro--azul .is-intro__c { align-content: end; padding-top: 24px; padding-bottom: clamp(32px, 7vh, 80px); }
+/* botón de sonido de la introducción principal de «Sobrevive a la Guardia» (guardia_intro.js) */
+.gi-snd { position: absolute; z-index: 5; top: 16px; right: 16px; min-height: 44px; padding: 8px 16px; border-radius: 999px; border: 1px solid rgba(255, 255, 255, .55); background: rgba(2, 8, 10, .72); color: #fff; font: inherit; font-weight: 700; cursor: pointer; } .gi-snd:hover { background: rgba(2, 8, 10, .92); } .gi-snd:focus-visible { outline: 3px solid #2dd4bf; outline-offset: 3px; }

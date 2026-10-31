@@ -30,17 +30,18 @@ const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"
   const scrollTodo = async p => { for (let i = 0; i < 12; i++) { await p.mouse.wheel(0, 600); await dormir(60); } await p.evaluate(() => window.scrollTo(0, 0)); await dormir(300); };
   try {
     const ctx = await navegador.newContext({ viewport: { width: 1536, height: 1024 } }); await ctx.addInitScript(INIT); const p = await nueva(ctx);
-    /* ---- introducción: aparece SIEMPRE al entrar (aunque exista la preferencia antigua de omitirla) ---- */
+    /* ---- introducción: aparece la primera vez de cada visita (aunque exista la preferencia antigua de omitirla); se repite al recargar o volver a entrar a la página ---- */
     await p.goto(base + "app/#/guardia"); await p.waitForSelector(".gh-hero");
     ok(await p.waitForSelector(".gi", { timeout: 3000 }).then(() => true, () => false), "al entrar a «Sobrevive a la Guardia» aparece la introducción aunque la preferencia antigua sea «omitir»");
-    ok(/Omitir/.test(await p.innerText(".gi")) && /volverá a aparecer/.test(await p.innerText(".gi")), "la introducción avisa de que volverá a aparecer");
+    ok(/Omitir/.test(await p.innerText(".gi")) && /volverá a aparecer/.test(await p.innerText(".gi")), "la introducción avisa de cuándo volverá a aparecer");
+    ok(await p.locator(".gi-snd").count() === 1 && /Sonido|sonido/.test(await p.innerText(".gi-snd")), "la introducción principal tiene sonido de ambiente con su control");
     await p.keyboard.press("Escape"); await p.waitForSelector(".gi", { state: "detached" }); ok(await p.locator(".gh-hero").isVisible(), "omitirla (Esc) deja ver el centro");
     ok(await p.evaluate(() => { try { return localStorage.getItem("mqp_guardia_intro_v1") === "omitir" && !(window.MQP.progreso && window.MQP.progreso.preferencia("guardiaIntro") === "omitir"); } catch (e) { return true; } }) , "omitirla no guarda ninguna preferencia nueva");
-    await p.click('.side__nav a[href="#/inicio"]'); await p.waitForSelector("main, #vista"); await p.click('.side__nav a[href="#/guardia"]'); ok(await p.waitForSelector(".gi", { timeout: 3000 }).then(() => true, () => false), "al volver desde otra sección con el menú lateral, la introducción aparece de nuevo");
-    await p.click("#giOmitir"); await p.waitForSelector(".gi", { state: "detached" });
+    await p.click('.side__nav a[href="#/inicio"]'); await p.waitForSelector("main, #vista"); await p.click('.side__nav a[href="#/guardia"]'); await p.waitForSelector(".gh-hero"); await dormir(900); ok(await p.locator(".gi").count() === 0, "al volver desde otra sección dentro de la misma visita, la introducción NO se repite");
     await p.click(".gh-card--rojo a.gh-btn"); await p.waitForSelector(".gd-caso"); ok(await p.locator(".gi").count() === 0, "el listado de emergencias no abre la introducción");
     await p.click('.gh-migas a[href="#/guardia"]'); await p.waitForSelector(".gh-hero"); await dormir(700); ok(await p.locator(".gi").count() === 0, "volver con las migas desde un listado no repite la introducción");
-    await p.click('.side__nav a[href="#/inicio"]'); await p.click('.side__nav a[href="#/guardia"]'); ok(await p.waitForSelector(".gi", { timeout: 3000 }).then(() => true, () => false), "entrar de nuevo con el menú lateral la muestra otra vez"); await p.keyboard.press("Escape"); await p.waitForSelector(".gi", { state: "detached" });
+    await p.click('.side__nav a[href="#/inicio"]'); await p.click('.side__nav a[href="#/guardia"]'); await p.waitForSelector(".gh-hero"); await dormir(700); ok(await p.locator(".gi").count() === 0, "entrar de nuevo con el menú lateral tampoco la repite");
+    await p.reload(); ok(await p.waitForSelector(".gi", { timeout: 4000 }).then(() => true, () => false), "al recargar la página (nueva visita) la introducción vuelve a aparecer"); await p.keyboard.press("Escape"); await p.waitForSelector(".gi", { state: "detached" });
     await p.click("#ghIntro"); ok(await p.waitForSelector(".gi", { timeout: 3000 }).then(() => true, () => false), "«Ver la introducción» la abre a demanda"); await p.keyboard.press("Escape"); await p.waitForSelector(".gi", { state: "detached" });
     /* ---- monitor vivo del hero ---- */
     ok(await p.locator("canvas.gh-monitor").count() === 1 && await p.getAttribute("canvas.gh-monitor", "aria-hidden") === "true", "el monitor animado es decorativo (aria-hidden)");
