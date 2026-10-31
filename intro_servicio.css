@@ -1,0 +1,23 @@
+/* MedQuizPlus · introducciones de Emergencias, UCI y Consulta externa (intro_servicio.js). */
+.is-intro { --is-c: #c8203c; --is-c2: #ef5a6f; position: fixed; inset: 0; width: 100%; max-width: none; height: 100%; max-height: none; margin: 0; padding: 0; border: 0; background: #050b14; color: #fff; overflow: hidden; }
+.is-intro--indigo { --is-c: #4f46a5; --is-c2: #9b94ff; } .is-intro--azul { --is-c: #1d5fd1; --is-c2: #7db0ff; }
+.is-intro::backdrop { background: #000; }
+.is-intro__escena { position: absolute; inset: 0; overflow: hidden; animation: is-zoom 30s ease-out forwards; transform-origin: 70% 50%; }
+.is-intro__img, .is-intro__lienzo { position: absolute; inset: 0; width: 100%; height: 100%; display: block; } .is-intro__img { object-fit: cover; }
+.is-intro__vel { position: absolute; inset: 0; pointer-events: none; background: linear-gradient(0deg, rgba(3, 8, 16, .9) 0%, rgba(3, 8, 16, .35) 45%, rgba(3, 8, 16, 0) 70%), linear-gradient(90deg, rgba(3, 8, 16, .72) 0%, rgba(3, 8, 16, .2) 50%, rgba(3, 8, 16, 0) 72%); }
+.is-intro__c { position: relative; z-index: 1; height: 100%; display: grid; align-content: start; justify-items: start; gap: 14px; padding: clamp(72px, 13vh, 150px) clamp(24px, 6vw, 80px) 24px; max-width: 760px; animation: is-sube 1.2s .2s both; }
+.is-intro__k { margin: 0; font-size: .85rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 800; color: var(--is-c2); }
+.is-intro h2 { margin: 0; font-family: var(--f-display); font-size: clamp(2.2rem, 7vw, 4.6rem); line-height: 1.02; text-transform: uppercase; color: #fff; letter-spacing: -.01em; text-shadow: 0 4px 24px rgba(0, 0, 0, .6); }
+.is-intro p { margin: 0; font-size: 1.1rem; line-height: 1.55; max-width: 52ch; color: #e8eef7; text-shadow: 0 2px 12px rgba(0, 0, 0, .7); }
+.is-intro .is-btn { display: inline-flex; align-items: center; justify-content: center; min-height: 52px; padding: 14px 32px; border-radius: 12px; border: 1px solid var(--is-c); background: var(--is-c); color: #fff; font: inherit; font-size: 1.05rem; font-weight: 800; letter-spacing: .04em; text-transform: uppercase; cursor: pointer; box-shadow: 0 10px 30px -10px var(--is-c); transition: transform .15s, background .15s; }
+.is-intro .is-btn:hover { transform: translateY(-1px); background: color-mix(in srgb, var(--is-c) 85%, #fff); }
+.is-intro__o { background: none; border: 0; color: #cbd5e1; font: inherit; text-decoration: underline; cursor: pointer; min-height: 44px; padding: 0 6px; }
+.is-intro__nota { font-size: .76rem !important; color: #cbd5e1 !important; max-width: 60ch !important; }
+.is-intro__snd { position: absolute; z-index: 2; bottom: 16px; right: 16px; min-height: 44px; padding: 8px 16px; border-radius: 999px; border: 1px solid rgba(255, 255, 255, .55); background: rgba(4, 10, 20, .72); color: #fff; font: inherit; font-weight: 700; cursor: pointer; } .is-intro__snd:hover { background: rgba(4, 10, 20, .92); }
+.is-intro button:focus-visible { outline: 3px solid var(--is-c2); outline-offset: 3px; }
+.gd-ver-intro { display: inline-flex; margin: 0 0 12px; }
+@keyframes is-zoom { from { transform: scale(1); } to { transform: scale(1.05); } } @keyframes is-sube { from { opacity: 0; transform: translateY(24px); } to { opacity: 1; transform: none; } }
+@media (prefers-reduced-motion: reduce) { .is-intro__escena, .is-intro__c { animation: none; } .is-intro .is-btn { transition: none; } }
+@media (max-width: 719px) { .is-intro__vel { background: linear-gradient(0deg, rgba(3, 8, 16, .92), rgba(3, 8, 16, .35) 55%, rgba(3, 8, 16, .55)); } .is-intro__c { padding-top: 76px; } }
+/* la consulta no tiene monitores: el texto va abajo para dejar ver a la médica y el negatoscopio */
+.is-intro--azul .is-intro__c { align-content: end; padding-top: 24px; padding-bottom: clamp(32px, 7vh, 80px); }

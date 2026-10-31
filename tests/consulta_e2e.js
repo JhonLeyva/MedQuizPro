@@ -113,7 +113,7 @@ const letra = (q, cal) => q.decisiones.find(d => d.calidad === cal) || q.decisio
           await abrir(p, c);
           if (paso !== "anamnesis") { await recorrer(p, c, "ideal"); if (paso === "pruebas") continue; }
           else await sig(p, "anamnesis");
-          await p.evaluate(axe); const v = await p.evaluate(async () => (await axe.run(document.body, { runOnly: ["wcag2a", "wcag2aa", "wcag21aa", "wcag22aa"] })).violations.map(x => x.id + ":" + x.nodes.length));
+          await dormir(700); await p.evaluate(axe); const v = await p.evaluate(async () => (await axe.run(document.body, { runOnly: ["wcag2a", "wcag2aa", "wcag21aa", "wcag22aa"] })).violations.map(x => x.id + ":" + x.nodes.length));
           ok(v.length === 0, "axe " + esquema + " " + paso + ": " + v.join(", "));
         }
       }
