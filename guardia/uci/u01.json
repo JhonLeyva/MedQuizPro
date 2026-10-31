@@ -1,0 +1,1037 @@
+{
+ "id": "u01",
+ "modalidad": "uci",
+ "titulo": "Insuficiencia respiratoria que no mejora con oxígeno",
+ "especialidad": "Medicina intensiva · Neumología · Medicina interna",
+ "dificultad": 2,
+ "duracion_min": 18,
+ "areas_banco": [
+  "neumologia",
+  "infectologia"
+ ],
+ "resumen": "Adulto con un cuadro gripal y una hipoxemia que no cede con oxígeno a flujo alto. Decide cómo asegurar la vía aérea, ventilar sin dañar el pulmón, interpretar la gasometría y cuándo escalar el soporte.",
+ "contexto": "Unidad de cuidados intensivos con ventilador, gasometría arterial, personal entrenado en pronación y acceso a un centro con ECMO por traslado.",
+ "paciente": {
+  "edad": 46,
+  "edad_texto": "46 años",
+  "sexo": "M",
+  "embarazo": false
+ },
+ "especialistas": [
+  {
+   "id": "uci",
+   "nombre": "Medicina intensiva"
+  },
+  {
+   "id": "neumo",
+   "nombre": "Neumología"
+  },
+  {
+   "id": "emerg",
+   "nombre": "Medicina de emergencias"
+  },
+  {
+   "id": "ane",
+   "nombre": "Anestesiología / vía aérea"
+  }
+ ],
+ "imagenes": [],
+ "referencias": [
+  {
+   "id": "r1",
+   "tipo": "guia",
+   "titulo": "ESICM guidelines on acute respiratory distress syndrome: definition, phenotyping and respiratory support strategies",
+   "organismo": "European Society of Intensive Care Medicine (ESICM)",
+   "autores": "Grasselli G, Calfee CS, Camporota L, Poole D et al.",
+   "anio": 2023,
+   "version": "",
+   "pmid": "37326646",
+   "doi": "10.1007/s00134-023-07050-7",
+   "url": "",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Vigente según la última búsqueda (2023); confirma si hay una actualización posterior.",
+   "recomendacion": "Define el SDRA y sus fenotipos y da recomendaciones sobre oxigenoterapia de alto flujo, ventilación no invasiva, ventilación con volumen corriente bajo, presión meseta, PEEP y decúbito prono en el SDRA moderado a grave."
+  },
+  {
+   "id": "r2",
+   "tipo": "guia",
+   "titulo": "An Update on Management of Adult Patients with Acute Respiratory Distress Syndrome: An Official American Thoracic Society Clinical Practice Guideline",
+   "organismo": "American Thoracic Society (ATS)",
+   "autores": "Qadir N, Sahetya S, Munshi L, Summers C et al.",
+   "anio": 2024,
+   "version": "",
+   "pmid": "38032683",
+   "doi": "10.1164/rccm.202311-2011ST",
+   "url": "",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Guía 2024 que actualiza la de 2017; vigente según la última búsqueda.",
+   "recomendacion": "Sugiere corticoides en el SDRA (condicional, certeza moderada), bloqueantes neuromusculares en el SDRA grave temprano (condicional), ECMO venovenoso en casos seleccionados con SDRA grave (condicional) y PEEP más alta sin maniobras de reclutamiento; recomienda no usar maniobras de reclutamiento prolongadas."
+  },
+  {
+   "id": "r3",
+   "tipo": "ensayo",
+   "titulo": "Prone positioning in severe acute respiratory distress syndrome (PROSEVA)",
+   "organismo": "New England Journal of Medicine",
+   "autores": "Guérin C, Reignier J, Richard JC, Beuret P et al.",
+   "anio": 2013,
+   "version": "",
+   "pmid": "23688302",
+   "doi": "10.1056/NEJMoa1214103",
+   "url": "",
+   "fecha_consulta": "2026-10-28",
+   "vigencia": "Ensayo aleatorizado de 2013, base de las recomendaciones posteriores; no es una guía.",
+   "recomendacion": "En 466 pacientes con SDRA grave (PaO₂/FiO₂ menor de 150 con FiO₂ de al menos 0,6), el prono en sesiones de al menos 16 horas redujo la mortalidad a 28 días (16,0 % frente a 32,8 %)."
+  }
+ ],
+ "discrepancias": [
+  "No se identificó en esta consulta una guía peruana vigente (MINSA/EsSalud) de ventilación mecánica o SDRA; el caso se apoya en la guía de la ATS 2024 y la de la ESICM 2023. Ambas coinciden en la ventilación protectora y el decúbito prono; la ATS 2024 es más reciente y agrega corticoides, bloqueo neuromuscular y ECMO como sugerencias condicionales de certeza baja a moderada. La recomendación equivalente de la ESICM sobre corticoides y ECMO no se contrastó aquí: confirma el texto.",
+  "Los intervalos de laboratorio son educativos, no de un laboratorio peruano; en altitud la PaO₂ y la saturación de referencia son menores. No se fijan dosis de fármacos: siguen el protocolo de tu unidad. Disponibilidad de pronación, bloqueo neuromuscular y ECMO varía entre hospitales."
+ ],
+ "inicio": "n1",
+ "nodos": {
+  "n1": {
+   "estado": "Varón de 46 años, obeso, con cuadro gripal de cinco días y disnea progresiva. En emergencia respira rápido, con tiraje y habla en frases cortas. Con mascarilla con reservorio a 15 L/min la saturación es de 84 %. La radiografía muestra infiltrados alveolares en ambos pulmones. La presión arterial es estable.",
+   "vitales": {
+    "T": "38,9 °C",
+    "FC": "126 /min",
+    "PA": "118/70 mmHg",
+    "FR": "38 /min",
+    "SatO₂": "84 % con reservorio"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es la conducta inmediata?",
+   "ayuda": {
+    "especialista": "ane",
+    "pertinentes": [
+     "ane",
+     "uci"
+    ],
+    "n1": "La hipoxemia no cede con el máximo oxígeno y el paciente está agotado: piensa en cuándo y cómo asegurar la vía aérea sin empeorar su situación.",
+    "n2": "Un soporte invasivo planificado es más seguro que uno de rescate; prepara pre-oxigenación, operador experto y soporte hemodinámico."
+   },
+   "decisiones": [
+    {
+     "texto": "Realizar de inmediato una intubación de secuencia rápida sin preoxigenar, sin vasopresor preparado y con el personal disponible de menos experiencia",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Intubar sin preoxigenar ni preparar el soporte hemodinámico en un paciente con 84 % de saturación puede provocar una hipoxemia profunda y un paro.",
+     "id": "A",
+     "tema": "Insuficiencia respiratoria hipoxémica grave y vía aérea",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Pasar a presión positiva continua no invasiva durante varias horas, sin definir criterios de fracaso y retrasando la intubación si el paciente no mejora",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "La ventilación no invasiva sin criterios de rescate retrasa la intubación en pacientes graves y se asocia a peores resultados cuando fracasa.",
+     "id": "B",
+     "tema": "Insuficiencia respiratoria hipoxémica grave y vía aérea",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Preparar una intubación orotraqueal controlada por el operador más experto, con preoxigenación, vasopresor a mano y ventilación protectora desde el inicio",
+     "calidad": "optima",
+     "siguiente": "n2",
+     "explicacion": "El esfuerzo respiratorio extremo con hipoxemia refractaria a flujo alto indica soporte invasivo; se hace de forma planificada para evitar un paro durante la intubación.",
+     "id": "C",
+     "tema": "Insuficiencia respiratoria hipoxémica grave y vía aérea",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Mantener la mascarilla con reservorio y reevaluar la saturación y el esfuerzo respiratorio en una hora antes de decidir un soporte mayor",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "Con 84 % pese a flujo máximo y signos de agotamiento, esperar una hora solo consume reserva fisiológica y arriesga una intubación de rescate.",
+     "omision": true,
+     "id": "D",
+     "tema": "Insuficiencia respiratoria hipoxémica grave y vía aérea",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Indicar un diurético intravenoso suponiendo un edema pulmonar cardiogénico y repetir la radiografía de tórax y la evaluación clínica cuando haya mejorado la diuresis del paciente",
+     "calidad": "incorrecta",
+     "siguiente": "r1",
+     "explicacion": "El cuadro febril con infiltrados bilaterales y presión estable no es un edema cardiogénico típico; el diurético no corrige la hipoxemia.",
+     "id": "E",
+     "tema": "Insuficiencia respiratoria hipoxémica grave y vía aérea",
+     "competencia": "Reconocimiento y triaje",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "C"
+  },
+  "r1": {
+   "estado": "Una hora después el paciente está agotado y confuso, con respiración superficial y un uso intenso de músculos accesorios. La saturación baja a 79 % con el mismo soporte. Se decide actuar sin más demora.",
+   "vitales": {
+    "FC": "138 /min",
+    "PA": "104/62 mmHg",
+    "FR": "44 /min",
+    "SatO₂": "79 %",
+    "Conciencia": "somnoliento"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 2,
+   "pregunta": "¿Qué corrige el rumbo?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "ane"
+    ],
+    "n1": "El retraso en decidir ya tiene consecuencias; la pregunta es cómo aseguras la vía aérea ahora con el menor riesgo.",
+    "n2": "Hazlo de forma planificada: operador experto, preoxigenación, vasopresor listo y ventilador protector conectado."
+   },
+   "decisiones": [
+    {
+     "texto": "Intubar ahora de forma controlada con el operador más experto, preoxigenación y vasopresor listo, y conectar a ventilación protectora",
+     "calidad": "optima",
+     "siguiente": "n2",
+     "explicacion": "El retraso ya consumió reserva: ahora la intubación es urgente y debe hacerse con todas las precauciones y una estrategia ventilatoria protectora.",
+     "id": "A",
+     "tema": "Insuficiencia respiratoria hipoxémica grave y vía aérea",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Aumentar el flujo de oxígeno y repetir la gasometría en treinta minutos para decidir con más datos si hace falta ventilación invasiva",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "No hay más flujo que dar y el paciente se agota; seguir observando lleva a una insuficiencia respiratoria terminal.",
+     "omision": true,
+     "id": "B",
+     "tema": "Insuficiencia respiratoria hipoxémica grave y vía aérea",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Colocar al paciente en decúbito prono despierto durante varias horas y diferir la intubación hasta que la saturación se estabilice por completo y el esfuerzo disminuya",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "El prono despierto es una medida en pacientes cooperadores con esfuerzo moderado, no en uno agotado, confuso y con 79 % de saturación.",
+     "id": "C",
+     "tema": "Insuficiencia respiratoria hipoxémica grave y vía aérea",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Intubar sin preoxigenar y sin vasopresor, con el primer operador disponible, para ganar tiempo frente al deterioro de la saturación",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "La intubación apresurada de un paciente muy hipoxémico y agotado sin preparación es la situación típica del paro peri-intubación.",
+     "id": "D",
+     "tema": "Insuficiencia respiratoria hipoxémica grave y vía aérea",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Administrar un sedante en bolo para calmar la respiración rápida y reevaluar la saturación cuando el paciente esté tranquilo",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Sedar a un paciente agotado sin proteger la vía aérea deprime el esfuerzo respiratorio y precipita la hipoxemia y el paro.",
+     "id": "E",
+     "tema": "Insuficiencia respiratoria hipoxémica grave y vía aérea",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "A"
+  },
+  "n2": {
+   "estado": "El paciente fue intubado sin complicaciones y queda sedado y conectado al ventilador en modo controlado. Mide 1,74 m (peso predicho cercano a 70 kg). Con FiO₂ 1,0 la saturación es de 90 % y hay mucho esfuerzo en los primeros minutos. Hay que escoger los ajustes iniciales.",
+   "vitales": {
+    "FC": "110 /min",
+    "PA": "112/66 mmHg",
+    "SatO₂": "90 % con FiO₂ 1,0",
+    "Ventilador": "modo controlado",
+    "Talla": "1,74 m"
+   },
+   "gravedad": 1,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Qué ajustes ventilatorios inicias?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "neumo"
+    ],
+    "n1": "En el pulmón con SDRA el ventilador puede ayudar o dañar; piensa en volumen y presiones seguros y en qué peso se usa para calcularlos.",
+    "n2": "El volumen corriente se calcula por kilo de peso predicho según talla y sexo, con una presión meseta limitada y una PEEP adecuada."
+   },
+   "decisiones": [
+    {
+     "texto": "Fijar un volumen corriente de 10 a 12 mL/kg de peso real para normalizar el CO₂ y mejorar la saturación lo más rápido posible, sin limitar la presión meseta",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Los volúmenes altos sobredistienden un pulmón pequeño y aumentan la mortalidad; el peso real en un paciente obeso sobreestima el volumen seguro.",
+     "id": "A",
+     "tema": "Ventilación mecánica protectora",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Aplicar una maniobra de reclutamiento sostenida con una presión de 40 cmH₂O durante un minuto antes de ajustar cualquier otro parámetro",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "Los reclutamientos prolongados no mejoran los resultados y pueden causar hipotensión y barotrauma; una guía actual lo desaconseja.",
+     "id": "B",
+     "tema": "Ventilación mecánica protectora",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Dejar al paciente con poca sedación en un modo espontáneo con alta presión de soporte, para que él determine el volumen que necesita",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "Un esfuerzo inspiratorio intenso sin control puede generar volúmenes y presiones lesivas; en la fase grave se prefiere una ventilación controlada.",
+     "omision": true,
+     "id": "C",
+     "tema": "Ventilación mecánica protectora",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Usar una PEEP de cero para evitar el riesgo de barotrauma y compensar con una FiO₂ de 1,0 mantenida durante varios días",
+     "calidad": "incorrecta",
+     "siguiente": "r2",
+     "explicacion": "Sin PEEP los alvéolos colapsan y la hipoxemia empeora; una FiO₂ de 1,0 sostenida añade toxicidad sin tratar la causa.",
+     "id": "D",
+     "tema": "Ventilación mecánica protectora",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Ventilación protectora con volumen corriente bajo, alrededor de 6 mL/kg de peso predicho, presión meseta menor de 30 cmH₂O y PEEP ajustada a la gravedad",
+     "calidad": "optima",
+     "siguiente": "n3",
+     "explicacion": "Limitar el volumen y la presión reduce la lesión pulmonar inducida por el ventilador; la PEEP mantiene abiertos los alvéolos sin sobredistender.",
+     "id": "E",
+     "tema": "Ventilación mecánica protectora",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    }
+   ],
+   "clave": "E"
+  },
+  "r2": {
+   "estado": "Con una ventilación poco protectora la situación empeora: aparecen presiones altas en la vía aérea, la saturación cae a 86 % y el paciente luce más inestable. El equipo debe corregir el rumbo.",
+   "vitales": {
+    "FC": "122 /min",
+    "PA": "100/60 mmHg",
+    "SatO₂": "86 %",
+    "Presión meseta": "34 cmH₂O",
+    "Ventilador": "presiones altas"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 2,
+   "pregunta": "¿Qué corrección haces?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "neumo"
+    ],
+    "n1": "La presión meseta de 34 cmH₂O es un dato de alarma: piensa en qué ajustes la elevaron.",
+    "n2": "Vuelve a una ventilación protectora y evalúa de nuevo la oxigenación con una gasometría."
+   },
+   "decisiones": [
+    {
+     "texto": "Administrar un relajante muscular y mantener los mismos parámetros de ventilación, confiando en que mejore la sincronía con el ventilador",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Relajar sin corregir el ajuste ventilatorio no resuelve la sobredistensión y puede esconder el problema.",
+     "id": "A",
+     "tema": "Ventilación mecánica protectora",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Realizar una maniobra de reclutamiento prolongada con presiones muy altas hasta que la saturación suba por encima de 95 %",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "Un reclutamiento sostenido con presiones altas puede provocar hipotensión grave y neumotórax en un pulmón ya sobredistendido.",
+     "id": "B",
+     "tema": "Ventilación mecánica protectora",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Disminuir la PEEP a cero para reducir la presión de las vías aéreas y mantener la FiO₂ de 1,0 sin otros cambios",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Sin PEEP los alvéolos se colapsan; la saturación cae y las presiones de apertura aumentan.",
+     "id": "C",
+     "tema": "Ventilación mecánica protectora",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Pasar a ventilación protectora con volumen corriente bajo por peso predicho, presión meseta menor de 30 cmH₂O y PEEP adecuada, y repetir la gasometría",
+     "calidad": "optima",
+     "siguiente": "n3",
+     "explicacion": "Corregir la ventilación es la primera medida; se limita la lesión por sobredistensión y se reevalúa con nuevos datos.",
+     "id": "D",
+     "tema": "Ventilación mecánica protectora",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    },
+    {
+     "texto": "Aumentar el volumen corriente para bajar la presión de las vías aéreas y subir la saturación con menos esfuerzo del ventilador, y reevaluar mañana la gasometría",
+     "calidad": "incorrecta",
+     "siguiente": "d1",
+     "explicacion": "Subir el volumen aumenta la presión meseta y la sobredistensión; es lo contrario de lo que el pulmón enfermo necesita.",
+     "omision": true,
+     "id": "E",
+     "tema": "Ventilación mecánica protectora",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1",
+      "r2"
+     ]
+    }
+   ],
+   "clave": "D"
+  },
+  "n3": {
+   "estado": "Con ventilación protectora, FiO₂ 0,8 y PEEP 10 cmH₂O se obtiene una gasometría arterial. La presión meseta es 27 cmH₂O y la presión de distensión 16 cmH₂O. El ecocardiograma a la cabecera no muestra disfunción ventricular izquierda importante ni sobrecarga de líquidos.",
+   "vitales": {
+    "FC": "104 /min",
+    "PA": "110/64 mmHg",
+    "FiO₂": "0,8",
+    "PEEP": "10 cmH₂O",
+    "Presión meseta": "27 cmH₂O"
+   },
+   "gravedad": 1,
+   "tipo": "interpretacion",
+   "peso": 3,
+   "pregunta": "¿Cuál es la interpretación correcta de la gasometría y los datos del ventilador?",
+   "ayuda": {
+    "especialista": "neumo",
+    "pertinentes": [
+     "neumo",
+     "uci"
+    ],
+    "n1": "Calcula la relación entre la PaO₂ y la FiO₂ y recuerda con qué PEEP se mide; luego piensa en si el corazón explica el cuadro.",
+    "n2": "Una relación menor de 100 con PEEP y opacidades bilaterales sin falla cardiaca define el grado grave del síndrome."
+   },
+   "laboratorio": {
+    "titulo": "Gasometría arterial y estudios",
+    "resultados": [
+     {
+      "prueba": "ph",
+      "valor": 7.31
+     },
+     {
+      "prueba": "pco2",
+      "valor": 46
+     },
+     {
+      "prueba": "po2",
+      "valor": 62
+     },
+     {
+      "prueba": "hco3",
+      "valor": 22
+     },
+     {
+      "prueba": "lactato",
+      "valor": 2.1
+     },
+     {
+      "prueba": "leucocitos",
+      "valor": 14.8
+     },
+     {
+      "prueba": "pcr",
+      "valor": 24
+     }
+    ],
+    "ocultar_marcas": false
+   },
+   "decisiones": [
+    {
+     "texto": "Insuficiencia respiratoria leve con una relación PaO₂/FiO₂ cercana a 250, que no justifica medidas adicionales a la ventilación protectora",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "La relación calculada es mucho menor: restar gravedad impide aplicar las medidas indicadas en el SDRA grave.",
+     "id": "A",
+     "tema": "Interpretación de la gasometría y definición del síndrome",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Síndrome de dificultad respiratoria agudo grave: hipoxemia con PaO₂/FiO₂ menor de 100 con PEEP, infiltrados bilaterales y sin falla cardiaca que los explique",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "La relación PaO₂/FiO₂ cercana a 78 con PEEP y opacidades bilaterales de origen no cardiogénico define un SDRA grave.",
+     "id": "B",
+     "tema": "Interpretación de la gasometría y definición del síndrome",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Edema pulmonar cardiogénico: la hipoxemia se debe a sobrecarga de volumen y se corrige con diuréticos y vasodilatadores",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "El ecocardiograma no muestra disfunción ventricular y el cuadro es infeccioso; no se debe tratar como edema cardiogénico.",
+     "id": "C",
+     "tema": "Interpretación de la gasometría y definición del síndrome",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Gasometría normal para un paciente ventilado con alta FiO₂: continuar los parámetros actuales y repetirla dentro de doce horas",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "La PaO₂ de 62 mmHg con FiO₂ de 0,8 es una hipoxemia grave; esperar doce horas retrasa medidas que mejoran la supervivencia.",
+     "omision": true,
+     "id": "D",
+     "tema": "Interpretación de la gasometría y definición del síndrome",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Tromboembolia pulmonar masiva como causa de la hipoxemia: iniciar de inmediato trombólisis sistémica y suspender la ventilación protectora que se venía usando",
+     "calidad": "peligrosa",
+     "siguiente": "d1",
+     "explicacion": "No hay datos de embolia ni de sobrecarga del ventrículo derecho; una trombólisis sin indicación puede causar una hemorragia grave.",
+     "id": "E",
+     "tema": "Interpretación de la gasometría y definición del síndrome",
+     "competencia": "Diagnóstico e interpretación de estudios",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "B"
+  },
+  "n4": {
+   "estado": "Con el diagnóstico de SDRA grave, el paciente sigue con FiO₂ 0,8 y PEEP 10 cmH₂O, una presión de distensión de 16 cmH₂O y una relación PaO₂/FiO₂ por debajo de 100. Está sedado y estable hemodinámicamente. Hay un equipo entrenado y camas con protocolo de pronación.",
+   "vitales": {
+    "FC": "100 /min",
+    "PA": "108/62 mmHg",
+    "SatO₂": "91 %",
+    "PaO₂/FiO₂": "78 mmHg",
+    "Ventilador": "protector"
+   },
+   "gravedad": 1,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Qué medida inicias?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "neumo"
+    ],
+    "n1": "Hay una medida con ensayo aleatorizado y beneficio en la mortalidad para el SDRA grave temprano que no requiere un fármaco: piensa en la posición del paciente.",
+    "n2": "Las sesiones deben ser prolongadas (varias horas seguidas) y con equipo entrenado; se combinan con la ventilación protectora."
+   },
+   "decisiones": [
+    {
+     "texto": "Colocar al paciente en decúbito prono por sesiones prolongadas de al menos 16 horas, con ventilación protectora y un equipo entrenado en la maniobra",
+     "calidad": "optima",
+     "siguiente": "n5",
+     "explicacion": "El prono prolongado en el SDRA grave temprano reduce la mortalidad; requiere un equipo entrenado para evitar la salida accidental de tubos y vías.",
+     "id": "A",
+     "tema": "Decúbito prono en el SDRA grave",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2",
+      "r3"
+     ]
+    },
+    {
+     "texto": "Realizar maniobras de reclutamiento sostenidas con presiones altas varias veces al día para abrir el pulmón y evitar el prono",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Los reclutamientos prolongados no mejoran los resultados y pueden causar hipotensión y neumotórax; las guías los desaconsejan.",
+     "id": "B",
+     "tema": "Decúbito prono en el SDRA grave",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2",
+      "r3"
+     ]
+    },
+    {
+     "texto": "Subir la FiO₂ a 1,0 y bajar la PEEP para disminuir las presiones, sin cambiar la posición del paciente durante los próximos días",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "No corrige la causa de la hipoxemia y se pierde el beneficio de la pronación; bajar la PEEP puede empeorar el colapso alveolar.",
+     "id": "C",
+     "tema": "Decúbito prono en el SDRA grave",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2",
+      "r3"
+     ]
+    },
+    {
+     "texto": "Esperar la respuesta al antibiótico durante veinticuatro horas antes de plantear el prono, manteniendo la posición supina y los mismos parámetros",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "Con una relación menor de 100 la ventana de beneficio del prono es temprana; esperar un día retrasa una medida que salva vidas.",
+     "omision": true,
+     "id": "D",
+     "tema": "Decúbito prono en el SDRA grave",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2",
+      "r3"
+     ]
+    },
+    {
+     "texto": "Derivar de inmediato a un centro con ECMO sin intentar antes el prono ni el bloqueo neuromuscular, por tratarse de un SDRA con hipoxemia grave y obesidad",
+     "calidad": "incorrecta",
+     "siguiente": "n5",
+     "explicacion": "El ECMO se considera en casos seleccionados refractarios a las medidas previas, entre ellas el prono, no como primer paso.",
+     "id": "E",
+     "tema": "Decúbito prono en el SDRA grave",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r1",
+      "r2",
+      "r3"
+     ]
+    }
+   ],
+   "clave": "A"
+  },
+  "n5": {
+   "estado": "Con ventilación protectora y en prono (indicado por la relación PaO₂/FiO₂ menor de 100), tras 16 horas la saturación mejora, pero la relación PaO₂/FiO₂ sigue baja (alrededor de 95) y el paciente tiene asincronía con el ventilador. La presión de distensión es de 17 cmH₂O. Aún no recibe corticoide ni bloqueo neuromuscular.",
+   "vitales": {
+    "FC": "98 /min",
+    "PA": "106/60 mmHg",
+    "SatO₂": "93 %",
+    "PaO₂/FiO₂": "95 mmHg",
+    "Asincronía": "presente"
+   },
+   "gravedad": 1,
+   "tipo": "diagnostica",
+   "peso": 2,
+   "pregunta": "¿Qué se añade al prono y la ventilación protectora?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "ane"
+    ],
+    "n1": "El paciente sigue grave y asincrónico: piensa qué medidas farmacológicas tienen sugerencia reciente en el SDRA grave.",
+    "n2": "Una guía de 2024 sugiere un fármaco que modula la inflamación y otro que facilita la sincronía, ambos con límites de tiempo."
+   },
+   "decisiones": [
+    {
+     "texto": "Reducir la sedación y la ventilación a un modo espontáneo de baja presión para mejorar la sincronía a costa de un mayor esfuerzo",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "En el SDRA grave el esfuerzo vigoroso puede lesionar el pulmón; el cambio a modo espontáneo no es adecuado en esta fase.",
+     "id": "A",
+     "tema": "Bloqueo neuromuscular y corticoide en el SDRA",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Indicar un bloqueo neuromuscular continuo durante semanas sin sedación adecuada, sin reevaluar la necesidad y sin vigilar la debilidad, para evitar la asincronía",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "El bloqueo prolongado y sin vigilancia aumenta la debilidad adquirida en cuidados intensivos y la awareness; debe ser corto y reevaluado.",
+     "id": "B",
+     "tema": "Bloqueo neuromuscular y corticoide en el SDRA",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Suspender el prono y la sedación para despertar al paciente y evaluar una prueba de respiración espontánea esa misma tarde, sin cambios en la ventilación",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Con una relación PaO₂/FiO₂ de 95 la hipoxemia sigue siendo grave: quitar el prono y despertarlo puede provocar una descompensación respiratoria.",
+     "id": "C",
+     "tema": "Bloqueo neuromuscular y corticoide en el SDRA",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Mantener los parámetros actuales sin cambios y repetir la gasometría después de veinticuatro horas más antes de pensar en otras medidas",
+     "calidad": "incorrecta",
+     "siguiente": "n6",
+     "explicacion": "Con asincronía y una relación aún baja, esperar un día más retrasa medidas de apoyo con evidencia en este grupo de pacientes.",
+     "omision": true,
+     "id": "D",
+     "tema": "Bloqueo neuromuscular y corticoide en el SDRA",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Mantener el prono y la ventilación protectora, valorar un bloqueo neuromuscular por un tiempo limitado y un corticoide sistémico según el protocolo de la unidad",
+     "calidad": "optima",
+     "siguiente": "n6",
+     "explicacion": "En el SDRA grave temprano la ATS sugiere el bloqueo neuromuscular y el corticoide; se usan por tiempo limitado, con vigilancia de la sedación y de la debilidad adquirida.",
+     "id": "E",
+     "tema": "Bloqueo neuromuscular y corticoide en el SDRA",
+     "competencia": "Tratamiento inicial",
+     "refs": [
+      "r2"
+     ]
+    }
+   ],
+   "clave": "E"
+  },
+  "n6": {
+   "estado": "A las 48 horas persiste una hipoxemia grave con PaO₂/FiO₂ cercana a 70 pese a ventilación protectora, prono, bloqueo neuromuscular y corticoide. El paciente es joven, sin comorbilidades graves salvo la obesidad, y el hospital no cuenta con ECMO. Hay un centro con programa de ECMO a 90 minutos.",
+   "vitales": {
+    "FC": "112 /min",
+    "PA": "102/58 mmHg",
+    "SatO₂": "88 %",
+    "PaO₂/FiO₂": "70 mmHg",
+    "pH": "7,24"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es el siguiente escalón?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "neumo"
+    ],
+    "n1": "Las medidas habituales ya se aplicaron y no bastan: piensa a quién y a dónde derivar a un paciente joven con una hipoxemia que no cede.",
+    "n2": "Una guía reciente contempla un soporte extracorpóreo en casos seleccionados con SDRA grave; requiere un centro con experiencia."
+   },
+   "decisiones": [
+    {
+     "texto": "Continuar sin cambios y esperar otras 72 horas a que la inflamación ceda antes de plantear cualquier soporte adicional, interconsulta o traslado a otro centro",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "La hipoxemia refractaria con riesgo vital no se espera: el traslado precoz a un centro con ECMO amplía las alternativas.",
+     "omision": true,
+     "id": "A",
+     "tema": "Hipoxemia refractaria y ECMO",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Contactar al centro con ECMO para evaluar un soporte extracorpóreo venovenoso y coordinar el traslado con un equipo de transporte entrenado",
+     "calidad": "optima",
+     "siguiente": "f_bueno",
+     "explicacion": "El ECMO venovenoso se sugiere en casos seleccionados con SDRA grave refractario; la evaluación y el traslado precoz a un centro experimentado mejora las opciones.",
+     "id": "B",
+     "tema": "Hipoxemia refractaria y ECMO",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Aumentar el volumen corriente y la presión meseta para mejorar el pH y la oxigenación, mientras se espera la evolución del paciente",
+     "calidad": "peligrosa",
+     "siguiente": "f_adverso",
+     "explicacion": "Subir volumen y presiones en un SDRA refractario aumenta la lesión pulmonar y la mortalidad.",
+     "id": "C",
+     "tema": "Hipoxemia refractaria y ECMO",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Realizar una traqueostomía precoz esta misma tarde para facilitar la ventilación y reducir la sedación",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "La traqueostomía no corrige la hipoxemia refractaria y no sustituye a las medidas que sí modifican la evolución.",
+     "id": "D",
+     "tema": "Hipoxemia refractaria y ECMO",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r2"
+     ]
+    },
+    {
+     "texto": "Suspender el soporte invasivo y aplicar solo oxígeno por cánula nasal de alto flujo por considerar que el cuadro no tiene solución",
+     "calidad": "incorrecta",
+     "siguiente": "f_regular",
+     "explicacion": "Retirar el soporte en un paciente joven con posibilidad de recuperación no tiene justificación clínica en este momento.",
+     "id": "E",
+     "tema": "Hipoxemia refractaria y ECMO",
+     "competencia": "Disposición y seguimiento",
+     "refs": [
+      "r2"
+     ]
+    }
+   ],
+   "clave": "B"
+  },
+  "d1": {
+   "estado": "El paciente empeora de manera brusca: saturación de 62 %, bradicardia, hipotensión y presiones altas en el ventilador. El monitor muestra una frecuencia de 48 por minuto. El equipo debe actuar de inmediato.",
+   "vitales": {
+    "FC": "48 /min",
+    "PA": "70/40 mmHg",
+    "SatO₂": "62 %",
+    "Presión de vía aérea": "alta",
+    "T": "38,6 °C"
+   },
+   "gravedad": 2,
+   "tipo": "critica",
+   "peso": 3,
+   "pregunta": "¿Cuál es la conducta de rescate?",
+   "ayuda": {
+    "especialista": "uci",
+    "pertinentes": [
+     "uci",
+     "ane"
+    ],
+    "n1": "Hipoxemia profunda con bradicardia en un paciente ventilado: piensa en lo que se hace primero y en las causas que se buscan.",
+    "n2": "Ventila con bolsa y oxígeno al 100 % y revisa de forma ordenada las causas reversibles antes de seguir con otros ajustes."
+   },
+   "deterioro": true,
+   "decisiones": [
+    {
+     "texto": "Reducir la PEEP y la FiO₂ para bajar las presiones de la vía aérea y reevaluar al paciente dentro de una hora",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "Bajar la PEEP y la FiO₂ con una saturación de 62 % empeora la hipoxemia; el problema requiere ventilación manual y búsqueda de la causa.",
+     "id": "A",
+     "tema": "Deterioro agudo del paciente ventilado",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Aumentar la sedación y la relajación para sincronizar al paciente con el ventilador y observar su respuesta durante diez minutos antes de revisar el circuito o la vía aérea",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "Sin ventilar ni buscar la causa, la hipoxemia profunda con bradicardia evoluciona a un paro.",
+     "id": "B",
+     "tema": "Deterioro agudo del paciente ventilado",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Esperar a ver si la saturación mejora sola con una FiO₂ de 1,0, mientras se solicita una radiografía de tórax portátil",
+     "calidad": "peligrosa",
+     "siguiente": "f_fatal",
+     "explicacion": "Con una bradicardia y 62 % de saturación cada minuto cuenta; la radiografía no debe retrasar la ventilación manual y el tratamiento.",
+     "omision": true,
+     "id": "C",
+     "tema": "Deterioro agudo del paciente ventilado",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Ventilar con bolsa y oxígeno al 100 % por el operador más experto, buscar y tratar la causa reversible (neumotórax, tubo, secreciones) y estabilizar antes de continuar",
+     "calidad": "optima",
+     "siguiente": "n4",
+     "explicacion": "Ante hipoxemia profunda con bradicardia se asegura la ventilación manual y se buscan las causas tratables de forma sistemática.",
+     "id": "D",
+     "tema": "Deterioro agudo del paciente ventilado",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    },
+    {
+     "texto": "Administrar un vasopresor y un broncodilatador inhalado, y mantener la ventilación mecánica con los mismos parámetros actuales",
+     "calidad": "incorrecta",
+     "siguiente": "n4",
+     "explicacion": "Es parcial: apoya la presión arterial, pero no resuelve la hipoxemia ni busca la causa reversible que la provoca.",
+     "id": "E",
+     "tema": "Deterioro agudo del paciente ventilado",
+     "competencia": "Seguridad del paciente",
+     "refs": [
+      "r1"
+     ]
+    }
+   ],
+   "clave": "D"
+  },
+  "f_bueno": {
+   "final": {
+    "tipo": "bueno",
+    "titulo": "Buen desenlace",
+    "mensaje": "Se aseguró la vía aérea con seguridad, se ventiló de forma protectora, se pronó y se escaló a tiempo. El paciente fue evaluado para soporte extracorpóreo con posibilidades de recuperación."
+   }
+  },
+  "f_regular": {
+   "final": {
+    "tipo": "regular",
+    "titulo": "Evolución prolongada",
+    "mensaje": "El paciente sobrevivió, pero la demora en escalar medidas prolongó la ventilación y aumentó las complicaciones."
+   }
+  },
+  "f_adverso": {
+   "final": {
+    "tipo": "adverso",
+    "titulo": "Desenlace desfavorable (educativo)",
+    "mensaje": "Una conducta sin respaldo llevó a un deterioro respiratorio grave con secuelas."
+   }
+  },
+  "f_fatal": {
+   "final": {
+    "tipo": "fatal",
+    "titulo": "El paciente falleció por hipoxemia refractaria (educativo)",
+    "mensaje": "La demora y una conducta no indicada ante una hipoxemia profunda con bradicardia condujeron a un paro y a la muerte."
+   }
+  }
+ },
+ "informe": {
+  "resumen_clinico": "Varón de 46 años, obeso, con cuadro gripal e hipoxemia refractaria a oxígeno a flujo alto. Se intubó de forma controlada, se ventiló con estrategia protectora y la gasometría mostró una relación PaO₂/FiO₂ menor de 100: SDRA grave. Se pronó, se añadió bloqueo neuromuscular y corticoide y, ante la hipoxemia refractaria, se coordinó la evaluación para ECMO.",
+  "diagnostico_final": "Síndrome de dificultad respiratoria agudo grave secundario a neumonía viral.",
+  "diagnosticos_diferenciales": [
+   {
+    "dx": "Edema pulmonar cardiogénico",
+    "por_que_no": "El ecocardiograma no mostró disfunción ventricular y el cuadro fue febril con infiltrados bilaterales y presión estable."
+   },
+   {
+    "dx": "Tromboembolia pulmonar masiva",
+    "por_que_no": "No había sobrecarga del ventrículo derecho ni inestabilidad hemodinámica que la sugiriera, y los infiltrados bilaterales corresponden al SDRA."
+   },
+   {
+    "dx": "Neumonía lobar sin SDRA",
+    "por_que_no": "La relación PaO₂/FiO₂ menor de 100 con PEEP y opacidades bilaterales cumple los criterios de SDRA grave."
+   },
+   {
+    "dx": "Exacerbación de EPOC o asma",
+    "por_que_no": "No hay antecedente ni sibilancias, y la hipoxemia no responde al oxígeno ni a broncodilatadores."
+   }
+  ],
+  "datos_clave": [
+   "Hipoxemia grave refractaria a flujo alto con agotamiento respiratorio.",
+   "Infiltrados bilaterales sin falla cardiaca que los explique.",
+   "Relación PaO₂/FiO₂ menor de 100 con PEEP: grado grave."
+  ],
+  "razonamiento": [
+   "Ante un paciente agotado con hipoxemia refractaria, asegurar la vía aérea de forma planificada: operador experto, preoxigenación y vasopresor listo.",
+   "Ventilar de forma protectora: volumen corriente bajo por peso predicho, presión meseta limitada y PEEP adecuada.",
+   "Calcular la relación PaO₂/FiO₂ con PEEP y verificar que no sea una causa cardiogénica para definir el SDRA y su gravedad.",
+   "En el SDRA grave temprano, colocar en prono por sesiones prolongadas con un equipo entrenado.",
+   "Si persiste la hipoxemia: valorar bloqueo neuromuscular breve y corticoide según guía y, si aun así no mejora, evaluar un soporte extracorpóreo en un centro con experiencia.",
+   "Evitar los reclutamientos prolongados con presiones altas."
+  ],
+  "tratamiento": [
+   {
+    "item": "Vía aérea",
+    "detalle": "Intubación controlada con operador experto, preoxigenación y vasopresor disponible.",
+    "dosis": "Los fármacos y dosis de la secuencia de intubación siguen el protocolo de la unidad."
+   },
+   {
+    "item": "Ventilación",
+    "detalle": "Volumen corriente bajo por peso predicho, presión meseta menor de 30 cmH₂O, PEEP ajustada a la gravedad.",
+    "dosis": "No aplica: son parámetros del ventilador."
+   },
+   {
+    "item": "Prono",
+    "detalle": "Sesiones prolongadas de al menos 16 horas en el SDRA grave temprano, con equipo entrenado.",
+    "dosis": "No aplica."
+   },
+   {
+    "item": "Corticoide y bloqueo neuromuscular",
+    "detalle": "Sugeridos de forma condicional en el SDRA grave; con tiempo limitado y vigilancia.",
+    "dosis": "La dosis y el esquema siguen el protocolo institucional y la guía vigente."
+   },
+   {
+    "item": "ECMO",
+    "detalle": "Evaluar en casos seleccionados con hipoxemia refractaria y coordinar el traslado a un centro con experiencia.",
+    "dosis": "No aplica."
+   }
+  ],
+  "interpretacion_laboratorio": [
+   "pH 7,31 con PaCO₂ 46 mmHg: acidosis respiratoria leve por ventilación protectora con hipercapnia permisiva.",
+   "PaO₂ de 62 mmHg con FiO₂ de 0,8: relación PaO₂/FiO₂ cercana a 78, hipoxemia grave.",
+   "Leucocitos y PCR elevados: respuesta inflamatoria por infección viral grave.",
+   "Lactato de 2,1 mmol/L: sin hipoperfusión importante en este momento."
+  ],
+  "temas_relacionados": [
+   "Ventilación mecánica protectora",
+   "Decúbito prono",
+   "Soporte extracorpóreo (ECMO)"
+  ],
+  "casos_relacionados": [
+   "g10",
+   "u03"
+  ],
+  "mensaje_clave": "En el SDRA grave, ventilar con protección, pronar de forma prolongada y escalar a tiempo; evitar los reclutamientos prolongados y los volúmenes altos."
+ }
+}

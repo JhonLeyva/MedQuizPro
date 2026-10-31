@@ -89,7 +89,7 @@
   }
 
   function pintar(cont, ctx) {
-    var casosG = raiz.MQP_GUARDIA || [], casosC = raiz.MQP_CONSULTA || [], g = GD().cargar(), rG = resumen(casosG, g), rC = casosC.length ? resumen(casosC, progC()) : null;
+    var casosG = raiz.MQP_GUARDIA || [], casosC = raiz.MQP_CONSULTA || [], casosU = raiz.MQP_GUARDIA_UCI || [], g = GD().cargar(), rG = resumen(casosG, g), rU = casosU.length ? resumen(casosU, g) : null, rC = casosC.length ? resumen(casosC, progC()) : null;
     var est = GD().estadisticasAlumno(ctx.datos), rec = G().recomendar(casosG, g, est, Date.now()), F = fuentes(casosG, casosC);
     var conImg = casosG.concat(casosC).filter(function (c) { return (c.imagenes || []).length; }).length;
     var cap = [["doc", "Decisiones con cinco alternativas"], ["flask", "Laboratorio y valores de referencia"], ["img", "Imágenes reales con fuente y licencia"], ["chart", "Informe con razonamiento y bibliografía"], ["clock", "Modo cronometrado opcional"]];
@@ -102,7 +102,8 @@
       (rC ? tarjeta({ id: "C", tono: "azul", img: "consulta.webp", icono: "users", pill: "CONSULTA AMBULATORIA", titulo: "Consulta Clínica Experta", texto: "Evalúa pacientes desde la anamnesis hasta el tratamiento. Solicita exámenes, interpreta resultados y construye diagnósticos clínicos.", datos: datos(rC), prog: progreso(rC, "consultas completadas"), boton: boton("azul", "#/consulta", "Comenzar consulta clínica") })
         : tarjeta({ id: "C", tono: "azul", img: "consulta.webp", icono: "users", pill: "CONSULTA AMBULATORIA", titulo: "Consulta Clínica Experta", texto: "Evalúa pacientes desde la anamnesis hasta el tratamiento. Solicita exámenes, interpreta resultados y construye diagnósticos clínicos.", boton: boton("azul", "#/consulta", "Comenzar consulta clínica") })) +
       tarjeta({ id: "S", tono: "teal", img: "serums-posta.webp", icono: "users", pill: "MEDICINA RURAL Y COMUNITARIA", titulo: "Misión SERUMS", texto: "Sobrevive a la posta: decide con recursos limitados, gestiona tu inventario, refiere a tiempo y cuida a tu comunidad.", prog: '<div class="gh-prog"><p><b>Nuevo</b> · 10 casos originales con normativa peruana verificada y estado de validación declarado.</p></div>', boton: boton("teal", "#/serums", "Asumir mi posta") }) +
-      tarjeta({ id: "U", tono: "gris", img: "uci.webp", icono: "heart", pill: "CUIDADOS CRÍTICOS", pronto: true, titulo: "UCI y Paciente Crítico", texto: "Manejo de pacientes en estado crítico. Esta modalidad todavía no está disponible: aún no hay casos publicados.", prog: '<div class="gh-prog gh-prog--uci"><p>Aún no hay casos de UCI publicados. Mientras tanto puedes practicar la toma de decisiones críticas en la Guardia de Emergencias.</p></div>', boton: '<p class="gh-btn gh-btn--off">' + ic("lock") + '<span>Próximamente</span></p>' }) +
+      (casosU.length ? tarjeta({ id: "U", tono: "indigo", img: "uci.webp", icono: "heart", pill: "CUIDADOS CRÍTICOS", titulo: "UCI y Paciente Crítico", texto: "Maneja pacientes en estado crítico: ventilación, hemodinamia, reanimación y reperfusión. Razona, decide y aprende con un informe completo.", datos: datos(rU), prog: progreso(rU, "casos completados"), boton: boton("indigo", "#/guardia/uci", "Comenzar casos de UCI") }) :
+        tarjeta({ id: "U", tono: "gris", img: "uci.webp", icono: "heart", pill: "CUIDADOS CRÍTICOS", pronto: true, titulo: "UCI y Paciente Crítico", texto: "Manejo de pacientes en estado crítico. Esta modalidad todavía no está disponible: aún no hay casos publicados.", prog: '<div class="gh-prog gh-prog--uci"><p>Aún no hay casos de UCI publicados. Mientras tanto puedes practicar la toma de decisiones críticas en la Guardia de Emergencias.</p></div>', boton: '<p class="gh-btn gh-btn--off">' + ic("lock") + '<span>Próximamente</span></p>' })) +
       '</div></section>' +
       '<div class="gh-fila">' + recomendados(rec) + estadisticas(rG, rC, g, est) + '</div>' +
       '<section class="gh-accesos" aria-label="Accesos rápidos"><ul>' +
@@ -221,9 +222,12 @@
       if (detenerMonitor) detenerMonitor(); pintar(cont, ctx); var hero = cont.querySelector(".gh-hero"); detenerMonitor = hero ? monitorVivo(hero) : null;
       var I2 = M.guardiaIntro; if (I2 && mostrarIntro && !document.querySelector(".gi")) I2.mostrar({ alTerminar: function () { var b = cont.querySelector(".gh-btn"); if (b) b.focus({ preventScroll: true }); } });
     }
-    if (raiz.MQP_CONSULTA || !(M.consulta && M.consulta.asegurarDatos)) { listo(); return; }
+    var cargas = [];
+    if (!raiz.MQP_CONSULTA && M.consulta && M.consulta.asegurarDatos) cargas.push(M.consulta.asegurarDatos());
+    if (!raiz.MQP_GUARDIA_UCI && GD().asegurarUci) cargas.push(GD().asegurarUci());
+    if (!cargas.length) { listo(); return; }
     cont.innerHTML = '<p class="muted" role="status">Cargando el centro de simulación…</p>';
-    M.consulta.asegurarDatos().then(listo, listo);
+    Promise.all(cargas.map(function (p) { return p.catch(function () {}); })).then(listo, listo);
   }
   M.guardiaHub = { montar: montar };
 })(typeof window !== "undefined" ? window : this);

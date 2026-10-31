@@ -10,7 +10,7 @@
 declare(strict_types=1);
 
 const ACC_PREFIJOS = ['bancos', 'flujogramas', 'herramientas', 'residentado', 'guardia', 'consulta', 'serums', 'atlas3d'];
-const ACC_RAIZ_JS = ['guardia_casos', 'guardia_lab', 'guardia_biblioteca', 'consulta_casos', 'serums_casos', 'algoritmos'];
+const ACC_RAIZ_JS = ['guardia_casos', 'guardia_lab', 'guardia_biblioteca', 'guardia_uci', 'consulta_casos', 'serums_casos', 'algoritmos'];
 const ACC_TIPOS = [
     'json' => 'application/json; charset=utf-8', 'js' => 'text/javascript; charset=utf-8', 'css' => 'text/css; charset=utf-8', 'html' => 'text/html; charset=utf-8',
     'webp' => 'image/webp', 'png' => 'image/png', 'jpg' => 'image/jpeg', 'jpeg' => 'image/jpeg', 'svg' => 'image/svg+xml', 'pdf' => 'application/pdf',

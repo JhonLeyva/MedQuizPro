@@ -31,16 +31,23 @@ def construir_consulta():
            "   Los resultados de cada prueba están predefinidos en el caso: no hay IA ni resultados aleatorios.\n"
            "   Simulación educativa: no sirve para dirigir la atención de pacientes reales. */\n")
     return cab + "(function () { \"use strict\"; var CASOS = " + json.dumps(casos, ensure_ascii=False, separators=(",", ":")) + ";\n  if (typeof module !== \"undefined\" && module.exports) module.exports = CASOS; if (typeof window !== \"undefined\") window.MQP_CONSULTA = CASOS; })();\n"
+def construir_uci():
+    casos = [json.load(open(f, encoding="utf-8")) for f in sorted(glob.glob(os.path.join(RAIZ, "guardia", "uci", "*.json")))]
+    cab = ("/* MedQuizPlus · «Sobrevive a la Guardia» · UCI y Paciente Crítico · casos. ARCHIVO GENERADO: no se edita a mano.\n"
+           "   Fuente: guardia/uci/*.json  ·  Regenerar: python3 tools/guardia_empaquetar.py\n"
+           "   Misma estructura y motor que los casos de emergencias; se carga solo al abrir la modalidad. Simulación educativa. */\n")
+    return cab + "(function () { \"use strict\"; var CASOS = " + json.dumps(casos, ensure_ascii=False, separators=(",", ":")) + ";\n  if (typeof module !== \"undefined\" && module.exports) module.exports = CASOS; if (typeof window !== \"undefined\") window.MQP_GUARDIA_UCI = CASOS;\n})();\n"
 def construir_biblioteca():
     datos = json.load(open(os.path.join(RAIZ, "guardia", "biblioteca_lab.json"), encoding="utf-8"))
     return ("/* MedQuizPlus · biblioteca de valores de laboratorio (se carga solo al abrirla). ARCHIVO GENERADO desde guardia/biblioteca_lab.json (python3 tools/guardia_empaquetar.py).\n   Valores orientativos: cada laboratorio informa su propio intervalo según el método y el equipo. */\n"
             "(function () { \"use strict\"; var BIB = " + json.dumps(datos, ensure_ascii=False, separators=(",", ":")) + ";\n  if (typeof module !== \"undefined\" && module.exports) module.exports = BIB; if (typeof window !== \"undefined\") window.MQP_GUARDIA_BIB = BIB; })();\n")
 if __name__ == "__main__":
+    ruta5 = os.path.join(RAIZ, "guardia_uci.js"); nuevo5 = construir_uci()
     ruta4 = os.path.join(RAIZ, "guardia_biblioteca.js"); nuevo4 = construir_biblioteca()
     ruta3 = os.path.join(RAIZ, "consulta_casos.js"); nuevo3 = construir_consulta()
     ruta = os.path.join(RAIZ, "guardia_casos.js"); ruta2 = os.path.join(RAIZ, "guardia_lab.js"); nuevo, nuevo2 = construir()
     if "--check" in sys.argv:
         ok = os.path.exists(ruta) and open(ruta, encoding="utf-8").read() == nuevo and os.path.exists(ruta2) and open(ruta2, encoding="utf-8").read() == nuevo2
-        ok = ok and os.path.exists(ruta3) and open(ruta3, encoding="utf-8").read() == nuevo3 and os.path.exists(ruta4) and open(ruta4, encoding="utf-8").read() == nuevo4
-        print("guardia_casos.js, guardia_lab.js, consulta_casos.js y guardia_biblioteca.js al día" if ok else "guardia_casos.js/guardia_lab.js/consulta_casos.js/guardia_biblioteca.js DESACTUALIZADO: ejecuta python3 tools/guardia_empaquetar.py"); sys.exit(0 if ok else 1)
-    open(ruta, "w", encoding="utf-8").write(nuevo); open(ruta2, "w", encoding="utf-8").write(nuevo2); open(ruta3, "w", encoding="utf-8").write(nuevo3); open(ruta4, "w", encoding="utf-8").write(nuevo4); print("escrito", ruta, len(nuevo), "bytes;", ruta2, len(nuevo2), "bytes")
+        ok = ok and os.path.exists(ruta3) and open(ruta3, encoding="utf-8").read() == nuevo3 and os.path.exists(ruta4) and open(ruta4, encoding="utf-8").read() == nuevo4 and os.path.exists(ruta5) and open(ruta5, encoding="utf-8").read() == nuevo5
+        print("guardia_casos.js, guardia_lab.js, consulta_casos.js, guardia_biblioteca.js y guardia_uci.js al día" if ok else "guardia_casos.js/guardia_lab.js/consulta_casos.js/guardia_biblioteca.js DESACTUALIZADO: ejecuta python3 tools/guardia_empaquetar.py"); sys.exit(0 if ok else 1)
+    open(ruta, "w", encoding="utf-8").write(nuevo); open(ruta2, "w", encoding="utf-8").write(nuevo2); open(ruta3, "w", encoding="utf-8").write(nuevo3); open(ruta4, "w", encoding="utf-8").write(nuevo4); open(ruta5, "w", encoding="utf-8").write(nuevo5); print("escrito", ruta, len(nuevo), "bytes;", ruta2, len(nuevo2), "bytes")

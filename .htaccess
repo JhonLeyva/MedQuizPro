@@ -68,6 +68,6 @@ RedirectMatch 403 ^/cuenta_datos/
 <IfModule mod_rewrite.c>
   RewriteEngine On
   RewriteRule ^(bancos|flujogramas|herramientas|residentado|guardia|consulta|serums|atlas3d)/(.+)$ acceso.php?f=$1/$2 [L,B]
-  RewriteRule ^((guardia_casos|guardia_lab|guardia_biblioteca|consulta_casos|serums_casos|algoritmos)\.js)$ acceso.php?f=$1 [L,B]
+  RewriteRule ^((guardia_casos|guardia_lab|guardia_biblioteca|guardia_uci|consulta_casos|serums_casos|algoritmos)\.js)$ acceso.php?f=$1 [L,B]
   RewriteRule ^([^/]+\.pdf)$ acceso.php?f=$1 [L,B]
 </IfModule>
