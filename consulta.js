@@ -287,7 +287,10 @@
     if (detener) detener();
     var caso = arg ? raiz.MQP_CONSULTA.filter(function (c) { return c.id === arg; })[0] : null;
     if (arg && !caso) { cont.innerHTML = '<div class="empty-state"><p class="empty-state__title">No encontramos ese caso</p><a class="btn btn--primary" href="#/consulta">Ver los casos</a></div>'; return; }
-    if (caso) consulta(cont, caso); else lista(cont);
+    if (caso) { consulta(cont, caso); return; }
+    lista(cont);
+    var IS = M.introServicio;
+    if (IS) { var kp = cont.querySelector(".gd-aviso"), pr = document.createElement("p"); pr.className = "gd-repetir"; pr.innerHTML = '<button type="button" class="link-arrow" id="cqVerIntro">▶ Ver la introducción</button>'; if (kp) { kp.after(pr); pr.querySelector("button").addEventListener("click", function () { IS.mostrar("consulta"); }); } IS.auto("consulta"); }
   }
   M.consulta = { montar: montar, asegurarDatos: asegurarDatos };
 })(typeof window !== "undefined" ? window : this);

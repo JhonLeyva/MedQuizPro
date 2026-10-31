@@ -428,13 +428,14 @@
     if (arg && arg !== "emergencias" && arg !== "uci" && !caso) { cont.innerHTML = '<div class="empty-state"><p class="empty-state__title">No encontramos ese caso</p><a class="btn btn--primary" href="#/guardia/emergencias">Ver los casos</a></div>'; return; }
     if (detener) detener();
     if (caso) { preludio(cont, caso); return; }
-    if (arg === "uci") { listaUci(cont); return; }
+    if (arg === "uci") { listaUci(cont); var ISu = M.introServicio; if (ISu) { var kpu = cont.querySelector(".gd-aviso"), pu = document.createElement("p"); pu.className = "gd-repetir"; pu.innerHTML = '<button type="button" class="link-arrow" id="gdVerIntro">▶ Ver la introducción</button>'; if (kpu) { kpu.after(pu); pu.querySelector("button").addEventListener("click", function () { ISu.mostrar("uci"); }); } ISu.auto("uci"); } return; }
     lista(cont, datos);
-    var I = M.guardiaIntro;
+    var I = M.guardiaIntro, IS = M.introServicio;
     var rep = document.createElement("p"); rep.className = "gd-repetir";
     rep.innerHTML = '<button type="button" class="link-arrow" id="gdVerIntro">▶ Ver la introducción</button>';
     var kp = cont.querySelector(".gd-aviso");
-    if (kp && I) { kp.after(rep); rep.querySelector("button").addEventListener("click", function () { I.mostrar({}); }); }
+    if (kp && (I || IS)) { kp.after(rep); rep.querySelector("button").addEventListener("click", function () { if (IS) IS.mostrar("emergencias"); else I.mostrar({}); }); }
+    if (IS) IS.auto("emergencias");
   }
   M.guardia = { montar: montar, asegurarDatos: asegurarDatos, asegurarUci: asegurarUci, abrirLaboratorio: abrirLaboratorio, tablaResultados: tablaResultados, filaResultado: filaResultado, tarjetaCatalogo: tarjetaCatalogo, dialogo: dialogo, cerrarDialogo: cerrarDialogo, figura: figura, ligarImagenes: ligarImagenes, refHtml: refHtml, esc: esc, enlace: enlace, ls: ls, AVISO: AVISO, perfilTxt: perfilTxt, efectosActivos: efectosActivos, mayus1: mayus1, cargar: cargar, estadisticasAlumno: estadisticasAlumno, abrirCatalogo: abrirCatalogo, contarDecisiones: contarDecisiones };
 })(typeof window !== "undefined" ? window : this);
