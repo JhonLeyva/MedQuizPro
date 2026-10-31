@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Genera guardia/audio/{emergencias,uci,consulta,hospital}.mp3: cuatro ambientes de 30 s, estéreo, sintetizados (sin muestras ni grabaciones), que se repiten sin cortes.
 Todo evento cae en un instante fijo del ciclo (constantes de abajo) y la animación de intro_servicio.js usa esos mismos instantes para que los monitores latan con el sonido:
-  emergencias  ambiente tenso (cúmulo disonante, latidos que se aceleran, rechinidos) · RCP (0–10 s, alarma a 1 Hz) → carga del desfibrilador (10–14 s) → descarga a los 14,0 s → ritmo recuperado a 120 /min (latido cada 0,5 s desde los 15,0 s)
-  uci          ambiente real: monitor a 78 /min (latido cada 60/78 s) y ventilador a 18 /min (cada 30/9 s), camas vecinas, bombas, alarma lejana, aire acondicionado y voces
+  emergencias  fibrilación auricular con respuesta ventricular rápida, constante: pitido en cada onda R (RR_FA, irregularmente irregular, media 144 /min) y alarma de FC alta sobre música tensa a 144 BPM
+  uci          solo equipos: monitor a 78 /min (latido cada 60/78 s) y ventilador a 18 /min (cada 30/9 s), camas vecinas, bombas y alarma lejana
   consulta     consultorio: aire acondicionado, voces lejanas, teclas, bolígrafo, papel, timbre de sala de espera y puerta
   hospital     pasillo de hospital para la introducción principal: aire, monitores lejanos, pasos, camilla, puertas, megafonía y pulso grave
 Los instantes y las colas se enrollan al inicio (convolución y suma circulares): el final enlaza con el comienzo.   Uso: python3 tools/guardia_audio.py"""
@@ -13,6 +13,19 @@ N = SR * DUR
 rng = np.random.default_rng(31102026)
 T = np.arange(N) / SR
 F = np.fft.rfftfreq(N, 1 / SR)
+
+def intervalos_fa():
+    """Intervalos R-R (s) de una fibrilación auricular con respuesta ventricular rápida: irregularmente irregulares (varían entre ~0,28 y ~0,62 s), media 60/144 s, 72 latidos que suman
+    exactamente 30 s (el ciclo se repite sin salto). La misma lista está copiada en intro_servicio.js (RR_FA); tests/intro_servicio_e2e.js comprueba que coinciden."""
+    r = np.random.default_rng(144)
+    x = []
+    while len(x) < 72:                                                                      # muestreo por rechazo: sin valores repetidos por recorte
+        v = r.gamma(shape=9.0, scale=1.0) / 9.0
+        if 0.64 <= v <= 1.5: x.append(v)
+    x = np.array(x); x = np.round(x / x.sum() * 30.0, 3); x[-1] = round(30.0 - x[:-1].sum(), 3)
+    return [float(v) for v in x]
+RR_FA = intervalos_fa()
+TIEMPOS_FA = [float(v) for v in np.concatenate([[0.0], np.cumsum(RR_FA)[:-1]])]   # instante de cada onda R (el último latido cae en 30 s = 0 s del ciclo siguiente)
 
 def add(buf, t0, sig, gl=1.0, gr=1.0):
     i0 = int(round(t0 * SR)) % N; idx = (i0 + np.arange(len(sig))) % N
@@ -62,38 +75,42 @@ def pitidos(b, bpm, f, nivel, pan, desfase=0.0, d=0.1):
     for k in range(n): add(b, desfase + k * 60 / bpm, seno(f, d, 0.003, d * 0.7) * nivel, *pan)
 
 def emergencias():
-    """Ambiente tenso: zumbido grave y disonante, latidos que se aceleran, metales y rechinidos, tinnitus; los hitos (alarma, carga, descarga, ritmo) siguen los de la animación."""
-    b = nuevo()
-    for f, g in ((36.7, 0.7), (55.0, 0.5), (58.3, 0.42), (82.4, 0.26), (116.5, 0.18)):                                      # cúmulo disonante (segunda menor y trítono)
-        n = N; mod = 0.65 + 0.35 * np.sin(2 * np.pi * (3 / DUR) * T + f); y = np.sin(2 * np.pi * f * T) * mod * g * 0.18
-        for c, d in ((0, 1.0), (1, 1.004)): b[c] += np.sin(2 * np.pi * f * d * T + 0.7 * np.sin(2 * np.pi * (1 / DUR) * T)) * mod * g * 0.16
-    b[0] += ruido_filtrado(N, 30, 180) * 0.16 * (0.7 + 0.3 * np.sin(2 * np.pi * (2 / DUR) * T)); b[1] += ruido_filtrado(N, 30, 180) * 0.16 * (0.7 + 0.3 * np.cos(2 * np.pi * (2 / DUR) * T))   # retumbo
-    for k in range(18):                                                                                                    # compresiones: golpes sordos (0–10 s)
-        t = k * 0.5454; n = int(0.22 * SR); tt = np.arange(n) / SR
-        add(b, t, np.sin(2 * np.pi * (48 + 60 * np.exp(-tt / 0.03)) * tt) * np.exp(-tt / 0.09) * 0.95); add(b, t + 0.012, ruido_filtrado(int(0.04 * SR), 150, 1200) * env(int(0.04 * SR), 0.001, 0.012) * 0.35)
-    for k in range(10): add(b, k + 0.25, seno(1100, 0.07, 0.003, 0.05) * 0.32, 0.5, 1.0); add(b, k + 0.4, seno(1100, 0.07, 0.003, 0.05) * 0.32, 0.5, 1.0)     # alarma de monitor, 1 Hz (0–10 s)
-    for i, (t0, d) in enumerate(((10.0, 0.62), (10.62, 0.52), (11.14, 0.44), (11.58, 0.38), (11.96, 0.33), (12.29, 0.29), (12.58, 0.26), (12.84, 0.23), (13.07, 0.21), (13.28, 0.2), (13.48, 0.19), (13.67, 0.18))):   # latido que se acelera (10–14 s)
-        n = int(0.28 * SR); tt = np.arange(n) / SR; add(b, t0, np.sin(2 * np.pi * (42 + 50 * np.exp(-tt / 0.04)) * tt) * np.exp(-tt / 0.11) * 0.85); add(b, t0 + 0.14, np.sin(2 * np.pi * (38 + 40 * np.exp(-tt / 0.04)) * tt) * np.exp(-tt / 0.09) * 0.55)
-    n = int(4.0 * SR); tt = np.arange(n) / SR                                                                               # carga del desfibrilador (10 → 14 s)
-    f = 300 * (2600 / 300) ** (tt / 4.0); fase = 2 * np.pi * np.cumsum(f) / SR
-    add(b, 10.0, np.sin(fase) * (0.08 + 0.5 * (tt / 4.0)) * (0.85 + 0.15 * np.sin(2 * np.pi * 9 * tt)) * np.minimum(1, (4.0 - tt) / 0.02), 1.0, 0.8)
-    add(b, 10.0, ruido_filtrado(n, 800, 9000) * (tt / 4.0) ** 2.4 * 0.3)
-    n = int(0.6 * SR); tt = np.arange(n) / SR                                                                               # descarga y vacío posterior
-    add(b, 14.0, np.sin(2 * np.pi * (32 + 150 * np.exp(-tt / 0.05)) * tt) * np.exp(-tt / 0.28) * 1.7); add(b, 14.0, ruido_filtrado(int(0.25 * SR), 200, 12000) * env(int(0.25 * SR), 0.0005, 0.07) * 1.2)
-    for k in range(30): add(b, 15.0 + k * 0.5, seno(1000, 0.1, 0.002, 0.07) * (0.34 + 0.0 * k), 0.55, 1.0)                  # latidos del monitor (ritmo recuperado)
-    for t0, f0, dur in ((1.0, 2200, 9.0), (12.0, 3100, 7.0), (20.5, 1800, 9.0)):                                              # metales y cuerdas que raspan: glissandos agudos disonantes
-        n = int(dur * SR); tt = np.arange(n) / SR; fr = f0 * (1 + 0.05 * tt / dur) * (1 + 0.012 * np.sin(2 * np.pi * 5.3 * tt)); add(b, t0, np.sin(2 * np.pi * np.cumsum(fr) / SR) * np.sin(np.pi * tt / dur) ** 2 * 0.045, 0.7, 1.0)
-        add(b, t0 + 0.7, np.sin(2 * np.pi * np.cumsum(fr * 1.0595) / SR) * np.sin(np.pi * tt / dur) ** 2 * 0.04, 1.0, 0.7)
-    for t0 in (3.0, 17.0, 25.0):                                                                                            # rechinidos metálicos breves
-        n = int(1.6 * SR); tt = np.arange(n) / SR; add(b, t0, ruido_filtrado(n, 2500, 8000) * np.sin(np.pi * tt / 1.6) ** 3 * (0.6 + 0.4 * np.sin(2 * np.pi * 23 * tt)) * 0.12, 1.0, 0.6)
-    b[0] += np.sin(2 * np.pi * 3800 * T) * 0.012 * (0.5 + 0.5 * np.sin(2 * np.pi * (6 / DUR) * T)); b[1] += np.sin(2 * np.pi * 3830 * T) * 0.012       # tinnitus tenue
-    n = int(5.0 * SR); tt = np.arange(n) / SR; add(b, 25.0, ruido_filtrado(n, 400, 7000) * (tt / 5.0) ** 2.2 * 0.22)       # subida final antes de volver a empezar
-    reverb(b, 0.2, 1.4); guardar(b, "emergencias")
+    """Fibrilación auricular con respuesta ventricular rápida, constante: pitido del monitor en cada onda R (irregularmente irregular) y alarma de FC alta, sobre una música tensa de sala de emergencias a 144 BPM
+    (72 tiempos = 18 compases en 30 s; la frecuencia ventricular media coincide con el tempo). Ostinato de corcheas, latidos graves, cuerdas disonantes, golpes de percusión y una subida cada 8 compases."""
+    b = nuevo(); beat = 60 / 144
+    notas = lambda m: 55.0 * 2 ** (m / 12)                                                  # La1 = 55 Hz
+    patron = [0, 0, 3, 0, 0, 0, 7, 0, 0, 0, 3, 0, 0, 5, 3, 0]                               # ostinato de semicorcheas en La menor con notas de paso
+    for c in range(18):
+        for j, g in enumerate(patron):
+            t = c * 4 * beat + j * beat / 4; m = g + (12 if (c // 4) % 2 else 0)
+            add(b, t, sierra(notas(m + 12), 0.14, 0.003, 0.05, 5) * (0.6 if j % 4 else 0.85) * 0.3, 0.8, 1.0)
+        for k in (0, 2):                                                                    # latidos graves (lub-dub) cada dos tiempos
+            n = int(0.3 * SR); tt = np.arange(n) / SR; t = c * 4 * beat + k * beat
+            add(b, t, np.sin(2 * np.pi * (46 + 52 * np.exp(-tt / 0.035)) * tt) * np.exp(-tt / 0.13) * 0.55); add(b, t + 0.17, np.sin(2 * np.pi * (42 + 40 * np.exp(-tt / 0.035)) * tt) * np.exp(-tt / 0.1) * 0.32)
+        if c % 2 == 1:                                                                      # taiko sincopado
+            n = int(0.5 * SR); tt = np.arange(n) / SR
+            for off in (3.0, 3.5):
+                add(b, c * 4 * beat + off * beat, np.sin(2 * np.pi * (70 + 70 * np.exp(-tt / 0.05)) * tt) * np.exp(-tt / 0.16) * 0.55, 0.9, 0.9); add(b, c * 4 * beat + off * beat, ruido_filtrado(int(0.1 * SR), 120, 2500) * env(int(0.1 * SR), 0.001, 0.04) * 0.3)
+    acordes = [(0, 3, 7, 10), (-4, 0, 3, 7), (-2, 1, 5, 8), (-1, 2, 6, 9), (0, 3, 7, 10), (-4, 0, 3, 7)]      # Am7, Fmaj7, Bº, Gº… tensión creciente
+    for i, ac in enumerate(acordes):
+        t0 = i * 12 * beat
+        for m in ac:
+            for c, d in ((0, 1.0), (1, 1.006)): add(b, t0, sierra(notas(m + 24) * d, 12 * beat + 1.2, 0.9, 5.0, 4) * 0.14, 0.9 if c == 0 else 0.0, 0.9 if c == 1 else 0.0)
+    for t0 in (0.0, 15.0):                                                                  # violín agudo con trémolo (armónicos)
+        n = int(9.0 * SR); tt = np.arange(n) / SR; fr = 1760.0 * (1 + 0.004 * np.sin(2 * np.pi * 5.5 * tt)) * (1 + 0.02 * tt / 9.0)
+        add(b, t0 + 1.0, np.sin(2 * np.pi * np.cumsum(fr) / SR) * np.sin(np.pi * tt / 9.0) ** 2 * (0.6 + 0.4 * np.sin(2 * np.pi * 9 * tt)) * 0.07, 0.6, 1.0)
+    for t0 in (8 * 4 * beat - 6.0 + 30 * 0, 24.0 - 6.0):                                    # subidas de ruido antes del compás 9 y del final del ciclo
+        n = int(6.0 * SR); tt = np.arange(n) / SR; add(b, t0 % DUR, ruido_filtrado(n, 500, 9000) * (tt / 6.0) ** 2.3 * 0.2)
+    b[0] += ruido_filtrado(N, 30, 170) * 0.04; b[1] += ruido_filtrado(N, 30, 170) * 0.04
+    for t0 in TIEMPOS_FA: add(b, t0, seno(1000, 0.1, 0.002, 0.07) * 1.0, 0.6, 1.0)        # pitido del monitor en cada onda R (el ritmo irregular es lo que se oye)
+    for t0 in (1.5, 5.5, 9.5, 13.5, 17.5, 21.5, 25.5, 29.0):                              # alarma de FC alta: tres pitidos cada 4 s (el banner de la pantalla parpadea a 1 Hz)
+        for i in range(3): add(b, t0 + i * 0.16, seno(1250, 0.09, 0.003, 0.07) * 0.3, 1.0, 0.5)
+    reverb(b, 0.17, 1.1); guardar(b, "emergencias")
 
 def uci():
-    """Ambiente real de una UCI: varios monitores a distinto ritmo, ventilador, bombas de infusión, alarmas lejanas, aire acondicionado y voces lejanas. El monitor principal (78 /min) y el ventilador (18 /min) son los de la animación."""
+    """Sonido de una UCI, solo de equipos (sin música ni voces): varios monitores a distinto ritmo, ventilador, bombas de infusión y alarmas, con un leve zumbido de aire. El monitor principal (78 /min) y el ventilador (18 /min) son los de la animación."""
     b = nuevo(); lat = 60 / 78; resp = 30 / 9
-    zumbido(b, 0.05, 90, 700)
+    zumbido(b, 0.018, 90, 700)
     for c in (0, 1): b[c] += np.sin(2 * np.pi * 60 * T) * 0.01 + np.sin(2 * np.pi * 120 * T) * 0.006
     pitidos(b, 78, 880, 0.5, (0.6, 1.0))                                                                                      # monitor de la cama (animado)
     for k in range(39):
@@ -108,8 +125,6 @@ def uci():
     for i, f in enumerate((660.0, 880.0, 660.0)): add(b, 8.0 + i * 0.28, seno(f, 0.25, 0.004, 0.1) * 0.28, 0.4, 1.0)         # bomba: fin de infusión
     for t0 in (22.0, 22.5, 23.0): add(b, t0, seno(740, 0.2, 0.004, 0.18) * 0.3, 1.0, 0.6); add(b, t0 + 0.2, seno(587, 0.2, 0.004, 0.18) * 0.3, 1.0, 0.6)   # alarma de prioridad media (lejana)
     for t0 in (14.0, 28.0): add(b, t0, seno(1500, 0.06, 0.002, 0.04) * 0.14, 0.2, 1.0)
-    for t0, d in ((2.0, 5.0), (13.0, 6.0), (21.0, 5.5)): add(b, t0, murmullo(d, 0.07), 0.6, 1.0)                              # personal conversando al fondo
-    clics(b, [6.2, 6.5, 17.8], 600, 0.18); add(b, 24.5, ruido_filtrado(int(0.6 * SR), 400, 3500) * np.sin(np.pi * np.arange(int(0.6 * SR)) / int(0.6 * SR)) * 0.1)    # puerta y pasos
     reverb(b, 0.2, 0.9); guardar(b, "uci")
 
 def consulta():

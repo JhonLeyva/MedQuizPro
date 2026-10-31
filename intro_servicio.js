@@ -1,6 +1,6 @@
 /* MedQuizPlus · introducciones cinematográficas de los servicios de «Sobrevive a la Guardia»: Emergencias, UCI y Consulta externa.
    Cada una es una foto a pantalla completa con un lienzo encima que dibuja, en las coordenadas de la imagen (1536×1024, «cover»), lo que se mueve:
-   · Emergencias: el monitor y el desfibrilador muestran RCP → fibrilación → descarga → ritmo recuperado, al compás del tema musical.
+   · Emergencias: el monitor y el desfibrilador muestran una fibrilación auricular con respuesta ventricular rápida, constante, con sus signos vitales; el pitido suena en cada onda R.
    · UCI: el monitor (ECG, pletismografía, respiración y capnografía, con sus cifras) y la pantalla del ventilador siguen el pitido del monitor y la respiración del audio.
    · Consulta: luz de la ventana, brillo del negatoscopio y motas de polvo (no hay monitores en la imagen).
    El tema de 30 s de cada servicio (guardia/audio/*.mp3, generado con tools/guardia_audio.py) es sintético y periódico: se repite sin cortes y las animaciones usan los mismos instantes.
@@ -28,16 +28,28 @@
   function ruidoRapido(t) { var x = Math.sin(t * 91.7) * 43758.5453; return (x - Math.floor(x)) * 2 - 1; }
   function qrs(d) { return 0.13 * G(d + 0.16, 0.03) - 0.12 * G(d + 0.025, 0.008) + 1.0 * G(d, 0.011) - 0.22 * G(d - 0.025, 0.009) + 0.26 * G(d - 0.22, 0.05); }   // d: segundos desde el latido
   function sinusal(tt, periodo, t0) { var d = mod(tt - t0 + periodo / 2, periodo) - periodo / 2; return qrs(d); }
-  /* Emergencias: 0–10 s compresiones; 10–14 s fibrilación; 14,0 s descarga; 15,0 s en adelante ritmo a 120 /min (R cada 0,5 s) */
-  function ondaEmerg(t) {
-    t = mod(t, CICLO);
-    if (t < 10) { var p = 0.5454; return 0.62 * Math.sin(2 * Math.PI * t / p) + 0.16 * Math.sin(4 * Math.PI * t / p + 0.6) + 0.05 * ruidoRapido(t); }
-    if (t < 14) return (0.5 * Math.sin(2 * Math.PI * 5.2 * t) + 0.34 * Math.sin(2 * Math.PI * 7.3 * t + 1.2) + 0.2 * Math.sin(2 * Math.PI * 3.1 * t)) * (0.7 + 0.3 * Math.sin(2 * Math.PI * 0.9 * t));
-    if (t < 14.1) return 1.4 * Math.sin((t - 14) * 80) * Math.exp(-(t - 14) * 18);
-    if (t < 15) return 0.02 * ruidoRapido(t);
-    return sinusal(t, 0.5, 15.0);
+  /* Emergencias: fibrilación auricular con respuesta ventricular rápida, constante. Rasgos electrocardiográficos (guías ESC 2020 y ACC/AHA/ACCP/HRS 2023): intervalos R-R irregularmente
+     irregulares, ausencia de ondas P definidas y actividad auricular caótica (ondas f de 350–600 /min, de baja amplitud); QRS estrecho; en el pulso, amplitud variable (déficit de pulso:
+     los latidos con R-R corto bombean menos). Los R-R son los de tools/guardia_audio.py (RR_FA, 72 latidos que suman 30 s, media 144 /min) y el pitido suena en cada onda R. */
+  var RR_FA = [0.321, 0.363, 0.414, 0.282, 0.609, 0.295, 0.422, 0.438, 0.303, 0.34, 0.375, 0.514, 0.282, 0.288, 0.42, 0.262, 0.577, 0.467, 0.347, 0.515, 0.608, 0.412, 0.417, 0.396, 0.507, 0.311, 0.498, 0.316, 0.281, 0.569, 0.429, 0.446, 0.445, 0.321, 0.432, 0.576, 0.569, 0.31, 0.395, 0.52, 0.31, 0.589, 0.336, 0.302, 0.304, 0.288, 0.401, 0.545, 0.361, 0.443, 0.596, 0.575, 0.27, 0.342, 0.465, 0.396, 0.345, 0.561, 0.556, 0.445, 0.495, 0.288, 0.35, 0.326, 0.447, 0.466, 0.527, 0.443, 0.307, 0.399, 0.522, 0.408];
+  var TR = (function () { var a = [0], c = 0; for (var i = 0; i < RR_FA.length - 1; i++) { c += RR_FA[i]; a.push(c); } return a; })();   // instante de cada onda R
+  function latidoCerca(t) {   // índice del latido más cercano y distancia (s) con signo
+    t = mod(t, CICLO); var lo = 0, hi = TR.length - 1; while (lo < hi) { var m = (lo + hi + 1) >> 1; if (TR[m] <= t) lo = m; else hi = m - 1; }
+    var k2 = (lo + 1) % TR.length, t2 = lo + 1 >= TR.length ? CICLO + TR[0] : TR[k2], d1 = t - TR[lo], d2 = t - t2; return Math.abs(d1) <= Math.abs(d2) ? { k: lo, d: d1 } : { k: k2, d: d2 };
   }
-  function faseEmerg(t) { t = mod(t, CICLO); return t < 10 ? "rcp" : t < 14 ? "fv" : t < 15 ? "descarga" : "ritmo"; }
+  var FREC_F = [[5.9, 0.045, 0.3], [7.3, 0.04, 1.7], [8.1, 0.035, 2.9], [9.2, 0.03, 4.4], [6.6, 0.04, 5.6]];   // frecuencias enteras en 30 s: la onda es periódica
+  function ondaFA(t) {
+    var h = latidoCerca(t), amp = 0.82 + 0.22 * mod(Math.sin(h.k * 12.9898) * 43758.5453, 1), d = h.d, y = amp * (1.0 * G(d, 0.010) - 0.16 * G(d + 0.018, 0.007) - 0.22 * G(d - 0.02, 0.008)) + 0.1 * G(d - 0.17, 0.045);
+    var f = 0; for (var i = 0; i < FREC_F.length; i++) f += FREC_F[i][1] * Math.sin(2 * Math.PI * FREC_F[i][0] * t + FREC_F[i][2]);
+    return y + f * (0.8 + 0.4 * Math.sin(2 * Math.PI * 0.7 * t));
+  }
+  function ondaPletFA(t) {
+    var y = 0, h = latidoCerca(t); for (var j = -1; j <= 1; j++) { var k = (h.k + j + TR.length) % TR.length, rr = RR_FA[(k - 1 + RR_FA.length) % RR_FA.length], a = Math.max(0.25, Math.min(1, 0.25 + (rr - 0.27) * 2.2)), d = h.d - (j === 1 ? RR_FA[h.k] : j === -1 ? -RR_FA[(h.k - 1 + RR_FA.length) % RR_FA.length] : 0); y += a * (0.9 * G(d - 0.2, 0.07) + 0.2 * G(d - 0.36, 0.08)); }
+    return y - 0.25;
+  }
+  function frecuenciaFA(t) { var k = latidoCerca(t).k, s6 = 0; for (var i = 0; i < 6; i++) s6 += RR_FA[(k - i + 72 * 3) % RR_FA.length]; return Math.round(60 / (s6 / 6)); }
+  function ondaRespFA(t) { return Math.sin(2 * Math.PI * t / 2.5); }
+
   /* UCI: latido cada 60/78 s, respiración cada 30/9 s */
   var LAT = 60 / 78, RESP = 30 / 9;
   function ondaEcgUci(t) { return sinusal(t, LAT, 0); }
@@ -92,28 +104,38 @@
     function texto(txt, x, y, tam, color, alin, peso) { var c = p(x, y); g.font = (peso || "700") + " " + Math.max(6, tam * s) + "px Arial, Helvetica, sans-serif"; g.fillStyle = color; g.textAlign = alin || "left"; g.textBaseline = "middle"; g.fillText(txt, c[0], c[1]); }
     function borde(x0, y0, x1, y1, color, ancho) { var a = p(x0, y0), b = p(x1, y1); g.lineWidth = ancho * s; g.strokeStyle = color; g.strokeRect(a[0], a[1], b[0] - a[0], b[1] - a[1]); }
 
-    /* ---- Emergencias ---- */
-    function dibujarEmerg(t, dt) {
-      var f = faseEmerg(t), alarma = f === "rcp" ? 0.5 + 0.5 * Math.sin(2 * Math.PI * 1.0 * t) : 0, tt = mod(t, CICLO);
+    /* ---- Emergencias ----
+       Todo el monitor se dibuja sobre el cuadrilátero del cristal (en perspectiva), con la misma correspondencia bilineal que la UCI. */
+    var QE = [[1262, 157], [1495, 150], [1491, 316], [1261, 317]];   // TL, TR, BR, BL del cristal del monitor, en píxeles de la imagen
+    function dibujarEmerg(t) {
+      var alarma = mod(t, 1) < 0.5 ? 1 : 0, hr = frecuenciaFA(t);
       g.globalCompositeOperation = "source-over";
-      caja2(1277, 163, 1469, 301, "#04070f");                                                                                    // pantalla del monitor principal
-      linea(ondaEmerg, t, 1282, 1464, 243, 46, 3.6, f === "fv" ? "#ff8f6b" : f === "rcp" ? "#ffd35a" : "#6dffa3", 2.2, 220, 7);
-      var fc = f === "ritmo" ? 119 + Math.round(1.4 * Math.sin(tt * 1.7)) : null;
-      texto(f === "rcp" ? "RCP EN CURSO" : f === "fv" ? "FIBRILACIÓN" : f === "descarga" ? "DESCARGA" : "FC", 1284, 174, 10, f === "ritmo" ? "#6dffa3" : "#ffd35a", "left");
-      texto(f === "ritmo" ? String(fc) : "---", 1462, 183, 24, f === "ritmo" ? "#6dffa3" : f === "fv" ? "#ff8f6b" : "#c9d4e8", "right");
-      texto("II", 1284, 291, 9, "#9fb2d6", "left"); texto("25 mm/s", 1462, 291, 8, "#9fb2d6", "right");
-      if (alarma > 0) { borde(1277, 163, 1469, 301, "rgba(255,60,60," + (0.25 + 0.55 * alarma) + ")", 3); }
-      var flash = tt >= 14 && tt < 14.35 ? 1 - (tt - 14) / 0.35 : 0;
-      /* desfibrilador (pantalla pequeña a la izquierda) */
+      function poli(Q, uv, color) { g.beginPath(); uv.forEach(function (q, i) { var c = pq(Q, q[0], q[1]); i ? g.lineTo(c[0], c[1]) : g.moveTo(c[0], c[1]); }); g.closePath(); g.fillStyle = color; g.fill(); }
+      poli(QE, [[0.003, 0.006], [0.997, 0.006], [0.997, 0.994], [0.003, 0.994]], "#03060d");                                      // cristal
+      var gh = g.createLinearGradient.apply(g, pq(QE, 0, 0).concat(pq(QE, 1, 0))); gh.addColorStop(0, "#2a68c4"); gh.addColorStop(1, "#0e2d66");
+      poli(QE, [[0.003, 0.006], [0.997, 0.006], [0.997, 0.092], [0.003, 0.092]], gh);                                              // barra superior
+      textoQ(QE, "CAMA 4", 0.025, 0.05, 8.5, "#ffffff", "left"); textoQ(QE, "21:47", 0.975, 0.05, 8.5, "#ffffff", "right");
+      if (alarma) { poli(QE, [[0.28, 0.012], [0.70, 0.012], [0.70, 0.082], [0.28, 0.082]], "#d62828"); textoQ(QE, "FC ALTA", 0.49, 0.047, 9.5, "#ffffff", "center", "800"); }
+      var U0 = 0.03, U1 = 0.715;
+      [0.47, 0.70].forEach(function (v) { var a1 = pq(QE, U0, v), b1 = pq(QE, U1, v); g.beginPath(); g.moveTo(a1[0], a1[1]); g.lineTo(b1[0], b1[1]); g.lineWidth = Math.max(0.6, 0.7 * s); g.strokeStyle = "rgba(160,190,230,.16)"; g.stroke(); });
+      trazoQ(QE, ondaFA, t, U0, U1, 0.285, 0.13, 3.4, "#4dff91", 1.7, 330, 5);
+      trazoQ(QE, ondaPletFA, t, U0, U1, 0.64, 0.12, 3.4, "#5fd0ff", 1.6, 330, 4);
+      trazoQ(QE, ondaRespFA, t, U0, U1, 0.81, 0.07, 6.0, "#ffffff", 1.4, 200, 3);
+      textoQ(QE, "II", 0.04, 0.125, 8.5, "#4dff91", "left"); textoQ(QE, "Pleth", 0.04, 0.495, 8.5, "#5fd0ff", "left"); textoQ(QE, "Resp", 0.04, 0.725, 8.5, "#ffffff", "left");
+      textoQ(QE, "FC", 0.745, 0.15, 8, "#4dff91", "left"); textoQ(QE, String(hr), 0.885, 0.25, 34, "#4dff91", "center", "800");
+      textoQ(QE, "SpO₂", 0.745, 0.395, 8, "#5fd0ff", "left"); textoQ(QE, "93", 0.885, 0.475, 28, "#5fd0ff", "center", "800");
+      textoQ(QE, "PNI", 0.745, 0.60, 8, "#ffffff", "left"); textoQ(QE, "96/58", 0.9, 0.655, 16, "#ffffff", "center", "700"); textoQ(QE, "(71)", 0.9, 0.735, 10, "#ffffff", "center", "600");
+      textoQ(QE, "FR", 0.745, 0.835, 8, "#ffffff", "left"); textoQ(QE, "24", 0.885, 0.845, 18, "#ffffff", "center", "700");
+      poli(QE, [[0.003, 0.925], [0.997, 0.925], [0.997, 0.994], [0.003, 0.994]], "#0d3a8e");                                       // barra inferior
+      [0.04, 0.14, 0.24, 0.34, 0.44, 0.9].forEach(function (u) { poli(QE, [[u, 0.94], [u + 0.065, 0.94], [u + 0.065, 0.98], [u, 0.98]], "rgba(215,230,255,.55)"); });
+      if (alarma) { g.beginPath(); [[0.003, 0.006], [0.997, 0.006], [0.997, 0.994], [0.003, 0.994]].forEach(function (uv, i) { var c = pq(QE, uv[0], uv[1]); i ? g.lineTo(c[0], c[1]) : g.moveTo(c[0], c[1]); }); g.closePath(); g.lineWidth = 2.2 * s; g.strokeStyle = "rgba(255,70,70,.8)"; g.stroke(); }
+      /* desfibrilador (pantalla pequeña a la izquierda): misma fibrilación con marcas de sincronía sobre cada R (cardioversión sincronizada) */
       caja2(78, 290, 174, 346, "#050a0c");
-      var carga = tt >= 10 && tt < 14 ? (tt - 10) / 4 : tt >= 14 && tt < 14.35 ? 1 : 0;
-      linea(ondaEmerg, t, 82, 170, 314, 14, 3.6, "#7dffb0", 1.4, 80, 4);
-      texto(tt >= 14 && tt < 15 ? "DESCARGA" : tt >= 10 && tt < 14 ? "CARGANDO" : tt >= 15 ? "RITMO" : "RCP", 126, 296, 7.5, tt >= 14 && tt < 15 ? "#ffffff" : "#ffd35a", "center");
-      if (carga > 0) { caja2(84, 337, 84 + 84 * carga, 342, tt >= 14 ? "#ffffff" : "#ffb347"); }
+      linea(ondaFA, t, 82, 170, 320, 15, 3.0, "#7dffb0", 1.3, 120, 3);
+      for (var i = 0; i < TR.length; i++) { var dt = mod(t - TR[i] + CICLO / 2, CICLO) - CICLO / 2; if (dt >= 0 && dt <= 3.0) { var c2 = p(82 + (170 - 82) * (1 - dt / 3.0), 300); g.fillStyle = "#ffffff"; g.beginPath(); g.moveTo(c2[0], c2[1] - 3 * s); g.lineTo(c2[0] - 2.4 * s, c2[1] - 7 * s); g.lineTo(c2[0] + 2.4 * s, c2[1] - 7 * s); g.closePath(); g.fill(); } }
+      texto("SINC", 126, 296, 7.5, "#ffd35a", "center"); texto("FA", 90, 342, 7, "#9fb2d6", "left");
       g.globalCompositeOperation = "screen";
-      if (tt >= 10 && tt < 14) { var c = p(208, 342), r = 40 * s, pul = 0.5 + 0.5 * Math.sin(tt * 12), gr = g.createRadialGradient(c[0], c[1], 0, c[0], c[1], r); gr.addColorStop(0, "rgba(255,170,60," + (0.4 + 0.4 * pul) + ")"); gr.addColorStop(1, "rgba(255,120,30,0)"); g.fillStyle = gr; g.fillRect(c[0] - r, c[1] - r, r * 2, r * 2); }
-      if (alarma > 0) { g.fillStyle = "rgba(255,40,40," + (0.05 + 0.08 * alarma) + ")"; g.fillRect(0, 0, W, H); }
-      if (flash > 0) { g.fillStyle = "rgba(255,255,255," + (0.55 * flash) + ")"; g.fillRect(0, 0, W, H); }
+      if (alarma) { g.fillStyle = "rgba(255,40,40,0.035)"; g.fillRect(0, 0, W, H); }
       g.globalCompositeOperation = "source-over";
     }
 
@@ -191,9 +213,11 @@
     arrancar(); return { detener: function () { snd.detener(); if (btn.parentNode) btn.parentNode.removeChild(btn); } };
   }
   function esc(t) { return String(t).replace(/[&<>"']/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]; }); }
-  var VISTAS = {};   // en memoria: se borra al recargar o salir de la página y al cerrar la ventana; no sobrevive entre visitas
-  function vista(clave) { return !!VISTAS[clave]; }
-  function marcar(clave) { VISTAS[clave] = true; }
+  var VISTAS = {};   // respaldo en memoria si sessionStorage no está disponible
+  /* Se muestra la primera vez que se abre cada módulo en la sesión del navegador (sessionStorage: sobrevive a recargar y a moverse por la plataforma). Vuelve a mostrarse al cerrar la
+     ventana o la pestaña, y al cerrar sesión (app.js borra estas marcas). */
+  function vista(clave) { try { return sessionStorage.getItem("mqp_intro_" + clave) === "1"; } catch (e) { return !!VISTAS[clave]; } }
+  function marcar(clave) { VISTAS[clave] = true; try { sessionStorage.setItem("mqp_intro_" + clave, "1"); } catch (e) {} }
 
   function mostrar(clave, opc) {
     var S = SERVICIOS[clave]; if (!S) return;
@@ -215,11 +239,11 @@
     if (d.showModal) d.showModal(); else d.setAttribute("open", ""); d.querySelector("[data-entrar]").focus();
     parar = escena(clave, d.querySelector(".is-intro__escena"), d.querySelector(".is-intro__lienzo"), snd); arrancar();
   }
-  /* aparece la primera vez que se entra a cada servicio en cada visita (se vuelve a abrir tras recargar o salir de la página); «Omitir» no guarda ninguna preferencia. La clave de localStorage solo la usan las pruebas automáticas. */
+  /* aparece la primera vez que se abre cada servicio en la sesión del navegador; «Omitir» no guarda ninguna preferencia. La clave de localStorage solo la usan las pruebas automáticas. */
   function auto(clave) {
     var omitir = false; try { omitir = localStorage.getItem("mqp_guardia_intro_v1") === "omitir"; } catch (e) {}
     if (omitir || vista(clave) || document.querySelector("dialog.is-intro")) return;
     mostrar(clave);
   }
-  M.introServicio = { mostrar: mostrar, auto: auto, vista: vista, marcar: marcar, anexarSonido: anexarSonido, SERVICIOS: SERVICIOS, ondaEmerg: ondaEmerg, faseEmerg: faseEmerg };
+  M.introServicio = { mostrar: mostrar, auto: auto, vista: vista, marcar: marcar, anexarSonido: anexarSonido, SERVICIOS: SERVICIOS };
 })(typeof window !== "undefined" ? window : this);

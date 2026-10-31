@@ -1140,7 +1140,10 @@
       });
     });
   }
-  function cerrarLocal() { CUENTA.usuario = null; SYNC.ultimo = 0; M.progreso.descartar(); location.hash = "#/inicio"; render(); }
+  /* al cerrar sesión las introducciones (principal, servicios y Misión SERUMS) vuelven a mostrarse la próxima vez que se abra cada módulo */
+  function olvidarIntros() { try { Object.keys(sessionStorage).forEach(function (k) { if (/^mqp_(intro_|serums_intro)/.test(k)) sessionStorage.removeItem(k); }); } catch (e) {} }
+  M.olvidarIntros = olvidarIntros;
+  function cerrarLocal() { CUENTA.usuario = null; SYNC.ultimo = 0; M.progreso.descartar(); olvidarIntros(); location.hash = "#/inicio"; render(); }
   ACCIONES.salir = function () {
     // se guarda lo último en la cuenta y se quita el progreso de este dispositivo (puede ser un equipo compartido)
     empujar().then(function () { return api("salir", {}); }).then(cerrarLocal).catch(cerrarLocal);
