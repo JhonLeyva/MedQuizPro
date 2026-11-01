@@ -209,9 +209,9 @@
     if (d.showModal) d.showModal(); else d.setAttribute("open", ""); d.querySelector("[data-entrar]").focus();
     parar = escena(clave, d.querySelector(".is-intro__escena"), d.querySelector(".is-intro__lienzo"), snd); arrancar();
   }
-  /* aparece la primera vez que se abre cada servicio en la sesión del navegador; «Omitir» no guarda ninguna preferencia. La clave de localStorage solo la usan las pruebas automáticas. */
+  /* aparece la primera vez que se abre cada servicio en la sesión del navegador; «Omitir» no guarda ninguna preferencia. La clave «mqp_sin_intros_prueba» de localStorage solo la usan las pruebas automáticas. */
   function auto(clave) {
-    var omitir = false; try { omitir = localStorage.getItem("mqp_guardia_intro_v1") === "omitir"; } catch (e) {}
+    var omitir = false; try { omitir = localStorage.getItem("mqp_sin_intros_prueba") === "1"; localStorage.removeItem("mqp_guardia_intro_v1"); } catch (e) {}   // la clave antigua (preferencia «omitir» de versiones previas) ya no se respeta: se borra
     if (omitir || vista(clave) || document.querySelector("dialog.is-intro")) return;
     mostrar(clave);
   }

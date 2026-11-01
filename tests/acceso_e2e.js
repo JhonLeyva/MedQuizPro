@@ -7,7 +7,7 @@ const RAIZ = path.resolve(__dirname, ".."); let fallos = 0, total = 0;
 const ok = (c, m) => { total++; if (!c) { fallos++; console.log("FALLA:", m); } };
 const dormir = ms => new Promise(r => setTimeout(r, ms));
 const libre = () => new Promise(r => { const s = net.createServer().listen(0, "127.0.0.1", () => { const p = s.address().port; s.close(() => r(p)); }); });
-const TOKEN = "clave-de-dueno-muy-larga-123", INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"); } catch (e) {} };
+const TOKEN = "clave-de-dueno-muy-larga-123", INIT = () => { try { localStorage.setItem("mqp_sin_intros_prueba", "1"); } catch (e) {} };
 async function servidor(cerrado) {
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "acce-")), puerto = await libre();
   for (const f of fs.readdirSync(RAIZ)) { const p = path.join(RAIZ, f); if (fs.statSync(p).isFile() && /\.(php|js|css|html)$/.test(f)) fs.copyFileSync(p, path.join(tmp, f)); }

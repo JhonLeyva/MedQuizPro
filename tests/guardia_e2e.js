@@ -11,7 +11,7 @@ const ok = (c, m) => { total++; if (!c) { fallos++; console.log("FALLA:", m); } 
 const dormir = ms => new Promise(r => setTimeout(r, ms));
 const libre = () => new Promise(r => { const s = net.createServer().listen(0, "127.0.0.1", () => { const p = s.address().port; s.close(() => r(p)); }); });
 global.window = {}; const CASOS = require("../guardia_casos.js"); const N = require("../guardia_nucleo.js");
-const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"); } catch (e) {} };
+const INIT = () => { try { localStorage.setItem("mqp_sin_intros_prueba", "1"); } catch (e) {} };
 const UCI = require("../guardia_uci.js"); const porId = id => CASOS.concat(UCI).find(c => c.id === id);
 
 (async () => {
