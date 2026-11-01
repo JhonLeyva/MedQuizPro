@@ -22,7 +22,7 @@ const letras = q => Array.isArray(q.opciones) ? "ABCDE".slice(0, q.opciones.leng
   const foto = async (p, n) => { if (shots) { fs.mkdirSync(shots, { recursive: true }); await p.screenshot({ path: path.join(shots, n + ".png") }); } };
   const navegador = await chromium.launch({ executablePath: process.env.CHROMIUM || undefined });
   try {
-    const ctx = await navegador.newContext({ viewport: { width: 1280, height: 900 } }); await ctx.addInitScript(() => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"); } catch (e) {} });
+    const ctx = await navegador.newContext({ viewport: { width: 1280, height: 900 } }); await ctx.addInitScript(() => { try { localStorage.setItem("mqp_sin_intros_prueba", "1"); } catch (e) {} });
     const reg = await ctx.request.post(base + "cuenta.php?a=registro", { data: { nombre: "Tester Estudio", correo: "e@prueba.pe", clave: "clave12345", acepto: true }, headers: { "X-MQP": "1", Origin: origen } }); ok(reg.status() === 201, "registro");
     const p = await ctx.newPage(); const errores = []; p.on("pageerror", e => errores.push(String(e))); p.on("console", m => { if (m.type() === "error" && !/Failed to load resource/.test(m.text())) errores.push(m.text()); });
     const json = async r => (await ctx.request.get(base + r)).json();
@@ -99,13 +99,13 @@ const letras = q => Array.isArray(q.opciones) ? "ABCDE".slice(0, q.opciones.leng
     await p.click("#fcMostrar"); ok(/Respuesta: /.test(await p.locator("#fcDorso").innerText()), "al mostrar la respuesta aparece el dorso"); await foto(p, "e4-repaso-cloze");
 
     /* ===== 5. sin cuenta, el banqueo es exactamente el de siempre ===== */
-    const anon = await navegador.newContext({ viewport: { width: 1280, height: 900 } }); await anon.addInitScript(() => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"); } catch (e) {} });
+    const anon = await navegador.newContext({ viewport: { width: 1280, height: 900 } }); await anon.addInitScript(() => { try { localStorage.setItem("mqp_sin_intros_prueba", "1"); } catch (e) {} });
     const a = await anon.newPage(); await a.goto(base + "app/#/banco/configurar"); await a.waitForSelector("[data-accion=comenzar]"); await a.click("[data-accion=comenzar]"); await a.waitForSelector("#svOptions .opt"); await dormir(600);
     await a.click("#svOptions .opt >> nth=0"); await a.waitForSelector("#svFeedback:not([hidden])", { timeout: 3000 }); ok(await a.locator("#estConf").count() === 0, "sin cuenta no se pide confianza: se responde y se revela al instante");
     await a.goto(base + "app/#/repaso"); await a.waitForSelector(".empty-state"); ok(/Entra para ver tu repaso/.test(await a.locator(".empty-state").innerText()), "Repaso de hoy sin cuenta invita a ingresar"); await anon.close();
 
     /* ===== 6. móvil y accesibilidad ===== */
-    const movil = await navegador.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true }); await movil.addCookies(await ctx.cookies()); await movil.addInitScript(() => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"); } catch (e) {} });
+    const movil = await navegador.newContext({ viewport: { width: 390, height: 844 }, isMobile: true, hasTouch: true }); await movil.addCookies(await ctx.cookies()); await movil.addInitScript(() => { try { localStorage.setItem("mqp_sin_intros_prueba", "1"); } catch (e) {} });
     const m = await movil.newPage(); await m.goto(base + "app/#/banco/configurar"); await m.waitForSelector("[data-accion=comenzar]"); await m.click("[data-accion=comenzar]"); await m.waitForSelector("#svOptions .opt"); await m.waitForFunction(() => window.MQP && MQP.estudio && MQP.estudio.activo());
     await m.click("#svOptions .opt >> nth=1"); await m.waitForSelector("#estConf"); const caja = await m.locator("#estConf").boundingBox();
     ok(caja && caja.x >= 0 && caja.x + caja.width <= 391 && await m.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth + 1), "móvil: la barra de confianza cabe sin desplazamiento horizontal");

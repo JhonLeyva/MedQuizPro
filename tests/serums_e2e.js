@@ -10,7 +10,7 @@ const dormir = ms => new Promise(r => setTimeout(r, ms));
 const libre = () => new Promise(r => { const s = net.createServer().listen(0, "127.0.0.1", () => { const p = s.address().port; s.close(() => r(p)); }); });
 const CASOS = fs.readdirSync(path.join(RAIZ, "serums/casos")).sort().map(f => JSON.parse(fs.readFileSync(path.join(RAIZ, "serums/casos", f), "utf8")));
 const AXE = process.env.AXE_PATH && fs.existsSync(process.env.AXE_PATH) ? fs.readFileSync(process.env.AXE_PATH, "utf8") : null;
-const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"); } catch (e) {} };
+const INIT = () => { try { localStorage.setItem("mqp_sin_intros_prueba", "1"); } catch (e) {} };
 
 (async () => {
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "sr-e2e-"));

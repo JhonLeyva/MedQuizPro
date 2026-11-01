@@ -5,7 +5,7 @@ const fs=require('fs');const {chromium}=require('playwright');let violaciones=0;
 const AXE=fs.readFileSync(process.env.AXE_PATH||require.resolve('axe-core/axe.min.js'),'utf8');
 (async()=>{const b=await chromium.launch({executablePath:process.env.CHROMIUM||undefined});
 const ctx=await b.newContext({viewport:{width:1200,height:900}});const p=await ctx.newPage();
-await p.addInitScript(()=>{try{localStorage.setItem('mqp_guardia_intro_v1','omitir')}catch(e){}});
+await p.addInitScript(()=>{try{localStorage.setItem('mqp_sin_intros_prueba','1')}catch(e){}});
 const U=process.env.BASE||'http://127.0.0.1:8130/';
 async function auditar(nombre){
   await p.evaluate(AXE);

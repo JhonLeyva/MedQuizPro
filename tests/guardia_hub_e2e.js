@@ -10,7 +10,7 @@ const ok = (c, m) => { total++; if (!c) { fallos++; console.log("FALLA:", m); } 
 const dormir = ms => new Promise(r => setTimeout(r, ms));
 const libre = () => new Promise(r => { const s = net.createServer().listen(0, "127.0.0.1", () => { const p = s.address().port; s.close(() => r(p)); }); });
 global.window = {}; const GC = require("../guardia_casos.js"), CC = require("../consulta_casos.js"), N = require("../guardia_nucleo.js");
-const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"); } catch (e) {} };
+const INIT = () => { try { localStorage.setItem("mqp_sin_intros_prueba", "1"); } catch (e) {} };
 
 (async () => {
   const tmp = fs.mkdtempSync(path.join(os.tmpdir(), "gh-e2e-"));
@@ -36,7 +36,7 @@ const INIT = () => { try { localStorage.setItem("mqp_guardia_intro_v1", "omitir"
     ok(/Omitir/.test(await p.innerText(".gi")) && /volverá a aparecer/.test(await p.innerText(".gi")), "la introducción avisa de cuándo volverá a aparecer");
     ok(await p.locator(".gi-snd").count() === 1 && /Sonido|sonido/.test(await p.innerText(".gi-snd")), "la introducción principal tiene sonido de ambiente con su control");
     await p.keyboard.press("Escape"); await p.waitForSelector(".gi", { state: "detached" }); ok(await p.locator(".gh-hero").isVisible(), "omitirla (Esc) deja ver el centro");
-    ok(await p.evaluate(() => { try { return localStorage.getItem("mqp_guardia_intro_v1") === "omitir" && !(window.MQP.progreso && window.MQP.progreso.preferencia("guardiaIntro") === "omitir"); } catch (e) { return true; } }) , "omitirla no guarda ninguna preferencia nueva");
+    ok(await p.evaluate(() => { try { return localStorage.getItem("mqp_guardia_intro_v1") === null && !(window.MQP.progreso && window.MQP.progreso.preferencia("guardiaIntro") === "omitir"); } catch (e) { return true; } }) , "omitirla no guarda ninguna preferencia nueva");
     await p.click('.side__nav a[href="#/inicio"]'); await p.waitForSelector("main, #vista"); await p.click('.side__nav a[href="#/guardia"]'); await p.waitForSelector(".gh-hero"); await dormir(900); ok(await p.locator(".gi").count() === 0, "al volver desde otra sección dentro de la misma visita, la introducción NO se repite");
     await p.click(".gh-card--rojo a.gh-btn"); await p.waitForSelector(".gd-caso"); ok(await p.locator(".gi").count() === 0, "el listado de emergencias no abre la introducción");
     await p.click('.gh-migas a[href="#/guardia"]'); await p.waitForSelector(".gh-hero"); await dormir(700); ok(await p.locator(".gi").count() === 0, "volver con las migas desde un listado no repite la introducción");
