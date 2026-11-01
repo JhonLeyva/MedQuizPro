@@ -1,6 +1,6 @@
 /* MedQuizPlus · introducciones cinematográficas de los servicios de «Sobrevive a la Guardia»: Emergencias, UCI y Consulta externa.
    Cada una es una foto a pantalla completa con un lienzo encima que dibuja, en las coordenadas de la imagen (1536×1024, «cover»), lo que se mueve:
-   · Emergencias: el monitor y el desfibrilador muestran una fibrilación auricular con respuesta ventricular rápida, constante, con sus signos vitales; el pitido suena en cada onda R.
+   · Emergencias: solo se mueve la línea del monitor, que dibuja una fibrilación auricular con respuesta ventricular rápida, constante; el pitido suena en cada onda R. El resto es la foto.
    · UCI: el monitor (ECG, pletismografía, respiración y capnografía, con sus cifras) y la pantalla del ventilador siguen el pitido del monitor y la respiración del audio.
    · Consulta: luz de la ventana, brillo del negatoscopio y motas de polvo (no hay monitores en la imagen).
    El tema de 30 s de cada servicio (guardia/audio/*.mp3, generado con tools/guardia_audio.py) es sintético y periódico: se repite sin cortes y las animaciones usan los mismos instantes.
@@ -43,12 +43,6 @@
     var f = 0; for (var i = 0; i < FREC_F.length; i++) f += FREC_F[i][1] * Math.sin(2 * Math.PI * FREC_F[i][0] * t + FREC_F[i][2]);
     return y + f * (0.8 + 0.4 * Math.sin(2 * Math.PI * 0.7 * t));
   }
-  function ondaPletFA(t) {
-    var y = 0, h = latidoCerca(t); for (var j = -1; j <= 1; j++) { var k = (h.k + j + TR.length) % TR.length, rr = RR_FA[(k - 1 + RR_FA.length) % RR_FA.length], a = Math.max(0.25, Math.min(1, 0.25 + (rr - 0.27) * 2.2)), d = h.d - (j === 1 ? RR_FA[h.k] : j === -1 ? -RR_FA[(h.k - 1 + RR_FA.length) % RR_FA.length] : 0); y += a * (0.9 * G(d - 0.2, 0.07) + 0.2 * G(d - 0.36, 0.08)); }
-    return y - 0.25;
-  }
-  function frecuenciaFA(t) { var k = latidoCerca(t).k, s6 = 0; for (var i = 0; i < 6; i++) s6 += RR_FA[(k - i + 72 * 3) % RR_FA.length]; return Math.round(60 / (s6 / 6)); }
-  function ondaRespFA(t) { return Math.sin(2 * Math.PI * t / 2.5); }
 
   /* UCI: latido cada 60/78 s, respiración cada 30/9 s */
   var LAT = 60 / 78, RESP = 30 / 9;
@@ -105,38 +99,13 @@
     function borde(x0, y0, x1, y1, color, ancho) { var a = p(x0, y0), b = p(x1, y1); g.lineWidth = ancho * s; g.strokeStyle = color; g.strokeRect(a[0], a[1], b[0] - a[0], b[1] - a[1]); }
 
     /* ---- Emergencias ----
-       Todo el monitor se dibuja sobre el cuadrilátero del cristal (en perspectiva), con la misma correspondencia bilineal que la UCI. */
-    var QE = [[1262, 157], [1495, 150], [1491, 316], [1261, 317]];   // TL, TR, BR, BL del cristal del monitor, en píxeles de la imagen
+       Solo se mueve la línea del monitor (la que en la foto está plana): se tapa con el negro de la pantalla la zona de trazo y se dibuja encima el ECG de la fibrilación auricular,
+       sobre el cuadrilátero de esa zona (en perspectiva). El resto del monitor, la interfaz y el desfibrilador son los de la foto, sin tocar. */
+    var QT = [[1277, 164], [1467, 160], [1467, 300], [1277, 299]];   // TL, TR, BR, BL de la zona de trazo (negra) del monitor, en píxeles de la imagen
     function dibujarEmerg(t) {
-      var alarma = mod(t, 1) < 0.5 ? 1 : 0, hr = frecuenciaFA(t);
       g.globalCompositeOperation = "source-over";
-      function poli(Q, uv, color) { g.beginPath(); uv.forEach(function (q, i) { var c = pq(Q, q[0], q[1]); i ? g.lineTo(c[0], c[1]) : g.moveTo(c[0], c[1]); }); g.closePath(); g.fillStyle = color; g.fill(); }
-      poli(QE, [[0.003, 0.006], [0.997, 0.006], [0.997, 0.994], [0.003, 0.994]], "#03060d");                                      // cristal
-      var gh = g.createLinearGradient.apply(g, pq(QE, 0, 0).concat(pq(QE, 1, 0))); gh.addColorStop(0, "#2a68c4"); gh.addColorStop(1, "#0e2d66");
-      poli(QE, [[0.003, 0.006], [0.997, 0.006], [0.997, 0.092], [0.003, 0.092]], gh);                                              // barra superior
-      textoQ(QE, "CAMA 4", 0.025, 0.05, 8.5, "#ffffff", "left"); textoQ(QE, "21:47", 0.975, 0.05, 8.5, "#ffffff", "right");
-      if (alarma) { poli(QE, [[0.28, 0.012], [0.70, 0.012], [0.70, 0.082], [0.28, 0.082]], "#d62828"); textoQ(QE, "FC ALTA", 0.49, 0.047, 9.5, "#ffffff", "center", "800"); }
-      var U0 = 0.03, U1 = 0.715;
-      [0.47, 0.70].forEach(function (v) { var a1 = pq(QE, U0, v), b1 = pq(QE, U1, v); g.beginPath(); g.moveTo(a1[0], a1[1]); g.lineTo(b1[0], b1[1]); g.lineWidth = Math.max(0.6, 0.7 * s); g.strokeStyle = "rgba(160,190,230,.16)"; g.stroke(); });
-      trazoQ(QE, ondaFA, t, U0, U1, 0.285, 0.13, 3.4, "#4dff91", 1.7, 330, 5);
-      trazoQ(QE, ondaPletFA, t, U0, U1, 0.64, 0.12, 3.4, "#5fd0ff", 1.6, 330, 4);
-      trazoQ(QE, ondaRespFA, t, U0, U1, 0.81, 0.07, 6.0, "#ffffff", 1.4, 200, 3);
-      textoQ(QE, "II", 0.04, 0.125, 8.5, "#4dff91", "left"); textoQ(QE, "Pleth", 0.04, 0.495, 8.5, "#5fd0ff", "left"); textoQ(QE, "Resp", 0.04, 0.725, 8.5, "#ffffff", "left");
-      textoQ(QE, "FC", 0.745, 0.15, 8, "#4dff91", "left"); textoQ(QE, String(hr), 0.885, 0.25, 34, "#4dff91", "center", "800");
-      textoQ(QE, "SpO₂", 0.745, 0.395, 8, "#5fd0ff", "left"); textoQ(QE, "93", 0.885, 0.475, 28, "#5fd0ff", "center", "800");
-      textoQ(QE, "PNI", 0.745, 0.60, 8, "#ffffff", "left"); textoQ(QE, "96/58", 0.9, 0.655, 16, "#ffffff", "center", "700"); textoQ(QE, "(71)", 0.9, 0.735, 10, "#ffffff", "center", "600");
-      textoQ(QE, "FR", 0.745, 0.835, 8, "#ffffff", "left"); textoQ(QE, "24", 0.885, 0.845, 18, "#ffffff", "center", "700");
-      poli(QE, [[0.003, 0.925], [0.997, 0.925], [0.997, 0.994], [0.003, 0.994]], "#0d3a8e");                                       // barra inferior
-      [0.04, 0.14, 0.24, 0.34, 0.44, 0.9].forEach(function (u) { poli(QE, [[u, 0.94], [u + 0.065, 0.94], [u + 0.065, 0.98], [u, 0.98]], "rgba(215,230,255,.55)"); });
-      if (alarma) { g.beginPath(); [[0.003, 0.006], [0.997, 0.006], [0.997, 0.994], [0.003, 0.994]].forEach(function (uv, i) { var c = pq(QE, uv[0], uv[1]); i ? g.lineTo(c[0], c[1]) : g.moveTo(c[0], c[1]); }); g.closePath(); g.lineWidth = 2.2 * s; g.strokeStyle = "rgba(255,70,70,.8)"; g.stroke(); }
-      /* desfibrilador (pantalla pequeña a la izquierda): misma fibrilación con marcas de sincronía sobre cada R (cardioversión sincronizada) */
-      caja2(78, 290, 174, 346, "#050a0c");
-      linea(ondaFA, t, 82, 170, 320, 15, 3.0, "#7dffb0", 1.3, 120, 3);
-      for (var i = 0; i < TR.length; i++) { var dt = mod(t - TR[i] + CICLO / 2, CICLO) - CICLO / 2; if (dt >= 0 && dt <= 3.0) { var c2 = p(82 + (170 - 82) * (1 - dt / 3.0), 300); g.fillStyle = "#ffffff"; g.beginPath(); g.moveTo(c2[0], c2[1] - 3 * s); g.lineTo(c2[0] - 2.4 * s, c2[1] - 7 * s); g.lineTo(c2[0] + 2.4 * s, c2[1] - 7 * s); g.closePath(); g.fill(); } }
-      texto("SINC", 126, 296, 7.5, "#ffd35a", "center"); texto("FA", 90, 342, 7, "#9fb2d6", "left");
-      g.globalCompositeOperation = "screen";
-      if (alarma) { g.fillStyle = "rgba(255,40,40,0.035)"; g.fillRect(0, 0, W, H); }
-      g.globalCompositeOperation = "source-over";
+      g.beginPath(); [[0.0, 0.0], [1, 0], [1, 1], [0, 1]].forEach(function (uv, i) { var c = pq(QT, uv[0], uv[1]); i ? g.lineTo(c[0], c[1]) : g.moveTo(c[0], c[1]); }); g.closePath(); g.fillStyle = "#070b14"; g.fill();
+      trazoQ(QT, ondaFA, t, 0.01, 0.99, 0.58, 0.2, 3.4, "#9fd2ff", 1.9, 330, 5);
     }
 
     /* ---- UCI ----
