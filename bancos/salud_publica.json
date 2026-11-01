@@ -7271,6 +7271,175 @@
       "fuentes": "MINSA, Modelo de Atención Integral de Salud basado en Familia y Comunidad (MAIS-BFC), aprobado por RM 464-2011/MINSA",
       "categoria": "Gestión en salud",
       "nota_revision": "La clasificación en dimensiones y ejes del libro es de interpretación; no se pudo verificar en línea el texto exacto del documento. Se mantiene la clave del libro (D). Se confirmó la existencia del modelo y la RM 464-2011 solo por referencias secundarias."
+    },
+    {
+      "id": "RM-SP-137",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Usted es el responsable de Epidemiología en una DIRIS, acaba de producirse un brote por enfermedad transmitida por alimentos. Si quiere determinar de manera rápida la probable causa del brote. ¿Cuál es el tipo de estudio más adecuado?",
+      "opciones": [
+        "Casos y controles.",
+        "Cuasi experimental.",
+        "Cohortes concurrentes.",
+        "Ecológico.",
+        "Serie de casos."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "Ante un brote de enfermedad transmitida por alimentos, el objetivo inmediato es identificar el alimento o la exposición responsable para controlar la fuente. El estudio observacional analítico más rápido y apropiado es el de casos y controles: se parte de personas enfermas (casos) y de personas expuestas que no enfermaron (controles), y se compara la frecuencia de consumo de cada alimento mediante la razón de momios (odds ratio). Es barato, rápido y eficiente cuando el número de casos es pequeño o la enfermedad es poco frecuente. Cuando el brote ocurre en una población pequeña y bien definida, como una boda o un comedor institucional, puede emplearse un estudio de cohortes retrospectivo con el riesgo relativo, pero requiere listados completos y tarda más. El estudio cuasi experimental evalúa intervenciones sin aleatorización y no corresponde. El ecológico analiza grupos y no individuos, por lo que no sirve para identificar la causa en personas. La serie de casos solo describe, sin grupo de comparación, y no permite asociar exposición con enfermedad. Perla: primero se caracteriza el brote por tiempo, lugar y persona, luego se formula la hipótesis y recién se aplica la comparación.",
+      "comentario": "Ante un brote de enfermedad transmitida por alimentos, el objetivo inmediato es identificar el alimento o la exposición responsable para controlar la fuente. El estudio observacional analítico más rápido y apropiado es el de casos y controles: se parte de personas enfermas (casos) y de personas expuestas que no enfermaron (controles), y se compara la frecuencia de consumo de cada alimento mediante la razón de momios (odds ratio). Es barato, rápido y eficiente cuando el número de casos es pequeño o la enfermedad es poco frecuente. Cuando el brote ocurre en una población pequeña y bien definida, como una boda o un comedor institucional, puede emplearse un estudio de cohortes retrospectivo con el riesgo relativo, pero requiere listados completos y tarda más. El estudio cuasi experimental evalúa intervenciones sin aleatorización y no corresponde. El ecológico analiza grupos y no individuos, por lo que no sirve para identificar la causa en personas. La serie de casos solo describe, sin grupo de comparación, y no permite asociar exposición con enfermedad. Perla: primero se caracteriza el brote por tiempo, lugar y persona, luego se formula la hipótesis y recién se aplica la comparación.",
+      "tema": "Estudio de casos y controles en brotes",
+      "año": 2020,
+      "fuentes": "Gordis Epidemiología 6.ª ed. (2019); Last JM. A Dictionary of Public Health, Oxford University Press (2007)",
+      "categoria": "Epidemiología"
+    },
+    {
+      "id": "RM-SP-138",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "En relación a una agresión sexual. ¿Cuál es la conducta inmediata a seguir?",
+      "opciones": [
+        "Iniciar el proceso judicial del caso.",
+        "Evitar agresiones similares.",
+        "Reintegrarse a labores habituales.",
+        "Determinar características del agresor.",
+        "Prevenir el embarazo y ETS."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La agresión sexual es una emergencia médica y psicosocial. Tras asegurar la integridad de la víctima y brindar apoyo emocional, la conducta médica inmediata prioritaria es prevenir las consecuencias en la salud: el embarazo y las infecciones de transmisión sexual, incluida la infección por VIH. La anticoncepción de emergencia con levonorgestrel 1,5 mg en dosis única es eficaz hasta 72 horas (puede usarse hasta 120 horas con menor eficacia), y el dispositivo intrauterino de cobre o el acetato de ulipristal son alternativas. La profilaxis de ITS cubre clamidia, gonorrea, tricomoniasis, sífilis y hepatitis B, y la profilaxis posexposición al VIH debe iniciarse dentro de las primeras 72 horas, idealmente en las primeras 2 horas. También se recomienda la vacunación contra hepatitis B y la evaluación psicológica y de seguimiento. La recolección de evidencia forense y la denuncia son importantes, pero no sustituyen ni retrasan la atención clínica, y el consentimiento de la víctima orienta el proceso. Las demás opciones (iniciar el proceso judicial, determinar las características del agresor, evitar agresiones similares y reintegrarse a labores) son acciones posteriores o de prevención. Perla: la atención integral requiere consejería y seguimiento a las 2, 6 y 12 semanas y a los 6 meses.",
+      "comentario": "La agresión sexual es una emergencia médica y psicosocial. Tras asegurar la integridad de la víctima y brindar apoyo emocional, la conducta médica inmediata prioritaria es prevenir las consecuencias en la salud: el embarazo y las infecciones de transmisión sexual, incluida la infección por VIH. La anticoncepción de emergencia con levonorgestrel 1,5 mg en dosis única es eficaz hasta 72 horas (puede usarse hasta 120 horas con menor eficacia), y el dispositivo intrauterino de cobre o el acetato de ulipristal son alternativas. La profilaxis de ITS cubre clamidia, gonorrea, tricomoniasis, sífilis y hepatitis B, y la profilaxis posexposición al VIH debe iniciarse dentro de las primeras 72 horas, idealmente en las primeras 2 horas. También se recomienda la vacunación contra hepatitis B y la evaluación psicológica y de seguimiento. La recolección de evidencia forense y la denuncia son importantes, pero no sustituyen ni retrasan la atención clínica, y el consentimiento de la víctima orienta el proceso. Las demás opciones (iniciar el proceso judicial, determinar las características del agresor, evitar agresiones similares y reintegrarse a labores) son acciones posteriores o de prevención. Perla: la atención integral requiere consejería y seguimiento a las 2, 6 y 12 semanas y a los 6 meses.",
+      "tema": "Atención inmediata de la agresión sexual",
+      "año": 2020,
+      "fuentes": "Workowski KA et al. MMWR Recomm Rep 2021;70(RR-4):1-187; Organización Mundial de la Salud. Responding to intimate partner violence and sexual violence against women: WHO clinical and policy guidelines (2013); Williams Obstetricia 26.ª ed. (2022)",
+      "categoria": "Violencia sexual"
+    },
+    {
+      "id": "RM-SP-139",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Se realiza el seguimiento a un grupo de pacientes con y otro sin concentración elevada de colesterol sanguíneo, para asociar un mayor riesgo de enfermedad coronaria. ¿Cuál es el tipo de estudio realizado?",
+      "opciones": [
+        "Ecológico.",
+        "Cohortes.",
+        "Casos y controles.",
+        "Cuasi experimental.",
+        "Experimental."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El estudio descrito sigue en el tiempo a un grupo de personas con colesterol elevado y a otro sin esa exposición para comparar la aparición de enfermedad coronaria, es decir, parte de la exposición y avanza hacia el desenlace. Esa es la definición de un estudio de cohortes, que puede ser prospectivo (concurrente) o retrospectivo (histórico). Permite calcular la incidencia en cada grupo, el riesgo relativo, el riesgo atribuible y la fracción etiológica; es adecuado para exposiciones raras y para estudiar varios desenlaces, aunque es costoso, largo y sufre pérdidas de seguimiento. Un estudio de casos y controles parte de los enfermos y de un grupo sin enfermedad y compara la exposición previa mediante la razón de momios. El estudio ecológico usa datos agregados de poblaciones, no de individuos. El cuasi experimental evalúa una intervención sin aleatorización y el experimental asigna la exposición al azar, como el ensayo clínico aleatorizado, algo que no ocurre aquí porque el investigador solo observa. El estudio de Framingham es el ejemplo clásico de cohorte que identificó el colesterol como factor de riesgo cardiovascular. Perla: en cohortes, el riesgo relativo mayor de 1 indica que la exposición es un factor de riesgo.",
+      "comentario": "El estudio descrito sigue en el tiempo a un grupo de personas con colesterol elevado y a otro sin esa exposición para comparar la aparición de enfermedad coronaria, es decir, parte de la exposición y avanza hacia el desenlace. Esa es la definición de un estudio de cohortes, que puede ser prospectivo (concurrente) o retrospectivo (histórico). Permite calcular la incidencia en cada grupo, el riesgo relativo, el riesgo atribuible y la fracción etiológica; es adecuado para exposiciones raras y para estudiar varios desenlaces, aunque es costoso, largo y sufre pérdidas de seguimiento. Un estudio de casos y controles parte de los enfermos y de un grupo sin enfermedad y compara la exposición previa mediante la razón de momios. El estudio ecológico usa datos agregados de poblaciones, no de individuos. El cuasi experimental evalúa una intervención sin aleatorización y el experimental asigna la exposición al azar, como el ensayo clínico aleatorizado, algo que no ocurre aquí porque el investigador solo observa. El estudio de Framingham es el ejemplo clásico de cohorte que identificó el colesterol como factor de riesgo cardiovascular. Perla: en cohortes, el riesgo relativo mayor de 1 indica que la exposición es un factor de riesgo.",
+      "tema": "Estudio de cohortes",
+      "año": 2020,
+      "fuentes": "Gordis Epidemiología 6.ª ed. (2019); Kannel WB et al. Ann Intern Med 1961;55:33-50 (Framingham)",
+      "categoria": "Epidemiología"
+    },
+    {
+      "id": "RM-SP-140",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "La presentación de los dos primeros casos de COVID-19 presentados en Wuhan (China) en el 2019 se considera como:",
+      "opciones": [
+        "Holoendemia.",
+        "Endemia.",
+        "Pandemia.",
+        "Hiperendemia.",
+        "Epidemia."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "Una epidemia es el aumento de casos de una enfermedad por encima de lo esperado en un área geográfica y un período determinados. Los primeros casos de COVID-19 notificados en Wuhan, a finales de 2019, constituyeron un conglomerado que se concentró en una ciudad y una región, y por eso en ese momento se definen como epidemia. Cuando el agente se propagó a varios continentes, la OMS declaró la pandemia el 11 de marzo de 2020. La endemia es la presencia habitual y constante de una enfermedad en una zona, con casos esperables; la hiperendemia implica una transmisión intensa y persistente que afecta a todos los grupos de edad; la holoendemia se da cuando la infección se adquiere desde edades tempranas y afecta a la mayoría de la población infantil, como ocurre con la malaria en zonas de alta transmisión. El brote es una epidemia limitada a una localidad pequeña, como una institución o comunidad. Para calificar un evento se usan la tasa de ataque, el número reproductivo básico (R0), el período de incubación y la comparación con la incidencia basal. La investigación de un brote comprende confirmar el diagnóstico, definir casos, buscar casos adicionales, describir por tiempo, lugar y persona, formular hipótesis y aplicar medidas de control. Perla: el mismo evento cambia de nombre según su extensión geográfica.",
+      "comentario": "Una epidemia es el aumento de casos de una enfermedad por encima de lo esperado en un área geográfica y un período determinados. Los primeros casos de COVID-19 notificados en Wuhan, a finales de 2019, constituyeron un conglomerado que se concentró en una ciudad y una región, y por eso en ese momento se definen como epidemia. Cuando el agente se propagó a varios continentes, la OMS declaró la pandemia el 11 de marzo de 2020. La endemia es la presencia habitual y constante de una enfermedad en una zona, con casos esperables; la hiperendemia implica una transmisión intensa y persistente que afecta a todos los grupos de edad; la holoendemia se da cuando la infección se adquiere desde edades tempranas y afecta a la mayoría de la población infantil, como ocurre con la malaria en zonas de alta transmisión. El brote es una epidemia limitada a una localidad pequeña, como una institución o comunidad. Para calificar un evento se usan la tasa de ataque, el número reproductivo básico (R0), el período de incubación y la comparación con la incidencia basal. La investigación de un brote comprende confirmar el diagnóstico, definir casos, buscar casos adicionales, describir por tiempo, lugar y persona, formular hipótesis y aplicar medidas de control. Perla: el mismo evento cambia de nombre según su extensión geográfica.",
+      "tema": "Epidemia: brote inicial de COVID-19",
+      "año": 2020,
+      "fuentes": "Gordis Epidemiología 6.ª ed. (2019); Last JM. A Dictionary of Public Health (2007); OMS, declaración de pandemia de COVID-19 (11 de marzo de 2020)",
+      "categoria": "Epidemiología"
+    },
+    {
+      "id": "RM-SP-141",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Se denomina ...... a toda enfermedad infecciosa que afecta a un porcentaje elevado de la población en dos o más países de una región epidemiológica.",
+      "opciones": [
+        "pandemia.",
+        "epidemia.",
+        "brote.",
+        "endemia.",
+        "hiperenedemia."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La pandemia es una epidemia que se extiende a varios países o continentes y afecta a un gran número de personas, con transmisión sostenida en la comunidad. La definición que ofrece el enunciado, una enfermedad infecciosa que afecta a un porcentaje elevado de la población en dos o más países de una región, corresponde a este término. La epidemia, en cambio, se restringe a un área menor y a un período dado, con casos que exceden lo esperado; el brote es una epidemia localizada en una comunidad, una institución o un evento; la endemia es la presencia constante y habitual de una enfermedad en un territorio, con incidencia predecible; la hiperendemia es una endemia con transmisión intensa y persistente que afecta a todos los grupos de edad. La OMS declaró la pandemia de COVID-19 el 11 de marzo de 2020, y la anterior pandemia de gripe fue la de influenza A(H1N1) en 2009. Los factores que favorecen las pandemias incluyen un agente nuevo para el que la población carece de inmunidad, transmisión eficiente entre humanos y movilidad global. Las medidas de control abarcan vigilancia, aislamiento, higiene, vacunación y comunicación del riesgo. Perla: la declaración de pandemia describe la extensión geográfica, no la gravedad de la enfermedad.",
+      "comentario": "La pandemia es una epidemia que se extiende a varios países o continentes y afecta a un gran número de personas, con transmisión sostenida en la comunidad. La definición que ofrece el enunciado, una enfermedad infecciosa que afecta a un porcentaje elevado de la población en dos o más países de una región, corresponde a este término. La epidemia, en cambio, se restringe a un área menor y a un período dado, con casos que exceden lo esperado; el brote es una epidemia localizada en una comunidad, una institución o un evento; la endemia es la presencia constante y habitual de una enfermedad en un territorio, con incidencia predecible; la hiperendemia es una endemia con transmisión intensa y persistente que afecta a todos los grupos de edad. La OMS declaró la pandemia de COVID-19 el 11 de marzo de 2020, y la anterior pandemia de gripe fue la de influenza A(H1N1) en 2009. Los factores que favorecen las pandemias incluyen un agente nuevo para el que la población carece de inmunidad, transmisión eficiente entre humanos y movilidad global. Las medidas de control abarcan vigilancia, aislamiento, higiene, vacunación y comunicación del riesgo. Perla: la declaración de pandemia describe la extensión geográfica, no la gravedad de la enfermedad.",
+      "tema": "Pandemia: definición",
+      "año": 2020,
+      "fuentes": "Gordis Epidemiología 6.ª ed. (2019); Last JM. A Dictionary of Public Health (2007); Piédrola Gil Medicina Preventiva y Salud Pública 12.ª ed. (2015)",
+      "categoria": "Epidemiología"
+    },
+    {
+      "id": "RM-SP-142",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "¿Cuál es el requerimiento mínimo de agua en litros/habitante/día que la Organización Mundial de la Salud recomienda suministrar a las poblaciones rurales?",
+      "opciones": [
+        "120.",
+        "150.",
+        "90.",
+        "100.",
+        "80."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El abastecimiento de agua segura es un pilar de la salud pública, porque la cantidad disponible condiciona la higiene personal y doméstica y reduce las enfermedades diarreicas, la tracoma y las parasitosis. La dotación diaria por habitante varía según el tamaño y las características de la población: es menor en el medio rural, donde el acceso suele ser por piletas o por conexiones simples, y mayor en el urbano, donde hay conexión domiciliaria, uso en inodoros y mayor consumo comercial. Para el medio rural, el valor de referencia de la clave es de 90 litros por habitante y día. Las cifras de 120 y 150 litros se acercan a las dotaciones de zonas urbanas con conexión domiciliaria, mientras que 80 y 100 litros corresponden a otros umbrales de normas de diseño. Los estudios de Howard y Bartram para la OMS señalan que el acceso básico (unos 20 litros diarios) es insuficiente para la higiene completa, y que el acceso óptimo, con conexión en el hogar, supera los 100 litros por persona al día. Además de la cantidad, deben vigilarse la calidad (cloro residual libre de 0,5 mg/l), la continuidad y la distancia a la fuente. Perla: el cloro residual en el punto de consumo es el mejor indicador de seguridad microbiológica.",
+      "comentario": "El abastecimiento de agua segura es un pilar de la salud pública, porque la cantidad disponible condiciona la higiene personal y doméstica y reduce las enfermedades diarreicas, la tracoma y las parasitosis. La dotación diaria por habitante varía según el tamaño y las características de la población: es menor en el medio rural, donde el acceso suele ser por piletas o por conexiones simples, y mayor en el urbano, donde hay conexión domiciliaria, uso en inodoros y mayor consumo comercial. Para el medio rural, el valor de referencia de la clave es de 90 litros por habitante y día. Las cifras de 120 y 150 litros se acercan a las dotaciones de zonas urbanas con conexión domiciliaria, mientras que 80 y 100 litros corresponden a otros umbrales de normas de diseño. Los estudios de Howard y Bartram para la OMS señalan que el acceso básico (unos 20 litros diarios) es insuficiente para la higiene completa, y que el acceso óptimo, con conexión en el hogar, supera los 100 litros por persona al día. Además de la cantidad, deben vigilarse la calidad (cloro residual libre de 0,5 mg/l), la continuidad y la distancia a la fuente. Perla: el cloro residual en el punto de consumo es el mejor indicador de seguridad microbiológica.",
+      "tema": "Dotación de agua en poblaciones rurales",
+      "año": 2020,
+      "fuentes": "Howard G, Bartram J. Domestic water quantity, service level and health. Organización Mundial de la Salud, WHO/SDE/WSH/03.02 (2003); OMS, Guías para la calidad del agua de consumo humano 4.ª ed. (2011)",
+      "categoria": "Saneamiento ambiental",
+      "nota_revision": "El valor de dotación rural varía según la norma consultada; se mantiene la clave oficial (90 L/habitante/día)."
+    },
+    {
+      "id": "RM-SP-143",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "¿A qué corresponde un evento de gran magnitud no deseado, en el que los trabajadores no sufren lesiones o enfermedades?",
+      "opciones": [
+        "Accidente de gran magnitud.",
+        "Incidente peligroso.",
+        "Riesgo.",
+        "Incidente.",
+        "Accidente."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La seguridad y salud en el trabajo clasifica los sucesos no deseados según sus consecuencias. El accidente de trabajo es el suceso repentino que produce lesión, invalidez o muerte en el trabajador; el incidente es un suceso con potencial de convertirse en accidente en el que la persona afectada no sufre lesiones corporales. El incidente peligroso, que es la clave, es un suceso de mayor magnitud, potencialmente riesgoso para los trabajadores o la población, que no deja lesionados ni enfermos; ejemplos son un derrumbe, una explosión, un incendio o una fuga de gas sin víctimas. Por eso no se trata de un accidente de gran magnitud, que sí implica lesiones, ni de un accidente en general. El riesgo, en cambio, es la probabilidad de que un peligro cause daño, es un concepto previo al evento y no un evento. La gestión incluye identificar peligros, evaluar riesgos, aplicar la jerarquía de controles (eliminación, sustitución, controles de ingeniería, administrativos y equipos de protección personal) e investigar todo incidente para corregir causas. En el Perú, la Ley 29783 y su reglamento exigen notificar y registrar los incidentes peligrosos. Perla: la pirámide de Heinrich ilustra que muchos incidentes sin lesión preceden a cada accidente grave.",
+      "comentario": "La seguridad y salud en el trabajo clasifica los sucesos no deseados según sus consecuencias. El accidente de trabajo es el suceso repentino que produce lesión, invalidez o muerte en el trabajador; el incidente es un suceso con potencial de convertirse en accidente en el que la persona afectada no sufre lesiones corporales. El incidente peligroso, que es la clave, es un suceso de mayor magnitud, potencialmente riesgoso para los trabajadores o la población, que no deja lesionados ni enfermos; ejemplos son un derrumbe, una explosión, un incendio o una fuga de gas sin víctimas. Por eso no se trata de un accidente de gran magnitud, que sí implica lesiones, ni de un accidente en general. El riesgo, en cambio, es la probabilidad de que un peligro cause daño, es un concepto previo al evento y no un evento. La gestión incluye identificar peligros, evaluar riesgos, aplicar la jerarquía de controles (eliminación, sustitución, controles de ingeniería, administrativos y equipos de protección personal) e investigar todo incidente para corregir causas. En el Perú, la Ley 29783 y su reglamento exigen notificar y registrar los incidentes peligrosos. Perla: la pirámide de Heinrich ilustra que muchos incidentes sin lesión preceden a cada accidente grave.",
+      "tema": "Incidente peligroso en seguridad y salud en el trabajo",
+      "año": 2020,
+      "fuentes": "Ley N.º 29783, Ley de Seguridad y Salud en el Trabajo (2011), y su Reglamento, D.S. 005-2012-TR; Organización Internacional del Trabajo, Directrices relativas a los sistemas de gestión de la seguridad y la salud en el trabajo, ILO-OSH 2001",
+      "categoria": "Salud ocupacional"
+    },
+    {
+      "id": "RM-SP-144",
+      "especialidad": "Salud Pública, Gestión y Epidemiología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "En una comunidad de Loreto, con población nativa en contacto inicial, sin casos de COVID-19, la autoridad sanitaria decide impedir el ingreso de personas ajenas a la comunidad ya que los casos se vienen incrementado rápidamente en las grandes ciudades. ¿Qué tipo de prevención se aplica?",
+      "opciones": [
+        "Cuaternaria.",
+        "Secundaria.",
+        "Terciaria.",
+        "No es una medida de prevención.",
+        "Primaria."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "Los niveles de prevención de Leavell y Clark se aplican según la etapa de la historia natural de la enfermedad. La prevención primaria actúa antes de que la enfermedad aparezca, en el período prepatogénico, mediante promoción de la salud y protección específica, como vacunas, saneamiento y control de la exposición. La secundaria busca detectar y tratar la enfermedad en sus etapas tempranas (tamizaje, diagnóstico precoz); la terciaria limita la discapacidad y rehabilita; la cuaternaria evita el exceso de intervenciones médicas innecesarias. En la comunidad nativa de Loreto en contacto inicial, sin casos de COVID-19, restringir el ingreso de personas ajenas impide que el virus llegue y que ocurran los primeros casos, es decir, evita la exposición a un agente en una población sana. Es, por tanto, prevención primaria. Esta medida es crítica en pueblos indígenas en contacto inicial, por su vulnerabilidad inmunológica a patógenos respiratorios y su elevada letalidad en brotes, y protege el derecho a la salud y la autodeterminación; debe acompañarse de cuarentena de quien deba ingresar, vigilancia comunitaria, vacunación y comunicación intercultural. No es una acción secundaria ni terciaria, porque no hay enfermedad. Perla: el aislamiento de un caso ya diagnosticado para cortar la transmisión es prevención secundaria.",
+      "comentario": "Los niveles de prevención de Leavell y Clark se aplican según la etapa de la historia natural de la enfermedad. La prevención primaria actúa antes de que la enfermedad aparezca, en el período prepatogénico, mediante promoción de la salud y protección específica, como vacunas, saneamiento y control de la exposición. La secundaria busca detectar y tratar la enfermedad en sus etapas tempranas (tamizaje, diagnóstico precoz); la terciaria limita la discapacidad y rehabilita; la cuaternaria evita el exceso de intervenciones médicas innecesarias. En la comunidad nativa de Loreto en contacto inicial, sin casos de COVID-19, restringir el ingreso de personas ajenas impide que el virus llegue y que ocurran los primeros casos, es decir, evita la exposición a un agente en una población sana. Es, por tanto, prevención primaria. Esta medida es crítica en pueblos indígenas en contacto inicial, por su vulnerabilidad inmunológica a patógenos respiratorios y su elevada letalidad en brotes, y protege el derecho a la salud y la autodeterminación; debe acompañarse de cuarentena de quien deba ingresar, vigilancia comunitaria, vacunación y comunicación intercultural. No es una acción secundaria ni terciaria, porque no hay enfermedad. Perla: el aislamiento de un caso ya diagnosticado para cortar la transmisión es prevención secundaria.",
+      "tema": "Nivel de prevención: aislamiento de una comunidad",
+      "año": 2020,
+      "fuentes": "Leavell HR, Clark EG. Preventive Medicine for the Doctor in His Community, 3.ª ed. McGraw-Hill; 1965; Porta M (ed.). A Dictionary of Epidemiology 6.ª ed. Oxford University Press; 2014",
+      "categoria": "Medicina preventiva"
     }
   ]
 }

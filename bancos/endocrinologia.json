@@ -2287,6 +2287,133 @@
       "año": 2019,
       "fuentes": "ADA, Standards of Care in Diabetes-2026, sección 6 (Diabetes Care 2026;49 Suppl 1:S132-S149); Cryer PE et al. Endocrine Society, hipoglucemia del adulto. J Clin Endocrinol Metab 2009;94:709-728",
       "categoria": "Diabetes"
+    },
+    {
+      "id": "RM-END-044",
+      "especialidad": "Endocrinología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Mujer de 60 años, presenta hormigueo y disminución de sensibilidad de ambos pies y piernas, de 4 meses de evolución. Examen: PA: 130/85 mmHg, FC: 84 X', FR: 28 X'; se detecta polineuropatía sensorial distal y simétrica, además de una úlcera crónica en el talón derecho. Hace 10 meses tuvo IMA tratado con angioplastía. ¿Qué resultado de laboratorio corresponde a este cuadro?",
+      "opciones": [
+        "Proteinorraquia 150 mg/dl.",
+        "Glicemia 190 mg/dl.",
+        "Serología (+) para herpes simple.",
+        "Plomo en sangre 50 µg/dl.",
+        "Cobalamina en plasma 6 pg/ml."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La polineuropatía sensorial distal y simétrica con hormigueo en ambos pies y piernas, y una úlcera crónica en el talón es la forma más frecuente de neuropatía diabética. La hiperglucemia crónica daña los nervios por estrés oxidativo, acumulación de sorbitol y microangiopatía de los vasa nervorum. El antecedente de infarto de miocardio tratado con angioplastia muestra enfermedad aterosclerótica, y la diabetes mellitus es la causa subyacente más probable. La glucemia de 190 mg/dl concuerda con diabetes; los criterios de la ADA incluyen glucemia en ayunas mayor o igual a 126 mg/dl, glucemia a las 2 horas de la prueba de tolerancia mayor o igual a 200 mg/dl, hemoglobina glicosilada mayor o igual a 6,5 % o glucemia al azar mayor o igual a 200 mg/dl con síntomas. La proteinorraquia de 150 mg/dl orienta al síndrome de Guillain-Barré, que es una polirradiculopatía aguda ascendente. El herpes simple no causa polineuropatía simétrica, la intoxicación por plomo produce neuropatía motora y la deficiencia de cobalamina daría una cifra baja, de 6 pg/ml, con anemia macrocítica y mielopatía. Perla: el monofilamento de 10 g detecta la pérdida de sensibilidad protectora y el pie de riesgo.",
+      "comentario": "La polineuropatía sensorial distal y simétrica con hormigueo en ambos pies y piernas, y una úlcera crónica en el talón es la forma más frecuente de neuropatía diabética. La hiperglucemia crónica daña los nervios por estrés oxidativo, acumulación de sorbitol y microangiopatía de los vasa nervorum. El antecedente de infarto de miocardio tratado con angioplastia muestra enfermedad aterosclerótica, y la diabetes mellitus es la causa subyacente más probable. La glucemia de 190 mg/dl concuerda con diabetes; los criterios de la ADA incluyen glucemia en ayunas mayor o igual a 126 mg/dl, glucemia a las 2 horas de la prueba de tolerancia mayor o igual a 200 mg/dl, hemoglobina glicosilada mayor o igual a 6,5 % o glucemia al azar mayor o igual a 200 mg/dl con síntomas. La proteinorraquia de 150 mg/dl orienta al síndrome de Guillain-Barré, que es una polirradiculopatía aguda ascendente. El herpes simple no causa polineuropatía simétrica, la intoxicación por plomo produce neuropatía motora y la deficiencia de cobalamina daría una cifra baja, de 6 pg/ml, con anemia macrocítica y mielopatía. Perla: el monofilamento de 10 g detecta la pérdida de sensibilidad protectora y el pie de riesgo.",
+      "tema": "Neuropatía diabética",
+      "año": 2020,
+      "fuentes": "American Diabetes Association. Diabetes Care 2025;48(Suppl 1):S1-S352 (Standards of Care in Diabetes); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Complicaciones de la diabetes"
+    },
+    {
+      "id": "RM-END-045",
+      "especialidad": "Endocrinología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Varón de 16 años, presenta vómitos, anorexia, astenia, constipación y poliuria de instalación progresiva en las últimas semanas. Antecedente: consumo de suplementos vitamínicos diariamente durante los últimos siete meses, como parte de un programa de entrenamiento físico intensivo. Laboratorio: calcio sérico: 13 mg/dl; concentraciones elevadas de 25(OH)D: 150 ng/dl e hiperfosfatemia. Ecografía renal: signos de hipercalcinosis. ¿El exceso de qué vitamina es la causal?",
+      "opciones": [
+        "A.",
+        "B.",
+        "C.",
+        "E.",
+        "D."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La vitamina D se activa mediante hidroxilación hepática a 25-hidroxivitamina D, que es el mejor marcador del estado nutricional, y luego renal a calcitriol. La intoxicación se debe casi siempre a un consumo excesivo y prolongado de suplementos, y se caracteriza por hipercalcemia, hiperfosfatemia, hipercalciuria y niveles muy elevados de 25(OH)D, por lo común mayores de 150 ng/ml (el valor del enunciado se expresa con una unidad errónea). La hipercalcemia explica los síntomas: anorexia, vómitos, estreñimiento por hipotonía del músculo liso, poliuria por diabetes insípida nefrogénica, astenia y confusión; la hipercalciuria produce nefrocalcinosis y litiasis, como muestra la ecografía. La vitamina A en exceso causa hipertensión intracraneal, hepatotoxicidad y alteraciones óseas y cutáneas; el exceso de vitamina C favorece cálculos de oxalato; la vitamina E aumenta el riesgo de sangrado, y las del complejo B, como la B6, producen neuropatía sensitiva. El tratamiento consiste en suspender la vitamina D y el calcio, hidratar con solución salina, usar furosemida si hay sobrecarga, y calcitonina, bisfosfonatos o glucocorticoides en casos graves. Perla: la vida media prolongada hace que la hipercalcemia persista semanas tras la suspensión.",
+      "comentario": "La vitamina D se activa mediante hidroxilación hepática a 25-hidroxivitamina D, que es el mejor marcador del estado nutricional, y luego renal a calcitriol. La intoxicación se debe casi siempre a un consumo excesivo y prolongado de suplementos, y se caracteriza por hipercalcemia, hiperfosfatemia, hipercalciuria y niveles muy elevados de 25(OH)D, por lo común mayores de 150 ng/ml (el valor del enunciado se expresa con una unidad errónea). La hipercalcemia explica los síntomas: anorexia, vómitos, estreñimiento por hipotonía del músculo liso, poliuria por diabetes insípida nefrogénica, astenia y confusión; la hipercalciuria produce nefrocalcinosis y litiasis, como muestra la ecografía. La vitamina A en exceso causa hipertensión intracraneal, hepatotoxicidad y alteraciones óseas y cutáneas; el exceso de vitamina C favorece cálculos de oxalato; la vitamina E aumenta el riesgo de sangrado, y las del complejo B, como la B6, producen neuropatía sensitiva. El tratamiento consiste en suspender la vitamina D y el calcio, hidratar con solución salina, usar furosemida si hay sobrecarga, y calcitonina, bisfosfonatos o glucocorticoides en casos graves. Perla: la vida media prolongada hace que la hipercalcemia persista semanas tras la suspensión.",
+      "tema": "Hipervitaminosis D",
+      "año": 2020,
+      "fuentes": "Harrison Principios de Medicina Interna 21.ª ed. (2022); Holick MF et al. J Clin Endocrinol Metab 2011;96:1911-30 (guía de la Endocrine Society); Katzung Farmacología básica y clínica 16.ª ed. (2024)",
+      "categoria": "Endocrinología",
+      "nota_revision": "El valor de 25(OH)D se imprime como «150 ng/dl»; la unidad correcta es ng/ml."
+    },
+    {
+      "id": "RM-END-046",
+      "especialidad": "Endocrinología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Mujer de 42 años con antecedente de diabetes, desarrolla eritema migratorio necrolítico de las extremidades inferiores. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Insulinoma.",
+        "Glucagonoma.",
+        "Gastrinoma.",
+        "Somatostatinoma.",
+        "Linfoma."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El glucagonoma es un tumor neuroendocrino de las células alfa del páncreas, casi siempre localizado en cuerpo y cola, que secreta glucagón en exceso. El glucagón estimula la glucogenólisis y la gluconeogénesis, de modo que produce diabetes mellitus leve, y el catabolismo proteico explica la pérdida de peso, la anemia normocítica y la hipoaminoacidemia que sustenta la lesión cutánea. La manifestación más característica es el eritema necrolítico migratorio, una erupción pruriginosa y descamativa que predomina en ingle, periné y extremidades inferiores, con áreas de ampollas, necrosis superficial y costras, acompañada de glositis y estomatitis angular. Otras opciones: el insulinoma causa hipoglucemia con la tríada de Whipple; el gastrinoma produce úlceras refractarias y diarrea (síndrome de Zollinger-Ellison); el somatostatinoma se manifiesta con diabetes, colelitiasis y esteatorrea; y el linfoma no genera este cuadro cutáneo. El diagnóstico se confirma con glucagón plasmático mayor de 500 pg/ml y estudio de imagen con tomografía, resonancia o PET-DOTATATO. El tratamiento es la resección quirúrgica, con análogos de somatostatina para controlar los síntomas y soporte nutricional; hay riesgo trombótico elevado. Perla: tres de cada cuatro glucagonomas son malignos y ya tienen metástasis hepáticas al diagnóstico.",
+      "comentario": "El glucagonoma es un tumor neuroendocrino de las células alfa del páncreas, casi siempre localizado en cuerpo y cola, que secreta glucagón en exceso. El glucagón estimula la glucogenólisis y la gluconeogénesis, de modo que produce diabetes mellitus leve, y el catabolismo proteico explica la pérdida de peso, la anemia normocítica y la hipoaminoacidemia que sustenta la lesión cutánea. La manifestación más característica es el eritema necrolítico migratorio, una erupción pruriginosa y descamativa que predomina en ingle, periné y extremidades inferiores, con áreas de ampollas, necrosis superficial y costras, acompañada de glositis y estomatitis angular. Otras opciones: el insulinoma causa hipoglucemia con la tríada de Whipple; el gastrinoma produce úlceras refractarias y diarrea (síndrome de Zollinger-Ellison); el somatostatinoma se manifiesta con diabetes, colelitiasis y esteatorrea; y el linfoma no genera este cuadro cutáneo. El diagnóstico se confirma con glucagón plasmático mayor de 500 pg/ml y estudio de imagen con tomografía, resonancia o PET-DOTATATO. El tratamiento es la resección quirúrgica, con análogos de somatostatina para controlar los síntomas y soporte nutricional; hay riesgo trombótico elevado. Perla: tres de cada cuatro glucagonomas son malignos y ya tienen metástasis hepáticas al diagnóstico.",
+      "tema": "Glucagonoma",
+      "año": 2020,
+      "fuentes": "Sabiston Tratado de Cirugía 21.ª ed. (2021); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Tumores neuroendocrinos pancreáticos"
+    },
+    {
+      "id": "RM-END-047",
+      "especialidad": "Endocrinología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Varón de 58 años, hace 6 meses presenta epigastralgia y deposiciones diarréicas abundantes. Antecedente de tumor de hipófisis. Endoscopía alta: múltiples úlceras en primera porción de duodeno; además del tumor hipofisario. ¿En qué otros tumores se debe sospechar?",
+      "opciones": [
+        "Tiroides e hipotálamo.",
+        "Páncreas y paratiroides.",
+        "Paratiroides y tiroides.",
+        "Tiroides y gónadas.",
+        "Páncreas y glándulas suprarrenales."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La neoplasia endocrina múltiple tipo 1 (síndrome de Wermer) es un trastorno autosómico dominante por mutación inactivante del gen MEN1, que codifica la menina en el cromosoma 11q13. Se caracteriza por la combinación de tumores de paratiroides (hiperparatiroidismo primario, la manifestación más precoz y frecuente, casi universal), tumores neuroendocrinos del páncreas y del duodeno, y adenomas hipofisarios, de ahí la regla de las tres P: paratiroides, páncreas e hipófisis. El paciente presenta úlceras duodenales múltiples y diarrea abundante, lo que sugiere un gastrinoma con síndrome de Zollinger-Ellison, además de un tumor hipofisario; por ello debe estudiarse el páncreas y la paratiroides. El diagnóstico clínico exige dos de los tres tumores principales (Thakker, 2012), y se confirma con estudio genético. Frente a las demás opciones: la MEN 2A asocia carcinoma medular de tiroides, feocromocitoma e hiperparatiroidismo; la MEN 2B, carcinoma medular, feocromocitoma y neuromas mucosos; y las suprarrenales o las gónadas no forman parte clásica del síndrome (aunque se describen tumores corticales). El tratamiento incluye inhibidores de bomba de protones, paratiroidectomía subtotal y resección o seguimiento de los tumores pancreáticos. Perla: el gastrinoma es la primera causa de muerte por enfermedad maligna en la MEN 1.",
+      "comentario": "La neoplasia endocrina múltiple tipo 1 (síndrome de Wermer) es un trastorno autosómico dominante por mutación inactivante del gen MEN1, que codifica la menina en el cromosoma 11q13. Se caracteriza por la combinación de tumores de paratiroides (hiperparatiroidismo primario, la manifestación más precoz y frecuente, casi universal), tumores neuroendocrinos del páncreas y del duodeno, y adenomas hipofisarios, de ahí la regla de las tres P: paratiroides, páncreas e hipófisis. El paciente presenta úlceras duodenales múltiples y diarrea abundante, lo que sugiere un gastrinoma con síndrome de Zollinger-Ellison, además de un tumor hipofisario; por ello debe estudiarse el páncreas y la paratiroides. El diagnóstico clínico exige dos de los tres tumores principales (Thakker, 2012), y se confirma con estudio genético. Frente a las demás opciones: la MEN 2A asocia carcinoma medular de tiroides, feocromocitoma e hiperparatiroidismo; la MEN 2B, carcinoma medular, feocromocitoma y neuromas mucosos; y las suprarrenales o las gónadas no forman parte clásica del síndrome (aunque se describen tumores corticales). El tratamiento incluye inhibidores de bomba de protones, paratiroidectomía subtotal y resección o seguimiento de los tumores pancreáticos. Perla: el gastrinoma es la primera causa de muerte por enfermedad maligna en la MEN 1.",
+      "tema": "Neoplasia endocrina múltiple tipo 1",
+      "año": 2020,
+      "fuentes": "Thakker RV et al. J Clin Endocrinol Metab 2012;97:2990-3011 (guía de la Endocrine Society de MEN1); Harrison Principios de Medicina Interna 21.ª ed. (2022); Sabiston Tratado de Cirugía 21.ª ed. (2021)",
+      "categoria": "Síndromes endocrinos hereditarios"
+    },
+    {
+      "id": "RM-END-048",
+      "especialidad": "Endocrinología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Mujer de 40 años, acude por fatiga y somnolencia. Funciones Biológicas: sueño: duerme 12-14 horas al día; orina: sin alteraciones; deposiciones: estreñimiento; peso: aumentó 5 kilos en 2 meses. Examen: PA: 100/70 mmHg; FC: 45 X'; FR: 15 X'; voz gruesa, fascies abotagada; piel seca y gruesa; edema de párpados inferiores; lentitud para el habla y el cálculo. ¿Qué déficit hormonal explica este cuadro clínico?",
+      "opciones": [
+        "Somatostatina.",
+        "Insulina.",
+        "Tiroxina.",
+        "Dehidroepiandrosterona.",
+        "Paratohormona."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "El cuadro corresponde al hipotiroidismo, es decir, al déficit de tiroxina (T4) y de su forma activa triyodotironina (T3), hormonas que regulan el metabolismo basal en casi todos los tejidos. Su disminución causa un enlentecimiento generalizado: somnolencia y lentitud para hablar y calcular, bradicardia (45 por minuto), estreñimiento, aumento de peso, piel seca y gruesa, voz ronca y acumulación de glucosaminoglucanos en la dermis (mixedema), que produce la fascies abotagada y el edema palpebral. La causa más frecuente en zonas con yodo suficiente es la tiroiditis de Hashimoto; en áreas deficientes de yodo, la deficiencia de este elemento. Frente a otras opciones: la deficiencia de insulina cursa con poliuria, polidipsia y pérdida de peso; la somatostatina es un inhibidor, y su déficit no produce un cuadro así; la deficiencia de DHEA produce pérdida de vello axilar y púbico y astenia; la hipofunción paratiroidea causa hipocalcemia con tetania. El diagnóstico se hace con TSH elevada y T4 libre baja (hipotiroidismo primario), y el tratamiento es levotiroxina a dosis de 1,6 µg/kg/día, con control de TSH a las 6-8 semanas. Perla: en cardiópatas y ancianos se inicia con dosis bajas (25-50 µg).",
+      "comentario": "El cuadro corresponde al hipotiroidismo, es decir, al déficit de tiroxina (T4) y de su forma activa triyodotironina (T3), hormonas que regulan el metabolismo basal en casi todos los tejidos. Su disminución causa un enlentecimiento generalizado: somnolencia y lentitud para hablar y calcular, bradicardia (45 por minuto), estreñimiento, aumento de peso, piel seca y gruesa, voz ronca y acumulación de glucosaminoglucanos en la dermis (mixedema), que produce la fascies abotagada y el edema palpebral. La causa más frecuente en zonas con yodo suficiente es la tiroiditis de Hashimoto; en áreas deficientes de yodo, la deficiencia de este elemento. Frente a otras opciones: la deficiencia de insulina cursa con poliuria, polidipsia y pérdida de peso; la somatostatina es un inhibidor, y su déficit no produce un cuadro así; la deficiencia de DHEA produce pérdida de vello axilar y púbico y astenia; la hipofunción paratiroidea causa hipocalcemia con tetania. El diagnóstico se hace con TSH elevada y T4 libre baja (hipotiroidismo primario), y el tratamiento es levotiroxina a dosis de 1,6 µg/kg/día, con control de TSH a las 6-8 semanas. Perla: en cardiópatas y ancianos se inicia con dosis bajas (25-50 µg).",
+      "tema": "Hipotiroidismo",
+      "año": 2020,
+      "fuentes": "Jonklaas J et al. Thyroid 2014;24:1670-751 (guía ATA de hipotiroidismo); Chaker L et al. Lancet 2017;390:1550-62; Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Tiroides"
+    },
+    {
+      "id": "RM-END-049",
+      "especialidad": "Endocrinología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Varón de 50 años con tuberculosis avanzada, desarrolló signos de insuficiencia suprarrenal aguda severa por enfermedad de Addison. ¿Cuál es indicación terapéutica más adecuada?",
+      "opciones": [
+        "Aldosterona y fludrocortisona.",
+        "Metilprednisolona y triamcinolona.",
+        "Triamcinolona y dexametasona.",
+        "Hidrocortisona y fludrocortisona.",
+        "Dexametasona."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La enfermedad de Addison es la insuficiencia suprarrenal primaria; en el Perú y en regiones con tuberculosis frecuente, la destrucción de la corteza por Mycobacterium tuberculosis es una causa importante. Se pierde la secreción de cortisol y de aldosterona, lo que produce hipotensión, hiponatremia, hiperpotasemia, hipoglucemia e hiperpigmentación. La crisis suprarrenal es una emergencia que se trata sin esperar confirmación: se administra hidrocortisona 100 mg por vía intravenosa en bolo, seguida de 200 mg en 24 horas en infusión o 50 mg cada 6 horas, junto con solución salina isotónica en grandes volúmenes y glucosa si hay hipoglucemia. La hidrocortisona, a estas dosis, tiene suficiente efecto mineralocorticoide; cuando se reduce a menos de 50 mg al día y el paciente tolera la vía oral, se añade fludrocortisona 0,05-0,2 mg diarios. Por eso la combinación de hidrocortisona y fludrocortisona es la indicación más adecuada. La aldosterona no se utiliza como fármaco; la metilprednisolona, la triamcinolona y la dexametasona carecen de actividad mineralocorticoide significativa, y esta última no interfiere con las pruebas de cortisol. Perla: la rifampicina del tratamiento antituberculoso acelera el metabolismo de los glucocorticoides, por lo que puede requerirse aumentar la dosis.",
+      "comentario": "La enfermedad de Addison es la insuficiencia suprarrenal primaria; en el Perú y en regiones con tuberculosis frecuente, la destrucción de la corteza por Mycobacterium tuberculosis es una causa importante. Se pierde la secreción de cortisol y de aldosterona, lo que produce hipotensión, hiponatremia, hiperpotasemia, hipoglucemia e hiperpigmentación. La crisis suprarrenal es una emergencia que se trata sin esperar confirmación: se administra hidrocortisona 100 mg por vía intravenosa en bolo, seguida de 200 mg en 24 horas en infusión o 50 mg cada 6 horas, junto con solución salina isotónica en grandes volúmenes y glucosa si hay hipoglucemia. La hidrocortisona, a estas dosis, tiene suficiente efecto mineralocorticoide; cuando se reduce a menos de 50 mg al día y el paciente tolera la vía oral, se añade fludrocortisona 0,05-0,2 mg diarios. Por eso la combinación de hidrocortisona y fludrocortisona es la indicación más adecuada. La aldosterona no se utiliza como fármaco; la metilprednisolona, la triamcinolona y la dexametasona carecen de actividad mineralocorticoide significativa, y esta última no interfiere con las pruebas de cortisol. Perla: la rifampicina del tratamiento antituberculoso acelera el metabolismo de los glucocorticoides, por lo que puede requerirse aumentar la dosis.",
+      "tema": "Crisis suprarrenal en la enfermedad de Addison",
+      "año": 2020,
+      "fuentes": "Bornstein SR et al. J Clin Endocrinol Metab 2016;101:364-89 (guía de la Endocrine Society sobre insuficiencia suprarrenal primaria); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Suprarrenal"
     }
   ]
 }

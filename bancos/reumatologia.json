@@ -1826,6 +1826,69 @@
       "fuentes": "Cardona V y cols., World Allergy Organization Anaphylaxis Guidance 2020 (World Allergy Organ J 2020); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
       "categoria": "Alergia e inmunología",
       "nota_revision": "Bloque dañado: opciones y clave (B, IgE) reconstruidas de la imagen de la página."
+    },
+    {
+      "id": "RM-REU-016",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "¿En qué capa de la piel los melanocitos y complejos melanoproteínicos alcanzan su máxima concentración?",
+      "opciones": [
+        "Espinosa.",
+        "Granulosa.",
+        "Basal.",
+        "Dermis.",
+        "Córnea."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "Los melanocitos derivan de la cresta neural y se localizan en la capa basal de la epidermis, entre los queratinocitos basales, en una proporción aproximada de 1 melanocito por cada 10 queratinocitos basales. Allí sintetizan melanina en los melanosomas a partir de tirosina, por la acción de la tirosinasa, y la transfieren por sus dendritas a los queratinocitos vecinos, formando un capuchón supranuclear que protege el ADN de la radiación ultravioleta. Por eso los complejos melanoproteínicos alcanzan su máxima concentración en el estrato basal. La capa espinosa y la granulosa contienen melanosomas ya transferidos, pero en menor cantidad, porque estos se degradan a medida que los queratinocitos ascienden; en la córnea quedan restos mínimos. La dermis contiene melanófagos solo en situaciones patológicas, como la hiperpigmentación posinflamatoria o el nevo azul, no en condiciones normales. El color de la piel depende del tipo y la cantidad de melanosomas (eumelanina frente a feomelanina) y no del número de melanocitos, que es similar entre razas. Perla: en el vitiligo hay ausencia de melanocitos funcionales, mientras que en el albinismo hay melanocitos que no producen melanina.",
+      "comentario": "Los melanocitos derivan de la cresta neural y se localizan en la capa basal de la epidermis, entre los queratinocitos basales, en una proporción aproximada de 1 melanocito por cada 10 queratinocitos basales. Allí sintetizan melanina en los melanosomas a partir de tirosina, por la acción de la tirosinasa, y la transfieren por sus dendritas a los queratinocitos vecinos, formando un capuchón supranuclear que protege el ADN de la radiación ultravioleta. Por eso los complejos melanoproteínicos alcanzan su máxima concentración en el estrato basal. La capa espinosa y la granulosa contienen melanosomas ya transferidos, pero en menor cantidad, porque estos se degradan a medida que los queratinocitos ascienden; en la córnea quedan restos mínimos. La dermis contiene melanófagos solo en situaciones patológicas, como la hiperpigmentación posinflamatoria o el nevo azul, no en condiciones normales. El color de la piel depende del tipo y la cantidad de melanosomas (eumelanina frente a feomelanina) y no del número de melanocitos, que es similar entre razas. Perla: en el vitiligo hay ausencia de melanocitos funcionales, mientras que en el albinismo hay melanocitos que no producen melanina.",
+      "tema": "Melanocitos en la capa basal de la epidermis",
+      "año": 2020,
+      "fuentes": "Fitzpatrick Dermatología 9.ª ed. (2019); Robbins y Cotran Patología estructural y funcional 10.ª ed. (2021)",
+      "categoria": "Dermatología"
+    },
+    {
+      "id": "RM-REU-017",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "¿Cuál de los siguientes fármacos se considera hoy en día de elección en el tratamiento de la artritis reumatoide?",
+      "opciones": [
+        "Metotrexate.",
+        "D-penicilamina.",
+        "Ciclosporina.",
+        "Prednisolona.",
+        "Sales de oro."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La artritis reumatoide es una poliartritis simétrica inflamatoria crónica, mediada por linfocitos T, citocinas como TNF-alfa e IL-6 y autoanticuerpos (factor reumatoide y anti-CCP), que destruye el cartílago y el hueso. El tratamiento actual tiene como objetivo la remisión o baja actividad de la enfermedad (estrategia treat-to-target), y las guías de la ACR (2021) y de la EULAR (2022) coinciden en que el metotrexato, un antimetabolito antagonista del folato, es el fármaco modificador de la enfermedad (FAME) sintético convencional de primera línea, con dosis semanal de 15 a 25 mg y ácido fólico. Su respuesta es rápida y su costo bajo, y es el ancla de las combinaciones con biológicos. La D-penicilamina, las sales de oro y la ciclosporina son fármacos antiguos, menos eficaces y más tóxicos, que se emplean poco. La prednisolona se usa como puente, a dosis bajas y por periodos cortos, mientras el FAME actúa, pero no es de elección por sus efectos adversos a largo plazo. Si falla el metotrexato se asocian biológicos o inhibidores de JAK. Perla: el metotrexato requiere vigilancia de hemograma y transaminasas, y está contraindicado en el embarazo.",
+      "comentario": "La artritis reumatoide es una poliartritis simétrica inflamatoria crónica, mediada por linfocitos T, citocinas como TNF-alfa e IL-6 y autoanticuerpos (factor reumatoide y anti-CCP), que destruye el cartílago y el hueso. El tratamiento actual tiene como objetivo la remisión o baja actividad de la enfermedad (estrategia treat-to-target), y las guías de la ACR (2021) y de la EULAR (2022) coinciden en que el metotrexato, un antimetabolito antagonista del folato, es el fármaco modificador de la enfermedad (FAME) sintético convencional de primera línea, con dosis semanal de 15 a 25 mg y ácido fólico. Su respuesta es rápida y su costo bajo, y es el ancla de las combinaciones con biológicos. La D-penicilamina, las sales de oro y la ciclosporina son fármacos antiguos, menos eficaces y más tóxicos, que se emplean poco. La prednisolona se usa como puente, a dosis bajas y por periodos cortos, mientras el FAME actúa, pero no es de elección por sus efectos adversos a largo plazo. Si falla el metotrexato se asocian biológicos o inhibidores de JAK. Perla: el metotrexato requiere vigilancia de hemograma y transaminasas, y está contraindicado en el embarazo.",
+      "tema": "Metotrexato en artritis reumatoide",
+      "año": 2020,
+      "fuentes": "Smolen JS et al. Ann Rheum Dis 2023;82:3-18 (recomendaciones EULAR 2022); Fraenkel L et al. Arthritis Rheumatol 2021;73:1108-23 (guía ACR 2021); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Artritis reumatoide"
+    },
+    {
+      "id": "RM-REU-018",
+      "especialidad": "Reumatología y Dermatología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Varón de 66 años, llega a su consulta por presentar dolor intenso y tumefacción en su rodilla derecha desde el día anterior; confirmándose la presencia de un derrame sinovial a la exploración. Una radiografía de la articulación podrá aportar datos útiles para el diagnóstico, sólo si el paciente sufre...",
+      "opciones": [
+        "artritis por pirofosfato cálcico.",
+        "hemofilia.",
+        "artritis séptica.",
+        "espondiloartropatía.",
+        "ataque de gota."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La enfermedad por depósito de cristales de pirofosfato cálcico dihidratado (condrocalcinosis o seudogota) afecta sobre todo a adultos mayores y se manifiesta como una monoartritis aguda de la rodilla. La radiografía aporta datos diagnósticos porque muestra calcificaciones lineales o punteadas en el fibrocartílago (meniscos, ligamento triangular de la muñeca, sínfisis del pubis) y en el cartílago hialino paralelo al hueso subcondral. El diagnóstico definitivo se logra con el líquido sinovial, que revela cristales romboides o en bastón con birrefringencia débilmente positiva. En la gota, la radiografía es normal en los ataques iniciales y solo en la enfermedad crónica muestra erosiones «en sacabocado» con bordes en visera, y el líquido presenta cristales de urato en aguja con birrefringencia negativa. En la hemartrosis de la hemofilia y en la artritis séptica, las radiografías son normales al principio, pues solo hay aumento de partes blandas, y la artritis séptica exige artrocentesis, cultivo y antibióticos urgentes. En la espondiloartropatía, la radiografía de la rodilla no es útil. El tratamiento incluye AINE, colchicina o infiltración de corticoide. Perla: la presencia de condrocalcinosis en una persona menor de 55 años debe hacer sospechar hemocromatosis o hiperparatiroidismo.",
+      "comentario": "La enfermedad por depósito de cristales de pirofosfato cálcico dihidratado (condrocalcinosis o seudogota) afecta sobre todo a adultos mayores y se manifiesta como una monoartritis aguda de la rodilla. La radiografía aporta datos diagnósticos porque muestra calcificaciones lineales o punteadas en el fibrocartílago (meniscos, ligamento triangular de la muñeca, sínfisis del pubis) y en el cartílago hialino paralelo al hueso subcondral. El diagnóstico definitivo se logra con el líquido sinovial, que revela cristales romboides o en bastón con birrefringencia débilmente positiva. En la gota, la radiografía es normal en los ataques iniciales y solo en la enfermedad crónica muestra erosiones «en sacabocado» con bordes en visera, y el líquido presenta cristales de urato en aguja con birrefringencia negativa. En la hemartrosis de la hemofilia y en la artritis séptica, las radiografías son normales al principio, pues solo hay aumento de partes blandas, y la artritis séptica exige artrocentesis, cultivo y antibióticos urgentes. En la espondiloartropatía, la radiografía de la rodilla no es útil. El tratamiento incluye AINE, colchicina o infiltración de corticoide. Perla: la presencia de condrocalcinosis en una persona menor de 55 años debe hacer sospechar hemocromatosis o hiperparatiroidismo.",
+      "tema": "Condrocalcinosis en la artritis por pirofosfato",
+      "año": 2020,
+      "fuentes": "Zhang W et al. Ann Rheum Dis 2011;70:571-5 (recomendaciones EULAR para la enfermedad por cristales de pirofosfato cálcico); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Artropatías microcristalinas"
     }
   ]
 }

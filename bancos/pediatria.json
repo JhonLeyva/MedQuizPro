@@ -11251,6 +11251,367 @@
       "año": 2020,
       "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Farrell PM et al. J Pediatr 2017;181S:S4-S15 (diagnóstico de fibrosis quística)",
       "categoria": "Neonatología"
+    },
+    {
+      "id": "RM-PED-273",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "¿Cuál es la patología más grave en los recién nacidos hijos de madre diabética?",
+      "opciones": [
+        "Anemia.",
+        "Enfermedad de membrana hialina.",
+        "Sepsis.",
+        "Síndrome de aspiración meconial.",
+        "Taquipnea transitoria."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "Los hijos de madre diabética tienen riesgo aumentado de macrosomía, hipoglucemia, hipocalcemia, policitemia, hiperbilirrubinemia, miocardiopatía hipertrófica y malformaciones, pero la complicación respiratoria más grave es la enfermedad de membrana hialina (síndrome de dificultad respiratoria). La hiperinsulinemia fetal, secundaria a la hiperglucemia materna, antagoniza el efecto del cortisol sobre la maduración pulmonar y retrasa la síntesis de surfactante, de manera que el pulmón es inmaduro incluso a edad gestacional avanzada. La deficiencia de surfactante produce atelectasia, hipoxemia y membranas hialinas; la radiografía muestra patrón reticulogranular con broncograma aéreo. La relación lecitina/esfingomielina o la presencia de fosfatidilglicerol evalúan la madurez pulmonar. El tratamiento incluye presión positiva continua, surfactante exógeno y soporte ventilatorio; la prevención en riesgo de parto prematuro es con corticoides antenatales. La anemia no es frecuente (más bien hay policitemia); la sepsis y el síndrome de aspiración meconial no son propios de la diabetes materna, y la taquipnea transitoria es leve y autolimitada, aunque más frecuente en cesáreas. Perla: el control glucémico estricto de la madre durante el embarazo disminuye todas estas complicaciones.",
+      "comentario": "Los hijos de madre diabética tienen riesgo aumentado de macrosomía, hipoglucemia, hipocalcemia, policitemia, hiperbilirrubinemia, miocardiopatía hipertrófica y malformaciones, pero la complicación respiratoria más grave es la enfermedad de membrana hialina (síndrome de dificultad respiratoria). La hiperinsulinemia fetal, secundaria a la hiperglucemia materna, antagoniza el efecto del cortisol sobre la maduración pulmonar y retrasa la síntesis de surfactante, de manera que el pulmón es inmaduro incluso a edad gestacional avanzada. La deficiencia de surfactante produce atelectasia, hipoxemia y membranas hialinas; la radiografía muestra patrón reticulogranular con broncograma aéreo. La relación lecitina/esfingomielina o la presencia de fosfatidilglicerol evalúan la madurez pulmonar. El tratamiento incluye presión positiva continua, surfactante exógeno y soporte ventilatorio; la prevención en riesgo de parto prematuro es con corticoides antenatales. La anemia no es frecuente (más bien hay policitemia); la sepsis y el síndrome de aspiración meconial no son propios de la diabetes materna, y la taquipnea transitoria es leve y autolimitada, aunque más frecuente en cesáreas. Perla: el control glucémico estricto de la madre durante el embarazo disminuye todas estas complicaciones.",
+      "tema": "Hijo de madre diabética: enfermedad de membrana hialina",
+      "año": 2020,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Williams Obstetricia 26.ª ed. (2022)",
+      "categoria": "Neonatología"
+    },
+    {
+      "id": "RM-PED-274",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Según el esquema de vacunación nacional; para un niño de 4 meses de edad. ¿Cuál es la vacuna que le corresponde?",
+      "opciones": [
+        "1ra dosis de influenza.",
+        "1ra dosis de pentavalente.",
+        "2da dosis de influenza.",
+        "2da dosis de antineumocócica.",
+        "2da dosis de OPV."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El esquema nacional de vacunación del Perú establece que, a los 2 y 4 meses de edad, se administran las primeras y segundas dosis de las vacunas que protegen contra la poliomielitis, la difteria, tos ferina, tétanos, hepatitis B, Haemophilus influenzae tipo b, neumococo y rotavirus. Por tanto, al niño de 4 meses le corresponde la segunda dosis de la vacuna antineumocócica conjugada, junto con la segunda dosis de pentavalente, de la vacuna contra la poliomielitis inactivada (IPV) y de rotavirus. La primera dosis de pentavalente se aplica a los 2 meses, no a los 4. La vacuna de influenza pediátrica se inicia a partir de los 6 meses, con dos dosis separadas por 4 semanas en menores de 9 años que la reciben por primera vez. La poliomielitis oral (OPV) se emplea en dosis de refuerzo y en la tercera dosis a los 6 meses, de modo que la segunda dosis a los 4 meses es inactivada. El refuerzo de neumococo se aplica a los 12 meses. Las vacunas inactivadas pueden administrarse con seguridad en los niños con infecciones leves. Perla: en niños con inmunodepresión están contraindicadas las vacunas vivas, como la de rotavirus oral y la OPV.",
+      "comentario": "El esquema nacional de vacunación del Perú establece que, a los 2 y 4 meses de edad, se administran las primeras y segundas dosis de las vacunas que protegen contra la poliomielitis, la difteria, tos ferina, tétanos, hepatitis B, Haemophilus influenzae tipo b, neumococo y rotavirus. Por tanto, al niño de 4 meses le corresponde la segunda dosis de la vacuna antineumocócica conjugada, junto con la segunda dosis de pentavalente, de la vacuna contra la poliomielitis inactivada (IPV) y de rotavirus. La primera dosis de pentavalente se aplica a los 2 meses, no a los 4. La vacuna de influenza pediátrica se inicia a partir de los 6 meses, con dos dosis separadas por 4 semanas en menores de 9 años que la reciben por primera vez. La poliomielitis oral (OPV) se emplea en dosis de refuerzo y en la tercera dosis a los 6 meses, de modo que la segunda dosis a los 4 meses es inactivada. El refuerzo de neumococo se aplica a los 12 meses. Las vacunas inactivadas pueden administrarse con seguridad en los niños con infecciones leves. Perla: en niños con inmunodepresión están contraindicadas las vacunas vivas, como la de rotavirus oral y la OPV.",
+      "tema": "Esquema nacional de vacunación a los 4 meses",
+      "año": 2020,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Red Book AAP 2024-2027 (Committee on Infectious Diseases), esquemas de inmunización",
+      "categoria": "Inmunizaciones",
+      "nota_revision": "Se basa en el calendario nacional vigente en 2020: a los 4 meses corresponde la segunda dosis de neumococo, pentavalente, IPV y rotavirus; la segunda dosis de la opción OPV no corresponde a esa edad."
+    },
+    {
+      "id": "RM-PED-275",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Recién nacido de parto vaginal, varón. Examen: flácido, respiración apneica. FC: 96 X', cuerpo rosado y extremidades cianóticas; muecas al pasaje de sonda. ¿Cuál es el puntaje de Apgar?",
+      "opciones": [
+        "6.",
+        "3.",
+        "1.",
+        "2.",
+        "4."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "El puntaje de Apgar, descrito en 1953, evalúa la adaptación del recién nacido al minuto y a los 5 minutos de vida mediante cinco parámetros, cada uno de 0 a 2 puntos: frecuencia cardiaca, esfuerzo respiratorio, tono muscular, irritabilidad refleja y color. En este recién nacido, la frecuencia cardiaca es de 96 por minuto, es decir, menor de 100 (1 punto); la respiración es apneica (0); el tono es flácido (0); las muecas al pasaje de la sonda indican irritabilidad refleja con respuesta débil (1); y el cuerpo es rosado con extremidades cianóticas (1 punto). La suma es 3, lo que corresponde a depresión neonatal grave (0 a 3). Un puntaje de 4 a 6 indica depresión moderada y de 7 a 10, estado normal. Una frecuencia mayor de 100 recibe 2 puntos, una respiración débil o irregular, 1 punto, y llanto vigoroso, 2. El resultado no condiciona el inicio de la reanimación, que se hace según la evaluación de frecuencia cardiaca, respiración y tono: se seca, estimula, se abre la vía aérea y se aplica ventilación con presión positiva en apnea o frecuencia menor de 100. Perla: el Apgar bajo a los 5 minutos se asocia con mortalidad neonatal, pero tiene poco valor predictivo individual de daño neurológico.",
+      "comentario": "El puntaje de Apgar, descrito en 1953, evalúa la adaptación del recién nacido al minuto y a los 5 minutos de vida mediante cinco parámetros, cada uno de 0 a 2 puntos: frecuencia cardiaca, esfuerzo respiratorio, tono muscular, irritabilidad refleja y color. En este recién nacido, la frecuencia cardiaca es de 96 por minuto, es decir, menor de 100 (1 punto); la respiración es apneica (0); el tono es flácido (0); las muecas al pasaje de la sonda indican irritabilidad refleja con respuesta débil (1); y el cuerpo es rosado con extremidades cianóticas (1 punto). La suma es 3, lo que corresponde a depresión neonatal grave (0 a 3). Un puntaje de 4 a 6 indica depresión moderada y de 7 a 10, estado normal. Una frecuencia mayor de 100 recibe 2 puntos, una respiración débil o irregular, 1 punto, y llanto vigoroso, 2. El resultado no condiciona el inicio de la reanimación, que se hace según la evaluación de frecuencia cardiaca, respiración y tono: se seca, estimula, se abre la vía aérea y se aplica ventilación con presión positiva en apnea o frecuencia menor de 100. Perla: el Apgar bajo a los 5 minutos se asocia con mortalidad neonatal, pero tiene poco valor predictivo individual de daño neurológico.",
+      "tema": "Puntaje de Apgar",
+      "año": 2020,
+      "fuentes": "Apgar V. Curr Res Anesth Analg 1953;32:260-7; American Academy of Pediatrics, Committee on Fetus and Newborn. Pediatrics 2015;136:819-22 (el puntaje de Apgar); Nelson Tratado de Pediatría 22.ª ed. (2024)",
+      "categoria": "Neonatología"
+    },
+    {
+      "id": "RM-PED-276",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Niño de tres años, presenta dolor en sus tobillos al que se agrega dolor abdominal y un exantema purpúrico en cintura y miembros inferiores. En los exámenes complementarios se observa proteinuria, hematuria; en la biopsia renal se muestra proliferación mesangial y depósitos de Ig A por inmunofluorescencia. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Insuficiencia renal.",
+        "Síndrome de Alport.",
+        "Granulomatosis de Wegener.",
+        "Púrpura de Henoch Schönlein.",
+        "Displasia renal."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La púrpura de Henoch-Schönlein, hoy llamada vasculitis por IgA, es la vasculitis sistémica más frecuente de la infancia y afecta a vasos pequeños por depósito de inmunocomplejos con IgA1 anómalamente glucosilada, a menudo tras una infección respiratoria. La tétrada clásica comprende púrpura palpable en glúteos y miembros inferiores, artralgias u oligoartritis de tobillos y rodillas, dolor abdominal cólico, con riesgo de invaginación intestinal, y compromiso renal con hematuria y proteinuria. En este niño de tres años coinciden las manifestaciones articular, abdominal, cutánea y renal, y la biopsia con proliferación mesangial y depósitos mesangiales de IgA confirma el diagnóstico. El síndrome de Alport es hereditario, con hematuria, sordera neurosensorial y lesiones oculares, y la biopsia muestra una membrana basal laminada sin depósitos de IgA. La granulomatosis con poliangeítis es una vasculitis ANCA positiva de adultos con compromiso sinusal y pulmonar. La displasia renal y la insuficiencia renal son diagnósticos anatómico o funcional, no un síndrome con púrpura. El tratamiento es de soporte con hidratación y analgesia; los corticoides se reservan para dolor abdominal intenso o nefritis significativa. Perla: el pronóstico depende del compromiso renal, por lo que se controla la orina durante al menos seis meses.",
+      "comentario": "La púrpura de Henoch-Schönlein, hoy llamada vasculitis por IgA, es la vasculitis sistémica más frecuente de la infancia y afecta a vasos pequeños por depósito de inmunocomplejos con IgA1 anómalamente glucosilada, a menudo tras una infección respiratoria. La tétrada clásica comprende púrpura palpable en glúteos y miembros inferiores, artralgias u oligoartritis de tobillos y rodillas, dolor abdominal cólico, con riesgo de invaginación intestinal, y compromiso renal con hematuria y proteinuria. En este niño de tres años coinciden las manifestaciones articular, abdominal, cutánea y renal, y la biopsia con proliferación mesangial y depósitos mesangiales de IgA confirma el diagnóstico. El síndrome de Alport es hereditario, con hematuria, sordera neurosensorial y lesiones oculares, y la biopsia muestra una membrana basal laminada sin depósitos de IgA. La granulomatosis con poliangeítis es una vasculitis ANCA positiva de adultos con compromiso sinusal y pulmonar. La displasia renal y la insuficiencia renal son diagnósticos anatómico o funcional, no un síndrome con púrpura. El tratamiento es de soporte con hidratación y analgesia; los corticoides se reservan para dolor abdominal intenso o nefritis significativa. Perla: el pronóstico depende del compromiso renal, por lo que se controla la orina durante al menos seis meses.",
+      "tema": "Púrpura de Henoch-Schönlein",
+      "año": 2020,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Ozen S et al. Ann Rheum Dis 2010;69:798-806 (criterios EULAR/PRINTO/PRES de vasculitis en la infancia)",
+      "categoria": "Vasculitis pediátrica"
+    },
+    {
+      "id": "RM-PED-277",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "¿Qué manifestación clínica obliga a la resolución quirúrgica de un recién nacido con enterocolitis necrotizante?",
+      "opciones": [
+        "Neumoperitoneo.",
+        "Diarrea persistente.",
+        "Hematoquezia.",
+        "Shock hipovolémico.",
+        "Vómitos biliosos."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La enterocolitis necrotizante es una necrosis inflamatoria de la pared intestinal del prematuro, de origen multifactorial: inmadurez de la barrera mucosa, alimentación enteral, disbiosis e isquemia. Se estadifica con los criterios de Bell modificados: en el estadio I hay signos inespecíficos, en el II enfermedad confirmada con neumatosis intestinal o gas portal, y en el III enfermedad avanzada con deterioro sistémico o perforación. El tratamiento inicial es médico: ayuno, descompresión con sonda orogástrica, antibióticos de amplio espectro con cobertura anaerobia, soporte hemodinámico y ventilatorio, y radiografías seriadas. La indicación absoluta de cirugía es el neumoperitoneo, porque demuestra perforación intestinal con peritonitis; se observa como aire libre bajo el diafragma, signo del fútbol o de la cúpula. La diarrea persistente, la hematoquezia y los vómitos biliosos son manifestaciones habituales del estadio médico, y el shock hipovolémico se corrige con reanimación. Otras indicaciones relativas son el asa fija persistente, la masa abdominal, la acidosis refractaria, la trombocitopenia progresiva y la paracentesis con líquido purulento. La cirugía consiste en laparotomía con resección de segmentos necróticos y estoma, o drenaje peritoneal en inestables. Perla: la estenosis intestinal es la secuela tardía más frecuente.",
+      "comentario": "La enterocolitis necrotizante es una necrosis inflamatoria de la pared intestinal del prematuro, de origen multifactorial: inmadurez de la barrera mucosa, alimentación enteral, disbiosis e isquemia. Se estadifica con los criterios de Bell modificados: en el estadio I hay signos inespecíficos, en el II enfermedad confirmada con neumatosis intestinal o gas portal, y en el III enfermedad avanzada con deterioro sistémico o perforación. El tratamiento inicial es médico: ayuno, descompresión con sonda orogástrica, antibióticos de amplio espectro con cobertura anaerobia, soporte hemodinámico y ventilatorio, y radiografías seriadas. La indicación absoluta de cirugía es el neumoperitoneo, porque demuestra perforación intestinal con peritonitis; se observa como aire libre bajo el diafragma, signo del fútbol o de la cúpula. La diarrea persistente, la hematoquezia y los vómitos biliosos son manifestaciones habituales del estadio médico, y el shock hipovolémico se corrige con reanimación. Otras indicaciones relativas son el asa fija persistente, la masa abdominal, la acidosis refractaria, la trombocitopenia progresiva y la paracentesis con líquido purulento. La cirugía consiste en laparotomía con resección de segmentos necróticos y estoma, o drenaje peritoneal en inestables. Perla: la estenosis intestinal es la secuela tardía más frecuente.",
+      "tema": "Enterocolitis necrotizante: indicación quirúrgica",
+      "año": 2020,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Bell MJ et al. Ann Surg 1978;187:1-7; Neu J, Walker WA. N Engl J Med 2011;364:255-64",
+      "categoria": "Neonatología"
+    },
+    {
+      "id": "RM-PED-278",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Recién nacido varón de 48 horas de vida, presenta hipoactividad, polipnea y plétora. EG de 42 semanas por Capurro, madre con preeclamsia leve. Laboratorio: leucocitos: normal, Hto: 70%, glucosa: 55 mg/dl. ¿Cuál es el diagnóstico?",
+      "opciones": [
+        "Policitemia.",
+        "Hipoglicemia.",
+        "Hiponatremia.",
+        "Sepsis neonatal.",
+        "Taquipnea transitoria."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La policitemia neonatal se define por un hematocrito venoso central igual o mayor de 65 % y se asocia a hiperviscosidad sanguínea, que reduce la perfusión de órganos. Sus causas son la hipoxia intrauterina crónica con eritropoyesis aumentada, como ocurre en la preeclampsia materna, el embarazo posmaduro, el retardo de crecimiento y la diabetes materna, y también la transfusión feto-fetal y el pinzamiento tardío del cordón. Este recién nacido de 42 semanas, hijo de madre preeclámptica, presenta plétora, hipoactividad, polipnea y un hematocrito de 70 %, con leucocitos normales y glucosa aceptable. Por tanto se diagnostica policitemia. La hipoglicemia neonatal se define por glucosa menor de 45-47 mg/dl, y aquí es de 55; la hiponatremia no explica la plétora; la sepsis neonatal cursa con leucopenia o leucocitosis, inestabilidad térmica y marcadores inflamatorios alterados; y la taquipnea transitoria del recién nacido aparece en las primeras horas tras cesárea sin plétora. El tratamiento en pacientes sintomáticos es la exanguinotransfusión parcial con solución salina para llevar el hematocrito a 55 %. Si es asintomático se hidrata y vigila. Perla: la complicación más grave es la enterocolitis necrotizante y la trombosis renal.",
+      "comentario": "La policitemia neonatal se define por un hematocrito venoso central igual o mayor de 65 % y se asocia a hiperviscosidad sanguínea, que reduce la perfusión de órganos. Sus causas son la hipoxia intrauterina crónica con eritropoyesis aumentada, como ocurre en la preeclampsia materna, el embarazo posmaduro, el retardo de crecimiento y la diabetes materna, y también la transfusión feto-fetal y el pinzamiento tardío del cordón. Este recién nacido de 42 semanas, hijo de madre preeclámptica, presenta plétora, hipoactividad, polipnea y un hematocrito de 70 %, con leucocitos normales y glucosa aceptable. Por tanto se diagnostica policitemia. La hipoglicemia neonatal se define por glucosa menor de 45-47 mg/dl, y aquí es de 55; la hiponatremia no explica la plétora; la sepsis neonatal cursa con leucopenia o leucocitosis, inestabilidad térmica y marcadores inflamatorios alterados; y la taquipnea transitoria del recién nacido aparece en las primeras horas tras cesárea sin plétora. El tratamiento en pacientes sintomáticos es la exanguinotransfusión parcial con solución salina para llevar el hematocrito a 55 %. Si es asintomático se hidrata y vigila. Perla: la complicación más grave es la enterocolitis necrotizante y la trombosis renal.",
+      "tema": "Policitemia neonatal",
+      "año": 2020,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Lissauer T, Fanaroff A. Neonatología a simple vista (Neonatology at a Glance) 4.ª ed. (2020)",
+      "categoria": "Neonatología"
+    },
+    {
+      "id": "RM-PED-279",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "En la evaluación de un recién nacido se encuentra anomalías cardíacas y cataratas. La madre presentó exantema en cara y tórax durante la cuarta semana de gestación. ¿Qué enfermedad sufrió la madre durante el embarazo?",
+      "opciones": [
+        "Mononucleosis.",
+        "Varicela.",
+        "Toxoplasmosis.",
+        "Sarampión.",
+        "Rubéola."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La rubéola congénita es una infección transplacentaria por un virus ARN del género Rubivirus. El riesgo y la gravedad de las malformaciones son máximos cuando la infección materna ocurre en las primeras 8 a 10 semanas de gestación, y alcanzan casi el 90 % antes de la semana 11. La tríada clásica de Gregg incluye cardiopatía congénita, sobre todo persistencia del conducto arterioso y estenosis de las ramas pulmonares, catarata o glaucoma congénito, y sordera neurosensorial. Pueden asociarse microcefalia, retraso del crecimiento, hepatoesplenomegalia, púrpura en «pastel de arándanos» y retinopatía en sal y pimienta. La madre de este caso tuvo un exantema en cara y tórax durante la cuarta semana, compatible con rubéola, enfermedad que cursa con exantema maculopapular de progresión cefalocaudal, linfadenopatía retroauricular y artralgias. La varicela produce cicatrices cutáneas y microftalmía; la toxoplasmosis, hidrocefalia, calcificaciones cerebrales difusas y coriorretinitis; el sarampión no es teratógeno típico; la mononucleosis no causa embriopatía característica. El diagnóstico se confirma con IgM específica o PCR. No hay tratamiento específico, y la prevención se basa en la vacuna triple viral, contraindicada durante el embarazo. Perla: se vacuna a la mujer susceptible tras el parto y se evita el embarazo por un mes.",
+      "comentario": "La rubéola congénita es una infección transplacentaria por un virus ARN del género Rubivirus. El riesgo y la gravedad de las malformaciones son máximos cuando la infección materna ocurre en las primeras 8 a 10 semanas de gestación, y alcanzan casi el 90 % antes de la semana 11. La tríada clásica de Gregg incluye cardiopatía congénita, sobre todo persistencia del conducto arterioso y estenosis de las ramas pulmonares, catarata o glaucoma congénito, y sordera neurosensorial. Pueden asociarse microcefalia, retraso del crecimiento, hepatoesplenomegalia, púrpura en «pastel de arándanos» y retinopatía en sal y pimienta. La madre de este caso tuvo un exantema en cara y tórax durante la cuarta semana, compatible con rubéola, enfermedad que cursa con exantema maculopapular de progresión cefalocaudal, linfadenopatía retroauricular y artralgias. La varicela produce cicatrices cutáneas y microftalmía; la toxoplasmosis, hidrocefalia, calcificaciones cerebrales difusas y coriorretinitis; el sarampión no es teratógeno típico; la mononucleosis no causa embriopatía característica. El diagnóstico se confirma con IgM específica o PCR. No hay tratamiento específico, y la prevención se basa en la vacuna triple viral, contraindicada durante el embarazo. Perla: se vacuna a la mujer susceptible tras el parto y se evita el embarazo por un mes.",
+      "tema": "Rubéola congénita",
+      "año": 2020,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Williams Obstetricia 26.ª ed. (2022); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Infecciones congénitas"
+    },
+    {
+      "id": "RM-PED-280",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Niña de 10 años, traída para valoración de un posible hipocrecimiento, su talla actual se encuentra en el percentil 10 de la población general, su talla genética está situada en el percentil 15 de la población de referencia; su desarrollo sexual corresponde a una pubarquia 1 y a una telarquia 1 de Tanner; su edad ósea es de 9 años. La velocidad de crecimiento del último año ha sido de 5 cm/año. ¿Qué condición de crecimiento tiene?",
+      "opciones": [
+        "Hipocrecimiento por un hipotiroidismo congénito.",
+        "Hipocrecimiento por un síndrome de Turner.",
+        "Hipocrecimiento por deficiencia de la hormona del crecimiento.",
+        "Crecimiento normal.",
+        "Hipocrecimiento por una enfermedad celiaca."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La evaluación del hipocrecimiento compara la talla con la población general, con la talla diana familiar, la velocidad de crecimiento, la edad ósea y el estadio puberal. Esta niña de 10 años mide en el percentil 10, valor próximo a su talla genética (percentil 15), por lo que su estatura es acorde con la herencia familiar. Su velocidad de crecimiento de 5 cm al año es normal para la etapa prepuberal, que oscila entre 5 y 7 cm anuales, y la edad ósea de 9 años es solo un año menor que la cronológica, un retraso leve y compatible con la normalidad. Con Tanner 1 a los 10 años aún no ha iniciado la pubertad, lo cual es esperable porque la telarquia aparece de forma normal entre los 8 y los 13 años. Todo eso corresponde a un crecimiento normal, o a una variante cercana a un retraso constitucional leve, sin enfermedad. El déficit de hormona de crecimiento muestra velocidad menor de 4 cm al año y edad ósea muy retrasada; el hipotiroidismo congénito se detecta en el tamizaje neonatal; el síndrome de Turner se acompaña de talla baja marcada y disgenesia gonadal; la enfermedad celiaca causa mala absorción. Perla: la velocidad de crecimiento es el mejor indicador de la salud de la talla.",
+      "comentario": "La evaluación del hipocrecimiento compara la talla con la población general, con la talla diana familiar, la velocidad de crecimiento, la edad ósea y el estadio puberal. Esta niña de 10 años mide en el percentil 10, valor próximo a su talla genética (percentil 15), por lo que su estatura es acorde con la herencia familiar. Su velocidad de crecimiento de 5 cm al año es normal para la etapa prepuberal, que oscila entre 5 y 7 cm anuales, y la edad ósea de 9 años es solo un año menor que la cronológica, un retraso leve y compatible con la normalidad. Con Tanner 1 a los 10 años aún no ha iniciado la pubertad, lo cual es esperable porque la telarquia aparece de forma normal entre los 8 y los 13 años. Todo eso corresponde a un crecimiento normal, o a una variante cercana a un retraso constitucional leve, sin enfermedad. El déficit de hormona de crecimiento muestra velocidad menor de 4 cm al año y edad ósea muy retrasada; el hipotiroidismo congénito se detecta en el tamizaje neonatal; el síndrome de Turner se acompaña de talla baja marcada y disgenesia gonadal; la enfermedad celiaca causa mala absorción. Perla: la velocidad de crecimiento es el mejor indicador de la salud de la talla.",
+      "tema": "Talla normal en la niña prepuberal",
+      "año": 2020,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Cohen P et al. J Clin Endocrinol Metab 2008;93:4210-7 (consenso sobre talla baja idiopática)",
+      "categoria": "Crecimiento"
+    },
+    {
+      "id": "RM-PED-281",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Neonato femenino de 25 días, con hepatomegalia, vómitos, hipoglicemia, convulsiones, catarata, pobre ganancia ponderal. Presencia de sustancias reductoras en heces luego de la ingesta de leche. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Von Gierke.",
+        "Enfermedad de Pompe.",
+        "Fenilcetonuria.",
+        "Galactosemia.",
+        "Hemocistinemia."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La galactosemia clásica es una enfermedad autosómica recesiva por déficit de galactosa-1-fosfato uridiltransferasa, enzima que convierte la galactosa-1-fosfato en glucosa-1-fosfato. Tras iniciar la leche materna o de fórmula, que aporta lactosa (glucosa más galactosa), se acumulan galactosa-1-fosfato y galactitol, tóxicos para hígado, riñón, cerebro y cristalino. El recién nacido presenta vómitos, hepatomegalia, ictericia, hipoglicemia con convulsiones, mala ganancia de peso, catarata por acumulación de galactitol, tubulopatía proximal y alto riesgo de sepsis por Escherichia coli. En orina y heces se detectan sustancias reductoras (reacción de Clinitest positiva) con glucosa oxidasa negativa. La enfermedad de Von Gierke (glucogenosis tipo I) produce hipoglicemia, hepatomegalia y acidosis láctica, pero sin catarata ni reductores; la de Pompe es una cardiomiopatía hipertrófica con hipotonía; la fenilcetonuria se manifiesta con retraso del desarrollo y olor a ratón; la homocistinuria cursa con ectopia del cristalino. El tratamiento es suspender de inmediato la lactosa y administrar fórmulas sin lactosa (soya o elementales), con dieta libre de galactosa de por vida. Perla: aun con dieta pueden aparecer retraso del lenguaje e insuficiencia ovárica.",
+      "comentario": "La galactosemia clásica es una enfermedad autosómica recesiva por déficit de galactosa-1-fosfato uridiltransferasa, enzima que convierte la galactosa-1-fosfato en glucosa-1-fosfato. Tras iniciar la leche materna o de fórmula, que aporta lactosa (glucosa más galactosa), se acumulan galactosa-1-fosfato y galactitol, tóxicos para hígado, riñón, cerebro y cristalino. El recién nacido presenta vómitos, hepatomegalia, ictericia, hipoglicemia con convulsiones, mala ganancia de peso, catarata por acumulación de galactitol, tubulopatía proximal y alto riesgo de sepsis por Escherichia coli. En orina y heces se detectan sustancias reductoras (reacción de Clinitest positiva) con glucosa oxidasa negativa. La enfermedad de Von Gierke (glucogenosis tipo I) produce hipoglicemia, hepatomegalia y acidosis láctica, pero sin catarata ni reductores; la de Pompe es una cardiomiopatía hipertrófica con hipotonía; la fenilcetonuria se manifiesta con retraso del desarrollo y olor a ratón; la homocistinuria cursa con ectopia del cristalino. El tratamiento es suspender de inmediato la lactosa y administrar fórmulas sin lactosa (soya o elementales), con dieta libre de galactosa de por vida. Perla: aun con dieta pueden aparecer retraso del lenguaje e insuficiencia ovárica.",
+      "tema": "Galactosemia clásica",
+      "año": 2020,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Berry GT. GeneReviews: Classic Galactosemia and Clinical Variant Galactosemia (2000, actualizado 2021); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Errores innatos del metabolismo",
+      "nota_revision": "La opción E dice «hemocistinemia»; el trastorno correcto es la homocistinuria. La prueba de sustancias reductoras se hace en orina, además de heces."
+    },
+    {
+      "id": "RM-PED-282",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Niño de 7 meses, deshidratado, con vómitos, diarrea y fiebre. Laboratorio: Hb: 11.6 g/dl, Hto: 39%, Leucocitos: 14,900 x mm3 (Neutrófilos: 63%, Linfocitos: 30%, Monocitos: 7%), Plaquetas: 322,000 x mm3; Osmolaridad: 295 mOsm/l; Na: 137 mEq/l; K: 5.6 mEq/l; Ca iónico: 1,2 mmol/l; pH: 7.2; pCO2: 25 mmHg; HCO3: 11 mEq/l; E.B.: -19 mEq/l; Lactato: 5.3 mmol/l, Creatinina: 4.2 mg %. ¿Cuál es el tipo de deshidratación y el trastorno ácido básico?",
+      "opciones": [
+        "Hipotónica con acidosis metabólica.",
+        "Hipertónica con acidosis metabólica.",
+        "Isotónica con acidosis metabólica.",
+        "Isotónica con acidosis respiratoria.",
+        "Isotónica con acidosis mixta."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La deshidratación se clasifica según la natremia: isotónica si el sodio sérico es de 130 a 150 mEq/l, hipotónica si es menor de 130 e hipertónica si supera 150. En este lactante, con vómitos, diarrea y fiebre, el sodio es de 137 mEq/l y la osmolaridad de 295 mOsm/l, valores normales, de modo que la deshidratación es isotónica, la más frecuente en la gastroenteritis aguda. El gas arterial muestra pH de 7,2, HCO3 de 11 mEq/l, exceso de base de -19 y pCO2 de 25 mmHg: acidosis metabólica, con compensación respiratoria por hiperventilación. La pérdida de bicarbonato por las heces y la hipoperfusión tisular con lactato de 5,3 mmol/l, junto con la lesión renal aguda (creatinina de 4,2 mg/dl), explican la acidosis, y la hiperpotasemia de 5,6 mEq/l refleja el desplazamiento del potasio fuera de la célula. La fórmula de Winter indica que la pCO2 esperada es 1,5 × 11 + 8 ± 2, es decir, 24,5; la pCO2 de 25 señala compensación adecuada, sin acidosis respiratoria ni trastorno mixto. El tratamiento del shock o la deshidratación grave es un bolo de 20 ml/kg de solución salina o ringer lactato, con reevaluación. Perla: en lactantes con deshidratación grave y oliguria, el potasio se añade solo después de que haya diuresis.",
+      "comentario": "La deshidratación se clasifica según la natremia: isotónica si el sodio sérico es de 130 a 150 mEq/l, hipotónica si es menor de 130 e hipertónica si supera 150. En este lactante, con vómitos, diarrea y fiebre, el sodio es de 137 mEq/l y la osmolaridad de 295 mOsm/l, valores normales, de modo que la deshidratación es isotónica, la más frecuente en la gastroenteritis aguda. El gas arterial muestra pH de 7,2, HCO3 de 11 mEq/l, exceso de base de -19 y pCO2 de 25 mmHg: acidosis metabólica, con compensación respiratoria por hiperventilación. La pérdida de bicarbonato por las heces y la hipoperfusión tisular con lactato de 5,3 mmol/l, junto con la lesión renal aguda (creatinina de 4,2 mg/dl), explican la acidosis, y la hiperpotasemia de 5,6 mEq/l refleja el desplazamiento del potasio fuera de la célula. La fórmula de Winter indica que la pCO2 esperada es 1,5 × 11 + 8 ± 2, es decir, 24,5; la pCO2 de 25 señala compensación adecuada, sin acidosis respiratoria ni trastorno mixto. El tratamiento del shock o la deshidratación grave es un bolo de 20 ml/kg de solución salina o ringer lactato, con reevaluación. Perla: en lactantes con deshidratación grave y oliguria, el potasio se añade solo después de que haya diuresis.",
+      "tema": "Deshidratación isotónica con acidosis metabólica",
+      "año": 2020,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Harrison Principios de Medicina Interna 21.ª ed. (2022); OMS, Tratamiento de la diarrea: manual para médicos y otros trabajadores de la salud (2005)",
+      "categoria": "Líquidos y electrolitos",
+      "nota_revision": "En el PDF las opciones A y B tenían el mismo texto; se cambió la B a «Hipertónica con acidosis metabólica». La clave oficial es C (isotónica con acidosis metabólica)."
+    },
+    {
+      "id": "RM-PED-283",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Niño de 14 años, acude por tos seca de una semana de evolución que ha aumentado en los últimos días; en la actualidad es espasmódica y emetizante, no se acompaña de fiebre ni de dificultad respiratoria. No convive con personas con tos crónica ni existe ambiente tabáquico en el hogar; recibió sus vacunas hasta el primer año. Su crecimiento y desarrollo son normales. Examen: hemorragia subconjuntival bilateral; auscultación es normal. ¿Cuál es la decisión terapeutica más adecuada?",
+      "opciones": [
+        "Azitromicina.",
+        "Codeína.",
+        "Ciprofloxacina.",
+        "Salbutamol.",
+        "Dexametasoma."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La tos ferina es una infección respiratoria por Bordetella pertussis, cuya incidencia en adolescentes y adultos aumenta cuando la inmunidad de la vacuna disminuye con los años, como en este paciente que no recibió refuerzos. Cursa en tres fases: catarral (1-2 semanas, similar a un resfriado), paroxística (2-6 semanas, con accesos de tos espasmódica, estridor inspiratorio o «gallito» y emesis posterior) y de convalecencia. En el adolescente puede faltar el estridor y la fiebre; la tos emetizante, las petequias o la hemorragia subconjuntival por el esfuerzo orientan al diagnóstico. La confirmación se hace con PCR en aspirado nasofaríngeo o cultivo. El tratamiento antibiótico de elección es un macrólido, siendo la azitromicina la recomendada por su comodidad (5 días en niños mayores) y menores efectos adversos; los antibióticos acortan el contagio y solo modifican la evolución si se dan en la fase catarral. La codeína y los antitusígenos no son útiles ni seguros; el salbutamol y la dexametasona no modifican el curso; y la ciprofloxacina no está indicada en niños. Se debe dar quimioprofilaxis a convivientes y aislamiento respiratorio durante 5 días de tratamiento. Perla: la tos prolongada con vómito posterior y sin fiebre en un escolar obliga a pensar en pertussis.",
+      "comentario": "La tos ferina es una infección respiratoria por Bordetella pertussis, cuya incidencia en adolescentes y adultos aumenta cuando la inmunidad de la vacuna disminuye con los años, como en este paciente que no recibió refuerzos. Cursa en tres fases: catarral (1-2 semanas, similar a un resfriado), paroxística (2-6 semanas, con accesos de tos espasmódica, estridor inspiratorio o «gallito» y emesis posterior) y de convalecencia. En el adolescente puede faltar el estridor y la fiebre; la tos emetizante, las petequias o la hemorragia subconjuntival por el esfuerzo orientan al diagnóstico. La confirmación se hace con PCR en aspirado nasofaríngeo o cultivo. El tratamiento antibiótico de elección es un macrólido, siendo la azitromicina la recomendada por su comodidad (5 días en niños mayores) y menores efectos adversos; los antibióticos acortan el contagio y solo modifican la evolución si se dan en la fase catarral. La codeína y los antitusígenos no son útiles ni seguros; el salbutamol y la dexametasona no modifican el curso; y la ciprofloxacina no está indicada en niños. Se debe dar quimioprofilaxis a convivientes y aislamiento respiratorio durante 5 días de tratamiento. Perla: la tos prolongada con vómito posterior y sin fiebre en un escolar obliga a pensar en pertussis.",
+      "tema": "Tos ferina: tratamiento con macrólido",
+      "año": 2020,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Kilgore PE et al. Clin Microbiol Rev 2016;29:449-86 (tos ferina); Tiwari T et al. MMWR Recomm Rep 2005;54(RR-14):1-16 (CDC, antimicrobianos para tos ferina)",
+      "categoria": "Infecciones respiratorias pediátricas"
+    },
+    {
+      "id": "RM-PED-284",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "¿Cuál es el agente etiológico más frecuente de neumonía adquirida en la comunidad, en niños mayores de 5 años?",
+      "opciones": [
+        "Staphylococcus aureus.",
+        "Moraxella catarrhalis.",
+        "Haemophilus influenzae tipo 6.",
+        "Mycobacterium tuberculosis.",
+        "Streptococcus pneumoniae."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La neumonía adquirida en la comunidad es la infección del parénquima pulmonar adquirida fuera del hospital. En los niños mayores de 5 años, el agente bacteriano más frecuente es Streptococcus pneumoniae, que produce típicamente fiebre alta de inicio súbito, tos, dolor torácico pleurítico y una consolidación lobar en la radiografía, con leucocitosis y neutrofilia. Sin embargo, en escolares y adolescentes también es importante el grupo de gérmenes atípicos, sobre todo Mycoplasma pneumoniae y Chlamydophila pneumoniae, de curso subagudo con tos seca persistente. Staphylococcus aureus se asocia a neumonías necrosantes, empiema y neumatoceles tras infección viral por influenza; Moraxella catarrhalis y Haemophilus influenzae no tipificable son poco frecuentes en este grupo (la cepa tipo b es muy rara tras la vacuna, y no existe el «tipo 6»); y Mycobacterium tuberculosis causa un cuadro crónico que se evalúa por contacto y prueba cutánea. En menores de 5 años predominan los virus, sobre todo el virus sincitial respiratorio. El tratamiento ambulatorio de elección es amoxicilina en dosis altas por 5 días; si se sospecha atípica, un macrólido; y ceftriaxona o ampicilina si requiere hospitalización. Perla: la vacuna antineumocócica conjugada redujo la enfermedad invasiva por neumococo.",
+      "comentario": "La neumonía adquirida en la comunidad es la infección del parénquima pulmonar adquirida fuera del hospital. En los niños mayores de 5 años, el agente bacteriano más frecuente es Streptococcus pneumoniae, que produce típicamente fiebre alta de inicio súbito, tos, dolor torácico pleurítico y una consolidación lobar en la radiografía, con leucocitosis y neutrofilia. Sin embargo, en escolares y adolescentes también es importante el grupo de gérmenes atípicos, sobre todo Mycoplasma pneumoniae y Chlamydophila pneumoniae, de curso subagudo con tos seca persistente. Staphylococcus aureus se asocia a neumonías necrosantes, empiema y neumatoceles tras infección viral por influenza; Moraxella catarrhalis y Haemophilus influenzae no tipificable son poco frecuentes en este grupo (la cepa tipo b es muy rara tras la vacuna, y no existe el «tipo 6»); y Mycobacterium tuberculosis causa un cuadro crónico que se evalúa por contacto y prueba cutánea. En menores de 5 años predominan los virus, sobre todo el virus sincitial respiratorio. El tratamiento ambulatorio de elección es amoxicilina en dosis altas por 5 días; si se sospecha atípica, un macrólido; y ceftriaxona o ampicilina si requiere hospitalización. Perla: la vacuna antineumocócica conjugada redujo la enfermedad invasiva por neumococo.",
+      "tema": "Neumonía adquirida en la comunidad del escolar",
+      "año": 2020,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Bradley JS et al. Clin Infect Dis 2011;53:e25-76 (guía IDSA-PIDS de neumonía adquirida en la comunidad pediátrica)",
+      "categoria": "Infecciones respiratorias pediátricas"
+    },
+    {
+      "id": "RM-PED-285",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Un niño de un año y medio pasa su control de CRED y se encuentra con un peso para la talla: < -2 a -3. ¿Cuál es su diagnóstico?",
+      "opciones": [
+        "Desnutrición crónica.",
+        "Peso adecuado para la talla.",
+        "Peso bajo para la talla o desnutrición aguda.",
+        "Riesgo de talla baja.",
+        "Sobrepeso."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La evaluación nutricional del niño menor de 5 años se basa en los patrones de crecimiento de la OMS (2006) y en tres indicadores expresados en puntuaciones Z: peso para la edad, talla para la edad y peso para la talla. El peso para la talla refleja el estado nutricional actual: entre +2 y -2 es normal; de -2 a -3 corresponde a desnutrición aguda moderada (peso bajo para la talla, emaciación); por debajo de -3 es desnutrición aguda severa; y por encima de +2 indica sobrepeso. En este niño de 18 meses, el valor entre -2 y -3 define desnutrición aguda. Esto contrasta con la desnutrición crónica, que se identifica por una talla para la edad menor de -2 y refleja un déficit prolongado; el riesgo de talla baja se establece con valores de talla/edad entre -1 y -2. El peso adecuado para la talla exige un valor en el rango normal, y el sobrepeso superior a +2. El manejo de la desnutrición aguda moderada consiste en alimentación complementaria enriquecida, consejería, suplementación con hierro y micronutrientes, control de infecciones y seguimiento estrecho; la forma severa con complicaciones requiere hospitalización con fórmulas terapéuticas F-75 y F-100. Perla: el edema bilateral con pies hundidos define kwashiorkor aunque el peso/talla parezca normal.",
+      "comentario": "La evaluación nutricional del niño menor de 5 años se basa en los patrones de crecimiento de la OMS (2006) y en tres indicadores expresados en puntuaciones Z: peso para la edad, talla para la edad y peso para la talla. El peso para la talla refleja el estado nutricional actual: entre +2 y -2 es normal; de -2 a -3 corresponde a desnutrición aguda moderada (peso bajo para la talla, emaciación); por debajo de -3 es desnutrición aguda severa; y por encima de +2 indica sobrepeso. En este niño de 18 meses, el valor entre -2 y -3 define desnutrición aguda. Esto contrasta con la desnutrición crónica, que se identifica por una talla para la edad menor de -2 y refleja un déficit prolongado; el riesgo de talla baja se establece con valores de talla/edad entre -1 y -2. El peso adecuado para la talla exige un valor en el rango normal, y el sobrepeso superior a +2. El manejo de la desnutrición aguda moderada consiste en alimentación complementaria enriquecida, consejería, suplementación con hierro y micronutrientes, control de infecciones y seguimiento estrecho; la forma severa con complicaciones requiere hospitalización con fórmulas terapéuticas F-75 y F-100. Perla: el edema bilateral con pies hundidos define kwashiorkor aunque el peso/talla parezca normal.",
+      "tema": "Desnutrición aguda según peso para la talla",
+      "año": 2020,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Organización Mundial de la Salud. Patrones de crecimiento infantil de la OMS (2006); OMS, directriz sobre la atención de la desnutrición aguda grave (2013)",
+      "categoria": "Nutrición pediátrica"
+    },
+    {
+      "id": "RM-PED-286",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Recién nacido de bajo peso al nacer, presenta llanto agudo y reflejo de succión débil. Ecografía de las fontanelas: hemorragia intraventricular (HIV) en la matriz germinal y sangre en los ventrículos, pero no dilatación ventricular ni daño del parénquima. ¿De qué grado es la HIV?",
+      "opciones": [
+        "I.",
+        "III.",
+        "V.",
+        "IV.",
+        "II."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La hemorragia de la matriz germinal-intraventricular es la complicación neurológica más frecuente del prematuro y de bajo peso al nacer, por la fragilidad de los vasos de la matriz germinal subependimaria, que carecen de soporte y son sensibles a los cambios de flujo cerebral. Su diagnóstico se hace por ecografía transfontanelar, que se recomienda a todo recién nacido menor de 32 semanas o menor de 1500 g entre los días 3 y 7, y se clasifica con Papile (1978): grado I, hemorragia limitada a la matriz germinal; grado II, hemorragia dentro del ventrículo sin dilatación (10-50 % del ventrículo); grado III, hemorragia intraventricular con dilatación ventricular; y grado IV, infarto hemorrágico periventricular con extensión al parénquima. En este caso hay sangre en la matriz y en los ventrículos sin dilatación ni daño parenquimatoso: grado II. Los grados I y II suelen tener buen pronóstico, mientras los III y IV se asocian a hidrocefalia posthemorrágica y secuelas motoras y cognitivas. Clínicamente puede haber llanto agudo, hipotonía, succión débil o convulsiones, o ser asintomática. Se maneja con medidas de soporte, evitar fluctuaciones de la presión arterial y seguimiento ecográfico para vigilar la hidrocefalia. Perla: el clampeo tardío del cordón y la corticoterapia prenatal reducen la hemorragia intraventricular.",
+      "comentario": "La hemorragia de la matriz germinal-intraventricular es la complicación neurológica más frecuente del prematuro y de bajo peso al nacer, por la fragilidad de los vasos de la matriz germinal subependimaria, que carecen de soporte y son sensibles a los cambios de flujo cerebral. Su diagnóstico se hace por ecografía transfontanelar, que se recomienda a todo recién nacido menor de 32 semanas o menor de 1500 g entre los días 3 y 7, y se clasifica con Papile (1978): grado I, hemorragia limitada a la matriz germinal; grado II, hemorragia dentro del ventrículo sin dilatación (10-50 % del ventrículo); grado III, hemorragia intraventricular con dilatación ventricular; y grado IV, infarto hemorrágico periventricular con extensión al parénquima. En este caso hay sangre en la matriz y en los ventrículos sin dilatación ni daño parenquimatoso: grado II. Los grados I y II suelen tener buen pronóstico, mientras los III y IV se asocian a hidrocefalia posthemorrágica y secuelas motoras y cognitivas. Clínicamente puede haber llanto agudo, hipotonía, succión débil o convulsiones, o ser asintomática. Se maneja con medidas de soporte, evitar fluctuaciones de la presión arterial y seguimiento ecográfico para vigilar la hidrocefalia. Perla: el clampeo tardío del cordón y la corticoterapia prenatal reducen la hemorragia intraventricular.",
+      "tema": "Hemorragia intraventricular grado II",
+      "año": 2020,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Papile LA et al. J Pediatr 1978;92:529-34; Volpe JJ. Volpe Neurología del Recién Nacido 6.ª ed. (2018)",
+      "categoria": "Neonatología"
+    },
+    {
+      "id": "RM-PED-287",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Niño de 6 años, traído a consulta por fiebre de 3 días de evolución, con dolor a la deglución. Los datos más relevantes de la exploración física son lesiones erosivas en el paladar y vesículas intraepidérmicas no agrupadas en palmas y plantas. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Enfermedad de pie-mano-boca.",
+        "Rickettsiosis.",
+        "Eritema multiforme.",
+        "Síndrome de Stevens-Johnson.",
+        "Faringitis aguda."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La enfermedad de pie-mano-boca es una infección viral frecuente en menores de 10 años, causada por enterovirus, sobre todo coxsackievirus A16 y enterovirus A71, y en brotes por A6 y A10. Se transmite por vía fecal-oral y por secreciones respiratorias; tras una incubación de 3 a 6 días aparecen fiebre baja, odinofagia y malestar. Luego se forman úlceras o erosiones en el paladar, la lengua y la mucosa bucal, que explican el dolor a la deglución, y vesículas ovaladas, de contenido claro y halo eritematoso, en palmas, plantas y a veces glúteos, que no se agrupan en racimos como en el herpes. Frente a las otras opciones: el eritema multiforme produce lesiones en diana de distribución acral; el síndrome de Stevens-Johnson causa erosiones mucosas extensas con desprendimiento cutáneo menor del 10 %, casi siempre tras fármacos; la rickettsiosis cursa con exantema macular o petequial centrípeto y cefalea; la faringitis aguda no produce lesiones cutáneas. El tratamiento es sintomático: hidratación, analgesia y dieta fresca. Se vigilan banderas rojas de enterovirus A71, como fiebre de más de 3 días, mioclonías, ataxia y vómitos persistentes, que sugieren meningitis, encefalitis de tronco o edema pulmonar. Perla: la herpangina compromete solo el paladar posterior y los pilares, sin lesiones en manos ni pies.",
+      "comentario": "La enfermedad de pie-mano-boca es una infección viral frecuente en menores de 10 años, causada por enterovirus, sobre todo coxsackievirus A16 y enterovirus A71, y en brotes por A6 y A10. Se transmite por vía fecal-oral y por secreciones respiratorias; tras una incubación de 3 a 6 días aparecen fiebre baja, odinofagia y malestar. Luego se forman úlceras o erosiones en el paladar, la lengua y la mucosa bucal, que explican el dolor a la deglución, y vesículas ovaladas, de contenido claro y halo eritematoso, en palmas, plantas y a veces glúteos, que no se agrupan en racimos como en el herpes. Frente a las otras opciones: el eritema multiforme produce lesiones en diana de distribución acral; el síndrome de Stevens-Johnson causa erosiones mucosas extensas con desprendimiento cutáneo menor del 10 %, casi siempre tras fármacos; la rickettsiosis cursa con exantema macular o petequial centrípeto y cefalea; la faringitis aguda no produce lesiones cutáneas. El tratamiento es sintomático: hidratación, analgesia y dieta fresca. Se vigilan banderas rojas de enterovirus A71, como fiebre de más de 3 días, mioclonías, ataxia y vómitos persistentes, que sugieren meningitis, encefalitis de tronco o edema pulmonar. Perla: la herpangina compromete solo el paladar posterior y los pilares, sin lesiones en manos ni pies.",
+      "tema": "Enfermedad de pie-mano-boca",
+      "año": 2020,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Ooi MH et al. Lancet Neurol 2010;9:1097-105 (enterovirus 71: clínica, diagnóstico y manejo)",
+      "categoria": "Infectología pediátrica",
+      "nota_revision": "Se corrigió la ortografía de «Stevens-Johnson» en la opción D."
+    },
+    {
+      "id": "RM-PED-288",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Niño de 4 años, llevado al Centro de Salud porque cinco minutos antes, comienza con cuadro de hipotensión arterial con angioedema en cara, inyección conjuntival, congestión nasal y ronquera, coincidiendo con la ingesta de dulces que le dieron en el colegio. Antecedente de alergia alimentaria. Examen físico: hipotensión, FC: 110 X', Sat O2: 93%, pálido y algo sudoroso, con sibilancias diseminadas. ¿Cuál es el tratamiento inicial de elección?",
+      "opciones": [
+        "Adrenalina 1/1000 intramuscular.",
+        "Metilprednisolona intramuscular.",
+        "Carbón activado.",
+        "Salbutamol nebulizado.",
+        "Loratadina via oral."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La anafilaxia es una reacción de hipersensibilidad sistémica grave, de inicio rápido, generalmente mediada por IgE. Se diagnostica con los criterios clínicos de NIAID/FAAN (2006): inicio agudo con compromiso de piel o mucosas (angioedema) más compromiso respiratorio (sibilancias, ronquera) o hipotensión, o exposición a un alérgeno probable con hipotensión. El niño presenta angioedema facial, ronquera, sibilancias e hipotensión minutos después de ingerir un alimento, por lo que cumple los criterios. El tratamiento inicial de elección es la adrenalina intramuscular en la cara anterolateral del muslo, a 0,01 mg/kg de la solución 1:1000 (1 mg/ml), con máximo de 0,3 mg en niños, repetible cada 5 a 15 minutos; la vía intramuscular ofrece mejor absorción y seguridad que la subcutánea. Sus efectos alfa y beta revierten la vasodilatación, el edema de la vía aérea y el broncoespasmo. Los demás fármacos son coadyuvantes y no sustituyen a la adrenalina: el salbutamol alivia el broncoespasmo, los antihistamínicos como la loratadina tratan la urticaria, los corticoides como la metilprednisolona pueden reducir la reacción tardía, y el carbón activado no tiene papel. Se complementa con posición supina, oxígeno, cristaloides y observación de 4 a 6 horas. Perla: el retraso en administrar adrenalina es el principal factor asociado con muerte por anafilaxia.",
+      "comentario": "La anafilaxia es una reacción de hipersensibilidad sistémica grave, de inicio rápido, generalmente mediada por IgE. Se diagnostica con los criterios clínicos de NIAID/FAAN (2006): inicio agudo con compromiso de piel o mucosas (angioedema) más compromiso respiratorio (sibilancias, ronquera) o hipotensión, o exposición a un alérgeno probable con hipotensión. El niño presenta angioedema facial, ronquera, sibilancias e hipotensión minutos después de ingerir un alimento, por lo que cumple los criterios. El tratamiento inicial de elección es la adrenalina intramuscular en la cara anterolateral del muslo, a 0,01 mg/kg de la solución 1:1000 (1 mg/ml), con máximo de 0,3 mg en niños, repetible cada 5 a 15 minutos; la vía intramuscular ofrece mejor absorción y seguridad que la subcutánea. Sus efectos alfa y beta revierten la vasodilatación, el edema de la vía aérea y el broncoespasmo. Los demás fármacos son coadyuvantes y no sustituyen a la adrenalina: el salbutamol alivia el broncoespasmo, los antihistamínicos como la loratadina tratan la urticaria, los corticoides como la metilprednisolona pueden reducir la reacción tardía, y el carbón activado no tiene papel. Se complementa con posición supina, oxígeno, cristaloides y observación de 4 a 6 horas. Perla: el retraso en administrar adrenalina es el principal factor asociado con muerte por anafilaxia.",
+      "tema": "Anafilaxia: tratamiento inicial",
+      "año": 2020,
+      "fuentes": "Cardona V et al. World Allergy Organ J 2020;13:100472 (guía WAO de anafilaxia); Sampson HA et al. J Allergy Clin Immunol 2006;117:391-7; Nelson Tratado de Pediatría 22.ª ed. (2024)",
+      "categoria": "Emergencias alérgicas"
+    },
+    {
+      "id": "RM-PED-289",
+      "especialidad": "Pediatría y Neonatología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "En relación al síndrome de rubéola congénita. ¿Cuál es la cardiopatía más frecuente?",
+      "opciones": [
+        "Atresia tricuspídea.",
+        "Conducto arterioso persistente.",
+        "CIV.",
+        "Atresia de la arteria pulmonar.",
+        "CIA."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La rubéola congénita es consecuencia de la infección materna por el virus de la rubéola durante el embarazo, sobre todo en el primer trimestre, cuando el riesgo de defectos mayores supera el 80 % antes de las 12 semanas. El virus atraviesa la placenta, infecta al feto y produce la tríada de Gregg: cataratas, sordera neurosensorial y cardiopatía congénita. La cardiopatía más frecuente es la persistencia del conducto arterioso, seguida de la estenosis de la arteria pulmonar (periférica) y, con menor frecuencia, defectos septales; la atresia tricuspídea y la atresia de la arteria pulmonar son raras en esta enfermedad. Otras manifestaciones son el retardo del crecimiento, microcefalia, hepatoesplenomegalia, trombocitopenia con púrpura («muffin de arándanos»), retinopatía en «sal y pimienta» y enfermedades de aparición tardía como diabetes mellitus. El diagnóstico del recién nacido se hace con IgM específica o RT-PCR, y el virus se excreta durante meses, por lo que debe aislarse al lactante. No hay tratamiento antiviral específico. La prevención es la vacuna triple viral, contraindicada en el embarazo; la región de las Américas fue declarada libre de rubéola endémica en 2015. Perla: la vacunación debe completarse al menos un mes antes de la concepción.",
+      "comentario": "La rubéola congénita es consecuencia de la infección materna por el virus de la rubéola durante el embarazo, sobre todo en el primer trimestre, cuando el riesgo de defectos mayores supera el 80 % antes de las 12 semanas. El virus atraviesa la placenta, infecta al feto y produce la tríada de Gregg: cataratas, sordera neurosensorial y cardiopatía congénita. La cardiopatía más frecuente es la persistencia del conducto arterioso, seguida de la estenosis de la arteria pulmonar (periférica) y, con menor frecuencia, defectos septales; la atresia tricuspídea y la atresia de la arteria pulmonar son raras en esta enfermedad. Otras manifestaciones son el retardo del crecimiento, microcefalia, hepatoesplenomegalia, trombocitopenia con púrpura («muffin de arándanos»), retinopatía en «sal y pimienta» y enfermedades de aparición tardía como diabetes mellitus. El diagnóstico del recién nacido se hace con IgM específica o RT-PCR, y el virus se excreta durante meses, por lo que debe aislarse al lactante. No hay tratamiento antiviral específico. La prevención es la vacuna triple viral, contraindicada en el embarazo; la región de las Américas fue declarada libre de rubéola endémica en 2015. Perla: la vacunación debe completarse al menos un mes antes de la concepción.",
+      "tema": "Cardiopatía en la rubéola congénita",
+      "año": 2020,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Lambert N et al. Lancet 2015;385:2297-307 (rubéola)",
+      "categoria": "Infecciones congénitas"
     }
   ]
 }

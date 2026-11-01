@@ -2392,6 +2392,48 @@
       "fuentes": "Campbell y cols., Accidente cerebrovascular isquémico (Nat Rev Dis Primers 2019); Kandel, Principles of Neural Science 6.ª ed. (2021)",
       "categoria": "Enfermedad cerebrovascular",
       "nota_revision": "Bloque dañado; la clave D (calcio) estaba en el texto («Respuesta. D»)."
+    },
+    {
+      "id": "RM-NRL-051",
+      "especialidad": "Neurología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Varón de 60 años, con cierta dificultad de movilizarse e incorporarse desde hace 1 año, presenta tremor en manos, el cual desaparece al realizar tareas manuales, no sonríe, está taciturno y permanece con una expresión fija facial, no ha perdido ninguna habilidad mental. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Encefalopatía de Wernicke.",
+        "Enfermedad de Alzheimer.",
+        "Enfermedad de Parkinson.",
+        "Esclerosis lateral amiotrófica.",
+        "Miastenia gravis."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La enfermedad de Parkinson resulta de la degeneración de las neuronas dopaminérgicas de la sustancia negra pars compacta, con depósito de alfa-sinucleína en cuerpos de Lewy. Se define por bradicinesia, indispensable para el diagnóstico, junto con temblor de reposo, rigidez o ambos, según los criterios de la Movement Disorder Society (2015). El paciente presenta lentitud para movilizarse, temblor en las manos que desaparece al realizar tareas manuales, es decir, temblor de reposo, e hipomimia con expresión fija, sin deterioro cognitivo inicial. En la encefalopatía de Wernicke hay confusión, oftalmoplejía y ataxia; en el Alzheimer predomina la pérdida de memoria; la esclerosis lateral amiotrófica produce debilidad con atrofia y fasciculaciones sin temblor; en la miastenia gravis hay fatiga fluctuante con ptosis y diplopía. La banderas rojas que sugieren parkinsonismo atípico son caída precoz, disautonomía grave y mala respuesta a levodopa. El tratamiento sintomático se basa en levodopa con carbidopa, agonistas dopaminérgicos, inhibidores de la MAO-B y COMT; la estimulación cerebral profunda se reserva para fluctuaciones motoras. Perla: el temblor del parkinson es de reposo y disminuye con el movimiento voluntario, a diferencia del temblor esencial.",
+      "comentario": "La enfermedad de Parkinson resulta de la degeneración de las neuronas dopaminérgicas de la sustancia negra pars compacta, con depósito de alfa-sinucleína en cuerpos de Lewy. Se define por bradicinesia, indispensable para el diagnóstico, junto con temblor de reposo, rigidez o ambos, según los criterios de la Movement Disorder Society (2015). El paciente presenta lentitud para movilizarse, temblor en las manos que desaparece al realizar tareas manuales, es decir, temblor de reposo, e hipomimia con expresión fija, sin deterioro cognitivo inicial. En la encefalopatía de Wernicke hay confusión, oftalmoplejía y ataxia; en el Alzheimer predomina la pérdida de memoria; la esclerosis lateral amiotrófica produce debilidad con atrofia y fasciculaciones sin temblor; en la miastenia gravis hay fatiga fluctuante con ptosis y diplopía. La banderas rojas que sugieren parkinsonismo atípico son caída precoz, disautonomía grave y mala respuesta a levodopa. El tratamiento sintomático se basa en levodopa con carbidopa, agonistas dopaminérgicos, inhibidores de la MAO-B y COMT; la estimulación cerebral profunda se reserva para fluctuaciones motoras. Perla: el temblor del parkinson es de reposo y disminuye con el movimiento voluntario, a diferencia del temblor esencial.",
+      "tema": "Enfermedad de Parkinson",
+      "año": 2020,
+      "fuentes": "Postuma RB et al. Mov Disord 2015;30:1591-601 (criterios diagnósticos de la MDS); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Trastornos del movimiento"
+    },
+    {
+      "id": "RM-NRL-052",
+      "especialidad": "Neurología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Varón de 30 años, desde hace un año presenta un episodio semanal de cefalea recurrente de lenta instalación, con dolor sordo, lo compara por una venda apretada alrededor de la cabeza; además presenta contracción de músculos posteriores del cuello; el dolor dura de 4-10 horas y no empeora con el ejercicio físico. Examen físico normal. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Tumor cerebral.",
+        "Cefalea tensional.",
+        "Cefalea en racimos.",
+        "Migraña.",
+        "Disfunción temporomandibular."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La cefalea de tipo tensional es la cefalea primaria más frecuente. Según la ICHD-3 (2018), se define por episodios de 30 minutos a 7 días, con al menos dos de cuatro características: localización bilateral, calidad opresiva o de presión (no pulsátil), intensidad leve o moderada y ausencia de agravamiento con la actividad física habitual, sin náuseas ni vómitos, y con fotofobia o fonofobia, pero no ambas. El paciente la describe como una venda apretada alrededor de la cabeza, con contractura cervical posterior, dura de 4 a 10 horas y no empeora con el ejercicio, con examen neurológico normal. La migraña es pulsátil, unilateral, moderada o intensa, empeora con el movimiento y se asocia a náuseas, fotofobia y fonofobia, con duración de 4 a 72 horas. La cefalea en racimos es estrictamente unilateral, periorbitaria, de 15 a 180 minutos, con lagrimeo y rinorrea ipsilaterales. Un tumor cerebral se sospecha ante cefalea progresiva, nocturna o con signos neurológicos; la disfunción temporomandibular provoca dolor mandibular con la masticación. Se denomina episódica cuando ocurre menos de 15 días al mes. El tratamiento agudo emplea paracetamol o antiinflamatorios y el preventivo, amitriptilina. Perla: los opioides y el abuso de analgésicos cronifican la cefalea.",
+      "comentario": "La cefalea de tipo tensional es la cefalea primaria más frecuente. Según la ICHD-3 (2018), se define por episodios de 30 minutos a 7 días, con al menos dos de cuatro características: localización bilateral, calidad opresiva o de presión (no pulsátil), intensidad leve o moderada y ausencia de agravamiento con la actividad física habitual, sin náuseas ni vómitos, y con fotofobia o fonofobia, pero no ambas. El paciente la describe como una venda apretada alrededor de la cabeza, con contractura cervical posterior, dura de 4 a 10 horas y no empeora con el ejercicio, con examen neurológico normal. La migraña es pulsátil, unilateral, moderada o intensa, empeora con el movimiento y se asocia a náuseas, fotofobia y fonofobia, con duración de 4 a 72 horas. La cefalea en racimos es estrictamente unilateral, periorbitaria, de 15 a 180 minutos, con lagrimeo y rinorrea ipsilaterales. Un tumor cerebral se sospecha ante cefalea progresiva, nocturna o con signos neurológicos; la disfunción temporomandibular provoca dolor mandibular con la masticación. Se denomina episódica cuando ocurre menos de 15 días al mes. El tratamiento agudo emplea paracetamol o antiinflamatorios y el preventivo, amitriptilina. Perla: los opioides y el abuso de analgésicos cronifican la cefalea.",
+      "tema": "Cefalea tensional",
+      "año": 2020,
+      "fuentes": "Headache Classification Committee of the IHS. ICHD-3. Cephalalgia 2018;38:1-211; Harrison Principios de Medicina Interna 21.ª ed. (2022); Bendtsen L et al. Eur J Neurol 2010;17:1318-25",
+      "categoria": "Cefaleas"
     }
   ]
 }

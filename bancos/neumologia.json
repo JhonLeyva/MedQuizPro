@@ -2855,6 +2855,112 @@
       "fuentes": "Dunne R y cols., Intravenous hydroxocobalamin for cyanide poisoning from smoke inhalation: scoping review (J Am Coll Emerg Physicians Open 2026); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
       "categoria": "Toxicología",
       "nota_revision": "Bloque dañado; la clave B se verificó en la imagen de la página. Se corrigió «HCO3 en mOsm/L» a mEq/L."
+    },
+    {
+      "id": "RM-NEU-067",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Varón de 40 años, consulta por fiebre de 38 °C, tos productiva y dolor torácico desde hace 5 días. Antecedente: fumador desde los 20 años. Examen: FR: 24 X', FC: 100 X', PA: 110/60 mmHg; Pulmones: respiración ruda, soplo tubárico y crepitantes en parte inferior de hemitórax derecho. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Neumonitis intersticial.",
+        "Derrame pleural.",
+        "Neumonía adquirida en la comunidad.",
+        "Tuberculosis pulmonar.",
+        "Aspergilosis pulmonar."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La neumonía adquirida en la comunidad es la infección aguda del parénquima pulmonar contraída fuera del hospital, con mayor frecuencia por Streptococcus pneumoniae. El cuadro clásico combina fiebre, tos productiva, dolor torácico de características pleuríticas, taquipnea y taquicardia, con síndrome de condensación al examen: respiración ruda, soplo tubárico y crepitantes localizados en una base pulmonar. Este paciente reúne todos esos elementos en el hemitórax derecho, con cinco días de evolución, y el tabaquismo es un factor de riesgo conocido. La neumonitis intersticial produce disnea progresiva, crepitantes bilaterales difusos y tos seca, sin soplo tubárico. El derrame pleural muestra matidez pétrea y abolición del murmullo vesicular, no soplo. La tuberculosis pulmonar tiene curso subagudo, con sudoración nocturna, pérdida de peso y tos de semanas. La aspergilosis exige inmunodepresión o cavidades previas. El diagnóstico se confirma con radiografía de tórax que muestra consolidación lobar o segmentaria. Se estratifica la gravedad con CURB-65 (0-1 punto, tratamiento ambulatorio; 2, valorar hospitalización; 3 o más, hospital y valorar UCI) y se trata en el paciente ambulatorio sano con amoxicilina o doxiciclina, y en el hospitalizado con betalactámico más macrólido. Perla: el soplo tubárico indica consolidación con bronquio permeable.",
+      "comentario": "La neumonía adquirida en la comunidad es la infección aguda del parénquima pulmonar contraída fuera del hospital, con mayor frecuencia por Streptococcus pneumoniae. El cuadro clásico combina fiebre, tos productiva, dolor torácico de características pleuríticas, taquipnea y taquicardia, con síndrome de condensación al examen: respiración ruda, soplo tubárico y crepitantes localizados en una base pulmonar. Este paciente reúne todos esos elementos en el hemitórax derecho, con cinco días de evolución, y el tabaquismo es un factor de riesgo conocido. La neumonitis intersticial produce disnea progresiva, crepitantes bilaterales difusos y tos seca, sin soplo tubárico. El derrame pleural muestra matidez pétrea y abolición del murmullo vesicular, no soplo. La tuberculosis pulmonar tiene curso subagudo, con sudoración nocturna, pérdida de peso y tos de semanas. La aspergilosis exige inmunodepresión o cavidades previas. El diagnóstico se confirma con radiografía de tórax que muestra consolidación lobar o segmentaria. Se estratifica la gravedad con CURB-65 (0-1 punto, tratamiento ambulatorio; 2, valorar hospitalización; 3 o más, hospital y valorar UCI) y se trata en el paciente ambulatorio sano con amoxicilina o doxiciclina, y en el hospitalizado con betalactámico más macrólido. Perla: el soplo tubárico indica consolidación con bronquio permeable.",
+      "tema": "Neumonía adquirida en la comunidad",
+      "año": 2020,
+      "fuentes": "Metlay JP et al. Am J Respir Crit Care Med 2019;200:e45-e67 (guía ATS/IDSA de neumonía adquirida en la comunidad); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Neumología"
+    },
+    {
+      "id": "RM-NEU-068",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Mujer de 60 años, presenta disnea de esfuerzo en los últimos 8 meses; actualmente con disnea a pequeños esfuerzos, tos seca durante el día. Antecedente de cocinar con leña desde la infancia hasta la actualidad. Examen: afebril, PA: 100/75 mmHg, FC: 88 X', FR: 24 X', uñas en vidrio de reloj y dedos en palillo de tambor; Pulmones: crepitantes secos tipo velcro en ambas bases pulmonares; Cardiovascular: normal; no hepatomegalia, no edemas. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Insuficiencia cardiaca congestiva.",
+        "Fibrosis pulmonar por colagenopatías.",
+        "Granulomatosis de Wegener.",
+        "Enfermedad pulmonar intersticial difusa.",
+        "Sarcoidosis."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "Las enfermedades pulmonares intersticiales difusas son un grupo heterogéneo de trastornos con inflamación y fibrosis del intersticio alveolar, que producen un patrón restrictivo y alteración de la difusión. La paciente de 60 años presenta disnea progresiva de 8 meses, tos seca, hipocratismo digital, crepitantes secos «en velcro» bibasales, sin signos de insuficiencia cardiaca derecha ni izquierda y con antecedente de exposición crónica al humo de leña (biomasa), un factor de riesgo reconocido. El diagnóstico más probable es enfermedad pulmonar intersticial difusa, en este caso con fibrosis. La insuficiencia cardiaca congestiva se acompaña de edemas, ingurgitación yugular, ortopnea y crepitantes húmedos. No hay datos sistémicos que sugieran colagenopatía (artritis, fenómeno de Raynaud, rash). La granulomatosis de Wegener (con poliangeítis) cursa con compromiso sinusal y renal; la sarcoidosis, con adenopatías hiliares y manifestaciones extrapulmonares. El estudio comprende tomografía de alta resolución, que muestra el patrón de neumonía intersticial usual (panal de abeja, reticulación subpleural), pruebas funcionales con CVF y DLCO disminuidas, y exclusión de causas. En la fibrosis pulmonar idiopática se emplean nintedanib o pirfenidona. Perla: el hipocratismo y los crepitantes en velcro bibasales orientan a fibrosis.",
+      "comentario": "Las enfermedades pulmonares intersticiales difusas son un grupo heterogéneo de trastornos con inflamación y fibrosis del intersticio alveolar, que producen un patrón restrictivo y alteración de la difusión. La paciente de 60 años presenta disnea progresiva de 8 meses, tos seca, hipocratismo digital, crepitantes secos «en velcro» bibasales, sin signos de insuficiencia cardiaca derecha ni izquierda y con antecedente de exposición crónica al humo de leña (biomasa), un factor de riesgo reconocido. El diagnóstico más probable es enfermedad pulmonar intersticial difusa, en este caso con fibrosis. La insuficiencia cardiaca congestiva se acompaña de edemas, ingurgitación yugular, ortopnea y crepitantes húmedos. No hay datos sistémicos que sugieran colagenopatía (artritis, fenómeno de Raynaud, rash). La granulomatosis de Wegener (con poliangeítis) cursa con compromiso sinusal y renal; la sarcoidosis, con adenopatías hiliares y manifestaciones extrapulmonares. El estudio comprende tomografía de alta resolución, que muestra el patrón de neumonía intersticial usual (panal de abeja, reticulación subpleural), pruebas funcionales con CVF y DLCO disminuidas, y exclusión de causas. En la fibrosis pulmonar idiopática se emplean nintedanib o pirfenidona. Perla: el hipocratismo y los crepitantes en velcro bibasales orientan a fibrosis.",
+      "tema": "Enfermedad pulmonar intersticial difusa",
+      "año": 2020,
+      "fuentes": "Raghu G et al. Am J Respir Crit Care Med 2018;198:e44-e68 (guía ATS/ERS/JRS/ALAT de fibrosis pulmonar idiopática); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Enfermedades intersticiales"
+    },
+    {
+      "id": "RM-NEU-069",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Paciente de 62 años, hospitalizado desde hace una semana por desorden cerebrovascular, presenta fiebre, tos con expectoración purulenta, crepitantes y subcrepitantes en la base de hemitórax derecho. Se sospecha de neumonía intrahospitalaria. ¿Cuál es el agente etiológico más frecuente para iniciar tratamiento empírico?",
+      "opciones": [
+        "Streptococcus.",
+        "Haemophilus.",
+        "Pseudomonas.",
+        "Neumococo.",
+        "Micobacterium."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La neumonía intrahospitalaria aparece después de 48 horas de ingreso, y la asociada al ventilador, después de 48 horas de intubación. Este paciente, de 62 años, hospitalizado una semana por enfermedad cerebrovascular, es propenso a la aspiración por disfagia y alteración de la conciencia. La microbiota hospitalaria difiere de la comunitaria: predominan los bacilos gramnegativos, entre ellos Pseudomonas aeruginosa, Klebsiella y Acinetobacter, y Staphylococcus aureus, incluido el resistente a meticilina. La clave oficial señala a Pseudomonas como el agente empírico más relevante, pues exige cobertura antipseudomónica en el tratamiento inicial. Streptococcus pneumoniae y Haemophilus influenzae son típicos de la neumonía adquirida en la comunidad y de la nosocomial temprana (antes de 5 días) sin factores de riesgo, y Mycobacterium no corresponde a un cuadro agudo. La guía IDSA/ATS de 2016 recomienda cubrir S. aureus y bacilos gramnegativos, con un betalactámico antipseudomónico (piperacilina-tazobactam, cefepima, meropenem), y añadir vancomicina o linezolid si hay factores de riesgo para SARM. La duración habitual es de siete días, con cultivos de esputo o aspirado traqueal. Perla: la mortalidad atribuible es alta, y la terapia empírica inadecuada la incrementa.",
+      "comentario": "La neumonía intrahospitalaria aparece después de 48 horas de ingreso, y la asociada al ventilador, después de 48 horas de intubación. Este paciente, de 62 años, hospitalizado una semana por enfermedad cerebrovascular, es propenso a la aspiración por disfagia y alteración de la conciencia. La microbiota hospitalaria difiere de la comunitaria: predominan los bacilos gramnegativos, entre ellos Pseudomonas aeruginosa, Klebsiella y Acinetobacter, y Staphylococcus aureus, incluido el resistente a meticilina. La clave oficial señala a Pseudomonas como el agente empírico más relevante, pues exige cobertura antipseudomónica en el tratamiento inicial. Streptococcus pneumoniae y Haemophilus influenzae son típicos de la neumonía adquirida en la comunidad y de la nosocomial temprana (antes de 5 días) sin factores de riesgo, y Mycobacterium no corresponde a un cuadro agudo. La guía IDSA/ATS de 2016 recomienda cubrir S. aureus y bacilos gramnegativos, con un betalactámico antipseudomónico (piperacilina-tazobactam, cefepima, meropenem), y añadir vancomicina o linezolid si hay factores de riesgo para SARM. La duración habitual es de siete días, con cultivos de esputo o aspirado traqueal. Perla: la mortalidad atribuible es alta, y la terapia empírica inadecuada la incrementa.",
+      "tema": "Neumonía intrahospitalaria: agente empírico",
+      "año": 2020,
+      "fuentes": "Kalil AC et al. Clin Infect Dis 2016;63:e61-111 (guía IDSA/ATS de neumonía nosocomial y asociada a ventilador); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Neumonía nosocomial",
+      "nota_revision": "La IDSA/ATS 2016 señala a S. aureus y a los bacilos gramnegativos, con Pseudomonas como el más importante a cubrir; la clave oficial es Pseudomonas."
+    },
+    {
+      "id": "RM-NEU-070",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Varón de 25 años, natural de Lima, viaja por primera vez a Puno (3827 msnm); al llegar presenta cefalea, mareos, hipoacusia parcial, palpitaciones y disnea de esfuerzo. Al examen: edema en región maleolar bilateral. ¿Qué fármaco pudo tomar antes del viaje para evitar este cuadro?",
+      "opciones": [
+        "Bumetanida.",
+        "Hidroclorotiazida.",
+        "Furosemida.",
+        "Acetazolamida.",
+        "Espironolactona."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "El mal agudo de montaña es el síndrome que aparece al ascender rápidamente a más de 2500 metros sin aclimatación. La hipoxia hipobárica produce vasodilatación cerebral, retención de líquido y edema, y se manifiesta con cefalea, mareos, insomnio, náuseas, disnea de esfuerzo, palpitaciones y edema periférico o maleolar, como en este viajero que sube a Puno. Su criterio diagnóstico (puntuación del Lake Louise de 2018) exige cefalea más al menos un síntoma adicional tras una ganancia de altitud. La acetazolamida es el fármaco de elección para la prevención, porque inhibe la anhidrasa carbónica y provoca una acidosis metabólica leve por diuresis de bicarbonato, lo cual estimula la ventilación y acelera la aclimatación; se administra a razón de 125 mg cada 12 horas, comenzando uno o dos días antes del ascenso. Los diuréticos de asa (furosemida, bumetanida) y las tiazidas causan deshidratación y alcalosis, empeoran la tolerancia a la altura y no tienen efecto preventivo; la espironolactona carece de utilidad. La dexametasona es una alternativa para la prevención y el tratamiento, pero de segunda línea. El tratamiento consiste en descender, oxígeno y acetazolamida; si progresa a edema cerebral o pulmonar, se añaden dexametasona, nifedipino y descenso urgente. Perla: ascender no más de 500 metros de dormida por día por encima de 3000 metros.",
+      "comentario": "El mal agudo de montaña es el síndrome que aparece al ascender rápidamente a más de 2500 metros sin aclimatación. La hipoxia hipobárica produce vasodilatación cerebral, retención de líquido y edema, y se manifiesta con cefalea, mareos, insomnio, náuseas, disnea de esfuerzo, palpitaciones y edema periférico o maleolar, como en este viajero que sube a Puno. Su criterio diagnóstico (puntuación del Lake Louise de 2018) exige cefalea más al menos un síntoma adicional tras una ganancia de altitud. La acetazolamida es el fármaco de elección para la prevención, porque inhibe la anhidrasa carbónica y provoca una acidosis metabólica leve por diuresis de bicarbonato, lo cual estimula la ventilación y acelera la aclimatación; se administra a razón de 125 mg cada 12 horas, comenzando uno o dos días antes del ascenso. Los diuréticos de asa (furosemida, bumetanida) y las tiazidas causan deshidratación y alcalosis, empeoran la tolerancia a la altura y no tienen efecto preventivo; la espironolactona carece de utilidad. La dexametasona es una alternativa para la prevención y el tratamiento, pero de segunda línea. El tratamiento consiste en descender, oxígeno y acetazolamida; si progresa a edema cerebral o pulmonar, se añaden dexametasona, nifedipino y descenso urgente. Perla: ascender no más de 500 metros de dormida por día por encima de 3000 metros.",
+      "tema": "Prevención del mal agudo de montaña con acetazolamida",
+      "año": 2020,
+      "fuentes": "Luks AM et al. Wilderness Environ Med 2019;30(4S):S3-S18 (guía de la Wilderness Medical Society sobre enfermedad de altura); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Medicina de altura"
+    },
+    {
+      "id": "RM-NEU-071",
+      "especialidad": "Neumología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "¿Por qué se caracteriza la insuficiencia respiratoria tipo II?",
+      "opciones": [
+        "Hipoxemia más normocapnia.",
+        "Hipoxemia más hipercapnia.",
+        "Normocapnia.",
+        "Hipoxemia.",
+        "Hipercapnia."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La insuficiencia respiratoria aguda se define por una presión arterial de oxígeno menor de 60 mmHg respirando aire ambiente. Se clasifica según la presión de dióxido de carbono. El tipo I o hipoxémica cursa con hipoxemia y PaCO2 normal o baja, y es consecuencia de alteraciones de la relación ventilación-perfusión, cortocircuito o difusión, como en la neumonía, el edema pulmonar o el SDRA. El tipo II o hipercápnica cursa con hipoxemia más hipercapnia (PaCO2 mayor de 45-50 mmHg), por hipoventilación alveolar; la causa puede estar en el impulso central (sobredosis de opioides), en la mecánica de la caja torácica y los músculos (miastenia, Guillain-Barré, cifoescoliosis) o en la vía aérea (EPOC, asma grave). Por eso la hipoxemia sola o la hipercapnia sola, o la normocapnia, no definen el tipo II. En la gasometría hay acidosis respiratoria y el gradiente alvéolo-arterial es normal si la causa es solo hipoventilación. El tratamiento consiste en tratar la causa, administrar oxígeno controlado con saturación objetivo de 88-92 % en pacientes con riesgo de hipercapnia, y ventilación no invasiva con presión positiva, que reduce la intubación y la mortalidad en la EPOC exacerbada. Perla: el exceso de oxígeno en el paciente con EPOC puede agravar la hipercapnia.",
+      "comentario": "La insuficiencia respiratoria aguda se define por una presión arterial de oxígeno menor de 60 mmHg respirando aire ambiente. Se clasifica según la presión de dióxido de carbono. El tipo I o hipoxémica cursa con hipoxemia y PaCO2 normal o baja, y es consecuencia de alteraciones de la relación ventilación-perfusión, cortocircuito o difusión, como en la neumonía, el edema pulmonar o el SDRA. El tipo II o hipercápnica cursa con hipoxemia más hipercapnia (PaCO2 mayor de 45-50 mmHg), por hipoventilación alveolar; la causa puede estar en el impulso central (sobredosis de opioides), en la mecánica de la caja torácica y los músculos (miastenia, Guillain-Barré, cifoescoliosis) o en la vía aérea (EPOC, asma grave). Por eso la hipoxemia sola o la hipercapnia sola, o la normocapnia, no definen el tipo II. En la gasometría hay acidosis respiratoria y el gradiente alvéolo-arterial es normal si la causa es solo hipoventilación. El tratamiento consiste en tratar la causa, administrar oxígeno controlado con saturación objetivo de 88-92 % en pacientes con riesgo de hipercapnia, y ventilación no invasiva con presión positiva, que reduce la intubación y la mortalidad en la EPOC exacerbada. Perla: el exceso de oxígeno en el paciente con EPOC puede agravar la hipercapnia.",
+      "tema": "Insuficiencia respiratoria tipo II",
+      "año": 2020,
+      "fuentes": "Davidson AC et al. Thorax 2016;71(Supl 2):ii1-35 (guía BTS/ICS de insuficiencia respiratoria hipercápnica aguda); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Insuficiencia respiratoria"
     }
   ]
 }
