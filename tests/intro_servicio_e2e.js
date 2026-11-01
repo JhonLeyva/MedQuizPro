@@ -69,7 +69,7 @@ for (const s of ["emergencias", "uci", "consulta", "hospital"]) { const f = path
     const cm = await navegador.newContext({ viewport: { width: 1600, height: 900 } }); const q = await nueva(cm);
     await q.goto(base + "app/#/guardia/uci"); await q.waitForSelector("dialog.is-intro canvas"); await dormir(900);
     const verde = await q.evaluate(() => { const c = document.querySelector(".is-intro__lienzo"), x = c.getContext("2d").getImageData(0, 0, c.width, c.height).data; let v = 0, r = 0, a = 0; for (let i = 0; i < x.length; i += 4) { if (x[i + 3] < 200) continue; if (x[i + 1] > 180 && x[i] < 120) v++; if (x[i] > 200 && x[i + 1] < 120) r++; if (x[i] > 200 && x[i + 1] > 180 && x[i + 2] < 120) a++; } return [v, r, a]; });
-    ok(verde[0] > 80 && verde[1] > 40 && verde[2] > 40, "uci: el monitor dibuja el ECG verde, la saturación roja y la pletismografía/frecuencia amarillas (" + verde.join("/") + ")");
+    ok(verde[0] > 80 && verde[2] > 40, "uci: el monitor dibuja las curvas en movimiento (ECG verde y pletismografía amarilla) y no repinta las cifras ni las etiquetas (" + verde.join("/") + ")");
     await cm.close();
     /* reducir movimiento: un fotograma estático */
     const cr = await navegador.newContext({ viewport: { width: 1280, height: 800 }, reducedMotion: "reduce" }); const r = await nueva(cr); await r.goto(base + "app/#/guardia/emergencias"); await r.waitForSelector("dialog.is-intro canvas"); await dormir(500);
