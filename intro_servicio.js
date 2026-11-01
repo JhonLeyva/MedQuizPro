@@ -104,8 +104,9 @@
     var QT = [[1277, 164], [1467, 160], [1467, 300], [1277, 299]];   // TL, TR, BR, BL de la zona de trazo (negra) del monitor, en píxeles de la imagen
     function dibujarEmerg(t) {
       g.globalCompositeOperation = "source-over";
-      g.beginPath(); [[0.0, 0.0], [1, 0], [1, 1], [0, 1]].forEach(function (uv, i) { var c = pq(QT, uv[0], uv[1]); i ? g.lineTo(c[0], c[1]) : g.moveTo(c[0], c[1]); }); g.closePath(); g.fillStyle = "#070b14"; g.fill();
-      trazoQ(QT, ondaFA, t, 0.01, 0.99, 0.58, 0.2, 3.4, "#9fd2ff", 1.9, 330, 5);
+      // solo se tapa la raya plana original (franja fina, mismo negro del cristal); el resto de la foto queda intacto
+      g.beginPath(); [[0.075, 0.566], [0.945, 0.566], [0.945, 0.634], [0.075, 0.634]].forEach(function (uv, i) { var c = pq(QT, uv[0], uv[1]); i ? g.lineTo(c[0], c[1]) : g.moveTo(c[0], c[1]); }); g.closePath(); g.fillStyle = "#0d151f"; g.fill();
+      trazoQ(QT, ondaFA, t, 0.075, 0.945, 0.60, 0.2, 3.4, "#9fd2ff", 1.9, 330, 5);
     }
 
     /* ---- UCI ----
