@@ -63,8 +63,7 @@
   "tema": "Esquema atrasado de vacunación",
   "año": 2020,
   "fuentes": "American Academy of Pediatrics, Red Book 2024-2027; CDC. General Best Practice Guidelines for Immunization (actualización 2023); Plotkin Vaccines 7.ª ed. (2018)",
-  "categoria": "Inmunizaciones",
-  "nota_revision": "Sin clave oficial en el PDF: la clave se asignó con criterio clínico."
+  "categoria": "Inmunizaciones"
  },
  {
   "archivo": "pediatria",
@@ -108,8 +107,7 @@
   "tema": "Sospecha de enfermedad metabólica hereditaria",
   "año": 2020,
   "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024)",
-  "categoria": "Genética",
-  "nota_revision": "Sin clave oficial en el PDF: la clave se asignó con criterio clínico."
+  "categoria": "Genética"
  },
  {
   "archivo": "pediatria",
@@ -132,7 +130,7 @@
   "año": 2020,
   "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Shaw BA, Segal LS. Pediatrics 2016;138:e20163107 (AAP, evaluación y derivación en displasia del desarrollo de cadera); Campbell Cirugía Ortopédica 14.ª ed. (2021)",
   "categoria": "Ortopedia",
-  "nota_revision": "Sin clave oficial en el PDF: la clave se asignó con criterio clínico. El porcentaje citado en los textos varía entre 90 y 95 %; se eligió 95 %."
+  "nota_revision": "El porcentaje citado en los textos varía entre 90 y 95 %; la clave oficial es 95 %."
  },
  {
   "archivo": "pediatria",
@@ -243,7 +241,7 @@
   "año": 2020,
   "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Nieuwlaat R et al. Cochrane Database Syst Rev 2014;(11):CD000011 (intervenciones para mejorar la adherencia); Sabaté E. Adherence to Long-term Therapies. OMS 2003",
   "categoria": "Pediatría general",
-  "nota_revision": "Sin clave oficial en el PDF: la clave se asignó con criterio clínico. Pregunta general con varias opciones razonables: se eligió la simplificación del esquema."
+  "nota_revision": "Pregunta general con varias opciones razonables; la clave oficial es la simplificación del esquema."
  },
  {
   "archivo": "pediatria",
@@ -397,8 +395,7 @@
   "tema": "Causas de hemoptisis en el niño sano",
   "año": 2020,
   "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Kendig Enfermedades Respiratorias en Niños 9.ª ed. (2018)",
-  "categoria": "Neumología",
-  "nota_revision": "Sin clave oficial en el PDF: la clave se asignó con criterio clínico."
+  "categoria": "Neumología"
  },
  {
   "archivo": "pediatria",
@@ -421,7 +418,7 @@
   "año": 2020,
   "fuentes": "Gewitz MH et al. Circulation 2015;131:1806-18 (AHA, revisión de los criterios de Jones); Nelson Tratado de Pediatría 22.ª ed. (2024); OMS. Rheumatic fever and rheumatic heart disease, Technical Report Series 923 (2004)",
   "categoria": "Reumatología",
-  "nota_revision": "Sin clave oficial en el PDF: la clave se asignó con criterio clínico. Pregunta ambigua: la literatura recomienda evitar todo antiinflamatorio (salicilatos, AINE, corticoides) y usar paracetamol; se eligió salicilatos por ser el fármaco clásico que más enmascara la artritis."
+  "nota_revision": "Pregunta ambigua: la literatura recomienda evitar todo antiinflamatorio (salicilatos, AINE, corticoides) y usar paracetamol; la clave oficial es salicilatos, el fármaco clásico que más enmascara la artritis."
  },
  {
   "archivo": "pediatria",
@@ -436,14 +433,15 @@
    "Dermatitis de contacto irritante.",
    "Tiña capitis."
   ],
-  "correcta": 0,
-  "clave_correcta": "A",
-  "explicacion": "La dermatitis de contacto alérgica es una reacción de hipersensibilidad retardada tipo IV mediada por linfocitos T frente a un alérgeno al que la piel se sensibilizó previamente (plantas como hiedra o mango, níquel, cosméticos). Aparece entre 12 y 72 horas después de la reexposición, con eritema, pápulas, vesículas y ampollas muy pruriginosas, en la zona de contacto y a menudo con una distribución lineal; con el tiempo puede quedar hiperpigmentación. Este niño estuvo jugando en el jardín el día anterior y presenta lesiones localizadas en el cuello, expuestas a plantas, por lo que la dermatitis de contacto alérgica es lo más probable; si el contacto con el vegetal y luz solar origina una lesión ampollar con hiperpigmentación posterior, hablamos de fitofotodermatitis, un cuadro relacionado. La dermatitis atópica tiene distribución en flexuras y curso crónico; la seborreica, escamas grasosas; la irritante aparece pronto y quema más que pica, y la tiña capitis afecta cuero cabelludo. El tratamiento: evitar el alérgeno, lavar la piel, usar corticoide tópico y, en casos extensos, corticoide oral. Perla: la prueba del parche confirma el alérgeno en casos recurrentes.",
-  "comentario": "La dermatitis de contacto alérgica es una reacción de hipersensibilidad retardada tipo IV mediada por linfocitos T frente a un alérgeno al que la piel se sensibilizó previamente (plantas como hiedra o mango, níquel, cosméticos). Aparece entre 12 y 72 horas después de la reexposición, con eritema, pápulas, vesículas y ampollas muy pruriginosas, en la zona de contacto y a menudo con una distribución lineal; con el tiempo puede quedar hiperpigmentación. Este niño estuvo jugando en el jardín el día anterior y presenta lesiones localizadas en el cuello, expuestas a plantas, por lo que la dermatitis de contacto alérgica es lo más probable; si el contacto con el vegetal y luz solar origina una lesión ampollar con hiperpigmentación posterior, hablamos de fitofotodermatitis, un cuadro relacionado. La dermatitis atópica tiene distribución en flexuras y curso crónico; la seborreica, escamas grasosas; la irritante aparece pronto y quema más que pica, y la tiña capitis afecta cuero cabelludo. El tratamiento: evitar el alérgeno, lavar la piel, usar corticoide tópico y, en casos extensos, corticoide oral. Perla: la prueba del parche confirma el alérgeno en casos recurrentes.",
-  "tema": "Dermatitis de contacto alérgica",
+  "correcta": 3,
+  "clave_correcta": "D",
+  "explicacion": "La dermatitis de contacto irritante es la forma más frecuente de dermatitis de contacto en niños. Se produce por daño directo de la barrera cutánea, sin sensibilización inmunológica previa: la sustancia (savia o látex de plantas, tierra, detergentes, saliva, sudor, fricción) actúa sobre cualquier persona con una exposición suficiente, aparece pocas horas después del contacto, incluso en la primera exposición, y se limita estrictamente a la zona de contacto. Este preescolar jugó en el jardín el día anterior y presenta lesiones pápulo-ampollares localizadas en el cuello, con prurito y hiperpigmentación residual, un patrón compatible con irritación por plantas o fitofotodermatitis. La dermatitis alérgica de contacto, de hipersensibilidad tipo IV, exige sensibilización previa, tarda de 12 a 72 horas, puede extenderse más allá de la zona expuesta y se confirma con la prueba del parche. La dermatitis atópica compromete las flexuras de forma crónica y recurrente; la seborreica produce escamas grasosas en cuero cabelludo y pliegues; y la tiña capitis se limita al cuero cabelludo. El tratamiento consiste en lavar la zona con agua y jabón, evitar el contacto, aplicar emolientes, corticoide tópico de baja potencia y, si hay ampollas extensas, curas locales. Perla: la hiperpigmentación lineal tras la exposición solar con plantas cítricas, higo o apio señala fitofotodermatitis.",
+  "comentario": "La dermatitis de contacto irritante es la forma más frecuente de dermatitis de contacto en niños. Se produce por daño directo de la barrera cutánea, sin sensibilización inmunológica previa: la sustancia (savia o látex de plantas, tierra, detergentes, saliva, sudor, fricción) actúa sobre cualquier persona con una exposición suficiente, aparece pocas horas después del contacto, incluso en la primera exposición, y se limita estrictamente a la zona de contacto. Este preescolar jugó en el jardín el día anterior y presenta lesiones pápulo-ampollares localizadas en el cuello, con prurito y hiperpigmentación residual, un patrón compatible con irritación por plantas o fitofotodermatitis. La dermatitis alérgica de contacto, de hipersensibilidad tipo IV, exige sensibilización previa, tarda de 12 a 72 horas, puede extenderse más allá de la zona expuesta y se confirma con la prueba del parche. La dermatitis atópica compromete las flexuras de forma crónica y recurrente; la seborreica produce escamas grasosas en cuero cabelludo y pliegues; y la tiña capitis se limita al cuero cabelludo. El tratamiento consiste en lavar la zona con agua y jabón, evitar el contacto, aplicar emolientes, corticoide tópico de baja potencia y, si hay ampollas extensas, curas locales. Perla: la hiperpigmentación lineal tras la exposición solar con plantas cítricas, higo o apio señala fitofotodermatitis.",
+  "tema": "Dermatitis de contacto irritante",
   "año": 2020,
-  "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Fitzpatrick Dermatología 9.ª ed. (2019)",
-  "categoria": "Dermatología"
+  "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Fitzpatrick Dermatología 9.ª ed. (2019); Weston WL, Lane AT. Dermatología Pediátrica (Color Textbook of Pediatric Dermatology), 5.ª ed. (2016)",
+  "categoria": "Dermatología",
+  "nota_revision": "Las dermatitis de contacto irritante y alérgica pueden parecerse en el niño; la clave oficial del examen es la irritante."
  },
  {
   "archivo": "pediatria",
@@ -465,8 +463,7 @@
   "tema": "Múltiples dosis de vacunas inactivadas",
   "año": 2020,
   "fuentes": "American Academy of Pediatrics, Red Book 2024-2027; Plotkin Vaccines 7.ª ed. (2018); Pollard AJ, Bijker EM. Nat Rev Immunol 2021;21:83-100 (guía conceptual de las vacunas)",
-  "categoria": "Inmunizaciones",
-  "nota_revision": "Sin clave oficial en el PDF: la clave se asignó con criterio clínico."
+  "categoria": "Inmunizaciones"
  },
  {
   "archivo": "pediatria",
@@ -489,7 +486,7 @@
   "año": 2020,
   "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); OMS. Guideline: Vitamin A supplementation in infants and children 6-59 months of age (2011); Sommer A. Vitamin A deficiency and its consequences, 3.ª ed. OMS (1995)",
   "categoria": "Nutrición",
-  "nota_revision": "Sin clave oficial en el PDF: la clave se asignó con criterio clínico. El enunciado dice «mancha hiperpigmentada»; la mancha de Bitot es blanquecina: se mantuvo vitamina A por el contexto nutricional y ocular."
+  "nota_revision": "El enunciado dice «mancha hiperpigmentada»; la mancha de Bitot es blanquecina, pero la clave oficial es vitamina A por el contexto nutricional y ocular."
  },
  {
   "archivo": "pediatria",
@@ -511,8 +508,7 @@
   "tema": "Hipertermia por exposición solar en el lactante",
   "año": 2020,
   "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); AAP. Sun safety (HealthyChildren.org)",
-  "categoria": "Urgencias",
-  "nota_revision": "Sin clave oficial en el PDF: la clave se asignó con criterio clínico."
+  "categoria": "Urgencias"
  },
  {
   "archivo": "pediatria",
@@ -534,8 +530,7 @@
   "tema": "Leucopenia como signo de sepsis neonatal precoz",
   "año": 2020,
   "fuentes": "Puopolo KM et al. Pediatrics 2018;142:e20182894 (AAP, manejo de sepsis neonatal precoz en ≥35 semanas); Nelson Tratado de Pediatría 22.ª ed. (2024); NTS 214-MINSA/DGIESP-2024",
-  "categoria": "Neonatología",
-  "nota_revision": "Sin clave oficial en el PDF: la clave se asignó con criterio clínico."
+  "categoria": "Neonatología"
  },
  {
   "archivo": "pediatria",

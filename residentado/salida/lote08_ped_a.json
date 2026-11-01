@@ -42,7 +42,7 @@
   "año": 2020,
   "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Graeff-Teixeira C et al. Lancet Infect Dis 2009;9:399-407; Red Book 2024-2027 (AAP)",
   "categoria": "Infectología",
-  "nota_revision": "El PDF del examen no trae clave oficial: la clave se asignó con criterio clínico. El antecedente por Áscaris es atípico; la opción B es la única que integra el dato parasitario con el cuadro meníngeo-cerebeloso."
+  "nota_revision": "El antecedente de infestación por Áscaris es atípico para una meningitis eosinofílica; la opción B es la única que integra el dato parasitario con el cuadro meníngeo-cerebeloso."
  },
  {
   "archivo": "pediatria",
@@ -130,8 +130,7 @@
   "tema": "Desarrollo pleno de los sonidos del habla",
   "año": 2020,
   "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Sander EK. J Speech Hear Disord 1972;37:55-63",
-  "categoria": "Desarrollo",
-  "nota_revision": "Sin clave oficial en el PDF: se asignó 6-7 años (consolidación de todos los fonemas según Nelson)."
+  "categoria": "Desarrollo"
  },
  {
   "archivo": "pediatria",
@@ -389,15 +388,15 @@
    "No balbucea, ni señala, ni gesticula a los 9 meses.",
    "Dificultades para responder preguntas «qué, cómo, cuándo, dónde, por qué» a los 36 meses."
   ],
-  "correcta": 3,
-  "clave_correcta": "D",
-  "explicacion": "En la vigilancia del desarrollo, las alertas de comunicación se evalúan por edad. A los 9 meses el lactante debe balbucear con sílabas (mamama, bababa), responder al nombre, señalar o gesticular; la ausencia de balbuceo, de gestos comunicativos o de señalamiento a esa edad es un signo de alarma importante, porque se asocia a trastornos del espectro autista, sordera y retraso del lenguaje, y exige derivación y audiometría sin esperar. Las otras situaciones son retrasos que se vigilan o se manejan por pasos: no decir palabras a los 15 meses y no combinar palabras a los 18 meses ya preocupan, pero la combinación a los 24 meses es el hito esperado; que los padres no comprendan el habla a los 24 meses se considera aún dentro de la variación, y la dificultad con preguntas a los 36 meses se aborda con evaluación del lenguaje programada. Cualquier regresión de habilidades, a cualquier edad, es criterio de derivación inmediata. Perla: toda alerta del lenguaje requiere audiometría y tamizaje de autismo.",
-  "comentario": "En la vigilancia del desarrollo, las alertas de comunicación se evalúan por edad. A los 9 meses el lactante debe balbucear con sílabas (mamama, bababa), responder al nombre, señalar o gesticular; la ausencia de balbuceo, de gestos comunicativos o de señalamiento a esa edad es un signo de alarma importante, porque se asocia a trastornos del espectro autista, sordera y retraso del lenguaje, y exige derivación y audiometría sin esperar. Las otras situaciones son retrasos que se vigilan o se manejan por pasos: no decir palabras a los 15 meses y no combinar palabras a los 18 meses ya preocupan, pero la combinación a los 24 meses es el hito esperado; que los padres no comprendan el habla a los 24 meses se considera aún dentro de la variación, y la dificultad con preguntas a los 36 meses se aborda con evaluación del lenguaje programada. Cualquier regresión de habilidades, a cualquier edad, es criterio de derivación inmediata. Perla: toda alerta del lenguaje requiere audiometría y tamizaje de autismo.",
+  "correcta": 0,
+  "clave_correcta": "A",
+  "explicacion": "En la vigilancia del lenguaje se comparan los logros del niño con los hitos esperados y se derivan los casos que no los alcanzan en el plazo máximo aceptado. Hacia los 12 meses el lactante dice sus primeras palabras con intención y a los 15 meses debe usar al menos algunas palabras sueltas con significado, además de señalar y comprender órdenes sencillas. No decir palabras a los 15 meses supera el límite de la variación normal, por lo que obliga a derivar para evaluación del lenguaje y audiometría, y a buscar sordera, retraso global o trastorno del espectro autista. Las otras situaciones aún entran en la variación esperada o corresponden a otro momento de la vigilancia: a los 18 meses se espera un vocabulario de unas 10 a 50 palabras, y las combinaciones de dos palabras se esperan hacia los 24 meses; a los 24 meses los extraños comprenden cerca de la mitad del habla, y las preguntas con «qué, dónde, por qué» se dominan a lo largo del tercer año. La ausencia de balbuceo y de gestos a los 9 meses es una señal de alerta que se vigila de cerca y obliga a derivar si persiste a los 12 meses. Perla: cualquier pérdida de habilidades ya adquiridas, a cualquier edad, requiere derivación inmediata.",
+  "comentario": "En la vigilancia del lenguaje se comparan los logros del niño con los hitos esperados y se derivan los casos que no los alcanzan en el plazo máximo aceptado. Hacia los 12 meses el lactante dice sus primeras palabras con intención y a los 15 meses debe usar al menos algunas palabras sueltas con significado, además de señalar y comprender órdenes sencillas. No decir palabras a los 15 meses supera el límite de la variación normal, por lo que obliga a derivar para evaluación del lenguaje y audiometría, y a buscar sordera, retraso global o trastorno del espectro autista. Las otras situaciones aún entran en la variación esperada o corresponden a otro momento de la vigilancia: a los 18 meses se espera un vocabulario de unas 10 a 50 palabras, y las combinaciones de dos palabras se esperan hacia los 24 meses; a los 24 meses los extraños comprenden cerca de la mitad del habla, y las preguntas con «qué, dónde, por qué» se dominan a lo largo del tercer año. La ausencia de balbuceo y de gestos a los 9 meses es una señal de alerta que se vigila de cerca y obliga a derivar si persiste a los 12 meses. Perla: cualquier pérdida de habilidades ya adquiridas, a cualquier edad, requiere derivación inmediata.",
   "tema": "Criterio de derivación en el desarrollo del lenguaje",
   "año": 2020,
   "fuentes": "Lipkin PH, Macias MM. Pediatrics 2020;145:e20193449 (AAP, vigilancia y cribado del desarrollo); Nelson Tratado de Pediatría 22.ª ed. (2024)",
   "categoria": "Crecimiento y desarrollo",
-  "nota_revision": "Sin clave oficial en el PDF: se eligió D por ser la señal de alarma más precoz y específica."
+  "nota_revision": "La señal de ausencia de balbuceo, gestos y señalamiento a los 9 meses (opción D) también es una alerta de desarrollo; la clave oficial del examen es la A."
  },
  {
   "archivo": "pediatria",
@@ -552,6 +551,6 @@
   "año": 2020,
   "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Baker RD, Greer FR. Pediatrics 2010;126:1040-50 (AAP, diagnóstico y prevención de la deficiencia de hierro)",
   "categoria": "Hematología",
-  "nota_revision": "Sin clave oficial en el PDF. La literatura indica 2-3 meses adicionales tras normalizar la hemoglobina; se eligió 2 meses y la clave podría diferir de la del examen original."
+  "nota_revision": "La literatura indica 2-3 meses adicionales tras normalizar la hemoglobina; la clave oficial del examen es 2 meses."
  }
 ]

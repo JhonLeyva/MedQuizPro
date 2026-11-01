@@ -10234,7 +10234,7 @@
       "año": 2020,
       "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Graeff-Teixeira C et al. Lancet Infect Dis 2009;9:399-407; Red Book 2024-2027 (AAP)",
       "categoria": "Infectología",
-      "nota_revision": "El PDF del examen no trae clave oficial: la clave se asignó con criterio clínico. El antecedente por Áscaris es atípico; la opción B es la única que integra el dato parasitario con el cuadro meníngeo-cerebeloso."
+      "nota_revision": "El antecedente de infestación por Áscaris es atípico para una meningitis eosinofílica; la opción B es la única que integra el dato parasitario con el cuadro meníngeo-cerebeloso."
     },
     {
       "id": "RM-PED-225",
@@ -10318,8 +10318,7 @@
       "tema": "Desarrollo pleno de los sonidos del habla",
       "año": 2020,
       "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Sander EK. J Speech Hear Disord 1972;37:55-63",
-      "categoria": "Desarrollo",
-      "nota_revision": "Sin clave oficial en el PDF: se asignó 6-7 años (consolidación de todos los fonemas según Nelson)."
+      "categoria": "Desarrollo"
     },
     {
       "id": "RM-PED-229",
@@ -10565,15 +10564,15 @@
         "No balbucea, ni señala, ni gesticula a los 9 meses.",
         "Dificultades para responder preguntas «qué, cómo, cuándo, dónde, por qué» a los 36 meses."
       ],
-      "correcta": 3,
-      "clave_correcta": "D",
-      "explicacion": "En la vigilancia del desarrollo, las alertas de comunicación se evalúan por edad. A los 9 meses el lactante debe balbucear con sílabas (mamama, bababa), responder al nombre, señalar o gesticular; la ausencia de balbuceo, de gestos comunicativos o de señalamiento a esa edad es un signo de alarma importante, porque se asocia a trastornos del espectro autista, sordera y retraso del lenguaje, y exige derivación y audiometría sin esperar. Las otras situaciones son retrasos que se vigilan o se manejan por pasos: no decir palabras a los 15 meses y no combinar palabras a los 18 meses ya preocupan, pero la combinación a los 24 meses es el hito esperado; que los padres no comprendan el habla a los 24 meses se considera aún dentro de la variación, y la dificultad con preguntas a los 36 meses se aborda con evaluación del lenguaje programada. Cualquier regresión de habilidades, a cualquier edad, es criterio de derivación inmediata. Perla: toda alerta del lenguaje requiere audiometría y tamizaje de autismo.",
-      "comentario": "En la vigilancia del desarrollo, las alertas de comunicación se evalúan por edad. A los 9 meses el lactante debe balbucear con sílabas (mamama, bababa), responder al nombre, señalar o gesticular; la ausencia de balbuceo, de gestos comunicativos o de señalamiento a esa edad es un signo de alarma importante, porque se asocia a trastornos del espectro autista, sordera y retraso del lenguaje, y exige derivación y audiometría sin esperar. Las otras situaciones son retrasos que se vigilan o se manejan por pasos: no decir palabras a los 15 meses y no combinar palabras a los 18 meses ya preocupan, pero la combinación a los 24 meses es el hito esperado; que los padres no comprendan el habla a los 24 meses se considera aún dentro de la variación, y la dificultad con preguntas a los 36 meses se aborda con evaluación del lenguaje programada. Cualquier regresión de habilidades, a cualquier edad, es criterio de derivación inmediata. Perla: toda alerta del lenguaje requiere audiometría y tamizaje de autismo.",
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "En la vigilancia del lenguaje se comparan los logros del niño con los hitos esperados y se derivan los casos que no los alcanzan en el plazo máximo aceptado. Hacia los 12 meses el lactante dice sus primeras palabras con intención y a los 15 meses debe usar al menos algunas palabras sueltas con significado, además de señalar y comprender órdenes sencillas. No decir palabras a los 15 meses supera el límite de la variación normal, por lo que obliga a derivar para evaluación del lenguaje y audiometría, y a buscar sordera, retraso global o trastorno del espectro autista. Las otras situaciones aún entran en la variación esperada o corresponden a otro momento de la vigilancia: a los 18 meses se espera un vocabulario de unas 10 a 50 palabras, y las combinaciones de dos palabras se esperan hacia los 24 meses; a los 24 meses los extraños comprenden cerca de la mitad del habla, y las preguntas con «qué, dónde, por qué» se dominan a lo largo del tercer año. La ausencia de balbuceo y de gestos a los 9 meses es una señal de alerta que se vigila de cerca y obliga a derivar si persiste a los 12 meses. Perla: cualquier pérdida de habilidades ya adquiridas, a cualquier edad, requiere derivación inmediata.",
+      "comentario": "En la vigilancia del lenguaje se comparan los logros del niño con los hitos esperados y se derivan los casos que no los alcanzan en el plazo máximo aceptado. Hacia los 12 meses el lactante dice sus primeras palabras con intención y a los 15 meses debe usar al menos algunas palabras sueltas con significado, además de señalar y comprender órdenes sencillas. No decir palabras a los 15 meses supera el límite de la variación normal, por lo que obliga a derivar para evaluación del lenguaje y audiometría, y a buscar sordera, retraso global o trastorno del espectro autista. Las otras situaciones aún entran en la variación esperada o corresponden a otro momento de la vigilancia: a los 18 meses se espera un vocabulario de unas 10 a 50 palabras, y las combinaciones de dos palabras se esperan hacia los 24 meses; a los 24 meses los extraños comprenden cerca de la mitad del habla, y las preguntas con «qué, dónde, por qué» se dominan a lo largo del tercer año. La ausencia de balbuceo y de gestos a los 9 meses es una señal de alerta que se vigila de cerca y obliga a derivar si persiste a los 12 meses. Perla: cualquier pérdida de habilidades ya adquiridas, a cualquier edad, requiere derivación inmediata.",
       "tema": "Criterio de derivación en el desarrollo del lenguaje",
       "año": 2020,
       "fuentes": "Lipkin PH, Macias MM. Pediatrics 2020;145:e20193449 (AAP, vigilancia y cribado del desarrollo); Nelson Tratado de Pediatría 22.ª ed. (2024)",
       "categoria": "Crecimiento y desarrollo",
-      "nota_revision": "Sin clave oficial en el PDF: se eligió D por ser la señal de alarma más precoz y específica."
+      "nota_revision": "La señal de ausencia de balbuceo, gestos y señalamiento a los 9 meses (opción D) también es una alerta de desarrollo; la clave oficial del examen es la A."
     },
     {
       "id": "RM-PED-241",
@@ -10721,7 +10720,7 @@
       "año": 2020,
       "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Baker RD, Greer FR. Pediatrics 2010;126:1040-50 (AAP, diagnóstico y prevención de la deficiencia de hierro)",
       "categoria": "Hematología",
-      "nota_revision": "Sin clave oficial en el PDF. La literatura indica 2-3 meses adicionales tras normalizar la hemoglobina; se eligió 2 meses y la clave podría diferir de la del examen original."
+      "nota_revision": "La literatura indica 2-3 meses adicionales tras normalizar la hemoglobina; la clave oficial del examen es 2 meses."
     },
     {
       "id": "RM-PED-248",
@@ -10784,8 +10783,7 @@
       "tema": "Esquema atrasado de vacunación",
       "año": 2020,
       "fuentes": "American Academy of Pediatrics, Red Book 2024-2027; CDC. General Best Practice Guidelines for Immunization (actualización 2023); Plotkin Vaccines 7.ª ed. (2018)",
-      "categoria": "Inmunizaciones",
-      "nota_revision": "Sin clave oficial en el PDF: la clave se asignó con criterio clínico."
+      "categoria": "Inmunizaciones"
     },
     {
       "id": "RM-PED-251",
@@ -10827,8 +10825,7 @@
       "tema": "Sospecha de enfermedad metabólica hereditaria",
       "año": 2020,
       "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024)",
-      "categoria": "Genética",
-      "nota_revision": "Sin clave oficial en el PDF: la clave se asignó con criterio clínico."
+      "categoria": "Genética"
     },
     {
       "id": "RM-PED-253",
@@ -10850,7 +10847,7 @@
       "año": 2020,
       "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Shaw BA, Segal LS. Pediatrics 2016;138:e20163107 (AAP, evaluación y derivación en displasia del desarrollo de cadera); Campbell Cirugía Ortopédica 14.ª ed. (2021)",
       "categoria": "Ortopedia",
-      "nota_revision": "Sin clave oficial en el PDF: la clave se asignó con criterio clínico. El porcentaje citado en los textos varía entre 90 y 95 %; se eligió 95 %."
+      "nota_revision": "El porcentaje citado en los textos varía entre 90 y 95 %; la clave oficial es 95 %."
     },
     {
       "id": "RM-PED-254",
@@ -10956,7 +10953,7 @@
       "año": 2020,
       "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Nieuwlaat R et al. Cochrane Database Syst Rev 2014;(11):CD000011 (intervenciones para mejorar la adherencia); Sabaté E. Adherence to Long-term Therapies. OMS 2003",
       "categoria": "Pediatría general",
-      "nota_revision": "Sin clave oficial en el PDF: la clave se asignó con criterio clínico. Pregunta general con varias opciones razonables: se eligió la simplificación del esquema."
+      "nota_revision": "Pregunta general con varias opciones razonables; la clave oficial es la simplificación del esquema."
     },
     {
       "id": "RM-PED-259",
@@ -11103,8 +11100,7 @@
       "tema": "Causas de hemoptisis en el niño sano",
       "año": 2020,
       "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Kendig Enfermedades Respiratorias en Niños 9.ª ed. (2018)",
-      "categoria": "Neumología",
-      "nota_revision": "Sin clave oficial en el PDF: la clave se asignó con criterio clínico."
+      "categoria": "Neumología"
     },
     {
       "id": "RM-PED-266",
@@ -11126,7 +11122,7 @@
       "año": 2020,
       "fuentes": "Gewitz MH et al. Circulation 2015;131:1806-18 (AHA, revisión de los criterios de Jones); Nelson Tratado de Pediatría 22.ª ed. (2024); OMS. Rheumatic fever and rheumatic heart disease, Technical Report Series 923 (2004)",
       "categoria": "Reumatología",
-      "nota_revision": "Sin clave oficial en el PDF: la clave se asignó con criterio clínico. Pregunta ambigua: la literatura recomienda evitar todo antiinflamatorio (salicilatos, AINE, corticoides) y usar paracetamol; se eligió salicilatos por ser el fármaco clásico que más enmascara la artritis."
+      "nota_revision": "Pregunta ambigua: la literatura recomienda evitar todo antiinflamatorio (salicilatos, AINE, corticoides) y usar paracetamol; la clave oficial es salicilatos, el fármaco clásico que más enmascara la artritis."
     },
     {
       "id": "RM-PED-267",
@@ -11140,14 +11136,15 @@
         "Dermatitis de contacto irritante.",
         "Tiña capitis."
       ],
-      "correcta": 0,
-      "clave_correcta": "A",
-      "explicacion": "La dermatitis de contacto alérgica es una reacción de hipersensibilidad retardada tipo IV mediada por linfocitos T frente a un alérgeno al que la piel se sensibilizó previamente (plantas como hiedra o mango, níquel, cosméticos). Aparece entre 12 y 72 horas después de la reexposición, con eritema, pápulas, vesículas y ampollas muy pruriginosas, en la zona de contacto y a menudo con una distribución lineal; con el tiempo puede quedar hiperpigmentación. Este niño estuvo jugando en el jardín el día anterior y presenta lesiones localizadas en el cuello, expuestas a plantas, por lo que la dermatitis de contacto alérgica es lo más probable; si el contacto con el vegetal y luz solar origina una lesión ampollar con hiperpigmentación posterior, hablamos de fitofotodermatitis, un cuadro relacionado. La dermatitis atópica tiene distribución en flexuras y curso crónico; la seborreica, escamas grasosas; la irritante aparece pronto y quema más que pica, y la tiña capitis afecta cuero cabelludo. El tratamiento: evitar el alérgeno, lavar la piel, usar corticoide tópico y, en casos extensos, corticoide oral. Perla: la prueba del parche confirma el alérgeno en casos recurrentes.",
-      "comentario": "La dermatitis de contacto alérgica es una reacción de hipersensibilidad retardada tipo IV mediada por linfocitos T frente a un alérgeno al que la piel se sensibilizó previamente (plantas como hiedra o mango, níquel, cosméticos). Aparece entre 12 y 72 horas después de la reexposición, con eritema, pápulas, vesículas y ampollas muy pruriginosas, en la zona de contacto y a menudo con una distribución lineal; con el tiempo puede quedar hiperpigmentación. Este niño estuvo jugando en el jardín el día anterior y presenta lesiones localizadas en el cuello, expuestas a plantas, por lo que la dermatitis de contacto alérgica es lo más probable; si el contacto con el vegetal y luz solar origina una lesión ampollar con hiperpigmentación posterior, hablamos de fitofotodermatitis, un cuadro relacionado. La dermatitis atópica tiene distribución en flexuras y curso crónico; la seborreica, escamas grasosas; la irritante aparece pronto y quema más que pica, y la tiña capitis afecta cuero cabelludo. El tratamiento: evitar el alérgeno, lavar la piel, usar corticoide tópico y, en casos extensos, corticoide oral. Perla: la prueba del parche confirma el alérgeno en casos recurrentes.",
-      "tema": "Dermatitis de contacto alérgica",
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La dermatitis de contacto irritante es la forma más frecuente de dermatitis de contacto en niños. Se produce por daño directo de la barrera cutánea, sin sensibilización inmunológica previa: la sustancia (savia o látex de plantas, tierra, detergentes, saliva, sudor, fricción) actúa sobre cualquier persona con una exposición suficiente, aparece pocas horas después del contacto, incluso en la primera exposición, y se limita estrictamente a la zona de contacto. Este preescolar jugó en el jardín el día anterior y presenta lesiones pápulo-ampollares localizadas en el cuello, con prurito y hiperpigmentación residual, un patrón compatible con irritación por plantas o fitofotodermatitis. La dermatitis alérgica de contacto, de hipersensibilidad tipo IV, exige sensibilización previa, tarda de 12 a 72 horas, puede extenderse más allá de la zona expuesta y se confirma con la prueba del parche. La dermatitis atópica compromete las flexuras de forma crónica y recurrente; la seborreica produce escamas grasosas en cuero cabelludo y pliegues; y la tiña capitis se limita al cuero cabelludo. El tratamiento consiste en lavar la zona con agua y jabón, evitar el contacto, aplicar emolientes, corticoide tópico de baja potencia y, si hay ampollas extensas, curas locales. Perla: la hiperpigmentación lineal tras la exposición solar con plantas cítricas, higo o apio señala fitofotodermatitis.",
+      "comentario": "La dermatitis de contacto irritante es la forma más frecuente de dermatitis de contacto en niños. Se produce por daño directo de la barrera cutánea, sin sensibilización inmunológica previa: la sustancia (savia o látex de plantas, tierra, detergentes, saliva, sudor, fricción) actúa sobre cualquier persona con una exposición suficiente, aparece pocas horas después del contacto, incluso en la primera exposición, y se limita estrictamente a la zona de contacto. Este preescolar jugó en el jardín el día anterior y presenta lesiones pápulo-ampollares localizadas en el cuello, con prurito y hiperpigmentación residual, un patrón compatible con irritación por plantas o fitofotodermatitis. La dermatitis alérgica de contacto, de hipersensibilidad tipo IV, exige sensibilización previa, tarda de 12 a 72 horas, puede extenderse más allá de la zona expuesta y se confirma con la prueba del parche. La dermatitis atópica compromete las flexuras de forma crónica y recurrente; la seborreica produce escamas grasosas en cuero cabelludo y pliegues; y la tiña capitis se limita al cuero cabelludo. El tratamiento consiste en lavar la zona con agua y jabón, evitar el contacto, aplicar emolientes, corticoide tópico de baja potencia y, si hay ampollas extensas, curas locales. Perla: la hiperpigmentación lineal tras la exposición solar con plantas cítricas, higo o apio señala fitofotodermatitis.",
+      "tema": "Dermatitis de contacto irritante",
       "año": 2020,
-      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Fitzpatrick Dermatología 9.ª ed. (2019)",
-      "categoria": "Dermatología"
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Fitzpatrick Dermatología 9.ª ed. (2019); Weston WL, Lane AT. Dermatología Pediátrica (Color Textbook of Pediatric Dermatology), 5.ª ed. (2016)",
+      "categoria": "Dermatología",
+      "nota_revision": "Las dermatitis de contacto irritante y alérgica pueden parecerse en el niño; la clave oficial del examen es la irritante."
     },
     {
       "id": "RM-PED-268",
@@ -11168,8 +11165,7 @@
       "tema": "Múltiples dosis de vacunas inactivadas",
       "año": 2020,
       "fuentes": "American Academy of Pediatrics, Red Book 2024-2027; Plotkin Vaccines 7.ª ed. (2018); Pollard AJ, Bijker EM. Nat Rev Immunol 2021;21:83-100 (guía conceptual de las vacunas)",
-      "categoria": "Inmunizaciones",
-      "nota_revision": "Sin clave oficial en el PDF: la clave se asignó con criterio clínico."
+      "categoria": "Inmunizaciones"
     },
     {
       "id": "RM-PED-269",
@@ -11191,7 +11187,7 @@
       "año": 2020,
       "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); OMS. Guideline: Vitamin A supplementation in infants and children 6-59 months of age (2011); Sommer A. Vitamin A deficiency and its consequences, 3.ª ed. OMS (1995)",
       "categoria": "Nutrición",
-      "nota_revision": "Sin clave oficial en el PDF: la clave se asignó con criterio clínico. El enunciado dice «mancha hiperpigmentada»; la mancha de Bitot es blanquecina: se mantuvo vitamina A por el contexto nutricional y ocular."
+      "nota_revision": "El enunciado dice «mancha hiperpigmentada»; la mancha de Bitot es blanquecina, pero la clave oficial es vitamina A por el contexto nutricional y ocular."
     },
     {
       "id": "RM-PED-270",
@@ -11212,8 +11208,7 @@
       "tema": "Hipertermia por exposición solar en el lactante",
       "año": 2020,
       "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); AAP. Sun safety (HealthyChildren.org)",
-      "categoria": "Urgencias",
-      "nota_revision": "Sin clave oficial en el PDF: la clave se asignó con criterio clínico."
+      "categoria": "Urgencias"
     },
     {
       "id": "RM-PED-271",
@@ -11234,8 +11229,7 @@
       "tema": "Leucopenia como signo de sepsis neonatal precoz",
       "año": 2020,
       "fuentes": "Puopolo KM et al. Pediatrics 2018;142:e20182894 (AAP, manejo de sepsis neonatal precoz en ≥35 semanas); Nelson Tratado de Pediatría 22.ª ed. (2024); NTS 214-MINSA/DGIESP-2024",
-      "categoria": "Neonatología",
-      "nota_revision": "Sin clave oficial en el PDF: la clave se asignó con criterio clínico."
+      "categoria": "Neonatología"
     },
     {
       "id": "RM-PED-272",
