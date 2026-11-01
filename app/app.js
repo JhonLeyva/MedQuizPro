@@ -1130,7 +1130,7 @@
       var txt = btn.textContent; btn.disabled = true; btn.textContent = "Un momento…";
       api(modo === "registro" ? "registro" : "ingresar", d).then(function (r) {
         if (!r.ok) throw new Error(r.j.error || "No se pudo completar.");
-        CUENTA.usuario = r.j.usuario;
+        CUENTA.usuario = r.j.usuario; olvidarIntros();   // cada inicio de sesión vuelve a mostrar las introducciones
         if (d.examen) M.progreso.preferencia("examen", d.examen);
         sincronizar();
         var plan = parametros.plan;
