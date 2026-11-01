@@ -109,3 +109,57 @@ Q(25, "Incontinencia urinaria funcional", "Ginecología: uroginecología",
   "La incontinencia urinaria funcional es la pérdida involuntaria de orina por limitaciones físicas o cognitivas que impiden llegar al baño a tiempo, aunque el aparato urinario inferior sea normal. En esta mujer de 75 años, la pérdida ocurre antes de llegar al baño debido a la limitación para caminar por la secuela de la fractura de cadera, de modo que el mecanismo es funcional. La incontinencia de esfuerzo se produce con aumentos de la presión abdominal (tos, risa). La incontinencia de urgencia se acompaña de una necesidad súbita e incontrolable de orinar por contracciones no inhibidas, y la vejiga hiperactiva es el síndrome clínico de urgencia con o sin incontinencia, con frecuencia y nicturia; la hiperactividad del detrusor es un diagnóstico urodinámico. El antecedente de glaucoma es una pista: los antimuscarínicos están contraindicados en el glaucoma de ángulo estrecho no controlado, y en los ancianos aumentan el riesgo de deterioro cognitivo. El manejo se centra en medidas conductuales: acceso fácil al baño, micción programada, uso de andador, fisioterapia, ajuste de diuréticos y calzado adecuado. Si hay vejiga hiperactiva asociada se prefieren beta-3 agonistas. Perla: la incontinencia del anciano suele ser multifactorial; descarte infección, impactación fecal y fármacos.",
   "Cameron AP et al. J Urol 2024;212:11-20 (guía AUA/SUFU de vejiga hiperactiva); " + WGI,
   "Puede coexistir un componente de urgencia; la clave oficial prioriza el mecanismo funcional por la limitación para deambular.")
+
+
+# ---- Actualización bibliográfica 2023-2026 (regla del usuario): se cambia solo c (frase de actualización antes de la Perla) y f ----
+def _act(n, extra, f, nota=None):
+    q = L[n - 1]
+    c = q["c"]
+    i = c.rfind("Perla:")
+    q["c"] = c[:i] + extra + " " + c[i:]
+    q["f"] = f
+    if nota:
+        q["nota"] = nota
+
+_act(2, "La guía clínica de 2025 sobre el embarazo aloinmunizado a antígenos eritrocitarios sigue incorporando el Doppler de la arteria cerebral media como herramienta no invasiva para vigilar la anemia fetal.",
+     "Moise KJ Jr et al. JAMA Netw Open 2025;8:e2544649 (guía clínica de aloinmunización eritrocitaria en el embarazo); Mari G et al. N Engl J Med 2000;342:9-14; " + WIL)
+_act(3, "La guía de la ACOG de 2026 sobre cerclaje obstétrico reúne las indicaciones (insuficiencia cervical, antecedentes obstétricos y acortamiento cervical), las técnicas y las alternativas, y reemplaza el boletín de 2014.",
+     "ACOG Committee on Clinical Practice Guidelines-Obstetrics. Obstet Gynecol 2026;148:e194-e212 (Obstetric Cerclage); Shennan AH et al. BJOG 2022;129:1178-210 (RCOG Green-top 75); " + WIL)
+_act(4, "La guía alemana de 2023 sobre prevención y tratamiento del parto pretérmino y una revisión comparativa de guías de corticoides (2026) coinciden en combinar longitud cervical o fibronectina con la clínica, y en limitar la tocólisis a unas 48 horas para completar los corticoides.",
+     "Berger R et al. Geburtshilfe Frauenheilkd 2023;83:569-601 (guía DGGG/OEGGG/SGGG); Giouleka S et al. Obstet Gynecol Surv 2026;81:75-83; Gyamfi-Bannerman C et al. N Engl J Med 2016;374:1311-20; " + WIL)
+_act(5, "La guía belga de 2026 mantiene la carga viral cercana al parto como criterio de la vía; en el Perú rigen las normas del MINSA.",
+     "NTS 169-MINSA/2020/DGIESP (VIH); NTS 159-MINSA/2019/DGIESP (transmisión materno infantil de VIH, sífilis y hepatitis B); Konopnicki D et al. Eur J Obstet Gynecol Reprod Biol 2026;325:115312 (guía belga 2026); ACOG Committee Opinion 751, Obstet Gynecol 2018;132:e131-7; " + WIL)
+_act(6, "Series recientes (2024) describen la presentación de cara como infrecuente y analizan sus factores de riesgo y sus resultados maternos y neonatales.",
+     "Zhang Y et al. Arch Gynecol Obstet 2024;310:923-31 (presentación de cara a término); " + "Williams Obstetricia 26.ª ed. (2022); Schwarcz R, Fescina R, Duverges C. Obstetricia, 7.ª ed. (2016)")
+_act(7, "En 2026 la Sociedad de Medicina Materno-Fetal publicó una lista de verificación para el manejo inicial de la embolia de líquido amniótico, que organiza la respuesta del equipo.",
+     "Society for Maternal-Fetal Medicine. Pregnancy (Hoboken) 2026;2:e70364 (Special Statement: checklist for initial management of amniotic fluid embolism); Pacheco LD et al. Am J Obstet Gynecol 2016;215:B16-24 (SMFM Consult Series 9); " + WIL)
+_act(9, "La guía de la ACOG de 2024 (Clinical Practice Guideline No. 8) mantiene que la fase activa se define desde los 6 cm y reemplaza el consenso de 2014.",
+     "ACOG Committee on Clinical Practice Guidelines-Obstetrics. Obstet Gynecol 2024;143:144-62 (First and Second Stage Labor Management, Clinical Practice Guideline No. 8); Zhang J et al. Obstet Gynecol 2010;116:1281-7; Friedman EA. Obstet Gynecol 1955;6:567-89; " + WIL)
+_act(10, "La guía del Real Colegio británico de 2024 propone escalonar el tratamiento (antihistamínicos o fenotiazinas, luego ondansetrón o metoclopramida), añadir tiamina y reservar el ingreso para la deshidratación.",
+     "Nelson-Piercy C et al. BJOG 2024;131:e1-e30 (RCOG Green-top Guideline 69); ACOG Practice Bulletin 189, Obstet Gynecol 2018;131:e15-30; " + WIL)
+_act(11, "La guía global de candidiasis de 2025 y las revisiones de 2023 y 2024 mantienen el fluconazol como base y describen oteseconazol e ibrexafungerp como opciones nuevas en la forma recurrente.",
+     "Cornely OA et al. Lancet Infect Dis 2025;25:e280-e293 (guía global de candidiasis ECMM/ISHAM/ASM); Satora M et al. J Clin Med 2023;12(16):5376; Akinosoglou K et al. Pharmaceutics 2024;16(12):1555; Workowski KA et al. MMWR Recomm Rep 2021;70(4):1-187; " + WGI)
+_act(12, "En el Perú la norma técnica vigente para la prevención y control de las infecciones de transmisión sexual es la de 2026.",
+     "NTS 240-MINSA/DGIESP-2026 (prevención y control de ITS), aprobada por RM 035-2026-MINSA; Lewis DA. Clin Dermatol 2026;44:36-9 (Chancroid); Workowski KA et al. MMWR Recomm Rep 2021;70(4):1-187; " + WGI)
+_act(13, "La guía alemana de 2023 sobre parto pretérmino mantiene la fibronectina y la longitud cervical como pruebas complementarias de valor sobre todo negativo.",
+     "Berger R et al. Geburtshilfe Frauenheilkd 2023;83:569-601 (guía DGGG/OEGGG/SGGG); Honest H et al. BMJ 2002;325:301; ACOG Practice Bulletin 171, Obstet Gynecol 2016;128:e155-64; " + WIL)
+_act(14, "La guía del Real Colegio británico (Green-top 42), actualizada en 2026, sigue siendo la referencia para el manejo secuencial de la distocia de hombros.",
+     "Lattey K et al. BJOG 2026;133:e165-e186 (RCOG Green-top Guideline 42, Shoulder Dystocia); ACOG Practice Bulletin 178, Obstet Gynecol 2017;129:e123-33; " + WIL)
+_act(15, "Las revisiones de 2023 mantienen la denominación Triple I (infección o inflamación intraamniótica, o ambas) y el tratamiento antibiótico inmediato.",
+     "Lukanović D et al. Front Med (Lausanne) 2023;10:1191254 (clinical chorioamnionitis); ACOG Committee Opinion 712, Obstet Gynecol 2017;130:e95-101; Higgins RD et al. Obstet Gynecol 2016;127:426-36; " + WIL)
+_act(16, "Una revisión de guías de 2024 sobre rotura de membranas coincide en que, desde las 34 semanas, la conducta habitual es finalizar el embarazo.",
+     "Giouleka S et al. Obstet Gynecol Surv 2024;79:591-603; ACOG Practice Bulletin 217, Obstet Gynecol 2020;135:e80-97; Hannah ME et al. N Engl J Med 1996;334:1005-10; " + WIL)
+_act(17, "La revisión de 2024 sobre embarazo tardío y postérmino mantiene las mismas categorías y la inducción entre las 41 y 42 semanas.",
+     "Gawrys B et al. Am Fam Physician 2024;110:378-84 (late-term and postterm pregnancy); ACOG Committee Opinion 579, Obstet Gynecol 2013;122:1139-40; ACOG Practice Bulletin 146, Obstet Gynecol 2014;124:390-6; " + WIL)
+_act(19, "La actualización de la ACOG de 2025 sobre dispositivos no quirúrgicos de control de la hemorragia posparto contempla el taponamiento con balón si la hemorragia persiste tras reponer el útero.",
+     "American College of Obstetricians and Gynecologists. Obstet Gynecol 2025;146:569-71 (Clinical Practice Update: nonsurgical hemorrhage-control devices); ACOG Practice Bulletin 183, Obstet Gynecol 2017;130:e168-86; " + WIL)
+_act(20, "Una comparación de guías internacionales (2026) muestra que los umbrales y el momento de finalizar la restricción del crecimiento difieren, por lo que la decisión se individualiza.",
+     "Di Mascio D et al. Am J Obstet Gynecol 2026;235:486-505 (guías internacionales de restricción del crecimiento fetal); ACOG Practice Bulletin 229, Obstet Gynecol 2021;137:e116-27; Lees CC et al. Ultrasound Obstet Gynecol 2020;56:298-312; " + WIL)
+_act(21, "La OPS sigue impulsando el SIP Plus, por ejemplo en Uruguay en 2023 y en Panamá en 2024.",
+     "OPS. Uruguay da un salto de calidad en el registro de la atención perinatal con el SIP Plus. 15 sep 2023 (paho.org/es/noticias); OPS. Panamá avanza hacia la unificación del Sistema Informático Perinatal SIP Plus. 23 oct 2024 (paho.org/es/noticias); CLAP/SMR, OPS/OMS: Sistema Informático Perinatal y Historia Clínica Perinatal; " + WIL)
+_act(22, "Un estudio de 2026 sobre el rendimiento de la zona discriminatoria y de los hallazgos ecográficos dirigidos refuerza que debe interpretarse junto con la ecografía.",
+     "Cherouveim P et al. BMJ Open 2026;16:e116039 (zona discriminatoria de β-hCG); ACOG Practice Bulletin 193, Obstet Gynecol 2018;131:e91-103; Doubilet PM et al. N Engl J Med 2013;369:1443-51; " + WGI)
+_act(23, "Una revisión de 2026 mantiene los estrógenos vaginales en dosis bajas como primera línea cuando los síntomas son solo genitourinarios.",
+     "Negris O et al. Obstet Gynecol 2026;148:591-606 (vulvar dermatoses y síndrome genitourinario de la menopausia); The 2022 Hormone Therapy Position Statement of The North American Menopause Society, Menopause 2022;29:767-94; The 2020 GSM Position Statement of NAMS, Menopause 2020;27:976-92; " + WGI)
+_act(24, "La guía global de candidiasis de 2025 y las revisiones de 2023 y 2024 mantienen el fluconazol como base y describen oteseconazol e ibrexafungerp como opciones nuevas en la forma recurrente.",
+     "Cornely OA et al. Lancet Infect Dis 2025;25:e280-e293 (guía global de candidiasis ECMM/ISHAM/ASM); Satora M et al. J Clin Med 2023;12(16):5376; Akinosoglou K et al. Pharmaceutics 2024;16(12):1555; Workowski KA et al. MMWR Recomm Rep 2021;70(4):1-187; " + WGI)
