@@ -127,18 +127,25 @@
     function dibujarUci(t) {
       var latido = Math.exp(-mod(t, LAT) * 5);
       g.globalCompositeOperation = "source-over";
-      g.beginPath(); [[0.004, 0.012], [0.996, 0.012], [0.996, 0.988], [0.004, 0.988]].forEach(function (uv, i) { var c = pq(QM, uv[0], uv[1]); i ? g.lineTo(c[0], c[1]) : g.moveTo(c[0], c[1]); }); g.closePath(); g.fillStyle = "#030813"; g.fill();   // cristal
-      var U0 = 0.035, U1 = 0.655;
-      trazoQ(QM, ondaEcgUci, t, U0, U1, 0.20, 0.085, 4.2, "#3be26f", 1.7, 200, 5);
-      trazoQ(QM, ondaPleth, t, U0, U1, 0.45, 0.07, 4.2, "#ecd44a", 1.6, 200, 4);
-      trazoQ(QM, ondaResp, t, U0, U1, 0.66, 0.062, 7.0, "#4aa6ff", 1.6, 200, 4);
-      trazoQ(QM, function (x) { return ondaCapno(x); }, t, U0, U1, 0.935, 0.085, 7.0, "#5fd0ff", 1.5, 200, 4);
-      g.fillStyle = "rgba(160,190,230,.18)"; [0.37, 0.57, 0.77].forEach(function (v) { var a = pq(QM, U0, v), b2 = pq(QM, U1, v); g.beginPath(); g.moveTo(a[0], a[1]); g.lineTo(b2[0], b2[1]); g.lineWidth = Math.max(0.6, 0.7 * s); g.strokeStyle = "rgba(160,190,230,.18)"; g.stroke(); });
-      textoQ(QM, "II", 0.04, 0.065, 9, "#3be26f", "left"); textoQ(QM, "Pleth", 0.04, 0.325, 9, "#ecd44a", "left"); textoQ(QM, "Resp", 0.04, 0.545, 9, "#4aa6ff", "left"); textoQ(QM, "CO₂", 0.04, 0.775, 9, "#5fd0ff", "left");
-      textoQ(QM, "FC", 0.685, 0.065, 9, "#3be26f", "left"); textoQ(QM, "78", 0.84, 0.165, 44, "#3be26f", "center", "800");
-      textoQ(QM, "SpO₂", 0.685, 0.31, 9, "#ff4d4d", "left"); textoQ(QM, mod(t, 20) < 14 ? "96" : "97", 0.84, 0.41, 40, "#ff4d4d", "center", "800");
-      textoQ(QM, "FR", 0.685, 0.555, 9, "#ffd84a", "left"); textoQ(QM, "18", 0.84, 0.645, 36, "#ffd84a", "center", "800");
-      textoQ(QM, "105/62", 0.84, 0.825, 19, "#ffffff", "center", "700"); textoQ(QM, "(76)", 0.84, 0.925, 13, "#ffffff", "center", "600");
+      /* Monitor grande: se conservan la foto, la interfaz, las etiquetas y las cifras reales (78 · 96 · 18 · 105/62). Solo se sustituyen las cuatro curvas por trazos que se mueven
+         como en un monitor de barrido (el trazo nuevo avanza de izquierda a derecha, borra el anterior con un pequeño hueco y deja un punto brillante en la cabeza). */
+      function parche(v0, v1) { g.beginPath(); [[0.086, v0], [0.716, v0], [0.716, v1], [0.086, v1]].forEach(function (uv, i) { var c = pq(QM, uv[0], uv[1]); i ? g.lineTo(c[0], c[1]) : g.moveTo(c[0], c[1]); }); g.closePath(); g.fillStyle = "#050b16"; g.fill(); }
+      function barrido(fn, P, vc, amp, color, ancho) {
+        var U0 = 0.09, U1 = 0.712, N = 170, cur = mod(t, P) / P, T0 = t - cur * P, hueco = 0.05, activo = false;
+        g.beginPath();
+        for (var i = 0; i <= N; i++) {
+          var f = i / N; if (f > cur && f < cur + hueco) { activo = false; continue; }
+          var y = fn(f <= cur ? T0 + f * P : T0 - P + f * P), c = pq(QM, U0 + (U1 - U0) * f, vc - y * amp);
+          if (activo) g.lineTo(c[0], c[1]); else { g.moveTo(c[0], c[1]); activo = true; }
+        }
+        g.lineJoin = "round"; g.lineCap = "round"; g.lineWidth = Math.max(1, ancho * s); g.strokeStyle = color; g.shadowColor = color; g.shadowBlur = 4 * s; g.stroke(); g.shadowBlur = 0;
+        var h = pq(QM, U0 + (U1 - U0) * cur, vc - fn(T0 + cur * P) * amp); g.beginPath(); g.arc(h[0], h[1], Math.max(1, 1.5 * s), 0, 7); g.fillStyle = "#ffffff"; g.globalAlpha = 0.7; g.fill(); g.globalAlpha = 1;
+      }
+      parche(0.125, 0.285); parche(0.35, 0.5); parche(0.545, 0.69); parche(0.765, 0.915);
+      barrido(ondaEcgUci, 6, 0.245, 0.07, "#46d783", 1.45);
+      barrido(ondaPleth, 6, 0.44, 0.075, "#e6d86e", 1.35);
+      barrido(ondaResp, 3 * RESP, 0.645, 0.075, "#5b9bf0", 1.35);
+      barrido(function (x) { return ondaCapno(x); }, 3 * RESP, 0.895, 0.115, "#7db8f5", 1.35);
       /* pantalla del ventilador: afín al paralelogramo de la imagen */
       var A = p(1427.5, 427.5), B = p(1517.5, 425), C = p(1417.5, 532.5);
       g.save(); g.transform((B[0] - A[0]) / 300, (B[1] - A[1]) / 300, (C[0] - A[0]) / 200, (C[1] - A[1]) / 200, A[0], A[1]);
