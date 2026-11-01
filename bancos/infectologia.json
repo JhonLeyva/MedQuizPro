@@ -4052,6 +4052,198 @@
       "fuentes": "Chiew AL y cols., Updated guidelines for the management of paracetamol poisoning in Australia and New Zealand (Med J Aust 2020); Heard KJ, Acetylcysteine for acetaminophen poisoning (N Engl J Med 2008)",
       "categoria": "Toxicología",
       "nota_revision": "Bloque dañado; la clave B se tomó de la imagen de la página («Respuesta B»). El enunciado trae basura OCR («~ www.estud»), eliminada."
+    },
+    {
+      "id": "RM-INF-078",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Mujer de 25 años, acude por malestar general, fiebre, dolor y ardor vulvar luego de haber tenido relaciones sexuales con un nuevo compañero hace 8 días. Examen ginecológico: vesículas en racimo a nivel vulvar y úlceras en los labios mayores; linfadenopatía inguinal dolorosa. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Chancro blando.",
+        "Granuloma inguinal.",
+        "Sífilis.",
+        "Molusco contagioso.",
+        "Herpes genital."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "El herpes genital es una infección de transmisión sexual causada por el virus del herpes simple, sobre todo tipo 2 y cada vez más tipo 1. La primoinfección aparece de 2 a 12 días después del contacto y se acompaña de síntomas generales como fiebre y malestar, dolor y ardor locales, vesículas agrupadas en racimo sobre base eritematosa que se rompen y forman úlceras superficiales y dolorosas, y adenopatía inguinal bilateral sensible. Todo ello coincide con el cuadro de la paciente. El chancro blando por Haemophilus ducreyi produce una úlcera dolorosa de bordes anfractuosos, sin vesículas previas y con bubón supurado. El granuloma inguinal (donovanosis) causa úlceras indoloras, sangrantes y de aspecto carnoso. La sífilis primaria da un chancro único, indoloro y de bordes duros. El molusco contagioso presenta pápulas umbilicadas sin dolor ni fiebre. El diagnóstico se confirma con PCR o cultivo de la lesión. El tratamiento del primer episodio es aciclovir 400 mg tres veces al día o valaciclovir 1 g dos veces al día durante 7-10 días; en recurrencias frecuentes se usa supresión crónica. Las guías de ITS de los CDC de 2021 siguen vigentes y permiten prolongar el tratamiento si la curación es incompleta a los 10 días; además, el VHS-1 explica una proporción creciente de los primeros episodios genitales en jóvenes. Perla: la excreción viral asintomática explica la mayoría de las transmisiones.",
+      "comentario": "El herpes genital es una infección de transmisión sexual causada por el virus del herpes simple, sobre todo tipo 2 y cada vez más tipo 1. La primoinfección aparece de 2 a 12 días después del contacto y se acompaña de síntomas generales como fiebre y malestar, dolor y ardor locales, vesículas agrupadas en racimo sobre base eritematosa que se rompen y forman úlceras superficiales y dolorosas, y adenopatía inguinal bilateral sensible. Todo ello coincide con el cuadro de la paciente. El chancro blando por Haemophilus ducreyi produce una úlcera dolorosa de bordes anfractuosos, sin vesículas previas y con bubón supurado. El granuloma inguinal (donovanosis) causa úlceras indoloras, sangrantes y de aspecto carnoso. La sífilis primaria da un chancro único, indoloro y de bordes duros. El molusco contagioso presenta pápulas umbilicadas sin dolor ni fiebre. El diagnóstico se confirma con PCR o cultivo de la lesión. El tratamiento del primer episodio es aciclovir 400 mg tres veces al día o valaciclovir 1 g dos veces al día durante 7-10 días; en recurrencias frecuentes se usa supresión crónica. Las guías de ITS de los CDC de 2021 siguen vigentes y permiten prolongar el tratamiento si la curación es incompleta a los 10 días; además, el VHS-1 explica una proporción creciente de los primeros episodios genitales en jóvenes. Perla: la excreción viral asintomática explica la mayoría de las transmisiones.",
+      "tema": "Herpes genital primario",
+      "año": 2020,
+      "fuentes": "Workowski KA et al. MMWR Recomm Rep 2021;70(RR-4):1-187 (guías de ITS de los CDC, vigentes); Andreu S et al. J Infect 2025;91:106636 (cambio epidemiológico del herpes genital de VHS-2 a VHS-1); Collins-Ogle M et al. Curr Opin Infect Dis 2026;39:61-66; Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Infecciones de transmisión sexual"
+    },
+    {
+      "id": "RM-INF-079",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Varón de 30 años, llega a emergencia por presentar convulsiones repetidas, entrando en coma. Antecedentes: hace un mes que ha regresado de Bagua, familiares reportan que inicia su enfermedad con dolor de cabeza, fiebre y escalofríos. Examen: PA: 100/60 mmHg, FR: 24 X', T°: 38.3 °C. Laboratorio: Hb: 10 g/dl, úrea en sangre: 150 mg/dl; creatinina: 3 mg/dl; BT: 4 mg/dl, dímero D: 3 µg/dl; glucosa: 70 mg/dl; pH: 6.9; gota gruesa (+). ¿Cuál es el Plasmodium involucrado?",
+      "opciones": [
+        "Malariae.",
+        "Ovale.",
+        "Knowlesi.",
+        "Vivax.",
+        "Falciparum."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La malaria grave, o complicada, es causada casi exclusivamente por Plasmodium falciparum, porque este parásito invade eritrocitos de todas las edades, alcanza parasitemias altas y produce secuestro microvascular de glóbulos rojos parasitados mediante la proteína PfEMP1. El paciente regresa de Bagua, zona endémica de la Amazonía peruana, y presenta fiebre, cefalea y escalofríos, seguidos de convulsiones y coma (malaria cerebral), insuficiencia renal (creatinina de 3 mg/dl), hiperbilirrubinemia, anemia, acidosis metabólica (pH 6,9) y coagulopatía con dímero D elevado. Además, la gota gruesa es positiva. P. vivax y P. ovale producen fiebre terciana benigna con recaídas por hipnozoítos; P. malariae causa fiebre cuartana y síndrome nefrótico crónico; P. knowlesi, de macacos del Sudeste Asiático, puede ser grave pero no ocurre en el Perú. La malaria grave se trata con artesunato intravenoso (2,4 mg/kg a las 0, 12 y 24 horas y luego cada día), seguido de un ciclo completo de terapia combinada con artemisinina; se corrigen la hipoglucemia, la acidosis y las convulsiones, y se vigila al paciente en UCI. En el Perú rige la NTS 233-MINSA/DGIESP-2025 (RM 609-2025/MINSA), que reemplazó a la NTS 054 de 2007; la guía de la OMS de 2025 mantiene artesunato parenteral al menos 24 horas, hasta tolerar la vía oral, y luego 3 días de terapia combinada con artemisinina. Perla: la gota gruesa confirma el diagnóstico y el frotis permite especiar y cuantificar la parasitemia.",
+      "comentario": "La malaria grave, o complicada, es causada casi exclusivamente por Plasmodium falciparum, porque este parásito invade eritrocitos de todas las edades, alcanza parasitemias altas y produce secuestro microvascular de glóbulos rojos parasitados mediante la proteína PfEMP1. El paciente regresa de Bagua, zona endémica de la Amazonía peruana, y presenta fiebre, cefalea y escalofríos, seguidos de convulsiones y coma (malaria cerebral), insuficiencia renal (creatinina de 3 mg/dl), hiperbilirrubinemia, anemia, acidosis metabólica (pH 6,9) y coagulopatía con dímero D elevado. Además, la gota gruesa es positiva. P. vivax y P. ovale producen fiebre terciana benigna con recaídas por hipnozoítos; P. malariae causa fiebre cuartana y síndrome nefrótico crónico; P. knowlesi, de macacos del Sudeste Asiático, puede ser grave pero no ocurre en el Perú. La malaria grave se trata con artesunato intravenoso (2,4 mg/kg a las 0, 12 y 24 horas y luego cada día), seguido de un ciclo completo de terapia combinada con artemisinina; se corrigen la hipoglucemia, la acidosis y las convulsiones, y se vigila al paciente en UCI. En el Perú rige la NTS 233-MINSA/DGIESP-2025 (RM 609-2025/MINSA), que reemplazó a la NTS 054 de 2007; la guía de la OMS de 2025 mantiene artesunato parenteral al menos 24 horas, hasta tolerar la vía oral, y luego 3 días de terapia combinada con artemisinina. Perla: la gota gruesa confirma el diagnóstico y el frotis permite especiar y cuantificar la parasitemia.",
+      "tema": "Malaria grave por Plasmodium falciparum",
+      "año": 2020,
+      "fuentes": "NTS 233-MINSA/DGIESP-2025 (RM 609-2025/MINSA, atención integral de la malaria no complicada y grave); World Health Organization. WHO guidelines for malaria, 13 August 2025; White NJ et al. Lancet 2014;383:723-35; Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Malaria"
+    },
+    {
+      "id": "RM-INF-080",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Recién nacido hijo de madre infectada por VIH, que no recibió tratamiento antirretroviral. Para prevenir la transmisión madre - niño del VIH. ¿Cuál es la indicación profiláctica recomendada?",
+      "opciones": [
+        "Zidovudina en el RN durante las 3 semanas de vida.",
+        "Aislamiento de la madre.",
+        "Lamivudina en el RN por 3 días.",
+        "ARV en el RN dentro de las primeras 48 horas de vida.",
+        "Suspender la lactancia materna."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La transmisión madre-hijo del VIH ocurre durante el embarazo, el parto y la lactancia; sin intervenciones llega al 15-45 %, y la lactancia aporta un riesgo adicional de 5-20 %. Cuando la madre no recibió tratamiento antirretroviral, el recién nacido tiene alto riesgo y requiere profilaxis antirretroviral lo antes posible, idealmente en las primeras 6 a 12 horas de vida y siempre dentro de las primeras 72 horas, además de otras medidas. La norma peruana, que se basa en la evidencia internacional, dispone la suspensión de la lactancia materna y su reemplazo por fórmula láctea infantil, que se entrega a la madre de manera gratuita. Por ese motivo la clave señala suspender la lactancia. La zidovudina sola por 3 semanas o la lamivudina por 3 días no constituyen un esquema recomendado en alto riesgo, que incluye zidovudina, lamivudina y nevirapina o raltegravir por un tiempo mayor. El aislamiento de la madre no tiene sustento, ya que el virus no se transmite por contacto casual. El diagnóstico del lactante se hace con carga viral o ADN proviral al nacer, a las 4 a 6 semanas y a los 4 meses, y se agrega profilaxis con cotrimoxazol desde las 4-6 semanas. Perla: el parto por cesárea electiva se indica si la carga viral materna supera 1000 copias/ml cerca del parto.",
+      "comentario": "La transmisión madre-hijo del VIH ocurre durante el embarazo, el parto y la lactancia; sin intervenciones llega al 15-45 %, y la lactancia aporta un riesgo adicional de 5-20 %. Cuando la madre no recibió tratamiento antirretroviral, el recién nacido tiene alto riesgo y requiere profilaxis antirretroviral lo antes posible, idealmente en las primeras 6 a 12 horas de vida y siempre dentro de las primeras 72 horas, además de otras medidas. La norma peruana, que se basa en la evidencia internacional, dispone la suspensión de la lactancia materna y su reemplazo por fórmula láctea infantil, que se entrega a la madre de manera gratuita. Por ese motivo la clave señala suspender la lactancia. La zidovudina sola por 3 semanas o la lamivudina por 3 días no constituyen un esquema recomendado en alto riesgo, que incluye zidovudina, lamivudina y nevirapina o raltegravir por un tiempo mayor. El aislamiento de la madre no tiene sustento, ya que el virus no se transmite por contacto casual. El diagnóstico del lactante se hace con carga viral o ADN proviral al nacer, a las 4 a 6 semanas y a los 4 meses, y se agrega profilaxis con cotrimoxazol desde las 4-6 semanas. Perla: el parto por cesárea electiva se indica si la carga viral materna supera 1000 copias/ml cerca del parto.",
+      "tema": "Prevención de la transmisión vertical del VIH",
+      "año": 2020,
+      "fuentes": "NTS 159-MINSA/2019/DGIESP (transmisión materno infantil de VIH, sífilis y hepatitis B); NTS 169-MINSA/2020/DGIESP (VIH); Nelson Tratado de Pediatría 22.ª ed. (2024)",
+      "categoria": "VIH pediátrico",
+      "nota_revision": "La clave oficial es suspender la lactancia materna (con fórmula sustituta); el recién nacido de alto riesgo además requiere profilaxis antirretroviral combinada, no zidovudina sola."
+    },
+    {
+      "id": "RM-INF-081",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "¿Cuál es el esquema para TB sensible, según la norma técnica peruana?",
+      "opciones": [
+        "3RHZE/2R3 H4.",
+        "4RHZE/2R3 H3.",
+        "2RHZE/4R3 H3.",
+        "2RHZE/6Z2 E2.",
+        "2RHZE/4R2 H2."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La tuberculosis sensible es la enfermedad producida por cepas de Mycobacterium tuberculosis que responden a isoniacida y rifampicina, y se trata con un esquema de primera línea dividido en dos fases. La fase inicial, de dos meses, usa cuatro fármacos (rifampicina, isoniacida, pirazinamida y etambutol) para reducir con rapidez la carga bacilar de la población metabólicamente activa y evitar la selección de resistentes. La fase de continuación, de cuatro meses, mantiene rifampicina e isoniacida para eliminar los bacilos persistentes y prevenir recaídas, con administración intermitente tres veces por semana en el esquema que recoge la clave. Por eso la expresión 2RHZE/4R3H3 es la correcta. Las alternativas alteran la duración de las fases (tres meses iniciales, cuatro iniciales o seis de continuación) o sustituyen la rifampicina por pirazinamida y etambutol en la continuación, lo que deja un tratamiento sin su fármaco esterilizante principal y con mayor riesgo de fracaso. La duración total de seis meses se mantiene en la tuberculosis pulmonar y en la mayoría de las extrapulmonares; la meníngea y la osteoarticular requieren pautas más largas. El control incluye baciloscopia mensual, vigilancia de hepatotoxicidad y tratamiento directamente observado. Perla: la prueba de sensibilidad rápida a rifampicina define si el caso entra al esquema sensible o a uno para resistentes.",
+      "comentario": "La tuberculosis sensible es la enfermedad producida por cepas de Mycobacterium tuberculosis que responden a isoniacida y rifampicina, y se trata con un esquema de primera línea dividido en dos fases. La fase inicial, de dos meses, usa cuatro fármacos (rifampicina, isoniacida, pirazinamida y etambutol) para reducir con rapidez la carga bacilar de la población metabólicamente activa y evitar la selección de resistentes. La fase de continuación, de cuatro meses, mantiene rifampicina e isoniacida para eliminar los bacilos persistentes y prevenir recaídas, con administración intermitente tres veces por semana en el esquema que recoge la clave. Por eso la expresión 2RHZE/4R3H3 es la correcta. Las alternativas alteran la duración de las fases (tres meses iniciales, cuatro iniciales o seis de continuación) o sustituyen la rifampicina por pirazinamida y etambutol en la continuación, lo que deja un tratamiento sin su fármaco esterilizante principal y con mayor riesgo de fracaso. La duración total de seis meses se mantiene en la tuberculosis pulmonar y en la mayoría de las extrapulmonares; la meníngea y la osteoarticular requieren pautas más largas. El control incluye baciloscopia mensual, vigilancia de hepatotoxicidad y tratamiento directamente observado. Perla: la prueba de sensibilidad rápida a rifampicina define si el caso entra al esquema sensible o a uno para resistentes.",
+      "tema": "Esquema de TB sensible según la norma peruana",
+      "año": 2020,
+      "fuentes": "NTS 221-MINSA/DGIESP-2024 (tuberculosis); OMS, Consolidated guidelines on tuberculosis: Module 4, treatment (2022); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Tuberculosis",
+      "nota_revision": "La OMS 2022 recomienda fase de continuación diaria; la clave oficial refleja el esquema intermitente de la norma peruana."
+    },
+    {
+      "id": "RM-INF-082",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Una madre informa que ha visto gusanos en las evacuaciones de su hija de tres años de edad; los describe de 1 cm de largo aproximadamente, blanquecinos y parece que se mueven. ¿Cuál es la causa de infestación más probable?",
+      "opciones": [
+        "Diphyllobothrium latum.",
+        "Toxocara canis.",
+        "Ascaris lumbricoides.",
+        "Taenia solium.",
+        "Enterobius vermicularis."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La enterobiasis es la helmintiasis más frecuente en niños de edad escolar y preescolar, causada por Enterobius vermicularis, un nematodo pequeño y blanquecino. Se transmite por vía fecal-oral al ingerir huevos presentes en manos, ropa o juguetes; las larvas maduran en el ciego y las hembras grávidas migran por la noche a la región perianal para depositar miles de huevos, lo que produce prurito anal nocturno, irritabilidad, insomnio y vulvovaginitis en niñas. Las hembras miden 8 a 13 mm y a veces se ven en las heces o en el margen anal, moviéndose, como describe la madre. El diagnóstico se confirma con la prueba de Graham, que consiste en aplicar cinta adhesiva transparente en la región perianal por la mañana, antes del baño, y observarla al microscopio; el examen de heces rara vez muestra huevos. Ascaris lumbricoides es una lombriz de 15 a 35 cm; Taenia solium elimina proglótides planas y móviles; Diphyllobothrium latum se adquiere por pescado crudo; Toxocara canis causa larva migrans visceral sin gusanos en las heces. El tratamiento es albendazol o mebendazol en dosis única, repetida a las dos semanas, y se trata a toda la familia. Perla: las medidas de higiene de manos y el lavado de ropa interrumpen la autoinfección.",
+      "comentario": "La enterobiasis es la helmintiasis más frecuente en niños de edad escolar y preescolar, causada por Enterobius vermicularis, un nematodo pequeño y blanquecino. Se transmite por vía fecal-oral al ingerir huevos presentes en manos, ropa o juguetes; las larvas maduran en el ciego y las hembras grávidas migran por la noche a la región perianal para depositar miles de huevos, lo que produce prurito anal nocturno, irritabilidad, insomnio y vulvovaginitis en niñas. Las hembras miden 8 a 13 mm y a veces se ven en las heces o en el margen anal, moviéndose, como describe la madre. El diagnóstico se confirma con la prueba de Graham, que consiste en aplicar cinta adhesiva transparente en la región perianal por la mañana, antes del baño, y observarla al microscopio; el examen de heces rara vez muestra huevos. Ascaris lumbricoides es una lombriz de 15 a 35 cm; Taenia solium elimina proglótides planas y móviles; Diphyllobothrium latum se adquiere por pescado crudo; Toxocara canis causa larva migrans visceral sin gusanos en las heces. El tratamiento es albendazol o mebendazol en dosis única, repetida a las dos semanas, y se trata a toda la familia. Perla: las medidas de higiene de manos y el lavado de ropa interrumpen la autoinfección.",
+      "tema": "Enterobiasis",
+      "año": 2020,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Harrison Principios de Medicina Interna 21.ª ed. (2022); Mandell, Douglas y Bennett Enfermedades Infecciosas 9.ª ed. (2019)",
+      "categoria": "Parasitosis intestinal"
+    },
+    {
+      "id": "RM-INF-083",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Varón de 40 años, chofer interprovincial, acude por cefalea crónica, que desde hace una semana es muy intensa, limitando sus actividades laborales. Examen: fondo de ojo con edema de papila, ataxia, fotofobia, rigidez de nuca. La cefalea se incrementa al cambio de posición de la cabeza. TAC cerebral: múltiples imágenes quísticas lobuladas en el IV ventrículo y las cisternas ventriculares, además algunas calcificaciones en el parénquima cerebral. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Astrocitoma quístico.",
+        "Quistes hidatídicos cerebrales.",
+        "Quistes aracnoideos.",
+        "Neurocisticercosis.",
+        "Malformaciones arteriovenosas."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La neurocisticercosis es la infección del sistema nervioso central por el estadio larvario de Taenia solium, endémica en los Andes. Se adquiere al ingerir huevos eliminados por un portador de la tenia adulta, no al comer carne de cerdo. Las larvas se alojan en parénquima, espacio subaracnoideo o ventrículos. Los quistes ventriculares y cisternales, en racimo y lobulados (forma racemosa), obstruyen la circulación del líquido cefalorraquídeo y producen hidrocefalia con hipertensión endocraneana: cefalea intensa que empeora con los cambios de posición, edema de papila, ataxia, rigidez de nuca y fotofobia, como aquí. Las calcificaciones parenquimatosas corresponden a lesiones inactivas. El diagnóstico se basa en neuroimagen y serología (inmunoelectrotransferencia) según los criterios de Del Brutto (2017). La hidatidosis cerebral produce un quiste único grande, esférico y sin realce; el astrocitoma quístico es sólido-quístico con realce; los quistes aracnoideos son únicos y no calcifican; las malformaciones arteriovenosas muestran vasos serpiginosos. Según la guía IDSA-ASTMH de 2018 y las revisiones de 2025, la forma ventricular se trata con extracción endoscópica o derivación, corticoides y terapia antiparasitaria combinada (albendazol con praziquantel) en quistes múltiples, siempre tras controlar la hidrocefalia. Perla: nunca dar antiparasitarios sin descartar hidrocefalia o lesión ocular.",
+      "comentario": "La neurocisticercosis es la infección del sistema nervioso central por el estadio larvario de Taenia solium, endémica en los Andes. Se adquiere al ingerir huevos eliminados por un portador de la tenia adulta, no al comer carne de cerdo. Las larvas se alojan en parénquima, espacio subaracnoideo o ventrículos. Los quistes ventriculares y cisternales, en racimo y lobulados (forma racemosa), obstruyen la circulación del líquido cefalorraquídeo y producen hidrocefalia con hipertensión endocraneana: cefalea intensa que empeora con los cambios de posición, edema de papila, ataxia, rigidez de nuca y fotofobia, como aquí. Las calcificaciones parenquimatosas corresponden a lesiones inactivas. El diagnóstico se basa en neuroimagen y serología (inmunoelectrotransferencia) según los criterios de Del Brutto (2017). La hidatidosis cerebral produce un quiste único grande, esférico y sin realce; el astrocitoma quístico es sólido-quístico con realce; los quistes aracnoideos son únicos y no calcifican; las malformaciones arteriovenosas muestran vasos serpiginosos. Según la guía IDSA-ASTMH de 2018 y las revisiones de 2025, la forma ventricular se trata con extracción endoscópica o derivación, corticoides y terapia antiparasitaria combinada (albendazol con praziquantel) en quistes múltiples, siempre tras controlar la hidrocefalia. Perla: nunca dar antiparasitarios sin descartar hidrocefalia o lesión ocular.",
+      "tema": "Neurocisticercosis racemosa",
+      "año": 2020,
+      "fuentes": "White AC Jr et al. Clin Infect Dis 2018;66:e49-e75 (guía IDSA-ASTMH de neurocisticercosis); Singh G et al. Curr Opin Neurol 2025;38:380-387; Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Infecciones del sistema nervioso"
+    },
+    {
+      "id": "RM-INF-084",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "¿Cuáles son los componentes del complejo primario tuberculoso?",
+      "opciones": [
+        "Infiltrado intersticial, pleuritis, bronquitis.",
+        "Pleuritis, adenitis hiliar, bronquioalveolitis.",
+        "Neumonía, pleuritis, linfangitis pulmonar.",
+        "Ganglio calcificado, bronquitis, neumonitis.",
+        "Neumonitis, adenitis hiliar, linfangitis pulmonar."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La tuberculosis primaria se produce cuando el bacilo de Koch inhalado alcanza los alvéolos de un individuo no sensibilizado previamente. Los macrófagos alveolares lo fagocitan y el bacilo se multiplica, lo que origina un foco inicial de neumonitis, generalmente subpleural en los lóbulos medios e inferiores, llamado foco de Ghon. Desde allí, los bacilos viajan por los vasos linfáticos hacia los ganglios hiliares. Esta triada de neumonitis (foco parenquimatoso), linfangitis (vía de drenaje) y adenitis hiliar o mediastínica (ganglios regionales) constituye el complejo primario o complejo de Ranke. En unas semanas, la inmunidad celular (linfocitos T CD4 y formación de granulomas con necrosis caseosa) contiene la infección en la mayoría de los casos, y el foco y los ganglios se calcifican; se positiviza la prueba cutánea de la tuberculina. En los niños y en inmunodeprimidos puede progresar a tuberculosis miliar, meníngea o primaria progresiva. Las demás opciones mezclan estructuras no propias del complejo (bronquitis, pleuritis o infiltrado intersticial). El diagnóstico en el niño se apoya en el contacto, la tuberculina y la radiografía, según la NTS 221-MINSA/DGIESP-2024, que establece el manejo y la quimioprofilaxis de los contactos. Perla: la adenopatía hiliar es el hallazgo radiológico más frecuente en la tuberculosis primaria infantil.",
+      "comentario": "La tuberculosis primaria se produce cuando el bacilo de Koch inhalado alcanza los alvéolos de un individuo no sensibilizado previamente. Los macrófagos alveolares lo fagocitan y el bacilo se multiplica, lo que origina un foco inicial de neumonitis, generalmente subpleural en los lóbulos medios e inferiores, llamado foco de Ghon. Desde allí, los bacilos viajan por los vasos linfáticos hacia los ganglios hiliares. Esta triada de neumonitis (foco parenquimatoso), linfangitis (vía de drenaje) y adenitis hiliar o mediastínica (ganglios regionales) constituye el complejo primario o complejo de Ranke. En unas semanas, la inmunidad celular (linfocitos T CD4 y formación de granulomas con necrosis caseosa) contiene la infección en la mayoría de los casos, y el foco y los ganglios se calcifican; se positiviza la prueba cutánea de la tuberculina. En los niños y en inmunodeprimidos puede progresar a tuberculosis miliar, meníngea o primaria progresiva. Las demás opciones mezclan estructuras no propias del complejo (bronquitis, pleuritis o infiltrado intersticial). El diagnóstico en el niño se apoya en el contacto, la tuberculina y la radiografía, según la NTS 221-MINSA/DGIESP-2024, que establece el manejo y la quimioprofilaxis de los contactos. Perla: la adenopatía hiliar es el hallazgo radiológico más frecuente en la tuberculosis primaria infantil.",
+      "tema": "Complejo primario tuberculoso",
+      "año": 2020,
+      "fuentes": "Harrison Principios de Medicina Interna 21.ª ed. (2022); Nelson Tratado de Pediatría 22.ª ed. (2024); NTS 221-MINSA/DGIESP-2024 (tuberculosis)",
+      "categoria": "Tuberculosis"
+    },
+    {
+      "id": "RM-INF-085",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Varón de 60 años, procedente de Piura, presenta malestar general, fiebre, cefalea, dolor retroocular, artralgias y diarrea desde hace tres días; señala “parece que me hubiese pasado un carro por encima”. No hay evidencia de descompensación hemodinámica ni de sangrado. ¿Cuál es el tratamiento inicial?",
+      "opciones": [
+        "Reposo y paracetamol.",
+        "Corticoides más antibioticoterapia.",
+        "Medicación antipalúdica vía oral.",
+        "Antibioticoterapia empírica.",
+        "Ácido acetilsalicílico como sintomático."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El dengue es una arbovirosis causada por un flavivirus de cuatro serotipos y transmitida por Aedes aegypti, endémica en la costa norte del Perú, como en Piura. Tras 4 a 10 días de incubación aparece fiebre alta de inicio brusco, cefalea, dolor retroocular, mialgias y artralgias intensas («fiebre quebrantahuesos»), exantema y a veces diarrea. En este paciente no hay signos de alarma (dolor abdominal intenso, vómitos persistentes, sangrado de mucosas, letargo, acumulación de líquido, aumento del hematocrito con caída de plaquetas) ni choque, por lo que corresponde a dengue sin signos de alarma (clasificación de la OMS 2009), de manejo ambulatorio. La NTS 211-MINSA/DGIESP-2024 lo ubica en el grupo A si no hay comorbilidad ni riesgo social. El tratamiento es de soporte: reposo, hidratación oral abundante y paracetamol, con vigilancia de signos de alarma cuando cae la fiebre (días 3 a 7, fase crítica), como destaca la revisión de Lancet de 2024. Están contraindicados el ácido acetilsalicílico y los antiinflamatorios no esteroideos, por el riesgo de sangrado. Los corticoides y los antibióticos no tienen indicación, ni la medicación antipalúdica, aunque en zonas endémicas se debe descartar malaria con gota gruesa. Si hay signos de alarma se hospitaliza con fluidos intravenosos y control del hematocrito. Perla: el paciente que mejora la fiebre pero empeora con dolor abdominal está entrando en la fase crítica.",
+      "comentario": "El dengue es una arbovirosis causada por un flavivirus de cuatro serotipos y transmitida por Aedes aegypti, endémica en la costa norte del Perú, como en Piura. Tras 4 a 10 días de incubación aparece fiebre alta de inicio brusco, cefalea, dolor retroocular, mialgias y artralgias intensas («fiebre quebrantahuesos»), exantema y a veces diarrea. En este paciente no hay signos de alarma (dolor abdominal intenso, vómitos persistentes, sangrado de mucosas, letargo, acumulación de líquido, aumento del hematocrito con caída de plaquetas) ni choque, por lo que corresponde a dengue sin signos de alarma (clasificación de la OMS 2009), de manejo ambulatorio. La NTS 211-MINSA/DGIESP-2024 lo ubica en el grupo A si no hay comorbilidad ni riesgo social. El tratamiento es de soporte: reposo, hidratación oral abundante y paracetamol, con vigilancia de signos de alarma cuando cae la fiebre (días 3 a 7, fase crítica), como destaca la revisión de Lancet de 2024. Están contraindicados el ácido acetilsalicílico y los antiinflamatorios no esteroideos, por el riesgo de sangrado. Los corticoides y los antibióticos no tienen indicación, ni la medicación antipalúdica, aunque en zonas endémicas se debe descartar malaria con gota gruesa. Si hay signos de alarma se hospitaliza con fluidos intravenosos y control del hematocrito. Perla: el paciente que mejora la fiebre pero empeora con dolor abdominal está entrando en la fase crítica.",
+      "tema": "Dengue sin signos de alarma",
+      "año": 2020,
+      "fuentes": "Ministerio de Salud del Perú. NTS 211-MINSA/DGIESP-2024, Norma técnica de salud para la atención integral de pacientes con dengue en el Perú (RM 175-2024/MINSA); Paz-Bailey G et al. Lancet 2024;403:667-682; Organización Mundial de la Salud. Dengue: guías para el diagnóstico, tratamiento, prevención y control (2009); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Enfermedades tropicales",
+      "nota_revision": "Según la norma peruana vigente, la edad avanzada o una comorbilidad pueden reclasificar al paciente fuera del grupo A para observación; la clave oficial (reposo y paracetamol) se mantiene como tratamiento inicial."
+    },
+    {
+      "id": "RM-INF-086",
+      "especialidad": "Infectología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "¿Cuáles son las características del estudio del líquido cefalorraquídeo que determinan el diagnóstico de meningitis tuberculosa?",
+      "opciones": [
+        "Pleocitosis a predominio linfomononuclear, hiperproteinorraquia e hipoglucorraquia.",
+        "Pleocitosis a predominio polimorfonuclear, hiperproteinorraquia e hipoglucorraquia.",
+        "Pleocitosis a predominio linfomononuclear, hiperproteinorraquia e hiperglucorraquia.",
+        "Pleocitosis a predominio linfomononuclear, hiperproteinorraquia e normoglucorraquia.",
+        "Pleocitosis a predominio polimorfonuclear, hipoproteinorraquia e hipoglucorraquia."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La meningitis tuberculosa resulta de la ruptura de un foco caseoso subependimario (foco de Rich) hacia el espacio subaracnoideo, con un exudado gelatinoso en la base del cráneo que atrapa los pares craneales, produce vasculitis con infartos e interfiere con la circulación del líquido cefalorraquídeo (hidrocefalia). Clínicamente es subaguda: cefalea, fiebre, alteración del sensorio y parálisis de pares craneales (III, VI). En el líquido cefalorraquídeo se halla pleocitosis linfomononuclear moderada (100 a 500 células/mm3), hiperproteinorraquia marcada (100 a 500 mg/dl) e hipoglucorraquia (glucosa menor de 45 mg/dl o relación con la glucemia menor de 0,5), con adenosina desaminasa elevada. La opción de predominio polimorfonuclear con hipoglucorraquia corresponde a la meningitis bacteriana aguda; la hiperglucorraquia y la normoglucorraquia con linfocitos son propias de la meningitis viral; y la hipoproteinorraquia no es esperable. La confirmación se logra con baciloscopia (escasa sensibilidad), cultivo, Xpert MTB/RIF Ultra en el líquido y definiciones uniformes de caso (Marais, 2010). El tratamiento combina isoniacida, rifampicina, pirazinamida y etambutol por 2 meses, seguidos de isoniacida y rifampicina hasta completar 9 a 12 meses, con dexametasona adyuvante según NTS 221-MINSA/DGIESP-2024. Perla: el tratamiento no debe esperar la confirmación microbiológica.",
+      "comentario": "La meningitis tuberculosa resulta de la ruptura de un foco caseoso subependimario (foco de Rich) hacia el espacio subaracnoideo, con un exudado gelatinoso en la base del cráneo que atrapa los pares craneales, produce vasculitis con infartos e interfiere con la circulación del líquido cefalorraquídeo (hidrocefalia). Clínicamente es subaguda: cefalea, fiebre, alteración del sensorio y parálisis de pares craneales (III, VI). En el líquido cefalorraquídeo se halla pleocitosis linfomononuclear moderada (100 a 500 células/mm3), hiperproteinorraquia marcada (100 a 500 mg/dl) e hipoglucorraquia (glucosa menor de 45 mg/dl o relación con la glucemia menor de 0,5), con adenosina desaminasa elevada. La opción de predominio polimorfonuclear con hipoglucorraquia corresponde a la meningitis bacteriana aguda; la hiperglucorraquia y la normoglucorraquia con linfocitos son propias de la meningitis viral; y la hipoproteinorraquia no es esperable. La confirmación se logra con baciloscopia (escasa sensibilidad), cultivo, Xpert MTB/RIF Ultra en el líquido y definiciones uniformes de caso (Marais, 2010). El tratamiento combina isoniacida, rifampicina, pirazinamida y etambutol por 2 meses, seguidos de isoniacida y rifampicina hasta completar 9 a 12 meses, con dexametasona adyuvante según NTS 221-MINSA/DGIESP-2024. Perla: el tratamiento no debe esperar la confirmación microbiológica.",
+      "tema": "Líquido cefalorraquídeo en la meningitis tuberculosa",
+      "año": 2020,
+      "fuentes": "Harrison Principios de Medicina Interna 21.ª ed. (2022); Marais S et al. Lancet Infect Dis 2010;10:803-12 (definición uniforme de caso de meningitis tuberculosa); NTS 221-MINSA/DGIESP-2024 (tuberculosis)",
+      "categoria": "Tuberculosis extrapulmonar"
     }
   ]
 }

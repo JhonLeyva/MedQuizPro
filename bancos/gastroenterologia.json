@@ -2646,6 +2646,113 @@
       "fuentes": "ESMO Clinical Practice Guideline gastric cancer (Lordick F et al., Ann Oncol 2022;33:1005-1020); NCCN Guidelines Gastric Cancer (versión vigente); Sabiston Tratado de Cirugía 21.ª ed. (2021)",
       "categoria": "Oncología digestiva",
       "nota_revision": "Repite RM-CIR-138 (misma clave A). Opciones reconstruidas desde la imagen de la página (el orden de las letras del libro está desordenado en la columna; se normalizó a A-E según los enunciados)."
+    },
+    {
+      "id": "RM-GAS-045",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "El principal daño hepático que puede ser ocasionado por ...... es de tipo colestasis.",
+      "opciones": [
+        "ketoconazol.",
+        "metimazol.",
+        "isoniacida.",
+        "ibuprofeno.",
+        "metildopa."
+      ],
+      "correcta": 1,
+      "clave_correcta": "B",
+      "explicacion": "La hepatotoxicidad por fármacos se clasifica según la relación entre alanina aminotransferasa y fosfatasa alcalina (índice R): hepatocelular si R es mayor de 5, colestásica si es menor de 2 y mixta entre 2 y 5. El metimazol, antitiroideo de elección en el hipertiroidismo, produce característicamente un patrón colestásico, a veces prolongado, a diferencia del propiltiouracilo, que causa necrosis hepatocelular grave y puede requerir trasplante. Por eso la clave es metimazol. El ketoconazol produce lesión hepatocelular, a veces fulminante; la isoniacida causa hepatitis hepatocelular que se asemeja a la viral, con mayor riesgo en edad avanzada, acetiladores lentos y consumo de alcohol; la metildopa produce un patrón hepatocelular, a veces con autoinmunidad; el ibuprofeno tiene hepatotoxicidad poco frecuente, de tipo mixto. Otros fármacos colestásicos clásicos son amoxicilina-clavulánico, clorpromazina, eritromicina (estolato), anticonceptivos y esteroides anabólicos. El manejo consiste en suspender el fármaco sospechoso, ofrecer soporte y descartar otras causas; en colestasis se usa ácido ursodesoxicólico para el prurito. Perla: la ley de Hy (ALT mayor de 3 veces el límite con bilirrubina mayor de 2 veces) predice mortalidad.",
+      "comentario": "La hepatotoxicidad por fármacos se clasifica según la relación entre alanina aminotransferasa y fosfatasa alcalina (índice R): hepatocelular si R es mayor de 5, colestásica si es menor de 2 y mixta entre 2 y 5. El metimazol, antitiroideo de elección en el hipertiroidismo, produce característicamente un patrón colestásico, a veces prolongado, a diferencia del propiltiouracilo, que causa necrosis hepatocelular grave y puede requerir trasplante. Por eso la clave es metimazol. El ketoconazol produce lesión hepatocelular, a veces fulminante; la isoniacida causa hepatitis hepatocelular que se asemeja a la viral, con mayor riesgo en edad avanzada, acetiladores lentos y consumo de alcohol; la metildopa produce un patrón hepatocelular, a veces con autoinmunidad; el ibuprofeno tiene hepatotoxicidad poco frecuente, de tipo mixto. Otros fármacos colestásicos clásicos son amoxicilina-clavulánico, clorpromazina, eritromicina (estolato), anticonceptivos y esteroides anabólicos. El manejo consiste en suspender el fármaco sospechoso, ofrecer soporte y descartar otras causas; en colestasis se usa ácido ursodesoxicólico para el prurito. Perla: la ley de Hy (ALT mayor de 3 veces el límite con bilirrubina mayor de 2 veces) predice mortalidad.",
+      "tema": "Hepatotoxicidad colestásica por metimazol",
+      "año": 2020,
+      "fuentes": "Chalasani NP et al. Am J Gastroenterol 2021;116:878-98 (guía ACG de lesión hepática inducida por fármacos); Katzung Farmacología básica y clínica 16.ª ed. (2024)",
+      "categoria": "Hepatopatía inducida por fármacos",
+      "nota_revision": "Clave oficial: metimazol (patrón colestásico). Otros fármacos de la lista pueden producir patrones mixtos, pero el colestásico predominante corresponde al metimazol."
+    },
+    {
+      "id": "RM-GAS-046",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Varón de 60 años, presenta dolor tipo ardor en epigastrio; en endoscopía digestiva alta de hace 10 años se le encontró: atrofia gástrica y Helicobacter pylori (++); desde hace 4 meses baja 10 kilos de peso y viene presentando llenura precoz. Examen: PA: 110/70 mmHg, FC: 95 X', T°: 37.5 °C; Sat. O2: 98%; se palpa adenopatía supraclavicular izquierda; grupo sanguíneo A. Endoscopía alta: lesión ulcerada bien localizada compatible con pólipo velloso. Se sospecha de cáncer gástrico. ¿Qué estudio se debe solicitar para el estadiaje de la enfermedad?",
+      "opciones": [
+        "Ecoendoscopía.",
+        "Ecografía abdominal.",
+        "Tomografía axial.",
+        "Eco Doppler.",
+        "Resonancia magnética."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "El adenocarcinoma gástrico se asocia a gastritis atrófica crónica y a la infección por Helicobacter pylori, que sigue la secuencia de Correa: atrofia, metaplasia intestinal, displasia y carcinoma. La pérdida de peso, la saciedad precoz y la anemia son síntomas de enfermedad avanzada, y el ganglio supraclavicular izquierdo (de Virchow-Troisier) indica diseminación linfática a distancia. Tras confirmar el tumor por endoscopia con biopsia, la estadificación define la intención del tratamiento. La clave oficial indica la ecoendoscopia, porque es el método más preciso para valorar la profundidad de invasión de la pared (T) y los ganglios regionales (N), lo que decide la resecabilidad endoscópica en lesiones tempranas y el tratamiento perioperatorio. Las guías ESMO (2022) y su adaptación panasiática (Shitara, ESMO Open 2024) establecen además la tomografía de tórax, abdomen y pelvis con contraste como estudio estándar para descartar metástasis (M), y la laparoscopia con citología peritoneal en tumores localmente avanzados; la ecografía abdominal y el Doppler tienen escaso valor y la resonancia aclara lesiones hepáticas dudosas. En el tumor avanzado se determinan HER2, PD-L1, inestabilidad de microsatélites y claudina 18.2, que orientan la terapia sistémica. Perla: con un ganglio de Virchow, la biopsia ganglionar y la tomografía confirman la enfermedad metastásica.",
+      "comentario": "El adenocarcinoma gástrico se asocia a gastritis atrófica crónica y a la infección por Helicobacter pylori, que sigue la secuencia de Correa: atrofia, metaplasia intestinal, displasia y carcinoma. La pérdida de peso, la saciedad precoz y la anemia son síntomas de enfermedad avanzada, y el ganglio supraclavicular izquierdo (de Virchow-Troisier) indica diseminación linfática a distancia. Tras confirmar el tumor por endoscopia con biopsia, la estadificación define la intención del tratamiento. La clave oficial indica la ecoendoscopia, porque es el método más preciso para valorar la profundidad de invasión de la pared (T) y los ganglios regionales (N), lo que decide la resecabilidad endoscópica en lesiones tempranas y el tratamiento perioperatorio. Las guías ESMO (2022) y su adaptación panasiática (Shitara, ESMO Open 2024) establecen además la tomografía de tórax, abdomen y pelvis con contraste como estudio estándar para descartar metástasis (M), y la laparoscopia con citología peritoneal en tumores localmente avanzados; la ecografía abdominal y el Doppler tienen escaso valor y la resonancia aclara lesiones hepáticas dudosas. En el tumor avanzado se determinan HER2, PD-L1, inestabilidad de microsatélites y claudina 18.2, que orientan la terapia sistémica. Perla: con un ganglio de Virchow, la biopsia ganglionar y la tomografía confirman la enfermedad metastásica.",
+      "tema": "Estadificación del cáncer gástrico",
+      "año": 2020,
+      "fuentes": "Shitara K et al. ESMO Open 2024;9:102226 (guía ESMO panasiática de cáncer gástrico); Lordick F et al. Ann Oncol 2022;33:1005-20 (guía ESMO de cáncer gástrico); Ajani JA et al. J Natl Compr Canc Netw 2022;20:167-92 (NCCN, cáncer gástrico); Sabiston Tratado de Cirugía 21.ª ed. (2021)",
+      "categoria": "Oncología gástrica",
+      "nota_revision": "El paciente presenta un ganglio de Virchow, que sugiere enfermedad metastásica; la tomografía es indispensable, pero la clave oficial es la ecoendoscopia para la estadificación local (T y N)."
+    },
+    {
+      "id": "RM-GAS-047",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Varón de 54 años, acude a consulta por presentar desde hace 2 meses distensión abdominal y aumento de volumen en piernas. Antecedente de ingesta de alcohol 3 veces a la semana desde hace 10 años, hasta hace 1 año. Examen físico: ictericia en conjuntivas y mucosas, equimosis en miembros superiores, telangiectasias en tórax anterior; distensión abdominal con circulación colateral. ¿Qué hallazgo de laboratorio corresponde a este cuadro?",
+      "opciones": [
+        "Bilirrubina en 1 mg/dl.",
+        "INR: 0.98.",
+        "Albúmina en 2 g/dl.",
+        "TGP: 35 UI/l.",
+        "Sodio: 150 mEq/l."
+      ],
+      "correcta": 2,
+      "clave_correcta": "C",
+      "explicacion": "La cirrosis es la fase final de muchas hepatopatías crónicas, entre ellas la alcohólica, y se caracteriza por fibrosis, nódulos de regeneración e hipertensión portal. El paciente presenta ictericia, ascitis, edema, equimosis, telangiectasias y circulación colateral, es decir, una cirrosis descompensada con insuficiencia hepatocelular. El hígado sintetiza la albúmina y los factores de coagulación; por eso en la insuficiencia hepática avanzada hay hipoalbuminemia (aquí 2 g/dl), prolongación del INR, hiperbilirrubinemia y trombocitopenia por hiperesplenismo. Las demás opciones no corresponden: una bilirrubina de 1 mg/dl y un INR de 0,98 son normales, algo imposible con ictericia clínica y equimosis; la TGP de 35 UI/l es normal, y en la cirrosis avanzada las transaminasas pueden ser normales o moderadamente elevadas, con relación AST/ALT mayor de 2 en la alcohólica; y en la ascitis cirrótica se encuentra hiponatremia dilucional, no hipernatremia. La gravedad se clasifica con Child-Pugh (bilirrubina, albúmina, INR, ascitis y encefalopatía) y MELD-Na para el trasplante. Según la guía AASLD de 2021 y la de 2024 sobre hipertensión portal, el manejo comprende abstinencia, restricción de sodio, diuréticos y paracentesis con albúmina (y albúmina en la peritonitis bacteriana espontánea y el síndrome hepatorrenal); los datos sobre albúmina prolongada son heterogéneos. Perla: un gradiente de albúmina sérica-ascitis mayor de 1,1 g/dl confirma ascitis por hipertensión portal.",
+      "comentario": "La cirrosis es la fase final de muchas hepatopatías crónicas, entre ellas la alcohólica, y se caracteriza por fibrosis, nódulos de regeneración e hipertensión portal. El paciente presenta ictericia, ascitis, edema, equimosis, telangiectasias y circulación colateral, es decir, una cirrosis descompensada con insuficiencia hepatocelular. El hígado sintetiza la albúmina y los factores de coagulación; por eso en la insuficiencia hepática avanzada hay hipoalbuminemia (aquí 2 g/dl), prolongación del INR, hiperbilirrubinemia y trombocitopenia por hiperesplenismo. Las demás opciones no corresponden: una bilirrubina de 1 mg/dl y un INR de 0,98 son normales, algo imposible con ictericia clínica y equimosis; la TGP de 35 UI/l es normal, y en la cirrosis avanzada las transaminasas pueden ser normales o moderadamente elevadas, con relación AST/ALT mayor de 2 en la alcohólica; y en la ascitis cirrótica se encuentra hiponatremia dilucional, no hipernatremia. La gravedad se clasifica con Child-Pugh (bilirrubina, albúmina, INR, ascitis y encefalopatía) y MELD-Na para el trasplante. Según la guía AASLD de 2021 y la de 2024 sobre hipertensión portal, el manejo comprende abstinencia, restricción de sodio, diuréticos y paracentesis con albúmina (y albúmina en la peritonitis bacteriana espontánea y el síndrome hepatorrenal); los datos sobre albúmina prolongada son heterogéneos. Perla: un gradiente de albúmina sérica-ascitis mayor de 1,1 g/dl confirma ascitis por hipertensión portal.",
+      "tema": "Hipoalbuminemia en la cirrosis descompensada",
+      "año": 2020,
+      "fuentes": "Harrison Principios de Medicina Interna 21.ª ed. (2022); Biggins SW et al. Hepatology 2021;74:1014-1048 (guía AASLD de ascitis, hiponatremia y síndrome hepatorrenal); Kaplan DE et al. Hepatology 2024;79:1180-1211 (guía AASLD de hipertensión portal y várices); Pompili E et al. JHEP Rep 2024;6:101221",
+      "categoria": "Hepatología"
+    },
+    {
+      "id": "RM-GAS-048",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "¿Cuál es la complicación más frecuente después de una colangiopancreatografía retrógrada endoscópica (CPRE)?",
+      "opciones": [
+        "Pancreatitis.",
+        "Duodenitis.",
+        "Pseudoquiste.",
+        "Perforación.",
+        "Hemorragia."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La colangiopancreatografía retrógrada endoscópica canula la papila de Vater e inyecta contraste, por lo que puede lesionar el páncreas, la pared duodenal o la vía biliar. La complicación más frecuente es la pancreatitis posprocedimiento, con una incidencia cercana al 3-10 % en la población general y mayor en pacientes de alto riesgo; se define por dolor abdominal nuevo con amilasa o lipasa más de tres veces el límite superior a las 24 horas, que prolonga o requiere hospitalización (criterios de Cotton). Los factores de riesgo son sexo femenino, edad joven, sospecha de disfunción del esfínter de Oddi, canulación difícil, inyección repetida del conducto pancreático y esfinterotomía de precorte. La hemorragia (sobre todo tras esfinterotomía, 1-2 %) y la perforación (menos del 1 %) son menos frecuentes; la duodenitis es leve y el pseudoquiste es una complicación tardía de la pancreatitis, no del procedimiento. La guía de la ASGE de 2023 sobre prevención de la pancreatitis post-CPRE recomienda indometacina rectal, sugiere hidratación agresiva con Ringer lactato, canulación guiada por guía y endoprótesis pancreática profiláctica cuando hubo canulación inadvertida del conducto pancreático, y la ESGE 2020 coincide en limitar la CPRE a indicaciones terapéuticas. Perla: la colangiorresonancia y la ecoendoscopia han reemplazado a la CPRE diagnóstica.",
+      "comentario": "La colangiopancreatografía retrógrada endoscópica canula la papila de Vater e inyecta contraste, por lo que puede lesionar el páncreas, la pared duodenal o la vía biliar. La complicación más frecuente es la pancreatitis posprocedimiento, con una incidencia cercana al 3-10 % en la población general y mayor en pacientes de alto riesgo; se define por dolor abdominal nuevo con amilasa o lipasa más de tres veces el límite superior a las 24 horas, que prolonga o requiere hospitalización (criterios de Cotton). Los factores de riesgo son sexo femenino, edad joven, sospecha de disfunción del esfínter de Oddi, canulación difícil, inyección repetida del conducto pancreático y esfinterotomía de precorte. La hemorragia (sobre todo tras esfinterotomía, 1-2 %) y la perforación (menos del 1 %) son menos frecuentes; la duodenitis es leve y el pseudoquiste es una complicación tardía de la pancreatitis, no del procedimiento. La guía de la ASGE de 2023 sobre prevención de la pancreatitis post-CPRE recomienda indometacina rectal, sugiere hidratación agresiva con Ringer lactato, canulación guiada por guía y endoprótesis pancreática profiláctica cuando hubo canulación inadvertida del conducto pancreático, y la ESGE 2020 coincide en limitar la CPRE a indicaciones terapéuticas. Perla: la colangiorresonancia y la ecoendoscopia han reemplazado a la CPRE diagnóstica.",
+      "tema": "Complicación más frecuente de la CPRE",
+      "año": 2020,
+      "fuentes": "Buxbaum JL et al. Gastrointest Endosc 2023;97:153-162 (guía ASGE sobre prevención de la pancreatitis post-CPRE); Dumonceau JM et al. Endoscopy 2020;52:127-49 (ESGE, eventos adversos de la CPRE); Cotton PB et al. Gastrointest Endosc 1991;37:383-93; Sabiston Tratado de Cirugía 21.ª ed. (2021)",
+      "categoria": "Endoscopia digestiva"
+    },
+    {
+      "id": "RM-GAS-049",
+      "especialidad": "Gastroenterología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Mujer de 65 años, acude a emergencia con 2 días de enfermedad por dolor cólico en hipocondrio derecho, con irradiación subescapular, luego de una comida rica en grasas; el dolor no cede con antiespasmódicos y luego de 24 horas se agregan náuseas, vómitos y el dolor se torna más intenso con una distribución en barra. Hemograma: Hto: 29%, Leucocitos: 16,500 por µl; Glicemia: 230 mg/dl; LDH: 300 UI/l y GOT: 200 UI/l. Se le diagnostica pancreatitis aguda. ¿Cuál es la causa más frecuente en nuestro medio?",
+      "opciones": [
+        "Quiste del colédoco.",
+        "Alcoholismo.",
+        "Pólipo vesicular.",
+        "Litiasis vesicular.",
+        "Tratamiento con hipolipemiantes."
+      ],
+      "correcta": 3,
+      "clave_correcta": "D",
+      "explicacion": "La pancreatitis aguda es una inflamación del páncreas por activación intrapancreática prematura de las enzimas digestivas. Se diagnostica, según la clasificación de Atlanta revisada (2012), con dos de tres criterios: dolor abdominal epigástrico en barra, lipasa o amilasa más de tres veces el límite superior e imágenes compatibles. La causa más frecuente en nuestro medio es la litiasis biliar: un cálculo que migra y obstruye transitoriamente la ampolla de Vater, favorecido por una vesícula con colelitiasis, que explica el cólico previo en hipocondrio derecho tras una comida grasa. El alcohol es la segunda causa y predomina en varones; los fármacos hipolipemiantes son una causa rara, y la hipertrigliceridemia solo desencadena el cuadro con valores mayores de 1000 mg/dl; el quiste del colédoco y el pólipo vesicular son causas excepcionales. En esta paciente de 65 años, la leucocitosis de 16 500, la glucemia de 230 y la edad cumplen tres criterios de Ranson al ingreso, de modo que se espera un cuadro grave. El tratamiento incluye reposición de líquidos con Ringer lactato, analgesia, nutrición enteral precoz y colecistectomía en la misma hospitalización si es leve. Perla: la colangiopancreatografía urgente se reserva para colangitis o sospecha de obstrucción persistente.",
+      "comentario": "La pancreatitis aguda es una inflamación del páncreas por activación intrapancreática prematura de las enzimas digestivas. Se diagnostica, según la clasificación de Atlanta revisada (2012), con dos de tres criterios: dolor abdominal epigástrico en barra, lipasa o amilasa más de tres veces el límite superior e imágenes compatibles. La causa más frecuente en nuestro medio es la litiasis biliar: un cálculo que migra y obstruye transitoriamente la ampolla de Vater, favorecido por una vesícula con colelitiasis, que explica el cólico previo en hipocondrio derecho tras una comida grasa. El alcohol es la segunda causa y predomina en varones; los fármacos hipolipemiantes son una causa rara, y la hipertrigliceridemia solo desencadena el cuadro con valores mayores de 1000 mg/dl; el quiste del colédoco y el pólipo vesicular son causas excepcionales. En esta paciente de 65 años, la leucocitosis de 16 500, la glucemia de 230 y la edad cumplen tres criterios de Ranson al ingreso, de modo que se espera un cuadro grave. El tratamiento incluye reposición de líquidos con Ringer lactato, analgesia, nutrición enteral precoz y colecistectomía en la misma hospitalización si es leve. Perla: la colangiopancreatografía urgente se reserva para colangitis o sospecha de obstrucción persistente.",
+      "tema": "Causa más frecuente de pancreatitis aguda",
+      "año": 2020,
+      "fuentes": "Banks PA et al. Gut 2013;62:102-11 (Atlanta revisada); Tenner S et al. Am J Gastroenterol 2024;119:419-37 (guía ACG de pancreatitis aguda); Sabiston Tratado de Cirugía 21.ª ed. (2021)",
+      "categoria": "Pancreatitis"
     }
   ]
 }
