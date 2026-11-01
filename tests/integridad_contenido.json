@@ -3,7 +3,7 @@
   "algoritmos.js": "0a52716fc484b3721a15dd80ac649beb80bab5d24875e915e82b96896c79215b",
   "bancos/cardiologia.json": "b4d43557e6fa280d11c359555318165750c6c0217333c57cc5564c98a4f0443c",
   "bancos/ciencias_basicas.json": "6bdac5fb8a0bebb87e16835a7f8fba1ffdd0edda91171b35dfa57dfc51affc6a",
-  "bancos/cirugia.json": "1e970451b9ac5d54ccdd04d7831a287d5f6e330e13468b0b630befaac828293f",
+  "bancos/cirugia.json": "1c63edb2896ef4fbe0ead3147f23b9824fd0678f00e7293a3a894dc969210c7d",
   "bancos/endocrinologia.json": "4805d3959eaee4244c562eeae56e88feca0e575891f8cfa929e287c438df4308",
   "bancos/gastroenterologia.json": "ee3381f65c59ba6cbba8506998edcb86f71894ebfa69e4943f2f9a30256d3926",
   "bancos/ginecologia.json": "578d7a49f41b8c03aead8ab4673ee9d90148119f90e84fe9ee559c6ffe9097ba",
@@ -34,5 +34,5 @@
    "sha256": "153621c768a56379082a3be458098ca00c72ec3cbd795cf90a36c45670268496"
   }
  },
- "preguntas": 3832
+ "preguntas": 3857
 }
