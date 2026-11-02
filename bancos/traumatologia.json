@@ -2076,6 +2076,49 @@
       "fuentes": "Mathews CJ y cols. Bacterial septic arthritis in adults (Lancet 2010); Tarazi JM y cols. Decreased complication rate with surgical arthroscopy compared with arthrotomy for treatment of septic arthritis (J Surg Orthop Adv 2025)",
       "categoria": "Infecciones osteoarticulares",
       "nota_revision": "Bloque dañado; la clave E está marcada como respuesta en la imagen. Algunos textos aceptan punción repetida, artroscopia o artrotomía, pues el tipo de drenaje depende de la articulación; la artroscopia en la rodilla es la mejor respuesta."
+    },
+    {
+      "id": "RM-TRA-049",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Mujer de 21 años copiloto de auto que presenta colisión frontal; ingresa a Emergencia con funciones vitales estables en posición decúbito supino, miembro inferior derecho con acortamiento, cadera derecha en flexión y rotación interna con mucho dolor para la extensión. ¿Cuál es el diagnóstico más probable?",
+      "opciones": [
+        "Luxación anterior de cadera.",
+        "Fractura de fémur.",
+        "Luxación de rodilla.",
+        "Fractura pélvica.",
+        "Luxación posterior de cadera."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La luxación posterior de cadera representa cerca del 85-90 % de las luxaciones coxofemorales y suele ocurrir en accidentes de tránsito por el mecanismo del tablero: la rodilla flexionada choca contra el tablero y transmite la fuerza axialmente al fémur con la cadera en flexión y aducción, empujando la cabeza femoral por detrás del acetábulo. El miembro queda acortado, en flexión, aducción y rotación interna, con dolor intenso e impotencia funcional, como describe el caso. En la luxación anterior, mucho menos frecuente, la cadera se halla en abducción, flexión y rotación externa. La fractura de fémur proximal produce acortamiento con rotación externa, la fractura pélvica cursa con dolor a la compresión pélvica e inestabilidad hemodinámica, y la luxación de rodilla se acompaña de deformidad articular y riesgo de lesión de la arteria poplítea. La revisión de Benedick (J Am Acad Orthop Surg 2024) sobre luxación traumática de cadera reafirma que es una urgencia ortopédica: tras el abordaje inicial según ATLS se busca fractura de cabeza femoral o del borde acetabular, lesión del nervio ciático, que se manifiesta con pérdida de la dorsiflexión del pie, y se realiza reducción cerrada urgente, idealmente en las primeras 6 horas, para disminuir el riesgo de necrosis avascular. Perla: tras reducir se solicita tomografía para descartar fragmentos intraarticulares y fracturas ocultas.",
+      "comentario": "La luxación posterior de cadera representa cerca del 85-90 % de las luxaciones coxofemorales y suele ocurrir en accidentes de tránsito por el mecanismo del tablero: la rodilla flexionada choca contra el tablero y transmite la fuerza axialmente al fémur con la cadera en flexión y aducción, empujando la cabeza femoral por detrás del acetábulo. El miembro queda acortado, en flexión, aducción y rotación interna, con dolor intenso e impotencia funcional, como describe el caso. En la luxación anterior, mucho menos frecuente, la cadera se halla en abducción, flexión y rotación externa. La fractura de fémur proximal produce acortamiento con rotación externa, la fractura pélvica cursa con dolor a la compresión pélvica e inestabilidad hemodinámica, y la luxación de rodilla se acompaña de deformidad articular y riesgo de lesión de la arteria poplítea. La revisión de Benedick (J Am Acad Orthop Surg 2024) sobre luxación traumática de cadera reafirma que es una urgencia ortopédica: tras el abordaje inicial según ATLS se busca fractura de cabeza femoral o del borde acetabular, lesión del nervio ciático, que se manifiesta con pérdida de la dorsiflexión del pie, y se realiza reducción cerrada urgente, idealmente en las primeras 6 horas, para disminuir el riesgo de necrosis avascular. Perla: tras reducir se solicita tomografía para descartar fragmentos intraarticulares y fracturas ocultas.",
+      "tema": "Luxación posterior de cadera",
+      "año": 2020,
+      "fuentes": "Benedick A et al. J Am Acad Orthop Surg 2024;32:637-646 (luxación traumática de cadera: evaluación y manejo en niños y adultos); Campbell Cirugía Ortopédica 14.ª ed. (2021); Rockwood y Green Fracturas en el adulto 9.ª ed. (2019); American College of Surgeons, ATLS Advanced Trauma Life Support 10.ª ed. (2018)",
+      "categoria": "Trauma ortopédico"
+    },
+    {
+      "id": "RM-TRA-050",
+      "especialidad": "Traumatología y Ortopedia",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "Mujer de 53 años, presenta una fractura cerrada del radio distal tipo Colles y ha sido tratada mediante reducción y colocación de yeso antebraquial. No es fumadora y no tiene antecedentes de osteoporosis. Se obtuvo una reducción correcta y se ha optado por un tratamiento conservador. ¿Qué tiempo (en semanas) de inmovilización es el recomendado?",
+      "opciones": [
+        "4 a 6.",
+        "10 a 12.",
+        "8 a 10.",
+        "1 a 2.",
+        "14 a 16."
+      ],
+      "correcta": 0,
+      "clave_correcta": "A",
+      "explicacion": "La fractura de Colles es la fractura del extremo distal del radio, con desplazamiento dorsal del fragmento (deformidad en «dorso de tenedor»), producida por una caída sobre la mano extendida; es muy frecuente en mujeres posmenopáusicas por osteoporosis. La reducción cerrada se logra con tracción, flexión palmar y desviación cubital, y se inmoviliza con yeso antebraquial o braquioantebraquial. En una fractura desplazada con reducción adecuada, el tratamiento conservador clásico mantiene el yeso de 4 a 6 semanas, seguido de rehabilitación. Los ensayos recientes matizan esta cifra: un ensayo aleatorizado de 2025 en mayores de 65 años no halló diferencias de dolor, función ni consolidación viciosa entre 4 y 6 semanas, y el estudio Cast-OFF 2 (2025) mostró que en fracturas no o mínimamente desplazadas basta una semana de yeso con movilización progresiva. Por eso la clave sigue siendo 4 a 6 semanas para la fractura desplazada reducida, y el acortamiento del yeso se reserva a casos estables. Períodos de 8 a 16 semanas son excesivos y causan rigidez. Los criterios de reducción aceptable incluyen acortamiento radial menor de 3 mm, inclinación dorsal menor de 10° y escalón articular menor de 2 mm. Las complicaciones incluyen consolidación viciosa, neuropatía del mediano y rotura del extensor largo del pulgar. Perla: se indica movilizar los dedos desde el primer día para disminuir el edema.",
+      "comentario": "La fractura de Colles es la fractura del extremo distal del radio, con desplazamiento dorsal del fragmento (deformidad en «dorso de tenedor»), producida por una caída sobre la mano extendida; es muy frecuente en mujeres posmenopáusicas por osteoporosis. La reducción cerrada se logra con tracción, flexión palmar y desviación cubital, y se inmoviliza con yeso antebraquial o braquioantebraquial. En una fractura desplazada con reducción adecuada, el tratamiento conservador clásico mantiene el yeso de 4 a 6 semanas, seguido de rehabilitación. Los ensayos recientes matizan esta cifra: un ensayo aleatorizado de 2025 en mayores de 65 años no halló diferencias de dolor, función ni consolidación viciosa entre 4 y 6 semanas, y el estudio Cast-OFF 2 (2025) mostró que en fracturas no o mínimamente desplazadas basta una semana de yeso con movilización progresiva. Por eso la clave sigue siendo 4 a 6 semanas para la fractura desplazada reducida, y el acortamiento del yeso se reserva a casos estables. Períodos de 8 a 16 semanas son excesivos y causan rigidez. Los criterios de reducción aceptable incluyen acortamiento radial menor de 3 mm, inclinación dorsal menor de 10° y escalón articular menor de 2 mm. Las complicaciones incluyen consolidación viciosa, neuropatía del mediano y rotura del extensor largo del pulgar. Perla: se indica movilizar los dedos desde el primer día para disminuir el edema.",
+      "tema": "Fractura de Colles: inmovilización",
+      "año": 2020,
+      "fuentes": "Sala-Pujals A et al. J Bone Joint Surg Am 2025;107:1628-35 (inmovilización de 4 versus 6 semanas en mayores de 65 años); de Bruijn MAN et al. J Orthop Trauma 2025;39:82-9 (Cast-OFF 2); Rockwood y Green Fracturas en el adulto 9.ª ed. (2020); Campbell Cirugía ortopédica 14.ª ed. (2021)",
+      "categoria": "Traumatología",
+      "nota_revision": "Los ensayos de 2025 muestran que en subgrupos estables (adultos mayores, fracturas no desplazadas) puede bastar una inmovilización más corta; se mantiene la clave oficial (4 a 6 semanas) para la fractura desplazada reducida."
     }
   ]
 }

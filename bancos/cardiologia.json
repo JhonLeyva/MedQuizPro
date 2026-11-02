@@ -2539,6 +2539,48 @@
       "año": 2016,
       "fuentes": "2023 ACC/AHA/ACCP/HRS Guideline for AF (Joglar JA et al., Circulation 2024;149:e1-e156); 2024 ESC Guidelines for AF (Van Gelder IC et al., Eur Heart J 2024;45:3314-3414); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
       "nota_revision": "Repite RM-CAR-022 (misma clave A). El comentario aborda el enfoque de riesgo y anticoagulación."
+    },
+    {
+      "id": "RM-CAR-047",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "¿Qué se evidencia en la radiografía de tórax de un paciente con comunicación interventricular grande?",
+      "opciones": [
+        "Botón pulmonar excavado.",
+        "Silueta cardiaca normal, flujo pulmonar normal.",
+        "Cardiomegalia, flujo pulmonar disminuido.",
+        "Silueta cardiaca normal, flujo pulmonar aumentado.",
+        "Cardiomegalia, flujo pulmonar aumentado."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La comunicación interventricular es la cardiopatía congénita acianótica más frecuente. Con un defecto grande, se establece un cortocircuito de izquierda a derecha por la diferencia de presiones entre ambos ventrículos, lo que produce hiperflujo pulmonar y sobrecarga de volumen de las cavidades izquierdas (aurícula y ventrículo izquierdos). En la radiografía de tórax esto se traduce en cardiomegalia, con aumento del flujo pulmonar (plétora), prominencia del tronco de la arteria pulmonar y de los hilios. Por eso la clave es cardiomegalia con flujo pulmonar aumentado. Una silueta cardiaca y un flujo pulmonar normales se observan en los defectos pequeños, restrictivos, con soplo holosistólico en el borde esternal izquierdo y poca repercusión hemodinámica. El flujo pulmonar disminuido caracteriza a las cardiopatías cianóticas con obstrucción pulmonar, como la tetralogía de Fallot. El botón pulmonar excavado se observa en la tetralogía de Fallot (corazón en bota), por hipoplasia del infundíbulo. Si la resistencia vascular pulmonar aumenta, el cortocircuito se invierte (síndrome de Eisenmenger), con cianosis y flujo periférico pobre. Perla: los defectos grandes producen insuficiencia cardiaca hacia las 6-8 semanas de vida, cuando cae la resistencia pulmonar, y requieren cierre quirúrgico.",
+      "comentario": "La comunicación interventricular es la cardiopatía congénita acianótica más frecuente. Con un defecto grande, se establece un cortocircuito de izquierda a derecha por la diferencia de presiones entre ambos ventrículos, lo que produce hiperflujo pulmonar y sobrecarga de volumen de las cavidades izquierdas (aurícula y ventrículo izquierdos). En la radiografía de tórax esto se traduce en cardiomegalia, con aumento del flujo pulmonar (plétora), prominencia del tronco de la arteria pulmonar y de los hilios. Por eso la clave es cardiomegalia con flujo pulmonar aumentado. Una silueta cardiaca y un flujo pulmonar normales se observan en los defectos pequeños, restrictivos, con soplo holosistólico en el borde esternal izquierdo y poca repercusión hemodinámica. El flujo pulmonar disminuido caracteriza a las cardiopatías cianóticas con obstrucción pulmonar, como la tetralogía de Fallot. El botón pulmonar excavado se observa en la tetralogía de Fallot (corazón en bota), por hipoplasia del infundíbulo. Si la resistencia vascular pulmonar aumenta, el cortocircuito se invierte (síndrome de Eisenmenger), con cianosis y flujo periférico pobre. Perla: los defectos grandes producen insuficiencia cardiaca hacia las 6-8 semanas de vida, cuando cae la resistencia pulmonar, y requieren cierre quirúrgico.",
+      "tema": "Radiografía en la comunicación interventricular grande",
+      "año": 2020,
+      "fuentes": "Nelson Tratado de Pediatría 22.ª ed. (2024); Harrison Principios de Medicina Interna 21.ª ed. (2022)",
+      "categoria": "Cardiopatías congénitas"
+    },
+    {
+      "id": "RM-CAR-048",
+      "especialidad": "Cardiología",
+      "examen_origen": "Residentado Médico 2020 · pregunta oficial",
+      "enunciado": "¿En qué síndrome es más frecuente la enfermedad valvular aórtica bicúspide?",
+      "opciones": [
+        "Noonan.",
+        "Proteus.",
+        "Marfan.",
+        "Williams.",
+        "Turner."
+      ],
+      "correcta": 4,
+      "clave_correcta": "E",
+      "explicacion": "La válvula aórtica bicúspide es la cardiopatía congénita más frecuente, con una prevalencia de 1 a 2 % en la población general, y resulta de la fusión de dos valvas durante la valvulogénesis. Se asocia con síndromes genéticos, y es particularmente frecuente en el síndrome de Turner (monosomía parcial o total del cromosoma X, 45,X), donde se encuentra en cerca del 15 a 30 % de las pacientes, junto con coartación de la aorta y dilatación de la raíz aórtica, con riesgo de disección. Estas pacientes presentan talla baja, disgenesia gonadal, cuello alado, tórax en escudo, linfedema, y también malformaciones renales. En el síndrome de Noonan predomina la estenosis pulmonar displásica y la miocardiopatía hipertrófica; en el síndrome de Marfan, la dilatación de la raíz aórtica y el prolapso mitral; en el síndrome de Williams, la estenosis aórtica supravalvular; el síndrome de Proteus es un trastorno de sobrecrecimiento mosaico. La válvula bicúspide puede evolucionar a estenosis o insuficiencia, y a aortopatía, por lo que se hace ecocardiografía y resonancia de aorta en el síndrome de Turner al diagnóstico, con controles periódicos. Perla: las pacientes con síndrome de Turner necesitan cribado de coartación aórtica y control de la presión arterial.",
+      "comentario": "La válvula aórtica bicúspide es la cardiopatía congénita más frecuente, con una prevalencia de 1 a 2 % en la población general, y resulta de la fusión de dos valvas durante la valvulogénesis. Se asocia con síndromes genéticos, y es particularmente frecuente en el síndrome de Turner (monosomía parcial o total del cromosoma X, 45,X), donde se encuentra en cerca del 15 a 30 % de las pacientes, junto con coartación de la aorta y dilatación de la raíz aórtica, con riesgo de disección. Estas pacientes presentan talla baja, disgenesia gonadal, cuello alado, tórax en escudo, linfedema, y también malformaciones renales. En el síndrome de Noonan predomina la estenosis pulmonar displásica y la miocardiopatía hipertrófica; en el síndrome de Marfan, la dilatación de la raíz aórtica y el prolapso mitral; en el síndrome de Williams, la estenosis aórtica supravalvular; el síndrome de Proteus es un trastorno de sobrecrecimiento mosaico. La válvula bicúspide puede evolucionar a estenosis o insuficiencia, y a aortopatía, por lo que se hace ecocardiografía y resonancia de aorta en el síndrome de Turner al diagnóstico, con controles periódicos. Perla: las pacientes con síndrome de Turner necesitan cribado de coartación aórtica y control de la presión arterial.",
+      "tema": "Válvula aórtica bicúspide y síndrome de Turner",
+      "año": 2020,
+      "fuentes": "Braunwald Tratado de Cardiología 12.ª ed. (2022); Gravholt CH et al. Eur J Endocrinol 2017;177:G1-70 (guía del síndrome de Turner); Nelson Tratado de Pediatría 22.ª ed. (2024)",
+      "categoria": "Cardiopatías congénitas"
     }
   ]
 }

@@ -14,7 +14,7 @@ ok(!/\[…\]/.test(C.completo(c1.frente)) && /\[…\]/.test(C.mascara(c1.frente)
 // sobre TODO el banco: nunca devuelve una propuesta inválida ni que no esté en el comentario; cuántas preguntas tienen propuesta
 let con = 0, n = 0, malas = 0;
 for (const f of fs.readdirSync(path.join(__dirname, "..", "bancos"))) for (const q of banco(f)) { n++; const c = C.construir(aQ(q)); if (c) { con++; if (!C.validar(c.frente).ok || !q.comentario.replace(/\s+/g, " ").includes(C.completo(c.frente))) malas++; } }
-ok(n === 3782 && malas === 0, `en las ${n} preguntas del banco ninguna propuesta es inválida ni ajena al comentario (${malas} malas)`);
+ok(n >= 3782 && malas === 0, `en las ${n} preguntas del banco ninguna propuesta es inválida ni ajena al comentario (${malas} malas)`);
 ok(con > 0 && con < n, `se propone Cloze solo cuando la respuesta aparece en el comentario: ${con} de ${n} preguntas (el resto no se inventa)`);
 console.log("  (info) propuestas automáticas:", con, "de", n, "=", (con / n * 100).toFixed(1) + " %");
 

@@ -1,23 +1,23 @@
 {
  "archivos": {
   "algoritmos.js": "0a52716fc484b3721a15dd80ac649beb80bab5d24875e915e82b96896c79215b",
-  "bancos/cardiologia.json": "b4d43557e6fa280d11c359555318165750c6c0217333c57cc5564c98a4f0443c",
-  "bancos/ciencias_basicas.json": "6bdac5fb8a0bebb87e16835a7f8fba1ffdd0edda91171b35dfa57dfc51affc6a",
-  "bancos/cirugia.json": "1e970451b9ac5d54ccdd04d7831a287d5f6e330e13468b0b630befaac828293f",
-  "bancos/endocrinologia.json": "4805d3959eaee4244c562eeae56e88feca0e575891f8cfa929e287c438df4308",
-  "bancos/gastroenterologia.json": "ee3381f65c59ba6cbba8506998edcb86f71894ebfa69e4943f2f9a30256d3926",
-  "bancos/ginecologia.json": "578d7a49f41b8c03aead8ab4673ee9d90148119f90e84fe9ee559c6ffe9097ba",
+  "bancos/cardiologia.json": "7481b5aca17cc9bebd17ca8098079546748c9de8f46c89a66c03e7dc2656bd39",
+  "bancos/ciencias_basicas.json": "aee9074f6ec18cefa34a31ad24abc6a741ab597b325a661af9b611cbe016ef5e",
+  "bancos/cirugia.json": "3eb1f19b9b9df6c3343afb251c1acbe313e83208bf9691aa2d9ef322def810af",
+  "bancos/endocrinologia.json": "cb107c348faf8932122261f5930a1561d8895f7f6624cf14eca455df59e418f5",
+  "bancos/gastroenterologia.json": "efb1e16f92fe8f2b729f56c7ec4240177914a91e3f734f8fb9757e1c1e09761d",
+  "bancos/ginecologia.json": "ba31eb028e225d7a8cdf23dcae0dc1e2f8b35c864c88c983f0edabecdaee6ed2",
   "bancos/hematologia.json": "5cfb2ea92dcfc95750130316a6b340483b4db42be5eaa3c36d95d8d9eca2bed2",
-  "bancos/infectologia.json": "3669d9810f81877d1caa00677588a5336a5f819ef6b35167dfee502a360e84af",
-  "bancos/nefrologia.json": "b1f54911d9e629b8ea57b41c35560c7f50cc1fd6b11c451449a46cba313f9002",
-  "bancos/neumologia.json": "489d2c9cee70c56fbc0636871873729e075a6bdb26f918f6be59c3a61568af54",
-  "bancos/neurologia.json": "7118536bbb6990191f47aa77a0165d0d058aeb7420b0eb59b5e5c083c48fa2f2",
-  "bancos/oftalmo_orl.json": "2a8918dc5802701a0052a4fed6d91aee1fc23bb904508b6a7795fb594e541151",
-  "bancos/pediatria.json": "73077d9a5bdc2f630a2b556e3712a879260a135818171be80a751ce4bfb5d895",
-  "bancos/psiquiatria.json": "cc8bdc5ce64cc31573556cb73b1c4e67c2f7d7c42a642fa993149f63255e478d",
-  "bancos/reumatologia.json": "4c6363c39c07acf97c4ad94faabf08baf1280bfcad5e2ba7544ca0ddbb9c222a",
-  "bancos/salud_publica.json": "b92afee4df3a86f8dddbd4a6a92acb3ae991bd123965e8584a227a51f2366537",
-  "bancos/traumatologia.json": "9a69eed07e24406a89e6ec148bcb0f2ecf27ed17bd8e0b5fcbe2d388e38f47b1",
+  "bancos/infectologia.json": "a056045c9d2dd48432778b60d24b20e7ec3e439cb71c2b4b3a3cca057eb6dbdb",
+  "bancos/nefrologia.json": "3d90b9abe2eff1365cec260fbb157db6ce180c21a02006420d1223b58c8655c2",
+  "bancos/neumologia.json": "63ee03106fde3d24f2ec658e5be60087e381be81d134dc1e3f58b23c8d3357ff",
+  "bancos/neurologia.json": "6f544cedfc0bcb4c80720c0c7039fe93e88d51c9f193bfc539fd8c8572343f37",
+  "bancos/oftalmo_orl.json": "19256fe85997614df0c4d78106eda72ad12af5f60f5b1642bafa75f061cf974a",
+  "bancos/pediatria.json": "aba516f42a65baa1053522502fa52370b93a76c375e64113f0508bce8cd68200",
+  "bancos/psiquiatria.json": "a2a638b5f25673ff4a651eebb65aede29ba98dfa037af0dab8ad725858a17c84",
+  "bancos/reumatologia.json": "0518c014afe39b9dddbff7dd4ef9c1bcbe95ed9132689dd002a6113a9bdb8565",
+  "bancos/salud_publica.json": "540ce6d219a9413fded20eb0f1aa47a4967bd2d9573c496ceab1c14dbaa21945",
+  "bancos/traumatologia.json": "b6d2b929ee8e0bb8937d9bf890799575dfe5bc9da00b5e04a4e3789973c757fd",
   "catalogo.js": "49def2068eca5e7c3e82d56a23d9b73be29329444d6dd4e9e2cc216ef989d7c8"
  },
  "carpetas": {
@@ -34,5 +34,5 @@
    "sha256": "153621c768a56379082a3be458098ca00c72ec3cbd795cf90a36c45670268496"
   }
  },
- "preguntas": 3782
+ "preguntas": 4282
 }
