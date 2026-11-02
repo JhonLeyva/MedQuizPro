@@ -1,0 +1,22 @@
+# Brief: preguntas RM 2020, segundo bloque (preguntas 51 en adelante de cada PDF)
+
+Léelo completo. Reúne el formato de `BRIEF_RM2020.md` (formato del archivo, comentario de 150-230 palabras, validación) y la regla de bibliografía de `BRIEF_RM2020_FUENTES.md`, con estos cambios obligatorios. Trabajas SOLO en tu archivo `residentado/lotes/lote09_<codigo>.py`. No ejecutes git ni integrar.py.
+
+## Entrada
+`python3 /tmp/claude-0/-home-user-medquizpro/e40d7c10-2bd8-5b78-86c5-3e8e29658f65/scratchpad/rm20/ver2.py <PDF> <desde> <hasta>` imprime enunciado, opciones y `CLAVE` OFICIAL (respuesta marcada en amarillo en el PDF). La clave oficial se mantiene siempre; si la guía vigente la matiza, déjala y explica en `nota=`. Si las opciones o la clave salen corruptas (letras dentro de las opciones, clave doble), reconstruye con `o=[...]`/`k=` y explícalo en `nota=`. Modelo de archivo: `residentado/lotes/lote08_cir_a.py` (usa `import lote08_base as B`, `B.hacer(L, "<PDF>", n, tema, cat, c, f, nota, a=..)`; en PRUEBA_A/PRUEBA_B pasa `a="<banco>"` por tema). La numeración `n` es la del PDF (no 1-25).
+
+## Bibliografía (regla del usuario, la incumplimos antes: ahora es obligatoria)
+- Cada comentario debe basarse en bibliografía actualizada al 2026: guías vigentes de sociedades científicas y organismos, artículos de revistas indexadas de prestigio y guías vigentes del MINSA/EsSalud. Cada pregunta termina con AL MENOS UNA fuente verificada de 2023-2026 (idealmente 2-3: una guía internacional vigente, un artículo o revisión reciente y la peruana si existe).
+- ACCEDE a la fuente, no te quedes en título o resumen. Hoy se pueden abrir (WebFetch/curl): PubMed Central (pmc.ncbi.nlm.nih.gov), NCBI Bookshelf, who.int, gob.pe, essalud.gob.pe, elperuano.pe, doi.org y algunos más. Si accedes al texto completo, apoya el comentario en lo que realmente dice. Si solo puedes ver el resumen o el título, el comentario debe limitarse a lo que ese resumen dice y NO debe afirmar cifras, umbrales ni esquemas atribuidos a esa guía que no hayas leído; en ese caso busca otra fuente accesible (PMC, OMS, guía abierta) para respaldar los datos concretos. Indica en tu informe cuáles pudiste leer completas.
+- Artículos: verifica en PubMed (esearch/esummary) autor, revista, año, volumen y páginas o número de artículo; cita «Autor A et al. Revista 2024;vol:pág». Nunca cites de memoria ni inventes. Sin puntos suspensivos.
+- Guías peruanas SOLO con número y año confirmados: NTS 221-MINSA/DGIESP-2024 (TB), NTS 169-MINSA/2020/DGIESP (VIH), NTS 159-MINSA/2019/DGIESP, NTS 154-MINSA/2019/DGIESP (tamizaje neonatal), NTS 214-MINSA/DGIESP-2024 (neonato), NTS 196-MINSA/DGIESP-2022 (vacunación, RM 884-2022/MINSA), NTS 233-MINSA/DGIESP-2025 (malaria, RM 609-2025/MINSA), NTS 211-MINSA/DGIESP-2024 (dengue, RM 175-2024/MINSA; Anexo 04 derogado), NTS 240-MINSA/DGIESP-2026 (ITS, RM 035-2026-MINSA), RM 136-2023/MINSA (GPC depresión mayores de 18 años, primer nivel), Directiva Sanitaria 165-MINSA/DGIESP-2025 (cuello uterino, RM 480-2025/MINSA), GPC 03-2025 INS/MINSA (hipertensivos del embarazo), IETSI preeclampsia R.112-2021, GPC apendicitis EsSalud-IETSI 2022, GPC 11 EsSalud-IETSI colelitiasis 2018, RM 486-2014/MINSA (aborto terapéutico). NO uses NTS 245-2026 ni RM 154-2025 (no confirmadas). Busca otras en gob.pe/essalud/elperuano y cítalas solo si las abres y confirmas número y año; si no hay norma vigente, no cites ninguna peruana.
+- Libros: solo con edición real verificada (p. ej. Nelson 22.ª 2024, Katzung 16.ª 2024, Sabiston 22.ª 2025, Harrison 22.ª 2025, Miller 10.ª 2024); si no la verificas, no la pongas. Los clásicos antiguos pueden quedar como complemento, pero no cuentan como la fuente 2023-2026.
+
+## Validación (obligatoria)
+`cd /home/user/medquizpro/residentado/lotes && python3 -c "
+import re,lote09_<codigo> as m
+for i,q in enumerate(m.L,1):
+    ys=[int(y) for y in re.findall(r'(?<!\d)(20[12]\d)(?!\d)',q['f'])]
+    if not any(y>=2023 for y in ys) or not 148<=len(q['c'].split())<=240 or len(q['o'])!=5 or q['k'] not in 'ABCDE' or '...' in q['f'] or 'Perla:' not in q['c']: print('REVISAR',i,q['tema'])
+print(len(m.L))"` — solo debe imprimir el conteo igual al número de preguntas de tu rango.
+Entrega (máx. 10 líneas): archivo, nº de entradas, qué fuentes leíste completas y cuáles solo en resumen, guías peruanas citadas (con número y año), preguntas donde la guía vigente matiza la clave, y dudas.
